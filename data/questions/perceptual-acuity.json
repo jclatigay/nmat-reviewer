@@ -1,0 +1,553 @@
+{
+  "meta": {
+    "subtestId": "perceptual-acuity",
+    "subtestName": "Perceptual Acuity",
+    "part": 1,
+    "source": "author-seeded",
+    "version": "1.0.0",
+    "lastUpdated": "2026-07-16",
+    "notes": "Editable — add your own items following docs/question-format.md"
+  },
+  "questions": [
+    {
+      "id": "pa-001",
+      "number": 1,
+      "type": "hidden_figure",
+      "prompt": "Which simple figure is hidden inside the complex diagram?",
+      "passage": null,
+      "image": "assets/images/hidden-figure-1.svg",
+      "choices": [
+        { "id": "A", "text": "Triangle" },
+        { "id": "B", "text": "Square" },
+        { "id": "C", "text": "Circle" },
+        { "id": "D", "text": "Arrow" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "A right triangle is embedded within the overlapping lines of the diagram.",
+      "hint": "Trace straight edges and look for a three-sided shape.",
+      "tags": ["hidden_figure"]
+    },
+    {
+      "id": "pa-002",
+      "number": 2,
+      "type": "mirror_image",
+      "prompt": "Which option shows the correct mirror image of the figure on the left (mirror placed on the right side)?",
+      "passage": null,
+      "image": "assets/images/mirror-image-1.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "In a vertical mirror reflection, left and right are swapped; Option B matches the reversal.",
+      "hint": "Imagine flipping the figure horizontally.",
+      "tags": ["mirror_image"]
+    },
+    {
+      "id": "pa-003",
+      "number": 3,
+      "type": "identical_information",
+      "prompt": "Which pair of symbols contains identical information (same shape and orientation)?",
+      "passage": null,
+      "image": "assets/images/identical-info-1.svg",
+      "choices": [
+        { "id": "A", "text": "Pair 1" },
+        { "id": "B", "text": "Pair 2" },
+        { "id": "C", "text": "Pair 3" },
+        { "id": "D", "text": "Pair 4" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Pair 3 shows two identical arrows pointing in the same direction with the same size.",
+      "hint": "Compare both shape and direction, not just shape alone.",
+      "tags": ["identical_information"]
+    },
+    {
+      "id": "pa-004",
+      "number": 4,
+      "type": "hidden_figure",
+      "prompt": "Which letter shape can be found hidden in the figure?",
+      "passage": null,
+      "image": "assets/images/hidden-figure-2.svg",
+      "choices": [
+        { "id": "A", "text": "L" },
+        { "id": "B", "text": "T" },
+        { "id": "C", "text": "E" },
+        { "id": "D", "text": "F" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The horizontal and vertical bars form a hidden letter T within the pattern.",
+      "hint": "Look for perpendicular line segments.",
+      "tags": ["hidden_figure"]
+    },
+    {
+      "id": "pa-005",
+      "number": 5,
+      "type": "mirror_image",
+      "prompt": "Which figure is the mirror image of the arrow pointing northeast?",
+      "passage": null,
+      "image": "assets/images/mirror-image-2.svg",
+      "choices": [
+        { "id": "A", "text": "Northwest arrow" },
+        { "id": "B", "text": "Southeast arrow" },
+        { "id": "C", "text": "Southwest arrow" },
+        { "id": "D", "text": "Same northeast arrow" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "Reflecting northeast across a vertical axis gives northwest.",
+      "hint": "Swap east and west directions.",
+      "tags": ["mirror_image"]
+    },
+    {
+      "id": "pa-006",
+      "number": 6,
+      "type": "identical_information",
+      "prompt": "How many pairs in the set are exactly identical?",
+      "passage": null,
+      "image": "assets/images/identical-info-2.svg",
+      "choices": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "2" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "4" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Three pairs are exactly identical: the blue circles, green triangles, and purple triangles.",
+      "hint": "Check orientation carefully — rotated shapes are not identical.",
+      "tags": ["identical_information"]
+    },
+    {
+      "id": "pa-007",
+      "number": 7,
+      "type": "mirror_image",
+      "prompt": "Which option is the mirror image of the given shape?",
+      "passage": null,
+      "image": "assets/images/mirror-image-2.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The reflected shape is the one with the left-right reversal while preserving orientation of the internal marks.",
+      "hint": "Mirror images reverse left and right.",
+      "tags": ["mirror_image"]
+    },
+    {
+      "id": "pa-008",
+      "number": 8,
+      "type": "identical_information",
+      "prompt": "How many shapes in this grid are exactly the same orientation and size?",
+      "passage": null,
+      "image": "assets/images/identical-info-1.svg",
+      "choices": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "3" },
+        { "id": "C", "text": "4" },
+        { "id": "D", "text": "5" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Four shapes match exactly in size and orientation while others are rotated or mirrored.",
+      "hint": "Ignore rotated and mirrored versions.",
+      "tags": ["identical_information"]
+    },
+    {
+      "id": "pa-009",
+      "number": 9,
+      "type": "hidden_figure",
+      "prompt": "Which simple shape is hidden within the overlapping design?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Square" },
+        { "id": "B", "text": "Circle" },
+        { "id": "C", "text": "Triangle" },
+        { "id": "D", "text": "Rectangle" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The overlapping design contains a triangle formed by three intersecting lines and angles.",
+      "hint": "Look for the simplest closed shape among the overlapping segments.",
+      "tags": ["hidden_figure"]
+    },
+    {
+      "id": "pa-010",
+      "number": 10,
+      "type": "mirror_image",
+      "prompt": "A right-facing arrow is reflected across a vertical mirror. Which direction does the image point?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Right" },
+        { "id": "B", "text": "Left" },
+        { "id": "C", "text": "Up" },
+        { "id": "D", "text": "Down" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "A vertical mirror swaps left and right, so a right-facing arrow becomes left-facing.",
+      "hint": "Mirror reflection reverses horizontal direction.",
+      "tags": ["mirror_image"]
+    },
+    {
+      "id": "pa-011",
+      "number": 11,
+      "type": "identical_information",
+      "prompt": "How many triangles in the set have the same orientation?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "2" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "4" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Only two triangles share the same size and orientation while the others are rotated differently.",
+      "hint": "Count orientation as well as shape.",
+      "tags": ["identical_information"]
+    },
+    {
+      "id": "pa-012",
+      "number": 12,
+      "type": "hidden_figure",
+      "prompt": "Which letter is hidden in the overlapping shapes?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "L" },
+        { "id": "B", "text": "T" },
+        { "id": "C", "text": "E" },
+        { "id": "D", "text": "A" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The overlapping lines form the shape of the letter E when viewed as a whole.",
+      "hint": "Look for three horizontal lines connected by one vertical line.",
+      "tags": ["hidden_figure"]
+    },
+    {
+      "id": "pa-013",
+      "number": 13,
+      "type": "mirror_image",
+      "prompt": "If a shape faces upward and is reflected across a horizontal mirror, which direction does the image face?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Up" },
+        { "id": "B", "text": "Down" },
+        { "id": "C", "text": "Left" },
+        { "id": "D", "text": "Right" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "A horizontal mirror reflection flips the image vertically, so the upward-facing shape appears downward-facing.",
+      "hint": "Mirror reflections flip the axis opposite the mirror line.",
+      "tags": ["mirror_image"]
+    },
+    {
+      "id": "pa-014",
+      "number": 14,
+      "type": "identical_information",
+      "prompt": "How many items in the grid are identical in both shape and orientation?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "2" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "4" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Three items share the same shape and orientation while the others are rotated or mirrored.",
+      "hint": "Ignore rotated duplicates and focus on exact matches.",
+      "tags": ["identical_information"]
+    },
+    {
+      "id": "pa-015",
+      "number": 15,
+      "type": "hidden_figure",
+      "prompt": "Which simple shape is hidden in the abstract pattern?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Triangle" },
+        { "id": "B", "text": "Square" },
+        { "id": "C", "text": "Circle" },
+        { "id": "D", "text": "Hexagon" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "The overlapping lines form a triangular shape that is easiest to see when following the three outer edges.",
+      "hint": "Count the sides of the hidden shape.",
+      "tags": ["hidden_figure"]
+    },
+    {
+      "id": "pa-016",
+      "number": 16,
+      "type": "mirror_image",
+      "prompt": "A leftward arrow is reflected across a vertical mirror. Which direction does the image point?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Left" },
+        { "id": "B", "text": "Right" },
+        { "id": "C", "text": "Up" },
+        { "id": "D", "text": "Down" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "A vertical mirror reflection swaps left and right, so a leftward arrow becomes rightward.",
+      "hint": "Mirror reflections reverse the horizontal direction.",
+      "tags": ["mirror_image"]
+    },
+    {
+      "id": "pa-017",
+      "number": 17,
+      "type": "identical_information",
+      "prompt": "Which pair of shapes is exactly identical in orientation and size?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Pair 1" },
+        { "id": "B", "text": "Pair 2" },
+        { "id": "C", "text": "Pair 3" },
+        { "id": "D", "text": "Pair 4" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "Pair 4 has two shapes that match exactly in both orientation and size while the others differ in one property.",
+      "hint": "Check both direction and scale before choosing.",
+      "tags": ["identical_information"]
+    },
+    {
+      "id": "pa-018",
+      "number": 18,
+      "type": "hidden_figure",
+      "prompt": "Which letter shape is hidden in the overlapping elements?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "H" },
+        { "id": "B", "text": "A" },
+        { "id": "C", "text": "N" },
+        { "id": "D", "text": "M" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The overlapping vertical and diagonal lines form the letter A.",
+      "hint": "Look for a pointed top and a crossbar.",
+      "tags": ["hidden_figure"]
+    },
+    {
+      "id": "pa-019",
+      "number": 19,
+      "type": "mirror_image",
+      "prompt": "If a T-shape is reflected across a vertical mirror, which figure matches its image?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The mirror image reverses the horizontal orientation of the T while preserving vertical symmetry.",
+      "hint": "Flip the shape as if it were reflected in glass.",
+      "tags": ["mirror_image"]
+    },
+    {
+      "id": "pa-020",
+      "number": 20,
+      "type": "identical_information",
+      "prompt": "How many circles in the set are identical in size and position?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "2" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "4" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Three circles share the same size and placement while one is slightly shifted or resized.",
+      "hint": "Compare exact placement as well as size.",
+      "tags": ["identical_information"]
+    },
+    {
+      "id": "pa-021",
+      "number": 21,
+      "type": "hidden_figure",
+      "prompt": "Which simple shape is formed by the overlapping diagonal lines?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Square" },
+        { "id": "B", "text": "Triangle" },
+        { "id": "C", "text": "Rectangle" },
+        { "id": "D", "text": "Parallelogram" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The diagonal lines intersect to form a triangular outline inside the pattern.",
+      "hint": "Trace the three sides that make a closed shape.",
+      "tags": ["hidden_figure"]
+    },
+    {
+      "id": "pa-022",
+      "number": 22,
+      "type": "mirror_image",
+      "prompt": "A shape points diagonally up-right and is reflected in a vertical mirror. Which direction does the image point?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Up-left" },
+        { "id": "B", "text": "Up-right" },
+        { "id": "C", "text": "Down-left" },
+        { "id": "D", "text": "Down-right" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "A vertical mirror flips right to left, so up-right becomes up-left.",
+      "hint": "Only the horizontal component changes direction.",
+      "tags": ["mirror_image"]
+    },
+    {
+      "id": "pa-023",
+      "number": 23,
+      "type": "identical_information",
+      "prompt": "Which pair of shapes is entirely identical?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Pair 1" },
+        { "id": "B", "text": "Pair 2" },
+        { "id": "C", "text": "Pair 3" },
+        { "id": "D", "text": "Pair 4" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "Pair 1 shows the same shape with the same orientation and size, while the other pairs differ in one aspect.",
+      "hint": "Exact replication means no rotations or size changes.",
+      "tags": ["identical_information"]
+    },
+    {
+      "id": "pa-024",
+      "number": 24,
+      "type": "hidden_figure",
+      "prompt": "Which simple shape appears hidden inside the arranged polygons?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Circle" },
+        { "id": "B", "text": "Pentagon" },
+        { "id": "C", "text": "Triangle" },
+        { "id": "D", "text": "Square" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The shape of a triangle can be traced among the overlapping polygon edges.",
+      "hint": "Find the three connecting line segments.",
+      "tags": ["hidden_figure"]
+    },
+    {
+      "id": "pa-025",
+      "number": 25,
+      "type": "mirror_image",
+      "prompt": "Which figure is the correct mirror image of the original shape across a horizontal axis?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The correct mirror image flips the vertical orientation while keeping the horizontal shape the same.",
+      "hint": "Flip the image across a horizontal line.",
+      "tags": ["mirror_image"]
+    },
+    {
+      "id": "pa-026",
+      "number": 26,
+      "type": "identical_information",
+      "prompt": "How many shapes are identical to the target shape in the set?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "0" },
+        { "id": "B", "text": "1" },
+        { "id": "C", "text": "2" },
+        { "id": "D", "text": "3" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Only one shape in the set exactly matches both the orientation and size of the target.",
+      "hint": "Compare each shape carefully to the reference form.",
+      "tags": ["identical_information"]
+    },
+    {
+      "id": "pa-027",
+      "number": 27,
+      "type": "hidden_figure",
+      "prompt": "Which simple geometric shape is hidden within the tessellated pattern?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Rectangle" },
+        { "id": "B", "text": "Triangle" },
+        { "id": "C", "text": "Circle" },
+        { "id": "D", "text": "Diamond" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "A diamond shape is formed by the overlapping diagonals and is the hidden figure in the pattern.",
+      "hint": "Look for a four-sided shape with equal opposite angles.",
+      "tags": ["hidden_figure"]
+    },
+    {
+      "id": "pa-028",
+      "number": 28,
+      "type": "mirror_image",
+      "prompt": "A vertical arrow is reflected across a horizontal mirror. Which option is the image?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Upward arrow" },
+        { "id": "B", "text": "Downward arrow" },
+        { "id": "C", "text": "Leftward arrow" },
+        { "id": "D", "text": "Rightward arrow" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "A horizontal mirror flips the vertical direction, so an upward arrow becomes downward.",
+      "hint": "The reflection changes the component perpendicular to the mirror line.",
+      "tags": ["mirror_image"]
+    },
+    {
+      "id": "pa-029",
+      "number": 29,
+      "type": "identical_information",
+      "prompt": "Which option contains two shapes that are identical in every way?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "Option A shows two shapes that match exactly in size, orientation, and styling.",
+      "hint": "Inspect both shape and orientation for an exact match.",
+      "tags": ["identical_information"]
+    },
+    {
+      "id": "pa-030",
+      "number": 30,
+      "type": "hidden_figure",
+      "prompt": "Which simple form is hidden inside the busy composition?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Star" },
+        { "id": "B", "text": "Triangle" },
+        { "id": "C", "text": "Square" },
+        { "id": "D", "text": "Circle" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The overlapping edges form a triangle that is the hidden shape in the composition.",
+      "hint": "Search for a three-sided figure inside the pattern.",
+      "tags": ["hidden_figure"]
+    }
+  ]
+}

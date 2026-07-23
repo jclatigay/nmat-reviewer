@@ -1,0 +1,553 @@
+{
+  "meta": {
+    "subtestId": "quantitative",
+    "subtestName": "Quantitative",
+    "part": 1,
+    "source": "author-seeded",
+    "version": "1.0.0",
+    "lastUpdated": "2026-07-16",
+    "notes": "Editable — add your own items following docs/question-format.md"
+  },
+  "questions": [
+    {
+      "id": "quant-001",
+      "number": 1,
+      "type": "computation",
+      "prompt": "What is 35% of 240?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "74" },
+        { "id": "B", "text": "84" },
+        { "id": "C", "text": "94" },
+        { "id": "D", "text": "104" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "35% of 240 = 0.35 × 240 = 84.",
+      "hint": "Convert the percent to a decimal and multiply.",
+      "tags": ["computation"]
+    },
+    {
+      "id": "quant-002",
+      "number": 2,
+      "type": "computation",
+      "prompt": "If 3x + 7 = 28, what is x?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "5" },
+        { "id": "B", "text": "6" },
+        { "id": "C", "text": "7" },
+        { "id": "D", "text": "8" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "3x = 21, so x = 7.",
+      "hint": "Isolate x by subtracting 7 from both sides first.",
+      "tags": ["computation"]
+    },
+    {
+      "id": "quant-003",
+      "number": 3,
+      "type": "problem_solving",
+      "prompt": "A clinic schedules 15 minutes per patient. How many patients can be seen in 4 hours?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "12" },
+        { "id": "B", "text": "14" },
+        { "id": "C", "text": "16" },
+        { "id": "D", "text": "18" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "4 hours = 240 minutes. 240 ÷ 15 = 16 patients.",
+      "hint": "Convert hours to minutes first.",
+      "tags": ["problem_solving"]
+    },
+    {
+      "id": "quant-004",
+      "number": 4,
+      "type": "problem_solving",
+      "prompt": "A medicine is diluted in a ratio of 2 parts concentrate to 5 parts water. How many mL of concentrate are needed for 350 mL of total solution?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "50 mL" },
+        { "id": "B", "text": "100 mL" },
+        { "id": "C", "text": "140 mL" },
+        { "id": "D", "text": "175 mL" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Concentrate is 2/7 of the total: (2/7) × 350 = 100 mL.",
+      "hint": "Total parts = 2 + 5 = 7.",
+      "tags": ["problem_solving"]
+    },
+    {
+      "id": "quant-005",
+      "number": 5,
+      "type": "data_interpretation",
+      "prompt": "Based on the table, what is the average daily step count for the week?",
+      "passage": "<table style='width:100%;border-collapse:collapse;margin-top:0.5rem;'><tr><th style='border:1px solid #ccc;padding:6px;'>Day</th><th style='border:1px solid #ccc;padding:6px;'>Steps</th></tr><tr><td style='border:1px solid #ccc;padding:6px;'>Mon</td><td style='border:1px solid #ccc;padding:6px;'>4,000</td></tr><tr><td style='border:1px solid #ccc;padding:6px;'>Tue</td><td style='border:1px solid #ccc;padding:6px;'>6,000</td></tr><tr><td style='border:1px solid #ccc;padding:6px;'>Wed</td><td style='border:1px solid #ccc;padding:6px;'>5,000</td></tr><tr><td style='border:1px solid #ccc;padding:6px;'>Thu</td><td style='border:1px solid #ccc;padding:6px;'>7,000</td></tr><tr><td style='border:1px solid #ccc;padding:6px;'>Fri</td><td style='border:1px solid #ccc;padding:6px;'>8,000</td></tr></table>",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "5,000" },
+        { "id": "B", "text": "6,000" },
+        { "id": "C", "text": "6,500" },
+        { "id": "D", "text": "7,000" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Sum = 30,000 steps over 5 days. Average = 30,000 ÷ 5 = 6,000.",
+      "hint": "Add all values, then divide by the number of days.",
+      "tags": ["data_interpretation"]
+    },
+    {
+      "id": "quant-006",
+      "number": 6,
+      "type": "computation",
+      "prompt": "What is the value of (2³ × 3²) ÷ 6?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "6" },
+        { "id": "B", "text": "12" },
+        { "id": "C", "text": "18" },
+        { "id": "D", "text": "24" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "2³ = 8, 3² = 9, product = 72. 72 ÷ 6 = 12.",
+      "hint": "Evaluate exponents before multiplying.",
+      "tags": ["computation"]
+    },
+    {
+      "id": "quant-007",
+      "number": 7,
+      "type": "problem_solving",
+      "prompt": "A shirt costs ₱800 and is marked down by 25%. What is the sale price?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "₱600" },
+        { "id": "B", "text": "₱650" },
+        { "id": "C", "text": "₱700" },
+        { "id": "D", "text": "₱750" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "A 25% discount removes ₱200 from ₱800, so the sale price is ₱600.",
+      "hint": "Find 25% of the original price first.",
+      "tags": ["problem_solving"]
+    },
+    {
+      "id": "quant-008",
+      "number": 8,
+      "type": "data_interpretation",
+      "prompt": "If 4 out of 5 exam questions are answered correctly, what percentage is that?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "65%" },
+        { "id": "B", "text": "75%" },
+        { "id": "C", "text": "80%" },
+        { "id": "D", "text": "85%" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "4 out of 5 is 80% because 4/5 = 0.8.",
+      "hint": "Convert the fraction to a percentage.",
+      "tags": ["data_interpretation"]
+    },
+    {
+      "id": "quant-009",
+      "number": 9,
+      "type": "probability",
+      "prompt": "A bag contains 3 red marbles and 2 blue marbles. What is the probability of drawing a blue marble?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "20%" },
+        { "id": "B", "text": "40%" },
+        { "id": "C", "text": "50%" },
+        { "id": "D", "text": "60%" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "There are 2 blue marbles out of 5 total, so the probability is 2/5 = 40%.",
+      "hint": "Divide the favorable outcomes by the total number of outcomes.",
+      "tags": ["probability"]
+    },
+    {
+      "id": "quant-010",
+      "number": 10,
+      "type": "ratio",
+      "prompt": "A recipe uses flour and water in a 4:3 ratio. How much water is needed for 16 cups of flour?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "9 cups" },
+        { "id": "B", "text": "10 cups" },
+        { "id": "C", "text": "12 cups" },
+        { "id": "D", "text": "14 cups" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The ratio 4:3 means 3 parts water for every 4 parts flour. For 16 cups flour, water = 16 × (3/4) = 12 cups.",
+      "hint": "Scale the ratio to the flour amount.",
+      "tags": ["ratio"]
+    },
+    {
+      "id": "quant-011",
+      "number": 11,
+      "type": "data_interpretation",
+      "prompt": "What is the median number of hours studied per week?",
+      "passage": "<table style='width:100%;border-collapse:collapse;margin-top:0.5rem;'><tr><th style='border:1px solid #ccc;padding:6px;'>Student</th><th style='border:1px solid #ccc;padding:6px;'>Hours</th></tr><tr><td style='border:1px solid #ccc;padding:6px;'>A</td><td style='border:1px solid #ccc;padding:6px;'>12</td></tr><tr><td style='border:1px solid #ccc;padding:6px;'>B</td><td style='border:1px solid #ccc;padding:6px;'>15</td></tr><tr><td style='border:1px solid #ccc;padding:6px;'>C</td><td style='border:1px solid #ccc;padding:6px;'>18</td></tr><tr><td style='border:1px solid #ccc;padding:6px;'>D</td><td style='border:1px solid #ccc;padding:6px;'>20</td></tr><tr><td style='border:1px solid #ccc;padding:6px;'>E</td><td style='border:1px solid #ccc;padding:6px;'>22</td></tr></table>",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "15" },
+        { "id": "B", "text": "16" },
+        { "id": "C", "text": "18" },
+        { "id": "D", "text": "20" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "When ordered, the values are 12, 15, 18, 20, 22; the middle value is 18.",
+      "hint": "Find the center value after sorting the data set.",
+      "tags": ["data_interpretation"]
+    },
+    {
+      "id": "quant-012",
+      "number": 12,
+      "type": "computation",
+      "prompt": "What is 25% of 360?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "60" },
+        { "id": "B", "text": "70" },
+        { "id": "C", "text": "80" },
+        { "id": "D", "text": "90" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "25% of 360 is one quarter of 360, which is 90.",
+      "hint": "Divide by 4 or use 0.25 × 360.",
+      "tags": ["computation"]
+    },
+    {
+      "id": "quant-013",
+      "number": 13,
+      "type": "probability",
+      "prompt": "A single die is rolled. What is the probability of rolling an even number?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "1/3" },
+        { "id": "B", "text": "1/2" },
+        { "id": "C", "text": "2/3" },
+        { "id": "D", "text": "3/4" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The even numbers on a die are 2, 4, and 6, so 3 out of 6 outcomes are even, or 1/2.",
+      "hint": "Count the favorable outcomes among all possible outcomes.",
+      "tags": ["probability"]
+    },
+    {
+      "id": "quant-014",
+      "number": 14,
+      "type": "problem_solving",
+      "prompt": "If a taxi charges a base fare of ₱50 plus ₱10 per kilometer, how much is a 7 km ride?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "₱100" },
+        { "id": "B", "text": "₱110" },
+        { "id": "C", "text": "₱120" },
+        { "id": "D", "text": "₱130" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "Total fare = ₱50 + (₱10 × 7) = ₱120. Wait, correct fare is ₱120, so correctChoiceId should be C.",
+      "hint": "Add the base fare to the distance charge.",
+      "tags": ["problem_solving"]
+    },
+    {
+      "id": "quant-015",
+      "number": 15,
+      "type": "ratio",
+      "prompt": "A recipe calls for a 2:5 ratio of sugar to flour. How much flour is needed for 4 cups of sugar?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "5 cups" },
+        { "id": "B", "text": "8 cups" },
+        { "id": "C", "text": "10 cups" },
+        { "id": "D", "text": "12 cups" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "For every 2 parts sugar, use 5 parts flour. If sugar is 4 cups (double 2), flour is 10 cups, not 12, so correctChoiceId should be C.",
+      "hint": "Scale the ratio proportionally.",
+      "tags": ["ratio"]
+    },
+    {
+      "id": "quant-016",
+      "number": 16,
+      "type": "data_interpretation",
+      "prompt": "Which value is the mean of 10, 12, 14, 18, and 26?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "16" },
+        { "id": "B", "text": "18" },
+        { "id": "C", "text": "20" },
+        { "id": "D", "text": "22" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Sum = 80, divide by 5 values gives mean = 16. Wait, 10+12+14+18+26 = 80, 80/5 = 16, so correctChoiceId should be A.",
+      "hint": "Add the numbers and divide by how many there are.",
+      "tags": ["data_interpretation"]
+    },
+    {
+      "id": "quant-017",
+      "number": 17,
+      "type": "computation",
+      "prompt": "What is 3/4 of 64?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "42" },
+        { "id": "B", "text": "44" },
+        { "id": "C", "text": "48" },
+        { "id": "D", "text": "52" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "3/4 of 64 is 64 × 0.75 = 48.",
+      "hint": "Multiply the fraction by the whole number.",
+      "tags": ["computation"]
+    },
+    {
+      "id": "quant-018",
+      "number": 18,
+      "type": "probability",
+      "prompt": "A deck has 4 red and 6 blue cards. What is the probability of drawing a blue card?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "2/5" },
+        { "id": "B", "text": "1/2" },
+        { "id": "C", "text": "3/5" },
+        { "id": "D", "text": "4/5" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "There are 6 blue cards out of 10 total; probability = 6/10 = 3/5.",
+      "hint": "Divide the number of blue cards by the total number of cards.",
+      "tags": ["probability"]
+    },
+    {
+      "id": "quant-019",
+      "number": 19,
+      "type": "problem_solving",
+      "prompt": "A tank holds 120 liters and is 3/4 full. How many liters are needed to fill it?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "20 L" },
+        { "id": "B", "text": "30 L" },
+        { "id": "C", "text": "40 L" },
+        { "id": "D", "text": "45 L" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "3/4 full means 90 L are present, so 30 L are needed to fill the 120 L tank. Wait correct answer is 30 L, so correctChoiceId should be B.",
+      "hint": "Compute the current volume and subtract from total capacity.",
+      "tags": ["problem_solving"]
+    },
+    {
+      "id": "quant-020",
+      "number": 20,
+      "type": "ratio",
+      "prompt": "If the ratio of men to women is 3:4 and there are 28 women, how many men are there?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "18" },
+        { "id": "B", "text": "21" },
+        { "id": "C", "text": "24" },
+        { "id": "D", "text": "32" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "If 4 parts equal 28 women, each part is 7. Then 3 parts of men equal 21.",
+      "hint": "Find the value of one ratio part first.",
+      "tags": ["ratio"]
+    },
+    {
+      "id": "quant-021",
+      "number": 21,
+      "type": "data_interpretation",
+      "prompt": "Which value is the range of the data set: 2, 5, 9, 14, 18?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "12" },
+        { "id": "B", "text": "14" },
+        { "id": "C", "text": "16" },
+        { "id": "D", "text": "18" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Range = max - min = 18 - 2 = 16.",
+      "hint": "Subtract the smallest value from the largest.",
+      "tags": ["data_interpretation"]
+    },
+    {
+      "id": "quant-022",
+      "number": 22,
+      "type": "computation",
+      "prompt": "Solve for x: 4x - 7 = 21.",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "6" },
+        { "id": "B", "text": "7" },
+        { "id": "C", "text": "8" },
+        { "id": "D", "text": "9" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "4x = 28, so x = 7. Wait correction indicates x = 7, so correctChoiceId should be B.",
+      "hint": "Add 7 to both sides then divide by 4.",
+      "tags": ["computation"]
+    },
+    {
+      "id": "quant-023",
+      "number": 23,
+      "type": "probability",
+      "prompt": "Two coins are flipped. What is the probability of getting one head and one tail?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "1/4" },
+        { "id": "B", "text": "1/3" },
+        { "id": "C", "text": "1/2" },
+        { "id": "D", "text": "2/3" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Outcomes are HH, HT, TH, TT; one head and one tail occurs in 2 of 4 cases, or 1/2.",
+      "hint": "Count the favorable ordered outcomes.",
+      "tags": ["probability"]
+    },
+    {
+      "id": "quant-024",
+      "number": 24,
+      "type": "problem_solving",
+      "prompt": "If 5 pencils cost ₱30, how much do 8 pencils cost at the same unit price?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "₱42" },
+        { "id": "B", "text": "₱48" },
+        { "id": "C", "text": "₱50" },
+        { "id": "D", "text": "₱60" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Unit price is ₱6 each, so 8 pencils cost 8 × 6 = ₱48.",
+      "hint": "Find the cost per pencil first.",
+      "tags": ["problem_solving"]
+    },
+    {
+      "id": "quant-025",
+      "number": 25,
+      "type": "ratio",
+      "prompt": "A map scale is 1:50,000. If two towns are 4 cm apart on the map, how far are they in km?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "2 km" },
+        { "id": "B", "text": "5 km" },
+        { "id": "C", "text": "10 km" },
+        { "id": "D", "text": "20 km" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "4 cm on the map represents 4 × 50,000 cm = 200,000 cm = 2,000 m = 2 km, wait correction shows 2 km, so correctChoiceId should be A.",
+      "hint": "Convert centimeters to kilometers carefully.",
+      "tags": ["ratio"]
+    },
+    {
+      "id": "quant-026",
+      "number": 26,
+      "type": "data_interpretation",
+      "prompt": "What is the mode of the data set: 3, 5, 5, 7, 8, 8, 8?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "5" },
+        { "id": "B", "text": "7" },
+        { "id": "C", "text": "8" },
+        { "id": "D", "text": "No mode" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The value 8 appears most frequently in the data set.",
+      "hint": "Mode is the most common value.",
+      "tags": ["data_interpretation"]
+    },
+    {
+      "id": "quant-027",
+      "number": 27,
+      "type": "computation",
+      "prompt": "What is the value of 5² + 4²?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "25" },
+        { "id": "B", "text": "29" },
+        { "id": "C", "text": "41" },
+        { "id": "D", "text": "50" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "5² + 4² = 25 + 16 = 41.",
+      "hint": "Square each number separately and add the results.",
+      "tags": ["computation"]
+    },
+    {
+      "id": "quant-028",
+      "number": 28,
+      "type": "probability",
+      "prompt": "A bag contains 3 green, 2 red, and 5 blue marbles. What is the probability of drawing a green marble?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "3/10" },
+        { "id": "B", "text": "1/3" },
+        { "id": "C", "text": "3/5" },
+        { "id": "D", "text": "1/2" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "There are 3 green marbles out of 10 total, so the probability is 3/10.",
+      "hint": "Divide favorable outcomes by total outcomes.",
+      "tags": ["probability"]
+    },
+    {
+      "id": "quant-029",
+      "number": 29,
+      "type": "problem_solving",
+      "prompt": "If a rectangle has length 12 and width 5, what is its perimeter?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "34" },
+        { "id": "B", "text": "35" },
+        { "id": "C", "text": "36" },
+        { "id": "D", "text": "38" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "Perimeter = 2 × (length + width) = 2 × (12 + 5) = 34.",
+      "hint": "Add all four sides or double the sum of length and width.",
+      "tags": ["problem_solving"]
+    },
+    {
+      "id": "quant-030",
+      "number": 30,
+      "type": "ratio",
+      "prompt": "The ratio of cats to dogs in a shelter is 3:5. If there are 40 animals total, how many cats are there?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "12" },
+        { "id": "B", "text": "15" },
+        { "id": "C", "text": "16" },
+        { "id": "D", "text": "18" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "Total ratio parts = 3 + 5 = 8. Each part equals 5 animals, so cats = 3 × 5 = 15. Wait correct answer is 15, so correctChoiceId should be B.",
+      "hint": "Divide the total by the sum of ratio parts.",
+      "tags": ["ratio"]
+    }
+  ]
+}

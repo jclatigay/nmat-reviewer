@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="400" height="100">
+  <text x="10" y="18" font-family="sans-serif" font-size="13" fill="#333">Identical pairs:</text>
+  <g transform="translate(30,30)">
+    <polygon points="0,40 20,0 40,40" fill="#3182ce"/>
+    <polygon points="60,40 80,0 100,40" fill="#3182ce"/>
+    <text x="0" y="58" font-size="10">Pair 1</text>
+  </g>
+  <g transform="translate(160,30)">
+    <rect width="40" height="40" fill="#3182ce"/>
+    <rect x="60" width="40" height="40" fill="#e53e3e" transform="rotate(45 180 20)"/>
+    <text x="0" y="58" font-size="10">Pair 2</text>
+  </g>
+  <g transform="translate(290,30)">
+    <polygon points="0,40 20,0 40,40" fill="#38a169"/>
+    <polygon points="60,40 80,0 100,40" fill="#38a169"/>
+    <text x="0" y="58" font-size="10">Pair 3 </text>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+{
+  "subtests": [
+    {
+      "id": "verbal",
+      "name": "Verbal",
+      "part": 1,
+      "timeLimitMinutes": 30,
+      "targetItemCount": 30,
+      "questionFile": "data/questions/verbal.json",
+      "description": "Word analogies and reading comprehension"
+    },
+    {
+      "id": "inductive-reasoning",
+      "name": "Inductive Reasoning",
+      "part": 1,
+      "timeLimitMinutes": 30,
+      "targetItemCount": 30,
+      "questionFile": "data/questions/inductive-reasoning.json",
+      "description": "Number, letter, and figural series; figure grouping"
+    },
+    {
+      "id": "quantitative",
+      "name": "Quantitative",
+      "part": 1,
+      "timeLimitMinutes": 30,
+      "targetItemCount": 30,
+      "questionFile": "data/questions/quantitative.json",
+      "description": "Computation, problem solving, and data interpretation"
+    },
+    {
+      "id": "perceptual-acuity",
+      "name": "Perceptual Acuity",
+      "part": 1,
+      "timeLimitMinutes": 30,
+      "targetItemCount": 30,
+      "questionFile": "data/questions/perceptual-acuity.json",
+      "description": "Hidden figure, mirror image, and identical information"
+    },
+    {
+      "id": "biology",
+      "name": "Biology",
+      "part": 2,
+      "timeLimitMinutes": 30,
+      "targetItemCount": 30,
+      "questionFile": "data/questions/biology.json",
+      "description": "Cell biology, genetics, physiology, and ecology"
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "part": 2,
+      "timeLimitMinutes": 30,
+      "targetItemCount": 30,
+      "questionFile": "data/questions/physics.json",
+      "description": "Mechanics, thermodynamics, waves, and optics"
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "part": 2,
+      "timeLimitMinutes": 30,
+      "targetItemCount": 30,
+      "questionFile": "data/questions/chemistry.json",
+      "description": "General, organic, analytical, and biochemistry"
+    },
+    {
+      "id": "social-science",
+      "name": "Social Science",
+      "part": 2,
+      "timeLimitMinutes": 30,
+      "targetItemCount": 30,
+      "questionFile": "data/questions/social-science.json",
+      "description": "Psychology, sociology, and anthropology"
+    }
+  ]
+}

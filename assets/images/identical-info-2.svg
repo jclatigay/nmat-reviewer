@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 110" width="400" height="110">
+  <text x="10" y="18" font-family="sans-serif" font-size="13" fill="#333">Count identical pairs:</text>
+  <g transform="translate(20,28)">
+    <circle cx="15" cy="15" r="12" fill="#3182ce"/>
+    <circle cx="45" cy="15" r="12" fill="#3182ce"/>
+  </g>
+  <g transform="translate(100,28)">
+    <rect width="30" height="30" fill="#3182ce"/>
+    <rect x="40" width="30" height="30" fill="#e53e3e"/>
+  </g>
+  <g transform="translate(200,28)">
+    <polygon points="15,30 0,0 30,0" fill="#38a169"/>
+    <polygon points="55,30 40,0 70,0" fill="#38a169"/>
+  </g>
+  <g transform="translate(300,28)">
+    <polygon points="15,30 0,0 30,0" fill="#805ad5"/>
+    <polygon points="55,30 40,0 70,0" fill="#805ad5"/>
+  </g>
+</svg>

@@ -1,0 +1,553 @@
+{
+  "meta": {
+    "subtestId": "biology",
+    "subtestName": "Biology",
+    "part": 2,
+    "source": "author-seeded",
+    "version": "1.0.0",
+    "lastUpdated": "2026-07-16",
+    "notes": "Editable — add your own items following docs/question-format.md"
+  },
+  "questions": [
+    {
+      "id": "bio-001",
+      "number": 1,
+      "type": "biology_recall",
+      "prompt": "Which organelle is primarily responsible for ATP production through oxidative phosphorylation?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Ribosome" },
+        { "id": "B", "text": "Mitochondrion" },
+        { "id": "C", "text": "Golgi apparatus" },
+        { "id": "D", "text": "Lysosome" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Mitochondria are the main site of aerobic respiration and ATP synthesis via the electron transport chain.",
+      "hint": "Think 'powerhouse of the cell.'",
+      "tags": ["cell_biology"]
+    },
+    {
+      "id": "bio-002",
+      "number": 2,
+      "type": "biology_application",
+      "prompt": "In humans, a child with blood type O cannot have which parental blood type combination as both parents?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "A and B" },
+        { "id": "B", "text": "A and O" },
+        { "id": "C", "text": "AB and O" },
+        { "id": "D", "text": "O and O" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Type O requires genotype ii. An AB parent can only pass I^A or I^B alleles, never i — so AB × O cannot produce type O offspring.",
+      "hint": "Type O needs an i allele from each parent.",
+      "tags": ["genetics"]
+    },
+    {
+      "id": "bio-003",
+      "number": 3,
+      "type": "biology_recall",
+      "prompt": "Which process directly removes carbon dioxide from the atmosphere and fixes it into organic molecules?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Cellular respiration" },
+        { "id": "B", "text": "Photosynthesis" },
+        { "id": "C", "text": "Fermentation" },
+        { "id": "D", "text": "Transpiration" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Photosynthesis incorporates CO₂ into carbohydrates during the Calvin cycle.",
+      "hint": "Plants use sunlight to build sugars from CO₂.",
+      "tags": ["ecology"]
+    },
+    {
+      "id": "bio-004",
+      "number": 4,
+      "type": "biology_application",
+      "prompt": "A neuron at rest has high extracellular concentration of which ion?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Potassium (K⁺)" },
+        { "id": "B", "text": "Sodium (Na⁺)" },
+        { "id": "C", "text": "Chloride (Cl⁻) inside the cell" },
+        { "id": "D", "text": "Calcium (Ca²⁺) inside the cell" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "At rest, Na⁺ is higher outside the cell while K⁺ is higher inside — maintained by the Na⁺/K⁺ pump.",
+      "hint": "The resting potential depends on unequal ion distribution across the membrane.",
+      "tags": ["physiology"]
+    },
+    {
+      "id": "bio-005",
+      "number": 5,
+      "type": "biology_recall",
+      "prompt": "Which structure in the kidney is the primary site of filtration of blood?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Loop of Henle" },
+        { "id": "B", "text": "Glomerulus" },
+        { "id": "C", "text": "Collecting duct" },
+        { "id": "D", "text": "Proximal tubule" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Filtration occurs in the glomerulus, where blood plasma enters Bowman's capsule.",
+      "hint": "This is the first step of urine formation.",
+      "tags": ["physiology"]
+    },
+    {
+      "id": "bio-006",
+      "number": 6,
+      "type": "biology_application",
+      "prompt": "Antibiotics that inhibit bacterial cell wall synthesis would most directly affect which stage of bacterial growth?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "DNA replication in dormant spores only" },
+        { "id": "B", "text": "Active division and cell enlargement" },
+        { "id": "C", "text": "Protein translation in ribosomes only" },
+        { "id": "D", "text": "ATP production in mitochondria" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Cell wall synthesis is essential during bacterial growth and division; blocking it prevents expansion and division. Bacteria lack mitochondria (D is wrong).",
+      "hint": "Cell walls are built when bacteria are actively growing.",
+      "tags": ["microbiology"]
+    },
+    {
+      "id": "bio-007",
+      "number": 7,
+      "type": "biology_recall",
+      "prompt": "Which organelle is responsible for packaging and modifying proteins for secretion?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Ribosome" },
+        { "id": "B", "text": "Golgi apparatus" },
+        { "id": "C", "text": "Lysosome" },
+        { "id": "D", "text": "Nucleolus" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The Golgi apparatus modifies, sorts, and packages proteins for secretion or transport.",
+      "hint": "Think of the cell's shipping center.",
+      "tags": ["cell_biology"]
+    },
+    {
+      "id": "bio-008",
+      "number": 8,
+      "type": "biology_recall",
+      "prompt": "What is the primary function of red blood cells?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Fight infection" },
+        { "id": "B", "text": "Carry oxygen" },
+        { "id": "C", "text": "Produce hormones" },
+        { "id": "D", "text": "Store energy" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Red blood cells transport oxygen from the lungs to tissues using hemoglobin.",
+      "hint": "They contain hemoglobin and lack a nucleus.",
+      "tags": ["physiology"]
+    },
+    {
+      "id": "bio-009",
+      "number": 9,
+      "type": "biology_application",
+      "prompt": "Which of the following best describes the role of enzymes in biochemical reactions?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Enzymes are consumed in the reaction and must be replenished." },
+        { "id": "B", "text": "Enzymes increase the activation energy required for the reaction." },
+        { "id": "C", "text": "Enzymes act as catalysts to speed up reactions without being consumed." },
+        { "id": "D", "text": "Enzymes change the equilibrium position of the reaction." }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Enzymes lower the activation energy and speed up reactions without being consumed, acting as catalysts.",
+      "hint": "Think about how enzymes facilitate reactions.",
+      "tags": ["biochemistry"]
+    },
+    {
+      "id": "bio-010",
+      "number": 10,
+      "type": "biology_recall",
+      "prompt": "Which type of RNA carries the genetic code from DNA to the ribosome for protein synthesis?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "tRNA" },
+        { "id": "B", "text": "rRNA" },
+        { "id": "C", "text": "mRNA" },
+        { "id": "D", "text": "snRNA" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Messenger RNA (mRNA) transcribes the genetic code from DNA and carries it to the ribosome for translation into protein.",
+      "hint": "This RNA type is the template for protein synthesis.",
+      "tags": ["molecular_biology"]
+    },
+    {
+      "id": "bio-011",
+      "number": 11,
+      "type": "biology_application",
+      "prompt": "Which of the following best explains why mitochondria have their own DNA?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Mitochondria evolved from free-living prokaryotes that were engulfed by ancestral eukaryotic cells." },
+        { "id": "B", "text": "Mitochondria need to replicate independently of the cell cycle." },
+        { "id": "C", "text": "Mitochondrial DNA is necessary for the synthesis of all cellular proteins." },
+        { "id": "D", "text": "Mitochondria are not part of the endomembrane system and thus require separate genetic material." }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "The endosymbiotic theory posits that mitochondria originated from free-living prokaryotes that were engulfed by ancestral eukaryotic cells, which is why they retain their own DNA.",
+      "hint": "Consider the evolutionary origin of mitochondria.",
+      "tags": ["cell_biology", "evolution"]
+    },
+    {
+      "id": "bio-012",
+      "number": 12,
+      "type": "biology_recall",
+      "prompt": "Which of the following is a characteristic feature of prokaryotic cells?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Presence of a nucleus" },
+        { "id": "B", "text": "Membrane-bound organelles" },
+        { "id": "C", "text": "Circular DNA" },
+        { "id": "D", "text": "Linear chromosomes" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Prokaryotic cells, such as bacteria, have circular DNA and lack a nucleus and membrane-bound organelles.",
+      "hint": "Think about the basic structure of bacteria.",
+      "tags": ["cell_biology"]
+    },
+    {
+      "id": "bio-013",
+      "number": 13,
+      "type": "biology_application",
+      "prompt": "Which factor is most likely density-dependent in limiting population growth?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Volcanic eruption" },
+        { "id": "B", "text": "Competition for food" },
+        { "id": "C", "text": "Annual rainfall" },
+        { "id": "D", "text": "Seasonal temperature changes" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Density-dependent factors, like food competition, become more limiting as population size increases.",
+      "hint": "The limiting factor should change with population density.",
+      "tags": ["ecology"]
+    },
+    {
+      "id": "bio-014",
+      "number": 14,
+      "type": "biology_recall",
+      "prompt": "During meiosis, crossing over between homologous chromosomes occurs during which phase?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Prophase I" },
+        { "id": "B", "text": "Metaphase I" },
+        { "id": "C", "text": "Anaphase II" },
+        { "id": "D", "text": "Telophase II" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "Crossing over occurs during prophase I when homologous chromosomes pair and exchange segments.",
+      "hint": "This happens before chromosomes align at the metaphase plate.",
+      "tags": ["genetics"]
+    },
+    {
+      "id": "bio-015",
+      "number": 15,
+      "type": "biology_recall",
+      "prompt": "Which hormone raises blood glucose by signaling the liver to release stored glucose?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Insulin" },
+        { "id": "B", "text": "Glucagon" },
+        { "id": "C", "text": "Somatostatin" },
+        { "id": "D", "text": "Aldosterone" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Glucagon stimulates the liver to break down glycogen and release glucose into the bloodstream.",
+      "hint": "This hormone acts opposite to insulin.",
+      "tags": ["physiology"]
+    },
+    {
+      "id": "bio-016",
+      "number": 16,
+      "type": "biology_application",
+      "prompt": "Which immune system response is characterized by a rapid, nonspecific reaction against pathogens?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Innate immunity" },
+        { "id": "B", "text": "Adaptive immunity" },
+        { "id": "C", "text": "Humoral immunity" },
+        { "id": "D", "text": "Cell-mediated immunity" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "Innate immunity provides a rapid, nonspecific defense against infections before the adaptive immune system is activated.",
+      "hint": "This response is the body's first line of defense.",
+      "tags": ["immunology"]
+    },
+    {
+      "id": "bio-017",
+      "number": 17,
+      "type": "biology_recall",
+      "prompt": "Which structure within the chloroplast contains chlorophyll and is the site of the light-dependent reactions?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Stroma" },
+        { "id": "B", "text": "Thylakoid" },
+        { "id": "C", "text": "Cristae" },
+        { "id": "D", "text": "Matrix" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Thylakoids are the membrane structures in chloroplasts where chlorophyll absorbs light and drives the light-dependent reactions.",
+      "hint": "This is the flattened membrane compartment inside chloroplasts.",
+      "tags": ["plant_biology"]
+    },
+    {
+      "id": "bio-018",
+      "number": 18,
+      "type": "biology_application",
+      "prompt": "A population pyramid with a wide base and narrow top most likely describes a country with:",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "A large elderly population" },
+        { "id": "B", "text": "Low birth rates" },
+        { "id": "C", "text": "Rapid population growth" },
+        { "id": "D", "text": "Stable population size" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "A wide base indicates many young people and high birth rates, which is characteristic of rapid population growth.",
+      "hint": "The pyramid shape reflects the age distribution of the population.",
+      "tags": ["ecology"]
+    },
+    {
+      "id": "bio-019",
+      "number": 19,
+      "type": "biology_recall",
+      "prompt": "Which regulatory mechanism restores the body to its normal state when a physiological variable rises too high?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Positive feedback" },
+        { "id": "B", "text": "Negative feedback" },
+        { "id": "C", "text": "Feedforward regulation" },
+        { "id": "D", "text": "Homeostatic drift" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Negative feedback responses counteract deviations from a set point and restore the system toward normal levels.",
+      "hint": "This mechanism reduces the original change.",
+      "tags": ["physiology"]
+    },
+    {
+      "id": "bio-020",
+      "number": 20,
+      "type": "biology_application",
+      "prompt": "If a tall plant with genotype Tt is crossed with a short plant tt, what proportion of offspring are expected to be tall?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "25%" },
+        { "id": "B", "text": "50%" },
+        { "id": "C", "text": "75%" },
+        { "id": "D", "text": "100%" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "A Tt × tt cross yields half the offspring with Tt (tall) and half with tt (short), so 50% are tall.",
+      "hint": "Use a Punnett square to compare allele combinations.",
+      "tags": ["genetics"]
+    },
+    {
+      "id": "bio-021",
+      "number": 21,
+      "type": "biology_recall",
+      "prompt": "Which organelle is directly responsible for assembling amino acids into proteins?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Lysosome" },
+        { "id": "B", "text": "Ribosome" },
+        { "id": "C", "text": "Golgi apparatus" },
+        { "id": "D", "text": "Endoplasmic reticulum" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Ribosomes translate messenger RNA into polypeptide chains by linking amino acids.",
+      "hint": "This organelle is the site of translation.",
+      "tags": ["molecular_biology"]
+    },
+    {
+      "id": "bio-022",
+      "number": 22,
+      "type": "biology_recall",
+      "prompt": "Which phylum includes animals that have a muscular foot and often a calcium carbonate shell?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Arthropoda" },
+        { "id": "B", "text": "Chordata" },
+        { "id": "C", "text": "Mollusca" },
+        { "id": "D", "text": "Cnidaria" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Mollusca includes snails, clams, and octopuses, many of which have muscular feet and sometimes shells.",
+      "hint": "Think of snails and clams.",
+      "tags": ["evolution"]
+    },
+    {
+      "id": "bio-023",
+      "number": 23,
+      "type": "biology_recall",
+      "prompt": "Which step in the nitrogen cycle converts nitrogen gas into ammonia?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Nitrification" },
+        { "id": "B", "text": "Denitrification" },
+        { "id": "C", "text": "Nitrogen fixation" },
+        { "id": "D", "text": "Ammonification" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Nitrogen fixation converts atmospheric nitrogen into ammonia or related compounds usable by plants.",
+      "hint": "This process is often performed by bacteria in soil or root nodules.",
+      "tags": ["ecology"]
+    },
+    {
+      "id": "bio-024",
+      "number": 24,
+      "type": "biology_application",
+      "prompt": "A plant cell placed in a hypotonic solution will: ",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Lose water and shrink" },
+        { "id": "B", "text": "Gain water and become turgid" },
+        { "id": "C", "text": "Remain unchanged" },
+        { "id": "D", "text": "Burst because it has no cell wall" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "In a hypotonic solution, water enters the plant cell causing it to swell and become turgid, while the cell wall prevents bursting.",
+      "hint": "Hypotonic means lower solute concentration outside the cell.",
+      "tags": ["cell_biology"]
+    },
+    {
+      "id": "bio-025",
+      "number": 25,
+      "type": "biology_recall",
+      "prompt": "What is the monomer unit of carbohydrates?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Amino acid" },
+        { "id": "B", "text": "Fatty acid" },
+        { "id": "C", "text": "Glucose" },
+        { "id": "D", "text": "Nucleotide" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Glucose is a common monosaccharide and the basic building block of many carbohydrates.",
+      "hint": "This simple sugar is often called blood sugar.",
+      "tags": ["biochemistry"]
+    },
+    {
+      "id": "bio-026",
+      "number": 26,
+      "type": "biology_recall",
+      "prompt": "Which hormone is primarily produced by the adrenal cortex and helps regulate stress and metabolism?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Insulin" },
+        { "id": "B", "text": "Cortisol" },
+        { "id": "C", "text": "Thyroxine" },
+        { "id": "D", "text": "Epinephrine" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Cortisol is a glucocorticoid hormone from the adrenal cortex that helps regulate metabolism and the stress response.",
+      "hint": "This hormone is often called the 'stress hormone.'",
+      "tags": ["physiology"]
+    },
+    {
+      "id": "bio-027",
+      "number": 27,
+      "type": "biology_application",
+      "prompt": "Why do most enzymes have reduced activity when pH moves far from their optimum?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "The substrate becomes unavailable." },
+        { "id": "B", "text": "The enzyme's active site changes shape." },
+        { "id": "C", "text": "The enzyme is converted into an amino acid." },
+        { "id": "D", "text": "The reaction no longer needs a catalyst." }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Extreme pH can alter enzyme structure and disrupt the active site, reducing its ability to bind substrate.",
+      "hint": "Enzyme shape is sensitive to pH.",
+      "tags": ["biochemistry"]
+    },
+    {
+      "id": "bio-028",
+      "number": 28,
+      "type": "biology_recall",
+      "prompt": "What term describes heritable changes in gene expression that do not alter the underlying DNA sequence?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Mutation" },
+        { "id": "B", "text": "Epigenetics" },
+        { "id": "C", "text": "Dominance" },
+        { "id": "D", "text": "Recombination" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Epigenetics refers to changes in gene expression caused by mechanisms such as DNA methylation or histone modification, without changing the DNA sequence.",
+      "hint": "This involves gene regulation above the level of the DNA code.",
+      "tags": ["genetics"]
+    },
+    {
+      "id": "bio-029",
+      "number": 29,
+      "type": "biology_application",
+      "prompt": "Which ecosystem service is provided by wetlands when they absorb excess floodwater?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Pollination" },
+        { "id": "B", "text": "Flood mitigation" },
+        { "id": "C", "text": "Carbon dating" },
+        { "id": "D", "text": "Soil formation" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Wetlands help reduce flood damage by storing excess water and slowing runoff, providing flood mitigation services.",
+      "hint": "This service reduces the impact of high water events.",
+      "tags": ["ecology"]
+    },
+    {
+      "id": "bio-030",
+      "number": 30,
+      "type": "biology_recall",
+      "prompt": "Which type of organism is a primary producer in most ecosystems?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Herbivores" },
+        { "id": "B", "text": "Carnivores" },
+        { "id": "C", "text": "Plants" },
+        { "id": "D", "text": "Decomposers" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Plants perform photosynthesis and convert sunlight into chemical energy, making them primary producers in most ecosystems.",
+      "hint": "Primary producers make their own food from inorganic sources.",
+      "tags": ["ecology"]
+    }
+  ]
+}

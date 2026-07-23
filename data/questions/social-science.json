@@ -1,0 +1,553 @@
+{
+  "meta": {
+    "subtestId": "social-science",
+    "subtestName": "Social Science",
+    "part": 2,
+    "source": "author-seeded",
+    "version": "1.0.0",
+    "lastUpdated": "2026-07-16",
+    "notes": "Editable — add your own items following docs/question-format.md"
+  },
+  "questions": [
+    {
+      "id": "ss-001",
+      "number": 1,
+      "type": "psychology",
+      "prompt": "In classical conditioning, a neutral stimulus becomes a conditioned stimulus by being paired with:",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "An unconditioned stimulus" },
+        { "id": "B", "text": "A secondary reinforcer only" },
+        { "id": "C", "text": "Negative punishment" },
+        { "id": "D", "text": "Extinction trials" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "Repeated pairing of a neutral stimulus with an unconditioned stimulus (e.g., food) creates a conditioned response.",
+      "hint": "Think Pavlov's dogs and the bell.",
+      "tags": ["psychology"]
+    },
+    {
+      "id": "ss-002",
+      "number": 2,
+      "type": "psychology",
+      "prompt": "Which structure in the brain is most closely associated with forming new explicit memories?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Cerebellum" },
+        { "id": "B", "text": "Hippocampus" },
+        { "id": "C", "text": "Medulla" },
+        { "id": "D", "text": "Occipital lobe" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The hippocampus is critical for consolidating declarative (explicit) memories.",
+      "hint": "Damage here affects memory formation.",
+      "tags": ["psychology"]
+    },
+    {
+      "id": "ss-003",
+      "number": 3,
+      "type": "sociology",
+      "prompt": "Norms that are formally defined and enforced by institutions are called:",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Folkways" },
+        { "id": "B", "text": "Mores" },
+        { "id": "C", "text": "Laws" },
+        { "id": "D", "text": "Taboos only" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Laws are formal norms codified and enforced by political/legal institutions.",
+      "hint": "These are written rules with legal penalties.",
+      "tags": ["sociology"]
+    },
+    {
+      "id": "ss-004",
+      "number": 4,
+      "type": "sociology",
+      "prompt": "Socialization that occurs throughout life as people enter new roles is called:",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Primary socialization" },
+        { "id": "B", "text": "Anticipatory socialization" },
+        { "id": "C", "text": "Secondary socialization" },
+        { "id": "D", "text": "Resocialization only" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Secondary socialization occurs later in life through schools, workplaces, and other institutions.",
+      "hint": "Contrast with early childhood (primary) socialization.",
+      "tags": ["sociology"]
+    },
+    {
+      "id": "ss-005",
+      "number": 5,
+      "type": "anthropology",
+      "prompt": "The practice of understanding another culture on its own terms, without imposing one's own cultural standards, is called:",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Ethnocentrism" },
+        { "id": "B", "text": "Cultural relativism" },
+        { "id": "C", "text": "Assimilation" },
+        { "id": "D", "text": "Globalization" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Cultural relativism evaluates beliefs and practices within their cultural context rather than judging by external standards.",
+      "hint": "The opposite of ethnocentrism.",
+      "tags": ["anthropology"]
+    },
+    {
+      "id": "ss-006",
+      "number": 6,
+      "type": "psychology",
+      "prompt": "According to Maslow's hierarchy, which need must be reasonably satisfied before esteem needs become dominant?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Self-actualization" },
+        { "id": "B", "text": "Safety and belonging needs" },
+        { "id": "C", "text": "Aesthetic needs only" },
+        { "id": "D", "text": "Transcendence needs" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Maslow proposed a progression from physiological and safety needs to belonging, then esteem, then self-actualization.",
+      "hint": "Lower-level needs come first in the pyramid.",
+      "tags": ["psychology"]
+    },
+    {
+      "id": "ss-007",
+      "number": 7,
+      "type": "sociology",
+      "prompt": "Which concept describes the idea that social institutions serve a purpose for society's stability?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Conflict theory" },
+        { "id": "B", "text": "Structural functionalism" },
+        { "id": "C", "text": "Symbolic interactionism" },
+        { "id": "D", "text": "Feminist theory" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Structural functionalism views social institutions as working together to maintain stability and order.",
+      "hint": "This theory emphasizes function and equilibrium.",
+      "tags": ["sociology"]
+    },
+    {
+      "id": "ss-008",
+      "number": 8,
+      "type": "anthropology",
+      "prompt": "A researcher participates in a community to study their daily life. This method is called:",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Survey research" },
+        { "id": "B", "text": "Participant observation" },
+        { "id": "C", "text": "Experimental design" },
+        { "id": "D", "text": "Content analysis" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Participant observation involves the researcher joining the community while observing behavior and practices.",
+      "hint": "It's a common ethnographic technique.",
+      "tags": ["anthropology"]
+    },
+    {
+      "id": "ss-009",
+      "number": 9,
+      "type": "political_science",
+      "prompt": "Which term describes government by a small group of elites?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Oligarchy" },
+        { "id": "B", "text": "Democracy" },
+        { "id": "C", "text": "Anarchy" },
+        { "id": "D", "text": "Monarchy" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "An oligarchy is ruled by a small group of people, often elites.",
+      "hint": "The prefix 'oligo-' means few.",
+      "tags": ["political_science"]
+    },
+    {
+      "id": "ss-010",
+      "number": 10,
+      "type": "psychology",
+      "prompt": "Which type of memory involves conscious recollection of facts and events?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Procedural memory" },
+        { "id": "B", "text": "Implicit memory" },
+        { "id": "C", "text": "Explicit memory" },
+        { "id": "D", "text": "Sensory memory" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Explicit memory refers to conscious recall of factual information and personal experiences.",
+      "hint": "This is also called declarative memory.",
+      "tags": ["psychology"]
+    },
+    {
+      "id": "ss-011",
+      "number": 11,
+      "type": "anthropology",
+      "prompt": "The spread of cultural traits from one society to another through contact is called:",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Cultural relativism" },
+        { "id": "B", "text": "Ethnocentrism" },
+        { "id": "C", "text": "Cultural diffusion" },
+        { "id": "D", "text": "Cultural assimilation" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Cultural diffusion is the spread of beliefs, practices, and objects between cultures through contact.",
+      "hint": "Think of ideas moving across societies.",
+      "tags": ["anthropology"]
+    },
+    {
+      "id": "ss-012",
+      "number": 12,
+      "type": "political_science",
+      "prompt": "Which system divides power between a central government and regional governments?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Unitary system" },
+        { "id": "B", "text": "Confederation" },
+        { "id": "C", "text": "Federal system" },
+        { "id": "D", "text": "Monarchy" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "A federal system divides authority between national and regional governments.",
+      "hint": "This system allows states or provinces to have their own powers.",
+      "tags": ["political_science"]
+    },
+    {
+      "id": "ss-013",
+      "number": 13,
+      "type": "psychology",
+      "prompt": "Which psychological perspective emphasizes learning through observation and imitation?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Behaviorism" },
+        { "id": "B", "text": "Psychoanalysis" },
+        { "id": "C", "text": "Humanistic psychology" },
+        { "id": "D", "text": "Cognitive psychology" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "Behaviorism, especially social learning theory, emphasizes learning through observation and imitation.",
+      "hint": "Think of B.F. Skinner and Albert Bandura.",
+      "tags": ["psychology"]
+    },
+    {
+      "id": "ss-014",
+      "number": 14,
+      "type": "sociology",
+      "prompt": "The process by which individuals learn and adopt the norms and values of their culture is called:",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Socialization" },
+        { "id": "B", "text": "Stratification" },
+        { "id": "C", "text": "Deviance" },
+        { "id": "D", "text": "Assimilation" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "Socialization is the lifelong process through which people learn cultural norms and values.",
+      "hint": "This process begins in childhood and continues through life.",
+      "tags": ["sociology"]
+    },
+    {
+      "id": "ss-015",
+      "number": 15,
+      "type": "anthropology",
+      "prompt": "The study of how language influences thought and culture is called:",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Ethnography" },
+        { "id": "B", "text": "Linguistic relativity" },
+        { "id": "C", "text": "Cultural diffusion" },
+        { "id": "D", "text": "Functionalism" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Linguistic relativity examines the relationship between language, thought, and culture.",
+      "hint": "This idea is also associated with the Sapir-Whorf hypothesis.",
+      "tags": ["anthropology"]
+    },
+    {
+      "id": "ss-016",
+      "number": 16,
+      "type": "political_science",
+      "prompt": "In a democracy, the ultimate source of political authority is usually considered to be: ",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "A monarch" },
+        { "id": "B", "text": "The military" },
+        { "id": "C", "text": "The people" },
+        { "id": "D", "text": "A dictator" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Democracy is based on the principle of popular sovereignty, where authority derives from the people.",
+      "hint": "The people choose their leaders and policies through voting.",
+      "tags": ["political_science"]
+    },
+    {
+      "id": "ss-017",
+      "number": 17,
+      "type": "psychology",
+      "prompt": "Which memory type includes facts and events that can be consciously recalled?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Procedural memory" },
+        { "id": "B", "text": "Explicit memory" },
+        { "id": "C", "text": "Sensory memory" },
+        { "id": "D", "text": "Implicit memory" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Explicit memory involves conscious recollection of facts and experiences.",
+      "hint": "This memory type is also called declarative memory.",
+      "tags": ["psychology"]
+    },
+    {
+      "id": "ss-018",
+      "number": 18,
+      "type": "sociology",
+      "prompt": "When someone follows a behavior because others are doing it, they are demonstrating: ",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Social loafing" },
+        { "id": "B", "text": "Conformity" },
+        { "id": "C", "text": "Role conflict" },
+        { "id": "D", "text": "Groupthink" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Conformity is changing behavior or beliefs to match those of the group.",
+      "hint": "This term is often studied in experiments by Asch.",
+      "tags": ["sociology"]
+    },
+    {
+      "id": "ss-019",
+      "number": 19,
+      "type": "anthropology",
+      "prompt": "The belief that one’s own culture is superior to others is called: ",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Cultural relativism" },
+        { "id": "B", "text": "Ethnocentrism" },
+        { "id": "C", "text": "Cultural diffusion" },
+        { "id": "D", "text": "Acculturation" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Ethnocentrism involves judging other cultures by one’s own cultural standards.",
+      "hint": "This term has a negative connotation about cultural bias.",
+      "tags": ["anthropology"]
+    },
+    {
+      "id": "ss-020",
+      "number": 20,
+      "type": "political_science",
+      "prompt": "Which election system awards seats to parties based on the percentage of the total vote?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "First-past-the-post" },
+        { "id": "B", "text": "Proportional representation" },
+        { "id": "C", "text": "Electoral college" },
+        { "id": "D", "text": "Ranked-choice voting" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Proportional representation allocates seats in proportion to total votes received.",
+      "hint": "This system is designed to reflect the popular vote more closely.",
+      "tags": ["political_science"]
+    },
+    {
+      "id": "ss-021",
+      "number": 21,
+      "type": "psychology",
+      "prompt": "A person who believes they are responsible for their own successes is demonstrating: ",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Locus of control" },
+        { "id": "B", "text": "Self-efficacy" },
+        { "id": "C", "text": "Projection" },
+        { "id": "D", "text": "Cognitive dissonance" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "An internal locus of control means attributing outcomes to one's own actions rather than external forces.",
+      "hint": "This concept refers to where control is perceived to reside.",
+      "tags": ["psychology"]
+    },
+    {
+      "id": "ss-022",
+      "number": 22,
+      "type": "sociology",
+      "prompt": "Which concept describes the structured ranking of groups in society?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Socialization" },
+        { "id": "B", "text": "Stratification" },
+        { "id": "C", "text": "Subculture" },
+        { "id": "D", "text": "Deviance" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Social stratification refers to the hierarchical arrangement of individuals or groups in society.",
+      "hint": "Think of layers or levels within society.",
+      "tags": ["sociology"]
+    },
+    {
+      "id": "ss-023",
+      "number": 23,
+      "type": "anthropology",
+      "prompt": "The research method that involves long-term immersion in a community is called: ",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Survey" },
+        { "id": "B", "text": "Experiment" },
+        { "id": "C", "text": "Participant observation" },
+        { "id": "D", "text": "Content analysis" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Participant observation involves the researcher becoming part of the community while observing behavior.",
+      "hint": "This method is common in ethnography.",
+      "tags": ["anthropology"]
+    },
+    {
+      "id": "ss-024",
+      "number": 24,
+      "type": "political_science",
+      "prompt": "Which branch of government interprets the law?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Legislative" },
+        { "id": "B", "text": "Executive" },
+        { "id": "C", "text": "Judicial" },
+        { "id": "D", "text": "Administrative" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The judicial branch interprets laws and decides how they apply in specific cases.",
+      "hint": "This branch includes courts and judges.",
+      "tags": ["political_science"]
+    },
+    {
+      "id": "ss-025",
+      "number": 25,
+      "type": "psychology",
+      "prompt": "Which term describes the mental process of acquiring and storing information?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Perception" },
+        { "id": "B", "text": "Memory" },
+        { "id": "C", "text": "Motivation" },
+        { "id": "D", "text": "Emotion" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Memory refers to the encoding, storage, and retrieval of information.",
+      "hint": "This is the faculty that allows recall of past experience.",
+      "tags": ["psychology"]
+    },
+    {
+      "id": "ss-026",
+      "number": 26,
+      "type": "sociology",
+      "prompt": "A social group that provides emotional support and acceptance is called: ",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Reference group" },
+        { "id": "B", "text": "Primary group" },
+        { "id": "C", "text": "Secondary group" },
+        { "id": "D", "text": "In-group" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Primary groups are close, personal groups that provide emotional support.",
+      "hint": "Think of family and close friends.",
+      "tags": ["sociology"]
+    },
+    {
+      "id": "ss-027",
+      "number": 27,
+      "type": "anthropology",
+      "prompt": "A culture that borrows and adapts features from another culture is demonstrating: ",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Isolationism" },
+        { "id": "B", "text": "Assimilation" },
+        { "id": "C", "text": "Cultural diffusion" },
+        { "id": "D", "text": "Ethnocentrism" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Cultural diffusion is the process by which cultural elements spread between societies.",
+      "hint": "It often involves borrowing ideas or practices from others.",
+      "tags": ["anthropology"]
+    },
+    {
+      "id": "ss-028",
+      "number": 28,
+      "type": "political_science",
+      "prompt": "Which of these is a feature of civil society?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Private corporations only" },
+        { "id": "B", "text": "Voluntary associations and NGOs" },
+        { "id": "C", "text": "Military organizations" },
+        { "id": "D", "text": "Government ministries" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Civil society includes voluntary groups and NGOs that exist independently of the state.",
+      "hint": "These are organizations driven by citizens rather than government.",
+      "tags": ["political_science"]
+    },
+    {
+      "id": "ss-029",
+      "number": 29,
+      "type": "psychology",
+      "prompt": "The tendency to believe that others share your beliefs and values is known as: ",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "False consensus effect" },
+        { "id": "B", "text": "Confirmation bias" },
+        { "id": "C", "text": "Groupthink" },
+        { "id": "D", "text": "Self-serving bias" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "The false consensus effect is the belief that one’s own opinions are more widely shared than they actually are.",
+      "hint": "This is a cognitive bias about social agreement.",
+      "tags": ["psychology"]
+    },
+    {
+      "id": "ss-030",
+      "number": 30,
+      "type": "sociology",
+      "prompt": "Social institutions like family, education, and religion are important because they: ",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Create random individual behavior" },
+        { "id": "B", "text": "Provide structure and norms for society" },
+        { "id": "C", "text": "Exclude all forms of social control" },
+        { "id": "D", "text": "Eliminate social roles entirely" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Social institutions organize behavior and establish norms that help society function.",
+      "hint": "These institutions help individuals understand their roles and expectations.",
+      "tags": ["sociology"]
+    }
+  ]
+}

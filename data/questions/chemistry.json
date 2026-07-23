@@ -1,0 +1,553 @@
+{
+  "meta": {
+    "subtestId": "chemistry",
+    "subtestName": "Chemistry",
+    "part": 2,
+    "source": "author-seeded",
+    "version": "1.0.0",
+    "lastUpdated": "2026-07-16",
+    "notes": "Editable — add your own items following docs/question-format.md"
+  },
+  "questions": [
+    {
+      "id": "chem-001",
+      "number": 1,
+      "type": "general_chemistry",
+      "prompt": "What is the molar mass of water (H₂O)?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "16 g/mol" },
+        { "id": "B", "text": "18 g/mol" },
+        { "id": "C", "text": "20 g/mol" },
+        { "id": "D", "text": "34 g/mol" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "H₂O = (2 × 1) + 16 = 18 g/mol.",
+      "hint": "Add atomic masses: 2 hydrogens + 1 oxygen.",
+      "tags": ["general_chemistry"]
+    },
+    {
+      "id": "chem-002",
+      "number": 2,
+      "type": "general_chemistry",
+      "prompt": "Which subatomic particle carries a negative charge?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Proton" },
+        { "id": "B", "text": "Neutron" },
+        { "id": "C", "text": "Electron" },
+        { "id": "D", "text": "Nucleus" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Electrons carry a −1 charge; protons are +1 and neutrons are neutral.",
+      "hint": "It orbits the nucleus in atoms.",
+      "tags": ["general_chemistry"]
+    },
+    {
+      "id": "chem-003",
+      "number": 3,
+      "type": "organic_chemistry",
+      "prompt": "Which functional group characterizes aldehydes?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "–OH on any carbon" },
+        { "id": "B", "text": "C=O at the end of a carbon chain" },
+        { "id": "C", "text": "C=O between two carbons" },
+        { "id": "D", "text": "–NH₂ attached to carbon" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Aldehydes have a carbonyl (C=O) on a terminal carbon. Ketones have C=O between carbons.",
+      "hint": "Aldehydes include the –CHO group.",
+      "tags": ["organic_chemistry"]
+    },
+    {
+      "id": "chem-004",
+      "number": 4,
+      "type": "general_chemistry",
+      "prompt": "At STP, one mole of any ideal gas occupies approximately:",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "11.2 L" },
+        { "id": "B", "text": "22.4 L" },
+        { "id": "C", "text": "24.0 L" },
+        { "id": "D", "text": "44.8 L" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Molar volume at STP is 22.4 L/mol for an ideal gas.",
+      "hint": "This is a standard molar volume constant.",
+      "tags": ["general_chemistry"]
+    },
+    {
+      "id": "chem-005",
+      "number": 5,
+      "type": "analytical_chemistry",
+      "prompt": "A solution with pH 3 is how many times more acidic than one with pH 5?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "2 times" },
+        { "id": "B", "text": "10 times" },
+        { "id": "C", "text": "20 times" },
+        { "id": "D", "text": "100 times" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "Each pH unit is a 10-fold change in [H⁺]. Two units: 10² = 100 times more acidic.",
+      "hint": "The pH scale is logarithmic.",
+      "tags": ["analytical_chemistry"]
+    },
+    {
+      "id": "chem-006",
+      "number": 6,
+      "type": "biochemistry",
+      "prompt": "Which biomolecule primarily stores and transmits genetic information?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Carbohydrates" },
+        { "id": "B", "text": "Lipids" },
+        { "id": "C", "text": "Proteins" },
+        { "id": "D", "text": "Nucleic acids" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "DNA and RNA (nucleic acids) encode and transmit genetic information.",
+      "hint": "Think DNA and RNA.",
+      "tags": ["biochemistry"]
+    },
+    {
+      "id": "chem-007",
+      "number": 7,
+      "type": "general_chemistry",
+      "prompt": "What is the oxidation state of sulfur in SO₂?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "+2" },
+        { "id": "B", "text": "+4" },
+        { "id": "C", "text": "+6" },
+        { "id": "D", "text": "-2" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Oxygen is -2 each, total -4, so sulfur must be +4 to balance the molecule.",
+      "hint": "Use oxidation numbers and neutral molecule sum.",
+      "tags": ["general_chemistry"]
+    },
+    {
+      "id": "chem-008",
+      "number": 8,
+      "type": "organic_chemistry",
+      "prompt": "Which compound is an alcohol?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "CH₃CH₂OH" },
+        { "id": "B", "text": "CH₃COOH" },
+        { "id": "C", "text": "C₆H₆" },
+        { "id": "D", "text": "CH₃NH₂" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "Alcohols contain an –OH functional group attached to a carbon chain.",
+      "hint": "Look for the hydroxyl group.",
+      "tags": ["organic_chemistry"]
+    },
+    {
+      "id": "chem-009",
+      "number": 9,
+      "type": "analytical_chemistry",
+      "prompt": "What volume of 0.10 M HCl is required to neutralize 25 mL of 0.10 M NaOH?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "12.5 mL" },
+        { "id": "B", "text": "25 mL" },
+        { "id": "C", "text": "50 mL" },
+        { "id": "D", "text": "100 mL" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The neutralization reaction requires equal moles of acid and base; identical molarity means equal volume, so 25 mL of HCl is needed.",
+      "hint": "Use M₁V₁ = M₂V₂ for acid-base neutralization.",
+      "tags": ["analytical_chemistry"]
+    },
+    {
+      "id": "chem-010",
+      "number": 10,
+      "type": "general_chemistry",
+      "prompt": "Which element commonly expands its valence shell and can form more than four covalent bonds?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Carbon" },
+        { "id": "B", "text": "Nitrogen" },
+        { "id": "C", "text": "Sulfur" },
+        { "id": "D", "text": "Fluorine" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Sulfur can use d orbitals and commonly forms more than four bonds in compounds like SF₆.",
+      "hint": "This is a third-period element capable of expanding its octet.",
+      "tags": ["general_chemistry"]
+    },
+    {
+      "id": "chem-011",
+      "number": 11,
+      "type": "analytical_chemistry",
+      "prompt": "Which solution is the strongest electrolyte?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Acetic acid" },
+        { "id": "B", "text": "Ammonium hydroxide" },
+        { "id": "C", "text": "Hydrochloric acid" },
+        { "id": "D", "text": "Glucose" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "HCl is a strong acid that dissociates completely in water, making it a strong electrolyte.",
+      "hint": "Strong electrolytes dissociate fully in aqueous solution.",
+      "tags": ["analytical_chemistry"]
+    },
+    {
+      "id": "chem-012",
+      "number": 12,
+      "type": "general_chemistry",
+      "prompt": "At constant temperature, if the pressure of a gas is doubled, what happens to its volume?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "It doubles." },
+        { "id": "B", "text": "It halves." },
+        { "id": "C", "text": "It remains the same." },
+        { "id": "D", "text": "It becomes zero." }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Boyle's law states that pressure and volume are inversely proportional at constant temperature, so doubling pressure halves volume.",
+      "hint": "Pressure × volume stays constant when temperature is fixed.",
+      "tags": ["gas_laws"]
+    },
+    {
+      "id": "chem-013",
+      "number": 13,
+      "type": "analytical_chemistry",
+      "prompt": "If 25 mL of 0.1 M NaOH neutralizes 25 mL of HCl, what is the molarity of the HCl solution?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "0.05 M" },
+        { "id": "B", "text": "0.10 M" },
+        { "id": "C", "text": "0.15 M" },
+        { "id": "D", "text": "0.20 M" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Equal volumes and equal molarities of acid and base neutralize each other in a 1:1 reaction, so HCl is 0.10 M.",
+      "hint": "Use M₁V₁ = M₂V₂ for neutralization with equal volumes.",
+      "tags": ["titration"]
+    },
+    {
+      "id": "chem-014",
+      "number": 14,
+      "type": "organic_chemistry",
+      "prompt": "What is the name of CH₃CH₂OH?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Methanol" },
+        { "id": "B", "text": "Ethanol" },
+        { "id": "C", "text": "Propanol" },
+        { "id": "D", "text": "Ethanoic acid" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "CH₃CH₂OH is ethanol, a two-carbon alcohol.",
+      "hint": "This molecule has two carbons and an –OH group.",
+      "tags": ["organic_chemistry"]
+    },
+    {
+      "id": "chem-015",
+      "number": 15,
+      "type": "biochemistry",
+      "prompt": "Which class of biomolecules stores most of the body's long-term energy?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Carbohydrates" },
+        { "id": "B", "text": "Proteins" },
+        { "id": "C", "text": "Lipids" },
+        { "id": "D", "text": "Nucleic acids" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Lipids, especially fats, store long-term energy in the body more efficiently than carbohydrates or proteins.",
+      "hint": "These molecules are hydrophobic and provide insulation and energy storage.",
+      "tags": ["biochemistry"]
+    },
+    {
+      "id": "chem-016",
+      "number": 16,
+      "type": "general_chemistry",
+      "prompt": "Across a period in the periodic table, atomic radius generally: ",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Increases" },
+        { "id": "B", "text": "Decreases" },
+        { "id": "C", "text": "Remains constant" },
+        { "id": "D", "text": "Varies randomly" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Atomic radius decreases across a period because electrons are drawn closer to the nucleus by increasing nuclear charge.",
+      "hint": "More protons in the same energy level pull electrons inward.",
+      "tags": ["periodic_trends"]
+    },
+    {
+      "id": "chem-017",
+      "number": 17,
+      "type": "physical_chemistry",
+      "prompt": "Adding a nonvolatile solute to water will generally: ",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Lower the boiling point" },
+        { "id": "B", "text": "Raise the boiling point" },
+        { "id": "C", "text": "Have no effect on boiling point" },
+        { "id": "D", "text": "Make water evaporate instantly" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Nonvolatile solutes elevate boiling point and lower freezing point because they reduce the solvent's vapor pressure.",
+      "hint": "This is a colligative property dependent on solute particles.",
+      "tags": ["physical_chemistry"]
+    },
+    {
+      "id": "chem-018",
+      "number": 18,
+      "type": "analytical_chemistry",
+      "prompt": "What is the pH of a 0.001 M hydrochloric acid solution?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "2" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "4" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "HCl dissociates completely, so [H⁺] = 0.001 M and pH = -log(0.001) = 3.",
+      "hint": "pH is the negative logarithm of the hydrogen ion concentration.",
+      "tags": ["analytical_chemistry"]
+    },
+    {
+      "id": "chem-019",
+      "number": 19,
+      "type": "organic_chemistry",
+      "prompt": "Structural isomers have: ",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Identical molecular formulas but different atom connectivity" },
+        { "id": "B", "text": "Different molecular formulas" },
+        { "id": "C", "text": "The same connectivity but different spatial arrangement" },
+        { "id": "D", "text": "Only one functional group" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "Structural isomers share the same formula but differ in the order in which atoms are connected.",
+      "hint": "Consider examples like butane and isobutane.",
+      "tags": ["organic_chemistry"]
+    },
+    {
+      "id": "chem-020",
+      "number": 20,
+      "type": "general_chemistry",
+      "prompt": "Which type of bond forms between sodium and chlorine?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Covalent bond" },
+        { "id": "B", "text": "Ionic bond" },
+        { "id": "C", "text": "Metallic bond" },
+        { "id": "D", "text": "Hydrogen bond" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "An ionic bond forms when sodium transfers an electron to chlorine, creating oppositely charged ions.",
+      "hint": "This bond forms between a metal and a nonmetal.",
+      "tags": ["general_chemistry"]
+    },
+    {
+      "id": "chem-021",
+      "number": 21,
+      "type": "analytical_chemistry",
+      "prompt": "Which solution is likely to conduct electricity best?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "0.1 M sugar" },
+        { "id": "B", "text": "0.1 M sodium chloride" },
+        { "id": "C", "text": "0.1 M ethanol" },
+        { "id": "D", "text": "Pure distilled water" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Sodium chloride dissociates into ions that carry electric current, while sugar and ethanol do not ionize significantly.",
+      "hint": "Ionic compounds in water conduct electricity.",
+      "tags": ["analytical_chemistry"]
+    },
+    {
+      "id": "chem-022",
+      "number": 22,
+      "type": "physical_chemistry",
+      "prompt": "Which statement best describes entropy?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Entropy measures the energy available to perform work." },
+        { "id": "B", "text": "Entropy measures the disorder or randomness of a system." },
+        { "id": "C", "text": "Entropy is always negative in spontaneous processes." },
+        { "id": "D", "text": "Entropy is the same as enthalpy." }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Entropy quantifies the disorder or number of microstates available to a system; it tends to increase in spontaneous processes.",
+      "hint": "Think about how many ways particles can arrange themselves.",
+      "tags": ["thermodynamics"]
+    },
+    {
+      "id": "chem-023",
+      "number": 23,
+      "type": "general_chemistry",
+      "prompt": "A catalyst speeds up a reaction by: ",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Increasing the temperature of the reaction mixture" },
+        { "id": "B", "text": "Changing the equilibrium position" },
+        { "id": "C", "text": "Lowering the activation energy" },
+        { "id": "D", "text": "Being consumed in the reaction" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Catalysts provide an alternate reaction pathway with a lower activation energy without being consumed.",
+      "hint": "The catalyst remains unchanged after the reaction.",
+      "tags": ["general_chemistry"]
+    },
+    {
+      "id": "chem-024",
+      "number": 24,
+      "type": "biochemistry",
+      "prompt": "Which term describes a weak bond between an enzyme and its substrate that helps align the substrate in the active site?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Ionic bond" },
+        { "id": "B", "text": "Covalent bond" },
+        { "id": "C", "text": "Hydrogen bond" },
+        { "id": "D", "text": "Metallic bond" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Hydrogen bonds often help stabilize enzyme-substrate binding in the active site without forming permanent covalent links.",
+      "hint": "This type of bond is common in protein-ligand interactions.",
+      "tags": ["biochemistry"]
+    },
+    {
+      "id": "chem-025",
+      "number": 25,
+      "type": "organic_chemistry",
+      "prompt": "Which compound is aromatic?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Cyclohexane" },
+        { "id": "B", "text": "Benzene" },
+        { "id": "C", "text": "Ethanol" },
+        { "id": "D", "text": "Acetone" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Benzene is an aromatic compound with a planar ring and conjugated π electrons following Huckel's rule.",
+      "hint": "Aromatic compounds have stable ring systems and delocalized electrons.",
+      "tags": ["organic_chemistry"]
+    },
+    {
+      "id": "chem-026",
+      "number": 26,
+      "type": "general_chemistry",
+      "prompt": "If a reaction is first-order with respect to a reactant, doubling its concentration will: ",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Double the reaction rate" },
+        { "id": "B", "text": "Quadruple the reaction rate" },
+        { "id": "C", "text": "Halve the reaction rate" },
+        { "id": "D", "text": "Have no effect on the reaction rate" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "In a first-order reaction, the rate is directly proportional to the concentration of that reactant, so doubling concentration doubles rate.",
+      "hint": "Rate varies with the first power of concentration.",
+      "tags": ["kinetics"]
+    },
+    {
+      "id": "chem-027",
+      "number": 27,
+      "type": "analytical_chemistry",
+      "prompt": "Molarity expresses the number of moles of solute per: ",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Kilogram of solvent" },
+        { "id": "B", "text": "Liter of solution" },
+        { "id": "C", "text": "Gram of solute" },
+        { "id": "D", "text": "Milliliter of solvent" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Molarity is defined as moles of solute divided by liters of solution.",
+      "hint": "It is a concentration unit commonly abbreviated as M.",
+      "tags": ["analytical_chemistry"]
+    },
+    {
+      "id": "chem-028",
+      "number": 28,
+      "type": "general_chemistry",
+      "prompt": "A sample with mass 45 g and volume 15 mL has a density of: ",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "0.33 g/mL" },
+        { "id": "B", "text": "2.0 g/mL" },
+        { "id": "C", "text": "3.0 g/mL" },
+        { "id": "D", "text": "15 g/mL" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Density = mass ÷ volume = 45 g ÷ 15 mL = 3.0 g/mL.",
+      "hint": "Divide the sample mass by its volume.",
+      "tags": ["general_chemistry"]
+    },
+    {
+      "id": "chem-029",
+      "number": 29,
+      "type": "general_chemistry",
+      "prompt": "A crystalline hydrate is a compound that: ",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Contains water molecules in its crystal structure" },
+        { "id": "B", "text": "Is completely anhydrous" },
+        { "id": "C", "text": "Always decomposes in water" },
+        { "id": "D", "text": "Has a metallic bond" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "Hydrates incorporate specific numbers of water molecules into their crystal lattice.",
+      "hint": "The compound formula often includes a dot followed by water molecules.",
+      "tags": ["general_chemistry"]
+    },
+    {
+      "id": "chem-030",
+      "number": 30,
+      "type": "analytical_chemistry",
+      "prompt": "A saturated solution is one in which: ",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "No solute is present" },
+        { "id": "B", "text": "The solute concentration is at equilibrium with undissolved solute" },
+        { "id": "C", "text": "The solution is boiling" },
+        { "id": "D", "text": "The solute dissolves indefinitely" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "A saturated solution holds as much solute as possible at a given temperature, with undissolved solute present at equilibrium.",
+      "hint": "The solution cannot dissolve any more solute under the same conditions.",
+      "tags": ["analytical_chemistry"]
+    }
+  ]
+}

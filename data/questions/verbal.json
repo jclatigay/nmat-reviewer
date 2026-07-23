@@ -1,0 +1,553 @@
+{
+  "meta": {
+    "subtestId": "verbal",
+    "subtestName": "Verbal",
+    "part": 1,
+    "source": "author-seeded",
+    "version": "1.0.0",
+    "lastUpdated": "2026-07-16",
+    "notes": "Editable — add your own items following docs/question-format.md"
+  },
+  "questions": [
+    {
+      "id": "verbal-001",
+      "number": 1,
+      "type": "word_analogy",
+      "prompt": "ARCHITECT : BUILDING :: AUTHOR : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Library" },
+        { "id": "B", "text": "Book" },
+        { "id": "C", "text": "Reader" },
+        { "id": "D", "text": "Publisher" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "An architect creates a building; an author creates a book. The relationship is creator to creation.",
+      "hint": "Think: person → thing they create.",
+      "tags": ["word_analogy"]
+    },
+    {
+      "id": "verbal-002",
+      "number": 2,
+      "type": "word_analogy",
+      "prompt": "THERMOMETER : TEMPERATURE :: BAROMETER : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Humidity" },
+        { "id": "B", "text": "Pressure" },
+        { "id": "C", "text": "Wind speed" },
+        { "id": "D", "text": "Altitude" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "A thermometer measures temperature; a barometer measures atmospheric pressure.",
+      "hint": "What does each instrument measure?",
+      "tags": ["word_analogy"]
+    },
+    {
+      "id": "verbal-003",
+      "number": 3,
+      "type": "word_analogy",
+      "prompt": "CATALOG : ITEMS :: ATLAS : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Countries" },
+        { "id": "B", "text": "Roads" },
+        { "id": "C", "text": "Maps" },
+        { "id": "D", "text": "Globes" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "A catalog lists items; an atlas is a collection of maps.",
+      "hint": "What type of collection does each reference work contain?",
+      "tags": ["word_analogy"]
+    },
+    {
+      "id": "verbal-004",
+      "number": 4,
+      "type": "reading_comprehension",
+      "prompt": "According to the passage, what is the author's primary concern about antibiotic use in agriculture?",
+      "passage": "<p>Low doses of antibiotics have been routinely added to livestock feed to promote growth and prevent disease in crowded conditions. Public health researchers warn that this practice accelerates the development of drug-resistant bacteria, which can spread from farms to humans through food, water, and direct contact. Several countries have restricted non-therapeutic antibiotic use, citing the need to preserve medications for human medicine.</p>",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Increased cost of livestock feed" },
+        { "id": "B", "text": "Reduced meat production worldwide" },
+        { "id": "C", "text": "The rise of bacteria resistant to antibiotics" },
+        { "id": "D", "text": "Shortages of veterinary staff on farms" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The passage states that routine antibiotic use accelerates drug-resistant bacteria that can reach humans.",
+      "hint": "Look for what researchers 'warn' about.",
+      "tags": ["reading_comprehension"]
+    },
+    {
+      "id": "verbal-005",
+      "number": 5,
+      "type": "reading_comprehension",
+      "prompt": "Which statement best summarizes the passage?",
+      "passage": "<p>Placebo effects demonstrate that a patient's expectations can influence perceived symptoms even when no active drug is given. Modern clinical trials therefore compare new treatments against placebos to separate true pharmacological effects from psychological ones. Critics argue that placebo-controlled designs can withhold effective therapy, raising ethical questions in serious illnesses.</p>",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Placebos cure most diseases when patients believe in them." },
+        { "id": "B", "text": "Expectations can affect symptoms, which shapes how trials are designed and debated." },
+        { "id": "C", "text": "All clinical trials should eliminate placebo groups immediately." },
+        { "id": "D", "text": "Psychological effects are stronger than any medication." }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The passage links placebo effects to trial design and notes ethical debate — not claims that placebos cure disease.",
+      "hint": "Combine the main idea of paragraph 1 with paragraph 2.",
+      "tags": ["reading_comprehension"]
+    },
+    {
+      "id": "verbal-006",
+      "number": 6,
+      "type": "word_analogy",
+      "prompt": "EPHEMERAL : PERMANENT :: ? : STABLE",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Fixed" },
+        { "id": "B", "text": "Volatile" },
+        { "id": "C", "text": "Solid" },
+        { "id": "D", "text": "Constant" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Ephemeral is the opposite of permanent; volatile is the opposite of stable.",
+      "hint": "This is an antonym analogy.",
+      "tags": ["word_analogy"]
+    },
+    {
+      "id": "verbal-007",
+      "number": 7,
+      "type": "reading_comprehension",
+      "prompt": "Which choice best captures the main idea of the passage?",
+      "passage": "<p>Many cities are redesigning parks to include native plants and less manicured lawns. Supporters argue that this approach reduces water use, lowers maintenance costs, and creates habitats for pollinators. Critics worry that the resulting landscapes may look less formal and less familiar to residents.</p>",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Cities are removing parks entirely to save money" },
+        { "id": "B", "text": "New park designs balance ecological benefits with aesthetic concerns" },
+        { "id": "C", "text": "Residents prefer only traditional landscaping" },
+        { "id": "D", "text": "Pollinators are harmful to urban spaces" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The passage presents both benefits and concerns about redesigning parks with native plants, so the main idea is balance between ecology and appearance.",
+      "hint": "Look for the point that both supporters and critics are discussed.",
+      "tags": ["reading_comprehension"]
+    },
+    {
+      "id": "verbal-008",
+      "number": 8,
+      "type": "word_analogy",
+      "prompt": "BIRD : NEST :: BEE : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Flower" },
+        { "id": "B", "text": "Honey" },
+        { "id": "C", "text": "Hive" },
+        { "id": "D", "text": "Pollen" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "A bird lives in a nest; a bee lives in a hive.",
+      "hint": "Match the animal with its home.",
+      "tags": ["word_analogy"]
+    },
+    {
+      "id": "verbal-009",
+      "number": 9,
+      "type": "word_analogy",
+      "prompt": "ABRIDGE : LENGTHEN :: REDUCE : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Shrink" },
+        { "id": "B", "text": "Enlarge" },
+        { "id": "C", "text": "Compress" },
+        { "id": "D", "text": "Condense" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Abridge is the opposite of lengthen; reduce is the opposite of enlarge.",
+      "hint": "This is an antonym analogy.",
+      "tags": ["word_analogy"]
+    },
+    {
+      "id": "verbal-010",
+      "number": 10,
+      "type": "reading_comprehension",
+      "prompt": "According to the passage, what is the main benefit of hybrid work models for employees?",
+      "passage": "<p>Many companies are adopting hybrid work schedules that combine remote and office days. Employees report greater flexibility and improved work-life balance, while employers see higher productivity and reduced overhead costs. Critics note that hybrid setups can blur personal boundaries if expectations are not managed clearly.</p>",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Lower real estate costs for employers." },
+        { "id": "B", "text": "Better work-life balance for employees." },
+        { "id": "C", "text": "Less communication among team members." },
+        { "id": "D", "text": "More office-based meetings." }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The passage highlights flexibility and improved work-life balance as main employee benefits of hybrid work.",
+      "hint": "Focus on the employee perspective in the passage.",
+      "tags": ["reading_comprehension"]
+    },
+    {
+      "id": "verbal-011",
+      "number": 11,
+      "type": "word_analogy",
+      "prompt": "PENURIOUS : WEALTHY :: ARID : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Humid" },
+        { "id": "B", "text": "Dry" },
+        { "id": "C", "text": "Barren" },
+        { "id": "D", "text": "Fertile" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "Penurious means poor while wealthy is its opposite; arid means dry while humid is its opposite.",
+      "hint": "This is an antonym analogy.",
+      "tags": ["word_analogy"]
+    },
+    {
+      "id": "verbal-012",
+      "number": 12,
+      "type": "reading_comprehension",
+      "prompt": "What does the author imply is the main benefit of reusable packaging?",
+      "passage": "<p>Reusable packaging cuts waste by keeping containers in circulation instead of discarding them after a single use. Companies that invest in refillable systems report lower waste management costs and stronger customer loyalty. While critics note the initial expense, supporters say the long-term environmental and financial savings outweigh the upfront investment.</p>",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "It reduces customer loyalty." },
+        { "id": "B", "text": "It increases short-term operating costs." },
+        { "id": "C", "text": "It cuts waste and saves money over time." },
+        { "id": "D", "text": "It eliminates the need for packaging entirely." }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The passage emphasizes reduced waste and long-term savings as reusable packaging benefits.",
+      "hint": "Supporters focus on the long-term advantages.",
+      "tags": ["reading_comprehension"]
+    },
+    {
+      "id": "verbal-013",
+      "number": 13,
+      "type": "word_analogy",
+      "prompt": "PUPIL : EYE :: CORNER : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Room" },
+        { "id": "B", "text": "Angle" },
+        { "id": "C", "text": "Wall" },
+        { "id": "D", "text": "Edge" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "A pupil is part of an eye, just as a corner is part of an angle.",
+      "hint": "Match the part-to-whole relationship.",
+      "tags": ["word_analogy"]
+    },
+    {
+      "id": "verbal-014",
+      "number": 14,
+      "type": "reading_comprehension",
+      "prompt": "According to the passage, why are city green spaces becoming more common?",
+      "passage": "<p>Urban planners are adding green spaces to cities as a response to the growing need for recreation, cleaner air, and heat reduction. These areas provide residents with places to relax, exercise, and escape the built environment. Advocates say green spaces also improve mental health and social cohesion.</p>",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "To increase urban traffic" },
+        { "id": "B", "text": "To offer more industrial development sites" },
+        { "id": "C", "text": "To enhance recreation and environmental benefits." },
+        { "id": "D", "text": "To discourage outdoor activities." }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The passage explains green spaces are added for recreation, cleaner air, and heat reduction.",
+      "hint": "Focus on the reasons planners are adding these spaces.",
+      "tags": ["reading_comprehension"]
+    },
+    {
+      "id": "verbal-015",
+      "number": 15,
+      "type": "word_analogy",
+      "prompt": "BRIDGE : WATER :: AIRPLANE : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Sky" },
+        { "id": "B", "text": "Runway" },
+        { "id": "C", "text": "Airport" },
+        { "id": "D", "text": "River" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "A bridge spans water; an airplane travels through the sky.",
+      "hint": "Match the medium through which each structure moves or spans.",
+      "tags": ["word_analogy"]
+    },
+    {
+      "id": "verbal-016",
+      "number": 16,
+      "type": "reading_comprehension",
+      "prompt": "What is the main environmental concern described in the passage?",
+      "passage": "<p>Coastal communities face rising sea levels and stronger storms. Many residents are investing in storm barriers and elevated homes, but the costs remain a serious challenge. Experts warn that without changes to emissions and planning, floods may become more frequent and damaging.</p>",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Air pollution" },
+        { "id": "B", "text": "Coastal erosion" },
+        { "id": "C", "text": "Rising sea levels and storm damage" },
+        { "id": "D", "text": "Deforestation" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The passage focuses on rising sea levels and stronger storms affecting coastal communities.",
+      "hint": "Look for the threat that is repeated and connected to climate change.",
+      "tags": ["reading_comprehension"]
+    },
+    {
+      "id": "verbal-017",
+      "number": 17,
+      "type": "word_analogy",
+      "prompt": "KING : QUEEN :: EMPEROR : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Prince" },
+        { "id": "B", "text": "Empress" },
+        { "id": "C", "text": "King" },
+        { "id": "D", "text": "Duke" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "An empress is the female equivalent of an emperor, just as a queen is the female equivalent of a king.",
+      "hint": "This is a gender pair analogy.",
+      "tags": ["word_analogy"]
+    },
+    {
+      "id": "verbal-018",
+      "number": 18,
+      "type": "reading_comprehension",
+      "prompt": "What is the author's attitude toward the new technology?",
+      "passage": "<p>The article notes that the new device increases accessibility while also raising concerns about privacy. Users appreciate the convenience, but some are wary of how much personal data the system collects. The writer suggests that regulation may be needed to balance innovation with user rights.</p>",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Completely negative" },
+        { "id": "B", "text": "Completely positive" },
+        { "id": "C", "text": "Cautiously optimistic" },
+        { "id": "D", "text": "Indifferent" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The writer acknowledges benefits but also raises privacy concerns, indicating a cautiously optimistic attitude.",
+      "hint": "Consider both the positive and warning language in the passage.",
+      "tags": ["reading_comprehension"]
+    },
+    {
+      "id": "verbal-019",
+      "number": 19,
+      "type": "word_analogy",
+      "prompt": "SILENT : LOUD :: ARID : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Dry" },
+        { "id": "B", "text": "Wet" },
+        { "id": "C", "text": "Cold" },
+        { "id": "D", "text": "Humid" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "Silent is the opposite of loud; arid is the opposite of humid.",
+      "hint": "This is an antonym analogy.",
+      "tags": ["word_analogy"]
+    },
+    {
+      "id": "verbal-020",
+      "number": 20,
+      "type": "reading_comprehension",
+      "prompt": "What is one drawback the passage mentions about remote work?",
+      "passage": "<p>Remote work can boost flexibility and reduce commuting, but it may also blur the boundary between home and work. Employees can struggle to disconnect, and employers may find it harder to maintain team cohesion. Effective policies are needed to support remote arrangements without causing burnout.</p>",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "More commuting time" },
+        { "id": "B", "text": "Less flexibility" },
+        { "id": "C", "text": "Difficulty disconnecting from work" },
+        { "id": "D", "text": "Lower employee autonomy" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The passage highlights that remote work can blur boundaries and make it hard for employees to disconnect.",
+      "hint": "Find the downside mentioned for remote work.",
+      "tags": ["reading_comprehension"]
+    },
+    {
+      "id": "verbal-021",
+      "number": 21,
+      "type": "word_analogy",
+      "prompt": "SPOON : EAT :: PEN : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Write" },
+        { "id": "B", "text": "Draw" },
+        { "id": "C", "text": "Cut" },
+        { "id": "D", "text": "Paint" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "A spoon is used to eat; a pen is used to write.",
+      "hint": "Match each tool to its primary action.",
+      "tags": ["word_analogy"]
+    },
+    {
+      "id": "verbal-022",
+      "number": 22,
+      "type": "word_analogy",
+      "prompt": "HOSPITAL : DOCTOR :: COURT : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Judge" },
+        { "id": "B", "text": "Teacher" },
+        { "id": "C", "text": "Patient" },
+        { "id": "D", "text": "Client" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "A doctor works in a hospital; a judge works in a court.",
+      "hint": "Match the professional to their workplace.",
+      "tags": ["word_analogy"]
+    },
+    {
+      "id": "verbal-023",
+      "number": 23,
+      "type": "reading_comprehension",
+      "prompt": "What is the main concern mentioned about single-use plastics?",
+      "passage": "<p>Single-use plastics are convenient but create lasting environmental problems because they take hundreds of years to decompose. Many cities are banning these items to reduce pollution in oceans and landfills. Critics say alternatives must be affordable and scalable to make the ban effective.</p>",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "They are too cheap to produce." },
+        { "id": "B", "text": "They contribute to long-term pollution." },
+        { "id": "C", "text": "They are not useful for packaging." },
+        { "id": "D", "text": "They increase food waste." }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The passage stresses that single-use plastics cause long-term pollution in the environment.",
+      "hint": "Look for the environmental issue described.",
+      "tags": ["reading_comprehension"]
+    },
+    {
+      "id": "verbal-024",
+      "number": 24,
+      "type": "word_analogy",
+      "prompt": "TREE : FOREST :: STAR : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Galaxy" },
+        { "id": "B", "text": "Planet" },
+        { "id": "C", "text": "Universe" },
+        { "id": "D", "text": "Solar system" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "A forest is made of trees, just as a galaxy contains many stars.",
+      "hint": "Think of the larger group formed by the smaller units.",
+      "tags": ["word_analogy"]
+    },
+    {
+      "id": "verbal-025",
+      "number": 25,
+      "type": "reading_comprehension",
+      "prompt": "Which phrase best describes the author's tone in the passage?",
+      "passage": "<p>The article celebrates community gardens as places where neighbors grow food together, share stories, and support one another. The author notes that these gardens create a sense of belonging and also provide fresh produce in urban neighborhoods.</p>",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Skeptical and critical" },
+        { "id": "B", "text": "Hostile and indifferent" },
+        { "id": "C", "text": "Appreciative and positive" },
+        { "id": "D", "text": "Formal and academic" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The passage uses positive language to describe the benefits of community gardens.",
+      "hint": "Notice words like celebrate, support, and belonging.",
+      "tags": ["reading_comprehension"]
+    },
+    {
+      "id": "verbal-026",
+      "number": 26,
+      "type": "word_analogy",
+      "prompt": "PARENT : CHILD :: TEACHER : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Student" },
+        { "id": "B", "text": "Principal" },
+        { "id": "C", "text": "Lesson" },
+        { "id": "D", "text": "School" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "A parent guides a child like a teacher guides a student.",
+      "hint": "Think of the person who receives guidance.",
+      "tags": ["word_analogy"]
+    },
+    {
+      "id": "verbal-027",
+      "number": 27,
+      "type": "reading_comprehension",
+      "prompt": "What problem does the passage say can be reduced by better public transit?",
+      "passage": "<p>Improving public transit helps reduce traffic congestion, air pollution, and commuting costs. When more people choose buses and trains over cars, cities see fewer vehicles on the road and cleaner air in the downtown core.</p>",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Housing shortages" },
+        { "id": "B", "text": "Road damage" },
+        { "id": "C", "text": "Traffic congestion" },
+        { "id": "D", "text": "Noise pollution" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The passage states that better public transit reduces traffic congestion and pollution.",
+      "hint": "This problem is directly linked to too many cars on roads.",
+      "tags": ["reading_comprehension"]
+    },
+    {
+      "id": "verbal-028",
+      "number": 28,
+      "type": "word_analogy",
+      "prompt": "MICROSCOPE : TINY :: TELESCOPE : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Close" },
+        { "id": "B", "text": "Far" },
+        { "id": "C", "text": "Bright" },
+        { "id": "D", "text": "Small" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "A microscope reveals tiny things; a telescope is used to view far things.",
+      "hint": "Match the instruments to the scale of their observations.",
+      "tags": ["word_analogy"]
+    },
+    {
+      "id": "verbal-029",
+      "number": 29,
+      "type": "reading_comprehension",
+      "prompt": "Which benefit of exercise is emphasized in the passage?",
+      "passage": "<p>Regular exercise improves mood by releasing endorphins and reducing stress. People who exercise often report feeling more energetic and less anxious after physical activity.</p>",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Lower cholesterol" },
+        { "id": "B", "text": "Improved mood and reduced stress" },
+        { "id": "C", "text": "More muscle mass only" },
+        { "id": "D", "text": "Faster sprint speed" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The passage specifically mentions mood improvement and stress reduction.",
+      "hint": "Look for the emotional benefits described.",
+      "tags": ["reading_comprehension"]
+    },
+    {
+      "id": "verbal-030",
+      "number": 30,
+      "type": "word_analogy",
+      "prompt": "BOOK : READ :: MUSIC : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Listen" },
+        { "id": "B", "text": "Write" },
+        { "id": "C", "text": "Compose" },
+        { "id": "D", "text": "Speak" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "A book is read; music is listened to.",
+      "hint": "Match each medium to the activity associated with it.",
+      "tags": ["word_analogy"]
+    }
+  ]
+}
