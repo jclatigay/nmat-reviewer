@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nmat-reviewer-v1';
+const CACHE_NAME = 'nmat-reviewer-v3';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -29,6 +29,24 @@ const ASSETS_TO_CACHE = [
   './js/utils/dom.js',
   './js/utils/format.js',
   './assets/images/icon.svg',
+  './assets/images/ir-008-rotation-series.svg',
+  './assets/images/ir-012-series.svg',
+  './assets/images/ir-015-grouping.svg',
+  './assets/images/ir-018-series.svg',
+  './assets/images/ir-020-grouping.svg',
+  './assets/images/ir-021-series.svg',
+  './assets/images/ir-024-grouping.svg',
+  './assets/images/ir-027-grouping.svg',
+  './assets/images/ir-030-rotation.svg',
+  './data/subjects.json',
+  './data/questions/biology.json',
+  './data/questions/chemistry.json',
+  './data/questions/inductive-reasoning.json',
+  './data/questions/perceptual-acuity.json',
+  './data/questions/physics.json',
+  './data/questions/quantitative.json',
+  './data/questions/social-science.json',
+  './data/questions/verbal.json',
 ];
 
 self.addEventListener('install', (event) => {

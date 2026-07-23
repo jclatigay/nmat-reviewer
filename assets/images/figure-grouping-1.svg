@@ -1,15 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="400" height="100">
-  <text x="10" y="18" font-family="sans-serif" font-size="13" fill="#333">A</text>
-  <rect x="30" y="25" width="60" height="60" fill="none" stroke="#1a365d" stroke-width="2"/>
-  <line x1="30" y1="55" x2="90" y2="55" stroke="#1a365d" stroke-width="2"/>
-
-  <text x="110" y="18" font-family="sans-serif" font-size="13" fill="#333">B</text>
-  <circle cx="150" cy="55" r="30" fill="none" stroke="#1a365d" stroke-width="2"/>
-
-  <text x="210" y="18" font-family="sans-serif" font-size="13" fill="#333">C</text>
-  <rect x="230" y="25" width="60" height="60" fill="none" stroke="#1a365d" stroke-width="2"/>
-  <line x1="260" y1="25" x2="260" y2="85" stroke="#1a365d" stroke-width="2"/>
-
-  <text x="310" y="18" font-family="sans-serif" font-size="13" fill="#333">D</text>
-  <polygon points="340,85 355,35 385,80" fill="none" stroke="#1a365d" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" width="420" height="120">
+  <rect x="1" y="1" width="418" height="118" rx="12" fill="#fff" stroke="#cbd5e0"/>
+  <g font-family="sans-serif" font-size="14" fill="#1a365d">
+    <text x="42" y="22">A</text>
+    <text x="142" y="22">B</text>
+    <text x="242" y="22">C</text>
+    <text x="342" y="22">D</text>
+  </g>
+  <rect x="26" y="38" width="52" height="52" fill="none" stroke="#1a365d" stroke-width="3"/>
+  <line x1="52" y1="38" x2="52" y2="90" stroke="#1a365d" stroke-width="2"/>
+  <circle cx="152" cy="64" r="28" fill="none" stroke="#1a365d" stroke-width="3"/>
+  <line x1="152" y1="36" x2="152" y2="92" stroke="#1a365d" stroke-width="2"/>
+  <polygon points="252,34 282,64 252,94 222,64" fill="none" stroke="#1a365d" stroke-width="3"/>
+  <line x1="252" y1="34" x2="252" y2="94" stroke="#1a365d" stroke-width="2"/>
+  <polygon points="318,92 352,34 384,84" fill="none" stroke="#1a365d" stroke-width="3"/>
 </svg>

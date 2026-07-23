@@ -113,8 +113,8 @@
         { "id": "D", "text": "Figure D" }
       ],
       "correctChoiceId": "D",
-      "explanation": "Figures A, B, and C each have one line of symmetry; Figure D does not.",
-      "hint": "Look for a shared symmetry property.",
+      "explanation": "Figures A, B, and C each have a clear vertical line of symmetry. Figure D is irregular and does not share that symmetry.",
+      "hint": "Look for a shared vertical balance.",
       "tags": ["figure_grouping"]
     },
     {
@@ -141,15 +141,15 @@
       "type": "figural_series",
       "prompt": "Which figure completes the sequence?",
       "passage": null,
-      "image": "assets/images/figural-series-1.svg",
+      "image": "assets/images/ir-008-rotation-series.svg",
       "choices": [
-        { "id": "A", "text": "Figure A" },
-        { "id": "B", "text": "Figure B" },
-        { "id": "C", "text": "Figure C" },
-        { "id": "D", "text": "Figure D" }
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" }
       ],
-      "correctChoiceId": "C",
-      "explanation": "The pattern rotates one quadrant clockwise each step, so the missing figure is the third position in the cycle.",
+      "correctChoiceId": "A",
+      "explanation": "The line rotates 90 degrees clockwise: up, right, down, then left. Option A shows the next position.",
       "hint": "Track the rotation of the shape.",
       "tags": ["figural_series"]
     },
@@ -213,15 +213,15 @@
       "type": "figural_series",
       "prompt": "Which figure completes the sequence?",
       "passage": null,
-      "image": null,
+      "image": "assets/images/ir-012-series.svg",
       "choices": [
-        { "id": "A", "text": "Figure A" },
-        { "id": "B", "text": "Figure B" },
-        { "id": "C", "text": "Figure C" },
-        { "id": "D", "text": "Figure D" }
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" }
       ],
-      "correctChoiceId": "B",
-      "explanation": "Each figure rotates 90 degrees clockwise; the missing figure is the next rotation in the pattern.",
+      "correctChoiceId": "D",
+      "explanation": "The line tilts 45 degrees clockwise at each step: horizontal, diagonal, vertical, then the opposite diagonal. Option D completes the sequence.",
       "hint": "Track the direction of rotation across the sequence.",
       "tags": ["figural_series"]
     },
@@ -267,7 +267,7 @@
       "type": "figure_grouping",
       "prompt": "Which option does not belong with the others?",
       "passage": null,
-      "image": null,
+      "image": "assets/images/ir-015-grouping.svg",
       "choices": [
         { "id": "A", "text": "A" },
         { "id": "B", "text": "B" },
@@ -275,8 +275,8 @@
         { "id": "D", "text": "D" }
       ],
       "correctChoiceId": "C",
-      "explanation": "Options A, B, and D share a common symmetry property while option C breaks the pattern.",
-      "hint": "Compare the visual balance or symmetry of each figure.",
+      "explanation": "Options A, B, and D each contain a horizontal center line. Option C contains a diagonal line, so it does not follow the same rule.",
+      "hint": "Compare the direction of the line inside each figure.",
       "tags": ["figure_grouping"]
     },
     {
@@ -292,7 +292,7 @@
         { "id": "C", "text": "16" },
         { "id": "D", "text": "18" }
       ],
-      "correctChoiceId": "A",
+      "correctChoiceId": "C",
       "explanation": "Differences increase by 1 each time: +1, +2, +3, +4, so next is 11 + 5 = 16. Wait, check: 1→2(+1), 2→4(+2), 4→7(+3), 7→11(+4), so next is 11+5 = 16.",
       "hint": "Inspect how much each term rises from the previous.",
       "tags": ["number_series"]
@@ -321,15 +321,15 @@
       "type": "figural_series",
       "prompt": "Which figure completes the pattern based on shading and orientation?",
       "passage": null,
-      "image": null,
+      "image": "assets/images/ir-018-series.svg",
       "choices": [
-        { "id": "A", "text": "Figure A" },
-        { "id": "B", "text": "Figure B" },
-        { "id": "C", "text": "Figure C" },
-        { "id": "D", "text": "Figure D" }
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" }
       ],
-      "correctChoiceId": "D",
-      "explanation": "The pattern alternates shading while the figure rotates one step each time, making D the next combination.",
+      "correctChoiceId": "A",
+      "explanation": "The triangle rotates 90 degrees clockwise while the shading alternates filled, unfilled, filled. The next figure should point left and be unfilled, which is option A.",
       "hint": "Follow both the shading and the rotation sequence.",
       "tags": ["figural_series"]
     },
@@ -357,7 +357,7 @@
       "type": "figure_grouping",
       "prompt": "Select the option that does not match the grouping rule.",
       "passage": null,
-      "image": null,
+      "image": "assets/images/ir-020-grouping.svg",
       "choices": [
         { "id": "A", "text": "Option A" },
         { "id": "B", "text": "Option B" },
@@ -365,8 +365,8 @@
         { "id": "D", "text": "Option D" }
       ],
       "correctChoiceId": "B",
-      "explanation": "Option B breaks the shared pattern of line orientation found in the other figures.",
-      "hint": "Compare the alignment of lines and angles in each figure.",
+      "explanation": "Options A, C, and D each include a single diagonal line rising from lower left to upper right. Option B uses a plus sign instead.",
+      "hint": "Compare the direction and number of lines in each option.",
       "tags": ["classification"]
     },
     {
@@ -375,16 +375,16 @@
       "type": "figural_series",
       "prompt": "Which figure should come next in the sequence?",
       "passage": null,
-      "image": null,
+      "image": "assets/images/ir-021-series.svg",
       "choices": [
-        { "id": "A", "text": "Figure A" },
-        { "id": "B", "text": "Figure B" },
-        { "id": "C", "text": "Figure C" },
-        { "id": "D", "text": "Figure D" }
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" }
       ],
       "correctChoiceId": "A",
-      "explanation": "The sequence alternates between two figure styles while moving the shaded area; the next figure returns to the first style.",
-      "hint": "Notice the alternation between figure types.",
+      "explanation": "The outer figure alternates circle, square, circle, square while the dot moves clockwise from corner to corner. Option A is the square with the dot in the next position.",
+      "hint": "Track both the outer shape and the dot position.",
       "tags": ["figural_series"]
     },
     {
@@ -429,7 +429,7 @@
       "type": "figure_grouping",
       "prompt": "Which option does not share the same property as the others?",
       "passage": null,
-      "image": null,
+      "image": "assets/images/ir-024-grouping.svg",
       "choices": [
         { "id": "A", "text": "Option A" },
         { "id": "B", "text": "Option B" },
@@ -437,7 +437,7 @@
         { "id": "D", "text": "Option D" }
       ],
       "correctChoiceId": "D",
-      "explanation": "Option D is the only figure with a different angle orientation than the rest.",
+      "explanation": "Options A, B, and C are upright triangles. Option D is inverted, so it does not share the same orientation.",
       "hint": "Compare each figure's orientation rather than shape alone.",
       "tags": ["classification"]
     },
@@ -483,7 +483,7 @@
       "type": "figure_grouping",
       "prompt": "Which option does not belong based on the shape pattern?",
       "passage": null,
-      "image": null,
+      "image": "assets/images/ir-027-grouping.svg",
       "choices": [
         { "id": "A", "text": "Option A" },
         { "id": "B", "text": "Option B" },
@@ -491,8 +491,8 @@
         { "id": "D", "text": "Option D" }
       ],
       "correctChoiceId": "A",
-      "explanation": "Option A is the only figure in the group that does not share the mirrored symmetry of the others.",
-      "hint": "Assess whether each figure is symmetric when folded.",
+      "explanation": "Options B, C, and D have vertical mirror symmetry. Option A is uneven, so it does not match the group.",
+      "hint": "Imagine folding each figure along a vertical center line.",
       "tags": ["classification"]
     },
     {
@@ -537,7 +537,7 @@
       "type": "figure_grouping",
       "prompt": "Which figure does not belong based on the rotation pattern?",
       "passage": null,
-      "image": null,
+      "image": "assets/images/ir-030-rotation.svg",
       "choices": [
         { "id": "A", "text": "Option A" },
         { "id": "B", "text": "Option B" },

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 190" width="460" height="190">
+  <rect x="1" y="1" width="458" height="188" rx="12" fill="#fff" stroke="#cbd5e0"/>
+  <g fill="none" stroke="#1a365d" stroke-width="4" stroke-linecap="round">
+    <line x1="54" y1="76" x2="54" y2="34"/>
+    <line x1="136" y1="58" x2="178" y2="58"/>
+    <line x1="254" y1="34" x2="254" y2="76"/>
+  </g>
+  <text x="330" y="66" font-family="sans-serif" font-size="28" fill="#718096">?</text>
+  <g font-family="sans-serif" font-size="13" fill="#475569">
+    <text x="50" y="104">1</text>
+    <text x="152" y="104">2</text>
+    <text x="250" y="104">3</text>
+    <text x="324" y="104">4</text>
+  </g>
+  <g font-family="sans-serif" font-size="14" fill="#1a365d">
+    <text x="44" y="134">A</text>
+    <text x="144" y="134">B</text>
+    <text x="244" y="134">C</text>
+    <text x="344" y="134">D</text>
+  </g>
+  <g fill="none" stroke="#1a365d" stroke-width="4" stroke-linecap="round">
+    <line x1="74" y1="164" x2="34" y2="164"/>
+    <line x1="154" y1="176" x2="154" y2="134"/>
+    <line x1="234" y1="164" x2="274" y2="164"/>
+    <line x1="354" y1="134" x2="354" y2="176"/>
+  </g>
+</svg>

@@ -1,66 +1,84 @@
 # NMAT Reviewer
 
-A personal NMAT review web app built with HTML, CSS, and JavaScript only.
+NMAT Reviewer is a free study app for the Philippine NMAT. It helps you practice one subtest at a time, review answers, and try timed exam-style sessions.
 
-## Features
+## What you can do
 
-- **8 subtests** — Part 1 (Verbal, Inductive Reasoning, Quantitative, Perceptual Acuity) and Part 2 (Biology, Physics, Chemistry, Social Science)
-- **Study Mode** — untimed, optional hints, explanations after finishing
-- **Exam Mode** — 30-minute section timer, flag questions, submit for score
-- **Review page** — all explanations with filters (Incorrect, Unanswered, Flagged)
-- **Editable JSON questions** — add your own questions without changing app code
+- Practice 8 subtests:
+  - Verbal
+  - Inductive Reasoning
+  - Quantitative
+  - Perceptual Acuity
+  - Biology
+  - Physics
+  - Chemistry
+  - Social Science
+- Use Study Mode for untimed practice with hints
+- Use Exam Mode for timed practice with a 30-minute limit per section
+- Review your answers and explanations after each session
+- Open the question format guide if you want to add or edit questions
 
-## Quick start
+## How to use it
 
-This app must be served over HTTP (not opened as `file://`) because it loads JSON with `fetch()`.
+1. Open the app in your browser.
+2. Choose a subject.
+3. Choose Study Mode or Exam Mode.
+4. Answer the questions.
+5. Review your score and explanations after you finish.
+
+## Running it on your computer
+
+This app needs to be opened through a local web server. DO N0T open `index.html` directly from your file manager.
+
+If you already have Node.js installed:
 
 ```bash
-cd nmat-reviewer
 npx serve .
 ```
 
-Then open the URL shown (usually `http://localhost:3000`).
-
-Alternative:
+If you prefer Python:
 
 ```bash
 python -m http.server 8080
 ```
 
-Open `http://localhost:8080`.
+Then open the address shown in the terminal, such as `http://localhost:3000` or `http://localhost:8080`.
 
-## Deploy to GitHub Pages
+## Publishing on GitHub Pages
 
-This repo is ready for GitHub Pages as a static site.
+This repository can be published as a static website on GitHub Pages.
 
-1. Push the code to the `main` branch on GitHub.
-2. In your repository, open `Settings` > `Pages`.
-3. Under `Build and deployment`, set `Source` to `GitHub Actions`.
-4. Push any change to `main`, or run the `Deploy to GitHub Pages` workflow manually.
+1. Push the repository to GitHub.
+2. Open the repository `Settings`.
+3. Select `Pages`.
+4. Set the source to GitHub Actions, or use the branch-based option if that is what your repo shows.
+5. Push to the `main` branch again to trigger deployment.
 
-The site will be published from the workflow in [`.github/workflows/pages.yml`](.github/workflows/pages.yml).
+The deployment workflow is stored in [`.github/workflows/pages.yml`](.github/workflows/pages.yml).
 
-## Project structure
+## What is saved
 
-```
-nmat-reviewer/
-├── index.html          # App entry point
-├── manifest.json       # PWA stub (ready for service worker later)
-├── css/                # Stylesheets
-├── js/                 # App logic (router, views, services, components)
-├── data/               # subjects.json + questions/*.json
-├── assets/images/      # Question figures and app icon
-└── docs/               # Question authoring guide
-```
+- Your current session is stored in the browser tab using `sessionStorage`.
+- This means progress usually stays while the tab is open.
+- Closing the tab or browser may clear the session.
+
+## Project files
+
+- [`index.html`](index.html) - main page
+- [`css/`](css) - styles
+- [`js/`](js) - app logic
+- [`data/`](data) - subject and question files
+- [`assets/images/`](assets/images) - icons and question figures
+- [`docs/question-format.md`](docs/question-format.md) - guide for adding questions
 
 ## Adding questions
 
-See [docs/question-format.md](docs/question-format.md) for the JSON schema and examples.
+See [docs/question-format.md](docs/question-format.md) for the question structure and examples.
 
-## PWA support
+## Offline use
 
-This app now includes a service worker (`sw.js`) for offline-ready asset caching and `manifest.json` for installability. Serve the app over HTTP and open it in a browser that supports service workers to register the PWA.
+The app includes a service worker so the main app files can load faster after the first visit. Question data is also cached after it has been loaded, which improves offline use on later visits.
 
 ## Disclaimer
 
-For personal review only. Not affiliated with CEM or the official NMAT. Sample questions are original and written in NMAT-style formats.
+This is a personal review tool only. It is not affiliated with CEM or the official NMAT. The sample questions are original and written in NMAT-style formats.

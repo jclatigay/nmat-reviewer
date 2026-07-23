@@ -451,12 +451,12 @@
       "choices": [
         { "id": "A", "text": "Amino acid" },
         { "id": "B", "text": "Fatty acid" },
-        { "id": "C", "text": "Glucose" },
+        { "id": "C", "text": "Monosaccharide" },
         { "id": "D", "text": "Nucleotide" }
       ],
       "correctChoiceId": "C",
-      "explanation": "Glucose is a common monosaccharide and the basic building block of many carbohydrates.",
-      "hint": "This simple sugar is often called blood sugar.",
+      "explanation": "Monosaccharides, such as glucose and fructose, are the basic building blocks of carbohydrates.",
+      "hint": "Carbohydrates are made of sugar units.",
       "tags": ["biochemistry"]
     },
     {
@@ -548,6 +548,1265 @@
       "explanation": "Plants perform photosynthesis and convert sunlight into chemical energy, making them primary producers in most ecosystems.",
       "hint": "Primary producers make their own food from inorganic sources.",
       "tags": ["ecology"]
-    }
+    },
+    {
+      "id": "bio-031",
+      "number": 31,
+      "type": "biology_application",
+      "prompt": "Which of the following best describes the role of the sodium-potassium pump in maintaining the resting membrane potential of a neuron?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "It allows passive diffusion of sodium and potassium ions down their concentration gradients." },
+        { "id": "B", "text": "It actively transports sodium out of the cell and potassium into the cell, maintaining ion gradients." },
+        { "id": "C", "text": "It generates action potentials by opening voltage-gated channels." },
+        { "id": "D", "text": "It synthesizes neurotransmitters for synaptic transmission." }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The sodium-potassium pump actively moves 3 Na⁺ ions out and 2 K⁺ ions in, maintaining the concentration gradients essential for the resting membrane potential.",
+      "hint": "This pump uses ATP to maintain ion gradients across the membrane.",
+      "tags": ["physiology", "neuroscience"]
+    },
+    {
+    "id": "bio-032",
+    "number": 32,
+    "type": "biology_application",
+    "prompt": "A student places red blood cells in a hypertonic solution. What will most likely happen to the cells?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "They will swell and burst." },
+      { "id": "B", "text": "They will lose water and shrink." },
+      { "id": "C", "text": "They will remain unchanged." },
+      { "id": "D", "text": "They will divide rapidly." }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "In a hypertonic solution, water moves out of the red blood cells by osmosis, causing them to shrink (crenate).",
+    "hint": "Hypertonic means higher solute concentration outside the cell.",
+    "tags": ["cell_biology"]
+    },
+    {
+      "id": "bio-033",
+      "number": 33,
+      "type": "biology_application",
+      "prompt": "Which blood vessel carries oxygenated blood from the lungs to the heart?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Pulmonary artery" },
+        { "id": "B", "text": "Aorta" },
+        { "id": "C", "text": "Pulmonary vein" },
+        { "id": "D", "text": "Vena cava" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The pulmonary veins carry oxygenated blood from the lungs to the left atrium of the heart.",
+      "hint": "This vessel is an exception to the usual oxygenation rule for veins.",
+      "tags": ["physiology"]
+    },
+    {
+      "id": "bio-034",
+      "number": 34,
+      "type": "biology_application",
+      "prompt": "A homozygous dominant plant (TT) is crossed with a homozygous recessive plant (tt). What is the genotype of all F1 offspring?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "TT" },
+        { "id": "B", "text": "tt" },
+        { "id": "C", "text": "Tt" },
+        { "id": "D", "text": "25% TT and 75% Tt" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "All offspring receive one T allele from the dominant parent and one t allele from the recessive parent, making them Tt.",
+      "hint": "Use a Punnett square.",
+      "tags": ["genetics"]
+    },
+    {
+      "id": "bio-035",
+      "number": 35,
+      "type": "biology_recall",
+      "prompt": "Which part of the brain is primarily responsible for maintaining balance and coordination?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Cerebrum" },
+        { "id": "B", "text": "Medulla oblongata" },
+        { "id": "C", "text": "Cerebellum" },
+        { "id": "D", "text": "Hypothalamus" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The cerebellum coordinates voluntary movements and helps maintain balance and posture.",
+      "hint": "This structure is located at the back of the brain.",
+      "tags": ["physiology", "neuroscience"]
+    },
+    {
+      "id": "bio-036",
+      "number": 36,
+      "type": "biology_application",
+      "prompt": "During exercise, a person breathes faster and deeper. Which physiological variable is most directly regulated by this response?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Blood glucose level" },
+        { "id": "B", "text": "Blood carbon dioxide level" },
+        { "id": "C", "text": "Body fat percentage" },
+        { "id": "D", "text": "Bone density" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Faster breathing removes excess carbon dioxide produced during exercise, helping maintain acid-base balance.",
+      "hint": "Think about what accumulates in the blood during intense activity.",
+      "tags": ["physiology"]
+    },
+    {
+      "id": "bio-037",
+      "number": 37,
+      "type": "biology_recall",
+      "prompt": "Which plant tissue is responsible for transporting water and minerals from the roots to the leaves?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Phloem" },
+        { "id": "B", "text": "Xylem" },
+        { "id": "C", "text": "Cambium" },
+        { "id": "D", "text": "Epidermis" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Xylem transports water and dissolved minerals upward from the roots to the rest of the plant.",
+      "hint": "This tissue mainly moves water upward.",
+      "tags": ["plant_biology"]
+    },
+    {
+      "id": "bio-038",
+      "number": 38,
+      "type": "biology_application",
+      "prompt": "If a population exceeds its carrying capacity, which outcome is most likely to occur?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Unlimited population growth" },
+        { "id": "B", "text": "Increased competition for resources" },
+        { "id": "C", "text": "Permanent abundance of food" },
+        { "id": "D", "text": "Complete elimination of predators" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "When a population exceeds carrying capacity, resources become limited, leading to increased competition.",
+      "hint": "Carrying capacity is the maximum population an environment can sustain.",
+      "tags": ["ecology"]
+    },
+    {
+      "id": "bio-039",
+      "number": 39,
+      "type": "biology_recall",
+      "prompt": "Which biomolecule serves as the primary long-term energy storage molecule in humans?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Protein" },
+        { "id": "B", "text": "Carbohydrate" },
+        { "id": "C", "text": "Lipid" },
+        { "id": "D", "text": "Nucleic acid" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Lipids, particularly triglycerides, are the main molecules used for long-term energy storage.",
+      "hint": "Think about body fat.",
+      "tags": ["biochemistry"]
+    },
+    {
+      "id": "bio-040",
+      "number": 40,
+      "type": "biology_application",
+      "prompt": "A person with type 1 diabetes has insufficient production of which hormone?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Glucagon" },
+        { "id": "B", "text": "Insulin" },
+        { "id": "C", "text": "Cortisol" },
+        { "id": "D", "text": "Thyroxine" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Type 1 diabetes results from the destruction of pancreatic beta cells, leading to little or no insulin production.",
+      "hint": "This hormone lowers blood glucose.",
+      "tags": ["physiology"]
+    },
+    {
+      "id": "bio-041",
+      "number": 41,
+      "type": "biology_application",
+      "prompt": "Which statement best explains why antibiotics are ineffective against viruses?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Viruses have thicker cell walls than bacteria." },
+        { "id": "B", "text": "Viruses do not have the bacterial structures targeted by antibiotics." },
+        { "id": "C", "text": "Viruses are larger than bacteria." },
+        { "id": "D", "text": "Viruses produce their own antibiotics." }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Antibiotics target bacterial structures such as cell walls and ribosomes, which viruses do not possess.",
+      "hint": "Viruses rely on host cells for replication.",
+      "tags": ["microbiology"]
+    },
+    {
+    "id": "bio-042",
+    "number": 42,
+    "type": "biology_recall",
+    "prompt": "Which phase of the cell cycle is characterized by DNA replication?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "G1 phase" },
+      { "id": "B", "text": "S phase" },
+      { "id": "C", "text": "G2 phase" },
+      { "id": "D", "text": "M phase" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "DNA replication occurs during the S (synthesis) phase of interphase.",
+    "hint": "S stands for synthesis.",
+    "tags": ["cell_biology"]
+  },
+  {
+    "id": "bio-043",
+    "number": 43,
+    "type": "biology_application",
+    "prompt": "Which process allows water molecules to move across a selectively permeable membrane from a region of high water concentration to low water concentration?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Diffusion" },
+      { "id": "B", "text": "Osmosis" },
+      { "id": "C", "text": "Active transport" },
+      { "id": "D", "text": "Facilitated diffusion" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Osmosis is the movement of water across a selectively permeable membrane.",
+    "hint": "Think specifically about water movement.",
+    "tags": ["cell_biology"]
+  },
+  {
+    "id": "bio-044",
+    "number": 44,
+    "type": "biology_recall",
+    "prompt": "Which organelle contains digestive enzymes that break down waste materials in the cell?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Mitochondrion" },
+      { "id": "B", "text": "Lysosome" },
+      { "id": "C", "text": "Golgi apparatus" },
+      { "id": "D", "text": "Ribosome" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Lysosomes contain hydrolytic enzymes used for intracellular digestion.",
+    "hint": "This organelle is often called the cell’s recycling center.",
+    "tags": ["cell_biology"]
+  },
+  {
+    "id": "bio-045",
+    "number": 45,
+    "type": "biology_application",
+    "prompt": "A substance moves across a membrane from an area of low concentration to high concentration using ATP. This process is called:",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Simple diffusion" },
+      { "id": "B", "text": "Facilitated diffusion" },
+      { "id": "C", "text": "Osmosis" },
+      { "id": "D", "text": "Active transport" }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Active transport requires ATP to move substances against their concentration gradient.",
+    "hint": "The key clue is the use of ATP.",
+    "tags": ["cell_biology"]
+  },
+  {
+    "id": "bio-046",
+    "number": 46,
+    "type": "biology_recall",
+    "prompt": "Which stage of mitosis involves the alignment of chromosomes at the center of the cell?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Prophase" },
+      { "id": "B", "text": "Metaphase" },
+      { "id": "C", "text": "Anaphase" },
+      { "id": "D", "text": "Telophase" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "During metaphase, chromosomes align at the metaphase plate.",
+    "hint": "Think of chromosomes lining up in the middle.",
+    "tags": ["cell_biology"]
+  },
+  {
+    "id": "bio-047",
+    "number": 47,
+    "type": "biology_application",
+    "prompt": "Which structure controls the movement of substances into and out of the cell?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Cell wall" },
+      { "id": "B", "text": "Nucleus" },
+      { "id": "C", "text": "Plasma membrane" },
+      { "id": "D", "text": "Cytoplasm" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The plasma membrane regulates the entry and exit of substances.",
+    "hint": "It is selectively permeable.",
+    "tags": ["cell_biology"]
+  },
+  {
+    "id": "bio-048",
+    "number": 48,
+    "type": "biology_recall",
+    "prompt": "What is the primary product of photosynthesis?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Glucose" },
+      { "id": "B", "text": "ATP" },
+      { "id": "C", "text": "Carbon dioxide" },
+      { "id": "D", "text": "Water" }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Photosynthesis produces glucose and oxygen from carbon dioxide and water.",
+    "hint": "It is a sugar used for energy storage.",
+    "tags": ["cell_biology"]
+  },
+  {
+    "id": "bio-049",
+    "number": 49,
+    "type": "biology_application",
+    "prompt": "During cellular respiration, which molecule is the final electron acceptor in the electron transport chain?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Carbon dioxide" },
+      { "id": "B", "text": "Glucose" },
+      { "id": "C", "text": "Oxygen" },
+      { "id": "D", "text": "ATP" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Oxygen is the final electron acceptor, forming water at the end of the electron transport chain.",
+    "hint": "It is essential for aerobic respiration.",
+    "tags": ["cell_biology"]
+  },
+  {
+    "id": "bio-050",
+    "number": 50,
+    "type": "biology_recall",
+    "prompt": "Which molecule stores genetic information in cells?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "ATP" },
+      { "id": "B", "text": "DNA" },
+      { "id": "C", "text": "RNA" },
+      { "id": "D", "text": "Protein" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "DNA contains the hereditary information of the cell.",
+    "hint": "It is found primarily in the nucleus.",
+    "tags": ["molecular_biology"]
+  },
+  {
+    "id": "bio-051",
+    "number": 51,
+    "type": "biology_application",
+    "prompt": "If a DNA strand has the sequence ATCG, what is the complementary RNA sequence during transcription?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "TAGC" },
+      { "id": "B", "text": "AUCG" },
+      { "id": "C", "text": "UAGC" },
+      { "id": "D", "text": "ATCG" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "During transcription, A pairs with U, T with A, C with G, and G with C.",
+    "hint": "RNA uses uracil instead of thymine.",
+    "tags": ["molecular_biology"]
+  },
+  {
+    "id": "bio-052",
+    "number": 52,
+    "type": "biology_recall",
+    "prompt": "Which nitrogenous base is found in RNA but not in DNA?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Adenine" },
+      { "id": "B", "text": "Cytosine" },
+      { "id": "C", "text": "Guanine" },
+      { "id": "D", "text": "Uracil" }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "RNA contains uracil instead of thymine.",
+    "hint": "It replaces thymine in RNA.",
+    "tags": ["molecular_biology"]
+  },
+  {
+    "id": "bio-053",
+    "number": 53,
+    "type": "biology_application",
+    "prompt": "A heterozygous individual has which genotype?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "AA" },
+      { "id": "B", "text": "aa" },
+      { "id": "C", "text": "Aa" },
+      { "id": "D", "text": "AABB" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "A heterozygous genotype contains two different alleles for a trait.",
+    "hint": "One dominant and one recessive allele.",
+    "tags": ["genetics"]
+  },
+  {
+    "id": "bio-054",
+    "number": 54,
+    "type": "biology_recall",
+    "prompt": "What is the probability of rolling a 3 on a fair six-sided die?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "1/2" },
+      { "id": "B", "text": "1/3" },
+      { "id": "C", "text": "1/6" },
+      { "id": "D", "text": "1/12" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "There is one favorable outcome out of six possible outcomes.",
+    "hint": "One specific result out of six.",
+    "tags": ["genetics"]
+  },
+  {
+    "id": "bio-055",
+    "number": 55,
+    "type": "biology_application",
+    "prompt": "In a monohybrid cross of Aa × Aa, what proportion of offspring is expected to have the recessive phenotype?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "1/4" },
+      { "id": "B", "text": "1/2" },
+      { "id": "C", "text": "3/4" },
+      { "id": "D", "text": "1" }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Aa × Aa produces aa offspring in 1 out of 4 cases.",
+    "hint": "Use a Punnett square.",
+    "tags": ["genetics"]
+  },
+  {
+    "id": "bio-056",
+    "number": 56,
+    "type": "biology_recall",
+    "prompt": "Which process produces gametes with half the number of chromosomes?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Mitosis" },
+      { "id": "B", "text": "Meiosis" },
+      { "id": "C", "text": "Binary fission" },
+      { "id": "D", "text": "Budding" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Meiosis reduces the chromosome number by half to produce haploid gametes.",
+    "hint": "It occurs in reproductive cells.",
+    "tags": ["genetics"]
+  },
+  {
+    "id": "bio-057",
+    "number": 57,
+    "type": "biology_application",
+    "prompt": "Which inheritance pattern is demonstrated when both alleles are fully expressed in a heterozygous individual?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Complete dominance" },
+      { "id": "B", "text": "Incomplete dominance" },
+      { "id": "C", "text": "Codominance" },
+      { "id": "D", "text": "Polygenic inheritance" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Codominance occurs when both alleles are expressed equally in the phenotype.",
+    "hint": "AB blood type is a classic example.",
+    "tags": ["genetics"]
+  },
+  {
+    "id": "bio-058",
+    "number": 58,
+    "type": "biology_recall",
+    "prompt": "Which chromosome pair determines biological sex in humans?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Chromosome 1" },
+      { "id": "B", "text": "Chromosome 21" },
+      { "id": "C", "text": "X and Y chromosomes" },
+      { "id": "D", "text": "Autosomes" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The X and Y chromosomes determine biological sex in humans.",
+    "hint": "Females are XX and males are XY.",
+    "tags": ["genetics"]
+  },
+  {
+    "id": "bio-059",
+    "number": 59,
+    "type": "biology_application",
+    "prompt": "A woman with blood type A and genotype IAi marries a man with blood type B and genotype IBi. What is the probability that their child will have blood type O?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "0%" },
+      { "id": "B", "text": "25%" },
+      { "id": "C", "text": "50%" },
+      { "id": "D", "text": "75%" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "IAi × IBi can produce ii offspring in 1 out of 4 cases.",
+    "hint": "Type O requires two i alleles.",
+    "tags": ["genetics"]
+  },
+  {
+    "id": "bio-060",
+    "number": 60,
+    "type": "biology_recall",
+    "prompt": "Which plant hormone promotes stem elongation?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Auxin" },
+      { "id": "B", "text": "Ethylene" },
+      { "id": "C", "text": "Abscisic acid" },
+      { "id": "D", "text": "Cytokinin" }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Auxin stimulates cell elongation in plant stems.",
+    "hint": "It is involved in phototropism.",
+    "tags": ["plant_biology"]
+  },
+  {
+    "id": "bio-061",
+    "number": 61,
+    "type": "biology_application",
+    "prompt": "Which tissue transports sugars from the leaves to other parts of the plant?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Xylem" },
+      { "id": "B", "text": "Phloem" },
+      { "id": "C", "text": "Cambium" },
+      { "id": "D", "text": "Epidermis" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Phloem transports sugars produced during photosynthesis.",
+    "hint": "It moves food, not water.",
+    "tags": ["plant_biology"]
+  },
+  {
+    "id": "bio-062",
+    "number": 62,
+    "type": "biology_recall",
+    "prompt": "What is the process by which plants lose water vapor through their leaves?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Respiration" },
+      { "id": "B", "text": "Transpiration" },
+      { "id": "C", "text": "Photosynthesis" },
+      { "id": "D", "text": "Germination" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Transpiration is the loss of water vapor through stomata.",
+    "hint": "It occurs mainly through the leaves.",
+    "tags": ["plant_biology"]
+  },
+  {
+    "id": "bio-063",
+    "number": 63,
+    "type": "biology_application",
+    "prompt": "A plant bends toward a light source. This response is called:",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Geotropism" },
+      { "id": "B", "text": "Phototropism" },
+      { "id": "C", "text": "Thigmotropism" },
+      { "id": "D", "text": "Hydrotropism" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Phototropism is growth in response to light.",
+    "hint": "Photo means light.",
+    "tags": ["plant_biology"]
+  },
+  {
+    "id": "bio-064",
+    "number": 64,
+    "type": "biology_recall",
+    "prompt": "Which part of the flower contains the ovules?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Anther" },
+      { "id": "B", "text": "Stigma" },
+      { "id": "C", "text": "Ovary" },
+      { "id": "D", "text": "Petal" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The ovary contains the ovules, which develop into seeds after fertilization.",
+    "hint": "It is part of the pistil.",
+    "tags": ["plant_biology"]
+  },
+  {
+    "id": "bio-065",
+    "number": 65,
+    "type": "biology_application",
+    "prompt": "Which condition is necessary for seed germination?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Sunlight only" },
+      { "id": "B", "text": "Water and suitable temperature" },
+      { "id": "C", "text": "High salinity" },
+      { "id": "D", "text": "Lack of oxygen" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Seeds require water, oxygen, and a suitable temperature to germinate.",
+    "hint": "Think of the basic needs of a growing embryo.",
+    "tags": ["plant_biology"]
+  },
+  {
+    "id": "bio-066",
+    "number": 66,
+    "type": "biology_recall",
+    "prompt": "Which chamber of the heart pumps oxygenated blood to the body?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Right atrium" },
+      { "id": "B", "text": "Right ventricle" },
+      { "id": "C", "text": "Left atrium" },
+      { "id": "D", "text": "Left ventricle" }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "The left ventricle pumps oxygenated blood into the aorta.",
+    "hint": "It has the thickest muscular wall.",
+    "tags": ["physiology"]
+  },
+  {
+    "id": "bio-067",
+    "number": 67,
+    "type": "biology_application",
+    "prompt": "Which organ is primarily responsible for gas exchange in humans?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Heart" },
+      { "id": "B", "text": "Lungs" },
+      { "id": "C", "text": "Liver" },
+      { "id": "D", "text": "Kidneys" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Gas exchange occurs in the alveoli of the lungs.",
+    "hint": "It exchanges oxygen and carbon dioxide.",
+    "tags": ["physiology"]
+  },
+  {
+    "id": "bio-068",
+    "number": 68,
+    "type": "biology_recall",
+    "prompt": "Which organ produces bile?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Pancreas" },
+      { "id": "B", "text": "Gallbladder" },
+      { "id": "C", "text": "Liver" },
+      { "id": "D", "text": "Stomach" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The liver produces bile, which aids in fat digestion.",
+    "hint": "The gallbladder stores it, but does not produce it.",
+    "tags": ["physiology"]
+  },
+  {
+    "id": "bio-069",
+    "number": 69,
+    "type": "biology_application",
+    "prompt": "Which hormone decreases blood glucose levels?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Glucagon" },
+      { "id": "B", "text": "Insulin" },
+      { "id": "C", "text": "Epinephrine" },
+      { "id": "D", "text": "Cortisol" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Insulin promotes the uptake of glucose by cells, lowering blood glucose levels.",
+    "hint": "It is produced by pancreatic beta cells.",
+    "tags": ["physiology"]
+  },
+  {
+    "id": "bio-070",
+    "number": 70,
+    "type": "biology_recall",
+    "prompt": "Which blood cells are primarily responsible for fighting infections?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Red blood cells" },
+      { "id": "B", "text": "Platelets" },
+      { "id": "C", "text": "White blood cells" },
+      { "id": "D", "text": "Plasma" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "White blood cells are part of the immune system and help fight infections.",
+    "hint": "They are also called leukocytes.",
+    "tags": ["physiology"]
+  },
+  {
+    "id": "bio-071",
+    "number": 71,
+    "type": "biology_application",
+    "prompt": "Which structure in the kidney is responsible for reabsorbing most of the filtered water and nutrients?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Glomerulus" },
+      { "id": "B", "text": "Bowman’s capsule" },
+      { "id": "C", "text": "Proximal tubule" },
+      { "id": "D", "text": "Ureter" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The proximal tubule reabsorbs most water, glucose, and nutrients from the filtrate.",
+    "hint": "It is the first tubule after filtration.",
+    "tags": ["physiology"]
+  },
+  {
+    "id": "bio-072",
+    "number": 72,
+    "type": "biology_recall",
+    "prompt": "Which vitamin is produced in the skin when exposed to sunlight?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Vitamin A" },
+      { "id": "B", "text": "Vitamin C" },
+      { "id": "C", "text": "Vitamin D" },
+      { "id": "D", "text": "Vitamin K" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Vitamin D is synthesized in the skin in response to ultraviolet light.",
+    "hint": "It is important for calcium absorption.",
+    "tags": ["physiology"]
+  },
+  {
+    "id": "bio-073",
+    "number": 73,
+    "type": "biology_application",
+    "prompt": "Which immune response involves the production of antibodies by B cells?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Cell-mediated immunity" },
+      { "id": "B", "text": "Humoral immunity" },
+      { "id": "C", "text": "Innate immunity" },
+      { "id": "D", "text": "Inflammatory response" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Humoral immunity is mediated by antibodies produced by B lymphocytes.",
+    "hint": "It involves antibodies in body fluids.",
+    "tags": ["immunology"]
+  },
+  {
+    "id": "bio-074",
+    "number": 74,
+    "type": "biology_recall",
+    "prompt": "Which stage of embryonic development forms the three germ layers?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Cleavage" },
+      { "id": "B", "text": "Blastulation" },
+      { "id": "C", "text": "Gastrulation" },
+      { "id": "D", "text": "Neurulation" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Gastrulation forms the ectoderm, mesoderm, and endoderm.",
+    "hint": "It occurs after blastulation.",
+    "tags": ["development"]
+  },
+  {
+    "id": "bio-075",
+    "number": 75,
+    "type": "biology_application",
+    "prompt": "Which germ layer gives rise to the nervous system?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Ectoderm" },
+      { "id": "B", "text": "Mesoderm" },
+      { "id": "C", "text": "Endoderm" },
+      { "id": "D", "text": "Blastoderm" }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "The ectoderm develops into the nervous system and epidermis.",
+    "hint": "It is the outermost germ layer.",
+    "tags": ["development"]
+  },
+  {
+    "id": "bio-076",
+    "number": 76,
+    "type": "biology_recall",
+    "prompt": "What is the first stage of human prenatal development after fertilization?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Embryo" },
+      { "id": "B", "text": "Fetus" },
+      { "id": "C", "text": "Zygote" },
+      { "id": "D", "text": "Blastocyst" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The zygote is the single cell formed immediately after fertilization.",
+    "hint": "It is the fertilized egg.",
+    "tags": ["development"]
+  },
+  {
+    "id": "bio-077",
+    "number": 77,
+    "type": "biology_application",
+    "prompt": "Which structure connects the developing fetus to the placenta?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Amnion" },
+      { "id": "B", "text": "Chorion" },
+      { "id": "C", "text": "Umbilical cord" },
+      { "id": "D", "text": "Yolk sac" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "The umbilical cord transports nutrients and oxygen between the fetus and placenta.",
+    "hint": "It contains blood vessels.",
+    "tags": ["development"]
+  },
+  {
+    "id": "bio-078",
+    "number": 78,
+    "type": "biology_recall",
+    "prompt": "Which hormone stimulates uterine contractions during childbirth?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Estrogen" },
+      { "id": "B", "text": "Progesterone" },
+      { "id": "C", "text": "Oxytocin" },
+      { "id": "D", "text": "Prolactin" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Oxytocin stimulates contractions of the uterine muscles during labor.",
+    "hint": "It is released by the posterior pituitary.",
+    "tags": ["development"]
+  },
+  {
+    "id": "bio-079",
+    "number": 79,
+    "type": "biology_application",
+    "prompt": "Which ecological relationship benefits one organism while harming the other?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Mutualism" },
+      { "id": "B", "text": "Commensalism" },
+      { "id": "C", "text": "Parasitism" },
+      { "id": "D", "text": "Competition" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "In parasitism, the parasite benefits while the host is harmed.",
+    "hint": "Think of ticks on a dog.",
+    "tags": ["ecology"]
+  },
+  {
+    "id": "bio-080",
+    "number": 80,
+    "type": "biology_recall",
+    "prompt": "Which trophic level consists of organisms that make their own food?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Primary consumers" },
+      { "id": "B", "text": "Secondary consumers" },
+      { "id": "C", "text": "Producers" },
+      { "id": "D", "text": "Decomposers" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Producers synthesize their own food, usually through photosynthesis.",
+    "hint": "Plants are common examples.",
+    "tags": ["ecology"]
+  },
+  {
+    "id": "bio-081",
+    "number": 81,
+    "type": "biology_application",
+    "prompt": "What is the primary source of energy for most ecosystems?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Wind" },
+      { "id": "B", "text": "Sunlight" },
+      { "id": "C", "text": "Water" },
+      { "id": "D", "text": "Soil nutrients" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Sunlight is captured by producers and converted into chemical energy.",
+    "hint": "It powers photosynthesis.",
+    "tags": ["ecology"]
+  },
+  {
+    "id": "bio-082",
+    "number": 82,
+    "type": "biology_recall",
+    "prompt": "Which biome is characterized by low rainfall and sparse vegetation?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Tropical rainforest" },
+      { "id": "B", "text": "Desert" },
+      { "id": "C", "text": "Tundra" },
+      { "id": "D", "text": "Grassland" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Deserts receive very little rainfall and have limited vegetation.",
+    "hint": "Think of arid environments.",
+    "tags": ["ecology"]
+  },
+  {
+    "id": "bio-083",
+    "number": 83,
+    "type": "biology_application",
+    "prompt": "Which process returns carbon dioxide to the atmosphere from living organisms?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Photosynthesis" },
+      { "id": "B", "text": "Cellular respiration" },
+      { "id": "C", "text": "Nitrogen fixation" },
+      { "id": "D", "text": "Transpiration" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Cellular respiration releases carbon dioxide as a byproduct.",
+    "hint": "It is the opposite of carbon fixation.",
+    "tags": ["ecology"]
+  },
+  {
+    "id": "bio-084",
+    "number": 84,
+    "type": "biology_recall",
+    "prompt": "What is the term for the gradual replacement of one community by another over time?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Evolution" },
+      { "id": "B", "text": "Succession" },
+      { "id": "C", "text": "Adaptation" },
+      { "id": "D", "text": "Migration" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Ecological succession is the gradual change in species composition over time.",
+    "hint": "It often follows a disturbance.",
+    "tags": ["ecology"]
+  },
+  {
+    "id": "bio-085",
+    "number": 85,
+    "type": "biology_application",
+    "prompt": "Which factor is density-independent in regulating population size?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Competition for food" },
+      { "id": "B", "text": "Predation" },
+      { "id": "C", "text": "Disease" },
+      { "id": "D", "text": "Flood" }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Floods affect populations regardless of their density.",
+    "hint": "It is an abiotic factor.",
+    "tags": ["ecology"]
+  },
+  {
+    "id": "bio-086",
+    "number": 86,
+    "type": "biology_recall",
+    "prompt": "Which biomolecule is composed of amino acids?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Carbohydrate" },
+      { "id": "B", "text": "Lipid" },
+      { "id": "C", "text": "Protein" },
+      { "id": "D", "text": "Nucleic acid" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Proteins are polymers made of amino acid monomers.",
+    "hint": "Enzymes are examples of this biomolecule.",
+    "tags": ["biochemistry"]
+  },
+  {
+    "id": "bio-087",
+    "number": 87,
+    "type": "biology_application",
+    "prompt": "Which enzyme breaks down starch into simpler sugars?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Lipase" },
+      { "id": "B", "text": "Protease" },
+      { "id": "C", "text": "Amylase" },
+      { "id": "D", "text": "Lactase" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "Amylase catalyzes the breakdown of starch into sugars.",
+    "hint": "It is found in saliva and pancreatic juice.",
+    "tags": ["biochemistry"]
+  },
+  {
+    "id": "bio-088",
+    "number": 88,
+    "type": "biology_recall",
+    "prompt": "Which element is most abundant in living organisms by mass?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Carbon" },
+      { "id": "B", "text": "Hydrogen" },
+      { "id": "C", "text": "Nitrogen" },
+      { "id": "D", "text": "Oxygen" }
+    ],
+    "correctChoiceId": "D",
+    "explanation": "Oxygen is the most abundant element in living organisms by mass, largely due to water.",
+    "hint": "Think about the composition of water.",
+    "tags": ["biochemistry"]
+  },
+  {
+    "id": "bio-089",
+    "number": 89,
+    "type": "biology_application",
+    "prompt": "Which type of reaction joins monomers together to form polymers by removing water?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Hydrolysis" },
+      { "id": "B", "text": "Dehydration synthesis" },
+      { "id": "C", "text": "Oxidation" },
+      { "id": "D", "text": "Reduction" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Dehydration synthesis removes water to form bonds between monomers.",
+    "hint": "It is the opposite of hydrolysis.",
+    "tags": ["biochemistry"]
+  },
+  {
+    "id": "bio-090",
+    "number": 90,
+    "type": "biology_recall",
+    "prompt": "Which organelle is responsible for synthesizing lipids?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Rough endoplasmic reticulum" },
+      { "id": "B", "text": "Smooth endoplasmic reticulum" },
+      { "id": "C", "text": "Golgi apparatus" },
+      { "id": "D", "text": "Ribosome" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "The smooth endoplasmic reticulum synthesizes lipids and detoxifies substances.",
+    "hint": "It lacks ribosomes on its surface.",
+    "tags": ["cell_biology"]
+  },
+  {
+    "id": "bio-091",
+    "number": 91,
+    "type": "biology_application",
+    "prompt": "A scientist observes that an enzyme works best at 37°C but loses activity at 80°C. What is the most likely explanation?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "The substrate was completely used up." },
+      { "id": "B", "text": "The enzyme was denatured by high temperature." },
+      { "id": "C", "text": "The reaction became endothermic." },
+      { "id": "D", "text": "The enzyme changed into a carbohydrate." }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "High temperatures can denature enzymes by altering their three-dimensional structure.",
+    "hint": "Enzymes are proteins sensitive to heat.",
+    "tags": ["biochemistry"]
+  },{
+    "id": "bio-092",
+    "number": 92,
+    "type": "biology_application",
+    "prompt": "A researcher measures the rate of photosynthesis at different light intensities. The rate increases rapidly at first, then levels off despite further increases in light intensity. Which factor is most likely limiting photosynthesis at the plateau?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Chlorophyll concentration" },
+      { "id": "B", "text": "Carbon dioxide availability" },
+      { "id": "C", "text": "Water vapor loss" },
+      { "id": "D", "text": "Oxygen concentration" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Once light is no longer limiting, another factor such as carbon dioxide concentration can become the limiting factor for photosynthesis.",
+    "hint": "Think about what plants need besides light to produce glucose.",
+    "tags": ["plant_biology", "cell_biology"]
+  },
+  {
+    "id": "bio-093",
+    "number": 93,
+    "type": "biology_application",
+    "prompt": "In a pedigree, a trait appears in every generation and affects males and females equally. Which inheritance pattern is most consistent with this observation?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Autosomal dominant" },
+      { "id": "B", "text": "Autosomal recessive" },
+      { "id": "C", "text": "X-linked recessive" },
+      { "id": "D", "text": "Y-linked" }
+    ],
+    "correctChoiceId": "A",
+    "explanation": "Autosomal dominant traits typically appear in every generation and affect males and females with equal frequency.",
+    "hint": "The key clue is that the trait does not skip generations.",
+    "tags": ["genetics"]
+  },
+  {
+    "id": "bio-094",
+    "number": 94,
+    "type": "biology_application",
+    "prompt": "A mutation changes the codon AAA to AAG. Both codons code for lysine. What type of mutation is this?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Missense mutation" },
+      { "id": "B", "text": "Nonsense mutation" },
+      { "id": "C", "text": "Silent mutation" },
+      { "id": "D", "text": "Frameshift mutation" }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "A silent mutation changes the nucleotide sequence without changing the amino acid due to the redundancy of the genetic code.",
+    "hint": "The protein sequence remains unchanged.",
+    "tags": ["molecular_biology", "genetics"]
+  },
+  {
+    "id": "bio-095",
+    "number": 95,
+    "type": "biology_application",
+    "prompt": "A patient has low blood calcium levels. Which hormone would most likely be secreted in increased amounts to restore calcium homeostasis?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Calcitonin" },
+      { "id": "B", "text": "Parathyroid hormone" },
+      { "id": "C", "text": "Insulin" },
+      { "id": "D", "text": "Aldosterone" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Parathyroid hormone increases blood calcium levels by stimulating calcium release from bones, increasing intestinal absorption, and reducing renal excretion.",
+    "hint": "This hormone acts opposite to calcitonin.",
+    "tags": ["physiology"]
+  },
+  {
+    "id": "bio-096",
+    "number": 96,
+    "type": "biology_application",
+    "prompt": "A scientist places a plant in complete darkness for several days. Which change is most likely to occur?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Photosynthesis will increase." },
+      { "id": "B", "text": "The plant will consume stored glucose through cellular respiration." },
+      { "id": "C", "text": "Chlorophyll production will stop immediately and permanently." },
+      { "id": "D", "text": "The plant will produce more oxygen than carbon dioxide." }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Without light, photosynthesis cannot occur, so the plant must rely on stored glucose for cellular respiration.",
+    "hint": "Plants still need energy even when they cannot photosynthesize.",
+    "tags": ["plant_biology", "cell_biology"]
+  },
+  {
+    "id": "bio-097",
+    "number": 97,
+    "type": "biology_application",
+    "prompt": "During intense exercise, muscle cells may switch from aerobic respiration to anaerobic respiration. What is the immediate consequence of this switch?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "ATP production stops completely." },
+      { "id": "B", "text": "Lactic acid accumulates in the muscles." },
+      { "id": "C", "text": "Oxygen consumption increases dramatically." },
+      { "id": "D", "text": "Glucose is no longer used as an energy source." }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Anaerobic respiration in muscle cells produces lactic acid when oxygen supply is insufficient.",
+    "hint": "Think about what causes muscle fatigue during strenuous activity.",
+    "tags": ["physiology", "biochemistry"]
+  },
+  {
+    "id": "bio-098",
+    "number": 98,
+    "type": "biology_application",
+    "prompt": "A bacterial population is exposed to an antibiotic. Most bacteria die, but a few survive and reproduce. Over time, the population becomes resistant to the antibiotic. Which evolutionary mechanism best explains this change?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Genetic drift" },
+      { "id": "B", "text": "Natural selection" },
+      { "id": "C", "text": "Artificial selection" },
+      { "id": "D", "text": "Mutation only" }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Natural selection favors bacteria with antibiotic-resistant traits, allowing them to survive and reproduce.",
+    "hint": "The environment is selecting for a beneficial trait.",
+    "tags": ["evolution", "microbiology"]
+  },
+  {
+    "id": "bio-099",
+    "number": 99,
+    "type": "biology_application",
+    "prompt": "In an ecosystem, the biomass of primary consumers is usually smaller than the biomass of producers because:",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "Producers reproduce more slowly than consumers." },
+      { "id": "B", "text": "Only a fraction of energy is transferred between trophic levels." },
+      { "id": "C", "text": "Consumers have no access to producer biomass." },
+      { "id": "D", "text": "Producers do not contain stored energy." }
+    ],
+    "correctChoiceId": "B",
+    "explanation": "Approximately 10% of energy is transferred from one trophic level to the next, resulting in less biomass at higher levels.",
+    "hint": "Think about the energy pyramid.",
+    "tags": ["ecology"]
+  },
+  {
+    "id": "bio-100",
+    "number": 100,
+    "type": "biology_application",
+    "prompt": "A scientist measures enzyme activity at increasing substrate concentrations while keeping enzyme concentration constant. The reaction rate increases rapidly at first, then reaches a maximum and no longer increases. Why does the rate level off?",
+    "passage": null,
+    "image": null,
+    "choices": [
+      { "id": "A", "text": "The substrate is no longer available." },
+      { "id": "B", "text": "The enzyme becomes denatured immediately." },
+      { "id": "C", "text": "All enzyme active sites are occupied by substrate." },
+      { "id": "D", "text": "The reaction has reached equilibrium." }
+    ],
+    "correctChoiceId": "C",
+    "explanation": "At high substrate concentrations, the enzyme becomes saturated because all active sites are occupied, so the reaction rate reaches its maximum.",
+    "hint": "This is called enzyme saturation.",
+    "tags": ["biochemistry"]
+  }
   ]
 }
