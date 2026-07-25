@@ -256,8 +256,8 @@
         { "id": "C", "text": "₱120" },
         { "id": "D", "text": "₱130" }
       ],
-      "correctChoiceId": "D",
-      "explanation": "Total fare = ₱50 + (₱10 × 7) = ₱120. Wait, correct fare is ₱120, so correctChoiceId should be C.",
+      "correctChoiceId": "C",
+      "explanation": "Total fare = ₱50 + (₱10 × 7) = ₱120.",
       "hint": "Add the base fare to the distance charge.",
       "tags": ["problem_solving"]
     },
@@ -274,8 +274,8 @@
         { "id": "C", "text": "10 cups" },
         { "id": "D", "text": "12 cups" }
       ],
-      "correctChoiceId": "D",
-      "explanation": "For every 2 parts sugar, use 5 parts flour. If sugar is 4 cups (double 2), flour is 10 cups, not 12, so correctChoiceId should be C.",
+      "correctChoiceId": "C",
+      "explanation": "For every 2 parts sugar, use 5 parts flour. If sugar is 4 cups (double 2), flour is 10 cups.",
       "hint": "Scale the ratio proportionally.",
       "tags": ["ratio"]
     },
@@ -292,8 +292,8 @@
         { "id": "C", "text": "20" },
         { "id": "D", "text": "22" }
       ],
-      "correctChoiceId": "B",
-      "explanation": "Sum = 80, divide by 5 values gives mean = 16. Wait, 10+12+14+18+26 = 80, 80/5 = 16, so correctChoiceId should be A.",
+      "correctChoiceId": "A",
+      "explanation": "Sum = 80, divide by 5 values gives mean = 16",
       "hint": "Add the numbers and divide by how many there are.",
       "tags": ["data_interpretation"]
     },
@@ -346,8 +346,8 @@
         { "id": "C", "text": "40 L" },
         { "id": "D", "text": "45 L" }
       ],
-      "correctChoiceId": "C",
-      "explanation": "3/4 full means 90 L are present, so 30 L are needed to fill the 120 L tank. Wait correct answer is 30 L, so correctChoiceId should be B.",
+      "correctChoiceId": "B",
+      "explanation": "3/4 full means 90 L are present, so 30 L are needed to fill the 120 L tank.",
       "hint": "Compute the current volume and subtract from total capacity.",
       "tags": ["problem_solving"]
     },
@@ -400,8 +400,8 @@
         { "id": "C", "text": "8" },
         { "id": "D", "text": "9" }
       ],
-      "correctChoiceId": "C",
-      "explanation": "4x = 28, so x = 7. Wait correction indicates x = 7, so correctChoiceId should be B.",
+      "correctChoiceId": "B",
+      "explanation": "4x = 28, so x = 7.",
       "hint": "Add 7 to both sides then divide by 4.",
       "tags": ["computation"]
     },
@@ -454,8 +454,8 @@
         { "id": "C", "text": "10 km" },
         { "id": "D", "text": "20 km" }
       ],
-      "correctChoiceId": "C",
-      "explanation": "4 cm on the map represents 4 × 50,000 cm = 200,000 cm = 2,000 m = 2 km, wait correction shows 2 km, so correctChoiceId should be A.",
+      "correctChoiceId": "A",
+      "explanation": "4 cm on the map represents 4 × 50,000 cm = 200,000 cm = 2,000 m = 2 km.",
       "hint": "Convert centimeters to kilometers carefully.",
       "tags": ["ratio"]
     },
@@ -544,10 +544,901 @@
         { "id": "C", "text": "16" },
         { "id": "D", "text": "18" }
       ],
-      "correctChoiceId": "A",
-      "explanation": "Total ratio parts = 3 + 5 = 8. Each part equals 5 animals, so cats = 3 × 5 = 15. Wait correct answer is 15, so correctChoiceId should be B.",
+      "correctChoiceId": "B",
+      "explanation": "Total ratio parts = 3 + 5 = 8. Each part equals 5 animals, so cats = 3 × 5 = 15.",
       "hint": "Divide the total by the sum of ratio parts.",
       "tags": ["ratio"]
+    },
+    {
+      "id": "quant-031",
+      "number": 31,
+      "type": "problem_solving",
+      "prompt": "A bookstore offers a 20% discount on a book with a marked price of ₱850. During checkout, an additional 10% discount is applied to the discounted price. What is the final price?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "₱595" },
+        { "id": "B", "text": "₱612" },
+        { "id": "C", "text": "₱630" },
+        { "id": "D", "text": "₱680" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "After the first discount: 850 × 0.80 = 680. Apply another 10% discount: 680 × 0.90 = ₱612.",
+      "hint": "Apply the discounts one after another, not by adding the percentages.",
+      "tags": ["problem_solving","discount","multi_step","level2"]
+    },
+    {
+      "id": "quant-032",
+      "number": 32,
+      "type": "problem_solving",
+      "prompt": "A pipe can fill a tank in 6 hours while another pipe can fill the same tank in 3 hours. If both pipes are opened together, how long will it take to fill the tank?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "1.5 hours" },
+        { "id": "B", "text": "2 hours" },
+        { "id": "C", "text": "2.5 hours" },
+        { "id": "D", "text": "3 hours" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Combined rate = 1/6 + 1/3 = 1/2 tank per hour. Therefore, the tank fills in 2 hours.",
+      "hint": "Add the filling rates, not the times.",
+      "tags": ["time_and_work","problem_solving","level2"]
+    },
+    {
+      "id": "quant-033",
+      "number": 33,
+      "type": "algebra",
+      "prompt": "If 3(x − 2) + 5 = 2x + 9, what is the value of x?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "8" },
+        { "id": "B", "text": "9" },
+        { "id": "C", "text": "10" },
+        { "id": "D", "text": "11" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Expand: 3x − 6 + 5 = 2x + 9. Thus 3x − 1 = 2x + 9, so x = 10.",
+      "hint": "Expand the parentheses before collecting like terms.",
+      "tags": ["algebra","equations","level2"]
+    },
+    {
+      "id": "quant-034",
+      "number": 34,
+      "type": "data_interpretation",
+      "prompt": "Based on the table, what was the average monthly sales during the first quarter?",
+      "passage": "<table style='width:100%;border-collapse:collapse;margin-top:0.5rem;'><tr><th style='border:1px solid #ccc;padding:6px;'>Month</th><th style='border:1px solid #ccc;padding:6px;'>Sales</th></tr><tr><td style='border:1px solid #ccc;padding:6px;'>January</td><td style='border:1px solid #ccc;padding:6px;'>240</td></tr><tr><td style='border:1px solid #ccc;padding:6px;'>February</td><td style='border:1px solid #ccc;padding:6px;'>300</td></tr><tr><td style='border:1px solid #ccc;padding:6px;'>March</td><td style='border:1px solid #ccc;padding:6px;'>360</td></tr></table>",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "280" },
+        { "id": "B", "text": "290" },
+        { "id": "C", "text": "300" },
+        { "id": "D", "text": "320" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Average = (240 + 300 + 360) ÷ 3 = 300.",
+      "hint": "Find the total before dividing by the number of months.",
+      "tags": ["data_interpretation","table","average","level2"]
+    },
+    {
+      "id": "quant-035",
+      "number": 35,
+      "type": "geometry",
+      "prompt": "A rectangle has a perimeter of 46 cm. If its length is 15 cm, what is its area?",
+      "passage": null,
+      "image": "assets/images/quant-035-rectangle.svg",
+      "choices": [
+        { "id": "A", "text": "90 cm²" },
+        { "id": "B", "text": "105 cm²" },
+        { "id": "C", "text": "120 cm²" },
+        { "id": "D", "text": "150 cm²" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "2(L + W) = 46, so L + W = 23. Since L = 15, W = 8. Area = 15 × 8 = 120 cm².",
+      "hint": "Use the perimeter to determine the width first.",
+      "tags": ["geometry","rectangle","problem_solving","level2"]
+    },
+    {
+      "id": "quant-036",
+      "number": 36,
+      "type": "data_interpretation",
+      "prompt": "Based on the bar graph, what is the difference between the highest and lowest monthly sales?",
+      "passage": null,
+      "image": "assets/images/quant-036-bar-graph.svg",
+      "choices": [
+        { "id": "A", "text": "40" },
+        { "id": "B", "text": "50" },
+        { "id": "C", "text": "60" },
+        { "id": "D", "text": "70" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The highest sales are 180 and the lowest are 120. Difference = 180 − 120 = 60.",
+      "hint": "Locate the tallest and shortest bars first.",
+      "tags": ["data_interpretation","bar_graph","level2"]
+    },
+    {
+      "id": "quant-037",
+      "number": 37,
+      "type": "problem_solving",
+      "prompt": "A car travels 180 km in 3 hours. If it continues at the same speed, how far will it travel in 5 hours?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "240 km" },
+        { "id": "B", "text": "270 km" },
+        { "id": "C", "text": "300 km" },
+        { "id": "D", "text": "360 km" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Speed = 180 ÷ 3 = 60 km/h. Distance in 5 hours = 60 × 5 = 300 km.",
+      "hint": "Find the speed before computing the distance.",
+      "tags": ["speed","distance","problem_solving","level2"]
+    },
+    {
+      "id": "quant-038",
+      "number": 38,
+      "type": "probability",
+      "prompt": "A box contains 4 white balls and 6 black balls. Two balls are drawn without replacement. What is the probability that both are white?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "2/15" },
+        { "id": "B", "text": "1/5" },
+        { "id": "C", "text": "4/25" },
+        { "id": "D", "text": "3/20" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "(4/10) × (3/9) = 12/90 = 2/15.",
+      "hint": "The second probability changes because the first ball is not replaced.",
+      "tags": ["probability","without_replacement","level2"]
+    },
+    {
+      "id": "quant-039",
+      "number": 39,
+      "type": "problem_solving",
+      "prompt": "A laptop costing ₱40,000 is sold at a 15% profit. What is the selling price?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "₱44,000" },
+        { "id": "B", "text": "₱45,000" },
+        { "id": "C", "text": "₱46,000" },
+        { "id": "D", "text": "₱47,000" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "15% of ₱40,000 is ₱6,000. Selling price = ₱46,000.",
+      "hint": "Find the profit amount before adding it to the cost.",
+      "tags": ["profit","percent","level2"]
+    },
+    {
+      "id": "quant-040",
+      "number": 40,
+      "type": "data_interpretation",
+      "prompt": "The pie chart shows the monthly expenses of a student. If the monthly budget is ₱20,000, how much is spent on Food?",
+      "passage": null,
+      "image": "assets/images/quant-040-pie-chart.svg",
+      "choices": [
+        { "id": "A", "text": "₱5,000" },
+        { "id": "B", "text": "₱6,000" },
+        { "id": "C", "text": "₱7,000" },
+        { "id": "D", "text": "₱8,000" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Food represents 30% of the budget. 30% of ₱20,000 = ₱6,000.",
+      "hint": "Convert the percentage into a decimal before multiplying.",
+      "tags": ["data_interpretation","pie_chart","percent","level2"]
+    },
+    {
+      "id": "quant-041",
+      "number": 41,
+      "type": "problem_solving",
+      "prompt": "A jacket originally costs ₱2,400. During a sale, the store offers a 15% discount followed by an additional 10% discount on the discounted price. What is the final selling price?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "₱1,800" },
+        { "id": "B", "text": "₱1,836" },
+        { "id": "C", "text": "₱1,860" },
+        { "id": "D", "text": "₱1,920" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "After the first discount: ₱2,400 × 0.85 = ₱2,040. After the second discount: ₱2,040 × 0.90 = ₱1,836.",
+      "hint": "Apply the discounts one after another rather than adding the percentages.",
+      "tags": ["problem_solving","discount","percent","level2"]
+    },
+    {
+      "id": "quant-042",
+      "number": 42,
+      "type": "data_interpretation",
+      "prompt": "The bar graph shows the number of books sold by a bookstore during four months. How many more books were sold in March than in January?",
+      "passage": null,
+      "image": "assets/images/quant-042-bar-chart.svg",
+      "choices": [
+        { "id": "A", "text": "40" },
+        { "id": "B", "text": "50" },
+        { "id": "C", "text": "60" },
+        { "id": "D", "text": "70" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "March = 180 books and January = 120 books. Difference = 180 − 120 = 60 books.",
+      "hint": "Read the values from the graph before subtracting.",
+      "tags": ["data_interpretation","bar_graph","difference","level2"]
+    },
+    {
+      "id": "quant-043",
+      "number": 43,
+      "type": "algebra",
+      "prompt": "If 4x + 7 = 3x + 18, what is the value of x?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "9" },
+        { "id": "B", "text": "10" },
+        { "id": "C", "text": "11" },
+        { "id": "D", "text": "12" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Subtract 3x from both sides: x + 7 = 18. Therefore, x = 11.",
+      "hint": "Collect the variable terms on one side first.",
+      "tags": ["algebra","linear_equation","level2"]
+    },
+    {
+      "id": "quant-044",
+      "number": 44,
+      "type": "geometry",
+      "prompt": "In the figure, triangle ABC is right-angled at B. If AB = 6 cm and BC = 8 cm, what is the length of AC?",
+      "passage": null,
+      "image": "assets/images/quant-044-triangle.svg",
+      "choices": [
+        { "id": "A", "text": "9 cm" },
+        { "id": "B", "text": "10 cm" },
+        { "id": "C", "text": "11 cm" },
+        { "id": "D", "text": "12 cm" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Using the Pythagorean Theorem: AC² = 6² + 8² = 36 + 64 = 100. Therefore, AC = 10 cm.",
+      "hint": "For a right triangle, use a² + b² = c².",
+      "tags": ["geometry","right_triangle","pythagorean","level2"]
+    },
+    {
+      "id": "quant-045",
+      "number": 45,
+      "type": "probability",
+      "prompt": "A bag contains 5 red marbles, 3 blue marbles, and 2 green marbles. If one marble is selected at random, what is the probability of choosing a blue marble?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "3/10" },
+        { "id": "B", "text": "1/5" },
+        { "id": "C", "text": "2/5" },
+        { "id": "D", "text": "1/3" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "There are 10 marbles in total, of which 3 are blue. Probability = 3/10.",
+      "hint": "Probability = favorable outcomes ÷ total outcomes.",
+      "tags": ["probability","basic_probability","level2"]
+    },
+    {
+      "id": "quant-046",
+      "number": 46,
+      "type": "data_interpretation",
+      "prompt": "The line graph shows the number of patients admitted to a clinic during five consecutive days. On which day was the greatest increase in admissions observed compared with the previous day?",
+      "passage": null,
+      "image": "assets/images/quant-046-line-graph.svg",
+      "choices": [
+        { "id": "A", "text": "Tuesday" },
+        { "id": "B", "text": "Wednesday" },
+        { "id": "C", "text": "Thursday" },
+        { "id": "D", "text": "Friday" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Admissions increased by 15 patients from Wednesday to Thursday, which is the largest increase.",
+      "hint": "Compare the increase between consecutive days rather than the total values.",
+      "tags": ["data_interpretation","line_graph","trend","level2"]
+    },
+    {
+      "id": "quant-047",
+      "number": 47,
+      "type": "problem_solving",
+      "prompt": "A water tank is 3/5 full. After adding 240 liters, the tank becomes completely full. What is the tank's total capacity?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "500 L" },
+        { "id": "B", "text": "550 L" },
+        { "id": "C", "text": "600 L" },
+        { "id": "D", "text": "650 L" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The remaining 2/5 of the tank equals 240 L. Therefore, the full capacity is 240 × 5 ÷ 2 = 600 L.",
+      "hint": "Determine what fraction of the tank the 240 liters represents.",
+      "tags": ["fractions","problem_solving","level2"]
+    },
+    {
+      "id": "quant-048",
+      "number": 48,
+      "type": "statistics",
+      "prompt": "The scores of five students are 72, 81, 90, 84, and 73. What is the median score?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "78" },
+        { "id": "B", "text": "81" },
+        { "id": "C", "text": "84" },
+        { "id": "D", "text": "90" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Arrange the scores: 72, 73, 81, 84, 90. The middle value is 81.",
+      "hint": "Sort the numbers before finding the median.",
+      "tags": ["statistics","median","level2"]
+    },
+    {
+      "id": "quant-049",
+      "number": 49,
+      "type": "geometry",
+      "prompt": "A circle has a radius of 7 cm. What is its circumference? (Use π = 22/7.)",
+      "passage": null,
+      "image": "assets/images/quant-049-circle.svg",
+      "choices": [
+        { "id": "A", "text": "22 cm" },
+        { "id": "B", "text": "44 cm" },
+        { "id": "C", "text": "49 cm" },
+        { "id": "D", "text": "154 cm" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Circumference = 2πr = 2 × (22/7) × 7 = 44 cm.",
+      "hint": "Use C = 2πr.",
+      "tags": ["geometry","circle","circumference","level2"]
+    },
+    {
+      "id": "quant-050",
+      "number": 50,
+      "type": "data_interpretation",
+      "prompt": "The table shows the number of science books borrowed from a library during one week. What was the average number of books borrowed per day?",
+      "passage": "<table style='width:100%;max-width:320px;margin:0 auto;border-collapse:collapse;font-family:Arial,sans-serif;font-size:14px;text-align:center;'><thead><tr style='background:#f1f5f9;'><th style='border:1px solid #cbd5e1;padding:8px;'>Day</th><th style='border:1px solid #cbd5e1;padding:8px;'>Books</th></tr></thead><tbody><tr><td style='border:1px solid #cbd5e1;padding:8px;'>Mon</td><td style='border:1px solid #cbd5e1;padding:8px;'>18</td></tr><tr><td style='border:1px solid #cbd5e1;padding:8px;'>Tue</td><td style='border:1px solid #cbd5e1;padding:8px;'>22</td></tr><tr><td style='border:1px solid #cbd5e1;padding:8px;'>Wed</td><td style='border:1px solid #cbd5e1;padding:8px;'>16</td></tr><tr><td style='border:1px solid #cbd5e1;padding:8px;'>Thu</td><td style='border:1px solid #cbd5e1;padding:8px;'>24</td></tr><tr><td style='border:1px solid #cbd5e1;padding:8px;'>Fri</td><td style='border:1px solid #cbd5e1;padding:8px;'>20</td></tr></tbody></table>",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "18" },
+        { "id": "B", "text": "19" },
+        { "id": "C", "text": "20" },
+        { "id": "D", "text": "21" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Total books = 18 + 22 + 16 + 24 + 20 = 100. Average = 100 ÷ 5 = 20.",
+      "hint": "Add all the values first before dividing.",
+      "tags": ["data_interpretation","table","average","level2"]
+    },
+    {
+      "id": "quant-051",
+      "number": 51,
+      "type": "fundamental_operations",
+      "prompt": "Compute: 8,457 + 23,984 − 9,768 − 6,425 =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "16,248" },
+        { "id": "B", "text": "16,258" },
+        { "id": "C", "text": "16,238" },
+        { "id": "D", "text": "15,248" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "8,457 + 23,984 = 32,441. 32,441 − 9,768 = 22,673. 22,673 − 6,425 = 16,248.",
+      "hint": "Perform the operations from left to right.",
+      "tags": ["fundamental_operations","addition","subtraction","level2"]
+    },
+    {
+      "id": "quant-052",
+      "number": 52,
+      "type": "fundamental_operations",
+      "prompt": "Evaluate: (18 × 24) ÷ 9 =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "42" },
+        { "id": "B", "text": "48" },
+        { "id": "C", "text": "54" },
+        { "id": "D", "text": "56" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "18 × 24 = 432. 432 ÷ 9 = 48.",
+      "hint": "Multiply before dividing.",
+      "tags": ["fundamental_operations","multiplication","division","level2"]
+    },
+    {
+      "id": "quant-053",
+      "number": 53,
+      "type": "fundamental_operations",
+      "prompt": "Simplify: (3² × 3⁵) ÷ 3⁴ =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "3²" },
+        { "id": "B", "text": "3³" },
+        { "id": "C", "text": "3⁴" },
+        { "id": "D", "text": "3⁵" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Add exponents when multiplying and subtract when dividing: 2 + 5 − 4 = 3.",
+      "hint": "Use the laws of exponents.",
+      "tags": ["fundamental_operations","exponents","level2"]
+    },
+    {
+      "id": "quant-054",
+      "number": 54,
+      "type": "fundamental_operations",
+      "prompt": "Evaluate: 7/12 + 5/18 =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "31/36" },
+        { "id": "B", "text": "29/36" },
+        { "id": "C", "text": "13/18" },
+        { "id": "D", "text": "7/9" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "LCD = 36. 7/12 = 21/36 and 5/18 = 10/36. Sum = 31/36.",
+      "hint": "Find the least common denominator.",
+      "tags": ["fundamental_operations","fractions","level2"]
+    },
+    {
+      "id": "quant-055",
+      "number": 55,
+      "type": "fundamental_operations",
+      "prompt": "Compute: 15.84 + 9.725 − 6.48 =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "18.985" },
+        { "id": "B", "text": "19.085" },
+        { "id": "C", "text": "19.185" },
+        { "id": "D", "text": "18.885" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "15.84 + 9.725 = 25.565. 25.565 − 6.48 = 19.085.",
+      "hint": "Align the decimal places.",
+      "tags": ["fundamental_operations","decimals","level2"]
+    },
+    {
+      "id": "quant-056",
+      "number": 56,
+      "type": "fundamental_operations",
+      "prompt": "Evaluate: 4[15 − (8 − 5)] + 7 =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "51" },
+        { "id": "B", "text": "55" },
+        { "id": "C", "text": "59" },
+        { "id": "D", "text": "63" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "(8 − 5) = 3. 15 − 3 = 12. 4 × 12 = 48. 48 + 7 = 55.",
+      "hint": "Work from the innermost parentheses outward.",
+      "tags": ["fundamental_operations","pemdas","level2"]
+    },
+    {
+      "id": "quant-057",
+      "number": 57,
+      "type": "fundamental_operations",
+      "prompt": "Simplify: √147 ÷ √3 =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "√49" },
+        { "id": "B", "text": "7" },
+        { "id": "C", "text": "14" },
+        { "id": "D", "text": "21" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "√147 ÷ √3 = √(147/3) = √49 = 7.",
+      "hint": "Combine the radicals before simplifying.",
+      "tags": ["fundamental_operations","radicals","level2"]
+    },
+    {
+      "id": "quant-058",
+      "number": 58,
+      "type": "fundamental_operations",
+      "prompt": "Expand: (x + 5)(x − 2)",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "x² + 3x − 10" },
+        { "id": "B", "text": "x² − 3x − 10" },
+        { "id": "C", "text": "x² + 7x − 10" },
+        { "id": "D", "text": "x² − 7x + 10" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "FOIL: x² − 2x + 5x − 10 = x² + 3x − 10.",
+      "hint": "Multiply every term in the first binomial by every term in the second.",
+      "tags": ["fundamental_operations","polynomials","level2"]
+    },
+    {
+      "id": "quant-059",
+      "number": 59,
+      "type": "fundamental_operations",
+      "prompt": "Simplify: (6x³y²)(2xy³)",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "8x⁴y⁵" },
+        { "id": "B", "text": "12x⁴y⁵" },
+        { "id": "C", "text": "12x⁵y⁶" },
+        { "id": "D", "text": "8x⁵y⁶" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Multiply coefficients: 6 × 2 = 12. Add exponents: x³·x = x⁴ and y²·y³ = y⁵.",
+      "hint": "Multiply coefficients and add exponents of like bases.",
+      "tags": ["fundamental_operations","monomials","level2"]
+    },
+    {
+      "id": "quant-060",
+      "number": 60,
+      "type": "fundamental_operations",
+      "prompt": "Evaluate: (2³ + 5²) ÷ (9 − 2) =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "4" },
+        { "id": "B", "text": "33/7" },
+        { "id": "C", "text": "5" },
+        { "id": "D", "text": "7" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "2³ = 8 and 5² = 25. Numerator = 33. Denominator = 7. Result = 33/7.",
+      "hint": "Evaluate exponents before addition and division.",
+      "tags": ["fundamental_operations","order_of_operations","level2"]
+    },
+    {
+      "id": "quant-061",
+      "number": 61,
+      "type": "fundamental_operations",
+      "prompt": "Compute: 42,856 − 18,974 + 6,395 =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "30,277" },
+        { "id": "B", "text": "30,287" },
+        { "id": "C", "text": "29,277" },
+        { "id": "D", "text": "31,287" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "42,856 − 18,974 = 23,882. Then 23,882 + 6,395 = 30,277.",
+      "hint": "Work from left to right.",
+      "tags": ["fundamental_operations","addition","subtraction","level2"]
+    },
+    {
+      "id": "quant-062",
+      "number": 62,
+      "type": "fundamental_operations",
+      "prompt": "Evaluate: (36 × 15) ÷ 12 =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "40" },
+        { "id": "B", "text": "42" },
+        { "id": "C", "text": "45" },
+        { "id": "D", "text": "48" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "36 × 15 = 540. Then 540 ÷ 12 = 45.",
+      "hint": "Multiply first, then divide.",
+      "tags": ["fundamental_operations","multiplication","division","level2"]
+    },
+    {
+      "id": "quant-063",
+      "number": 63,
+      "type": "fundamental_operations",
+      "prompt": "Simplify: (5⁴ × 5²) ÷ 5³ =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "5²" },
+        { "id": "B", "text": "5³" },
+        { "id": "C", "text": "5⁴" },
+        { "id": "D", "text": "5⁵" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Add exponents when multiplying and subtract when dividing: 4 + 2 − 3 = 3.",
+      "hint": "Use exponent laws.",
+      "tags": ["fundamental_operations","exponents","level2"]
+    },
+    {
+      "id": "quant-064",
+      "number": 64,
+      "type": "fundamental_operations",
+      "prompt": "Compute: 5/9 + 7/18 =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "17/18" },
+        { "id": "B", "text": "5/6" },
+        { "id": "C", "text": "19/18" },
+        { "id": "D", "text": "11/18" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "5/9 = 10/18. 10/18 + 7/18 = 17/18.",
+      "hint": "Find the common denominator.",
+      "tags": ["fundamental_operations","fractions","level2"]
+    },
+    {
+      "id": "quant-065",
+      "number": 65,
+      "type": "fundamental_operations",
+      "prompt": "Evaluate: 18.64 − 7.985 + 2.35 =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "12.905" },
+        { "id": "B", "text": "12.995" },
+        { "id": "C", "text": "13.005" },
+        { "id": "D", "text": "12.915" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "18.64 − 7.985 = 10.655. Then 10.655 + 2.35 = 13.005.",
+      "hint": "Align decimal places.",
+      "tags": ["fundamental_operations","decimals","level2"]
+    },
+    {
+      "id": "quant-066",
+      "number": 66,
+      "type": "fundamental_operations",
+      "prompt": "Evaluate: 6[10 − (9 − 4)] + 8 =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "32" },
+        { "id": "B", "text": "36" },
+        { "id": "C", "text": "38" },
+        { "id": "D", "text": "40" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "(9 − 4) = 5. Then 10 − 5 = 5. 6 × 5 = 30. Finally 30 + 8 = 38.",
+      "hint": "Evaluate the innermost parentheses first.",
+      "tags": ["fundamental_operations","pemdas","level2"]
+    },
+    {
+      "id": "quant-067",
+      "number": 67,
+      "type": "fundamental_operations",
+      "prompt": "Simplify: √192 ÷ √3 =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "6" },
+        { "id": "B", "text": "8" },
+        { "id": "C", "text": "√64" },
+        { "id": "D", "text": "16"
+        }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "√192 ÷ √3 = √(192/3) = √64 = 8.",
+      "hint": "Combine the radicals first.",
+      "tags": ["fundamental_operations","radicals","level2"]
+    },
+    {
+      "id": "quant-068",
+      "number": 68,
+      "type": "fundamental_operations",
+      "prompt": "Expand: (2x + 3)(x − 4)",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "2x² − 5x − 12" },
+        { "id": "B", "text": "2x² + 5x − 12" },
+        { "id": "C", "text": "2x² − 8x + 3" },
+        { "id": "D", "text": "2x² − 11x + 12" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "FOIL: 2x² − 8x + 3x − 12 = 2x² − 5x − 12.",
+      "hint": "Multiply every term by every term.",
+      "tags": ["fundamental_operations","polynomials","level2"]
+    },
+    {
+      "id": "quant-069",
+      "number": 69,
+      "type": "fundamental_operations",
+      "prompt": "Simplify: (8a²b³)(3ab²)",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "24a³b⁵" },
+        { "id": "B", "text": "11a³b⁵" },
+        { "id": "C", "text": "24a²b⁶" },
+        { "id": "D", "text": "24a⁵b³" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "Multiply coefficients: 8 × 3 = 24. Add exponents of like variables: a²·a = a³ and b³·b² = b⁵.",
+      "hint": "Multiply coefficients and add exponents.",
+      "tags": ["fundamental_operations","monomials","level2"]
+    },
+    {
+      "id": "quant-070",
+      "number": 70,
+      "type": "fundamental_operations",
+      "prompt": "Evaluate: (4³ − 3²) ÷ (8 − 1) =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "7" },
+        { "id": "B", "text": "55/7" },
+        { "id": "C", "text": "8" },
+        { "id": "D", "text": "9" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "4³ = 64 and 3² = 9. Numerator = 55. Denominator = 7. Result = 55/7.",
+      "hint": "Evaluate exponents before subtraction and division.",
+      "tags": ["fundamental_operations","order_of_operations","level2"]
+    },
+    {
+      "id": "quant-071",
+      "number": 71,
+      "type": "fundamental_operations",
+      "prompt": "Evaluate: [(48 × 15) − 180] ÷ 12 =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "42" },
+        { "id": "B", "text": "44" },
+        { "id": "C", "text": "45" },
+        { "id": "D", "text": "46" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "48 × 15 = 720. 720 − 180 = 540. 540 ÷ 12 = 45.",
+      "hint": "Complete the multiplication first."
+    },
+    {
+      "id": "quant-072",
+      "number": 72,
+      "type": "fundamental_operations",
+      "prompt": "Compute: 3/4 + 5/6 − 7/12 =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "11/12" },
+        { "id": "C", "text": "5/4" },
+        { "id": "D", "text": "13/12" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "Common denominator is 12: 9/12 + 10/12 − 7/12 = 12/12 = 1.",
+      "hint": "Rewrite all fractions with denominator 12."
+    },
+    {
+      "id": "quant-073",
+      "number": 73,
+      "type": "fundamental_operations",
+      "prompt": "Simplify: (2⁵ × 4²) ÷ 2⁶ =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "4" },
+        { "id": "C", "text": "8" },
+        { "id": "D", "text": "16" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "4² = 2⁴, so 2⁵ × 2⁴ = 2⁹. Then 2⁹ ÷ 2⁶ = 2³ = 8.",
+      "hint": "Rewrite everything with the same base."
+    },
+    {
+      "id": "quant-074",
+      "number": 74,
+      "type": "fundamental_operations",
+      "prompt": "Evaluate: √432 ÷ √3 =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "10" },
+        { "id": "B", "text": "11" },
+        { "id": "C", "text": "12" },
+        { "id": "D", "text": "13" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "√(432/3)=√144=12.",
+      "hint": "Combine the radicals first."
+    },
+    {
+      "id": "quant-075",
+      "number": 75,
+      "type": "fundamental_operations",
+      "prompt": "Expand and simplify: (3x − 2)(2x + 5)",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "6x² + 11x − 10" },
+        { "id": "B", "text": "6x² + 15x − 10" },
+        { "id": "C", "text": "6x² + 13x − 10" },
+        { "id": "D", "text": "6x² − 11x − 10" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "FOIL gives 6x² +15x−4x−10 = 6x²+11x−10.",
+      "hint": "Combine like terms after expanding."
+    },
+    {
+      "id": "quant-076",
+      "number": 76,
+      "type": "fundamental_operations",
+      "prompt": "Simplify: (12a²b³)(−2ab²)",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "−24a³b⁵" },
+        { "id": "B", "text": "24a³b⁵" },
+        { "id": "C", "text": "−14a³b⁶" },
+        { "id": "D", "text": "−24a²b⁶" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "Multiply coefficients and add exponents.",
+      "hint": "Don't forget the negative sign."
+    },
+    {
+      "id": "quant-077",
+      "number": 77,
+      "type": "fundamental_operations",
+      "prompt": "Evaluate: (2.75 + 5.84) × 1.5 =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "12.885" },
+        { "id": "B", "text": "12.985" },
+        { "id": "C", "text": "13.185" },
+        { "id": "D", "text": "13.285" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "2.75 + 5.84 = 8.59. Then 8.59 × 1.5 = 12.885.",
+      "hint": "Add first before multiplying."
+    },
+    {
+      "id": "quant-078",
+      "number": 78,
+      "type": "fundamental_operations",
+      "prompt": "Compute: 15² − (8² + 7²) =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "110" },
+        { "id": "B", "text": "112" },
+        { "id": "C", "text": "114" },
+        { "id": "D", "text": "116" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "225 − (64 + 49) = 225 − 113 = 112.",
+      "hint": "Evaluate each square first."
+    },
+    {
+      "id": "quant-079",
+      "number": 79,
+      "type": "fundamental_operations",
+      "prompt": "Evaluate: [(5³ − 2⁴) + 3²] ÷ 2 =",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "57" },
+        { "id": "B", "text": "58" },
+        { "id": "C", "text": "59" },
+        { "id": "D", "text": "60" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "125 − 16 + 9 = 118. Then 118 ÷ 2 = 59.",
+      "hint": "Evaluate the exponents first."
+    },
+    {
+      "id": "quant-080",
+      "number": 80,
+      "type": "fundamental_operations",
+      "prompt": "Simplify: (x + 6)² − (x − 6)²",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "12x" },
+        { "id": "B", "text": "24x" },
+        { "id": "C", "text": "36x" },
+        { "id": "D", "text": "48x" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Using the identity (a+b)² − (a−b)² = 4ab, the result is 4(x)(6) = 24x.",
+      "hint": "You may expand both expressions or recognize the identity."
     }
   ]
 }

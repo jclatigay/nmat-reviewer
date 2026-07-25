@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 520 320"
+width="520"
+height="320">
+
+<style>
+.title{font:600 16px Arial;fill:#1A365D}
+.axis{stroke:#475569;stroke-width:2}
+.grid{stroke:#E2E8F0}
+.label{font:12px Arial;fill:#64748B}
+.line{stroke:#2563EB;stroke-width:3;fill:none}
+.point{fill:#2563EB}
+</style>
+
+<rect x="2" y="2" width="516" height="316"
+rx="12"
+fill="#FFF"
+stroke="#CBD5E0"
+stroke-width="2"/>
+
+<text class="title"
+x="24"
+y="30">
+Clinic Admissions
+</text>
+
+<!-- axes -->
+<line class="axis" x1="70" y1="260" x2="470" y2="260"/>
+<line class="axis" x1="70" y1="60" x2="70" y2="260"/>
+
+<!-- line -->
+<polyline
+class="line"
+points="
+110,220
+180,180
+250,170
+320,110
+390,120"/>
+
+<circle class="point" cx="110" cy="220" r="4"/>
+<circle class="point" cx="180" cy="180" r="4"/>
+<circle class="point" cx="250" cy="170" r="4"/>
+<circle class="point" cx="320" cy="110" r="4"/>
+<circle class="point" cx="390" cy="120" r="4"/>
+
+<text class="label" x="100" y="280">Mon</text>
+<text class="label" x="170" y="280">Tue</text>
+<text class="label" x="240" y="280">Wed</text>
+<text class="label" x="310" y="280">Thu</text>
+<text class="label" x="380" y="280">Fri</text>
+
+</svg>

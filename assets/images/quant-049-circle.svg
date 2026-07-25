@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 520 320"
+width="520"
+height="320">
+
+<style>
+.title{font:600 16px Arial;fill:#1A365D}
+.label{font:14px Arial;fill:#334155}
+</style>
+
+<rect
+x="2"
+y="2"
+width="516"
+height="316"
+rx="12"
+fill="#FFF"
+stroke="#CBD5E0"
+stroke-width="2"/>
+
+<text
+class="title"
+x="24"
+y="30">
+Circle
+</text>
+
+<circle
+cx="220"
+cy="170"
+r="80"
+fill="none"
+stroke="#2563EB"
+stroke-width="3"/>
+
+<line
+x1="220"
+y1="170"
+x2="300"
+y2="170"
+stroke="#334155"
+stroke-width="2"/>
+
+<circle
+cx="220"
+cy="170"
+r="3"
+fill="#334155"/>
+
+<text
+class="label"
+x="250"
+y="162">
+7 cm
+</text>
+
+<text
+class="label"
+x="212"
+y="188">
+O
+</text>
+
+</svg>

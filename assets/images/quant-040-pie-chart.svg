@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 520 320"
+     width="520"
+     height="320">
+
+<style>
+.title{
+    font:600 16px Arial,sans-serif;
+    fill:#1a365d;
+}
+
+.legend{
+    font:13px Arial,sans-serif;
+    fill:#334155;
+}
+
+.center{
+    font:600 18px Arial,sans-serif;
+    fill:#1e293b;
+}
+</style>
+
+<!-- Card -->
+<rect
+    x="2"
+    y="2"
+    width="516"
+    height="316"
+    rx="12"
+    fill="#ffffff"
+    stroke="#CBD5E0"
+    stroke-width="2"/>
+
+<!-- Title -->
+<text class="title" x="24" y="30">
+Monthly Expenses
+</text>
+
+<!-- Pie -->
+<g transform="translate(220 170)">
+
+    <!-- Background circle -->
+    <circle
+        r="96"
+        fill="#f8fafc"
+        stroke="#475569"
+        stroke-width="2"/>
+
+    <!-- Food 30% -->
+    <path
+        d="M0 0 L0 -96
+           A96 96 0 0 1 91.3 29.7
+           Z"
+        fill="#1D4ED8"/>
+
+    <!-- Rent 25% -->
+    <path
+        d="M0 0
+           L91.3 29.7
+           A96 96 0 0 1 -29.7 91.3
+           Z"
+        fill="#60A5FA"/>
+
+    <!-- Transport 20% -->
+    <path
+        d="M0 0
+           L-29.7 91.3
+           A96 96 0 0 1 -91.3 -29.7
+           Z"
+        fill="#93C5FD"/>
+
+    <!-- Savings 25% -->
+    <path
+        d="M0 0
+           L-91.3 -29.7
+           A96 96 0 0 1 0 -96
+           Z"
+        fill="#BFDBFE"/>
+
+    <!-- Divider lines -->
+    <line x1="0" y1="0" x2="0" y2="-96" stroke="#fff" stroke-width="2"/>
+    <line x1="0" y1="0" x2="91.3" y2="29.7" stroke="#fff" stroke-width="2"/>
+    <line x1="0" y1="0" x2="-29.7" y2="91.3" stroke="#fff" stroke-width="2"/>
+    <line x1="0" y1="0" x2="-91.3" y2="-29.7" stroke="#fff" stroke-width="2"/>
+
+</g>
+
+<!-- Center label -->
+<text
+    class="center"
+    x="220"
+    y="176"
+    text-anchor="middle">
+100%
+</text>
+
+<!-- Legend -->
+<g class="legend">
+
+    <rect x="350" y="80" width="16" height="16" fill="#1D4ED8"/>
+    <text x="374" y="93">Food — 30%</text>
+
+    <rect x="350" y="110" width="16" height="16" fill="#60A5FA"/>
+    <text x="374" y="123">Rent — 25%</text>
+
+    <rect x="350" y="140" width="16" height="16" fill="#93C5FD"/>
+    <text x="374" y="153">Transport — 20%</text>
+
+    <rect x="350" y="170" width="16" height="16" fill="#BFDBFE"/>
+    <text x="374" y="183">Savings — 25%</text>
+
+</g>
+
+</svg>

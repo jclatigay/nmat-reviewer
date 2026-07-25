@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 520 320"
+width="520"
+height="320">
+
+<style>
+.title{font:600 16px Arial;fill:#1A365D}
+.label{font:14px Arial;fill:#334155}
+.line{stroke:#334155;stroke-width:3;fill:none}
+</style>
+
+<rect x="2" y="2"
+width="516"
+height="316"
+rx="12"
+fill="#FFF"
+stroke="#CBD5E0"
+stroke-width="2"/>
+
+<text class="title"
+x="24"
+y="30">
+Right Triangle
+</text>
+
+<!-- triangle -->
+<line class="line" x1="120" y1="240" x2="120" y2="80"/>
+<line class="line" x1="120" y1="240" x2="320" y2="240"/>
+<line class="line" x1="120" y1="80" x2="320" y2="240"/>
+
+<!-- right angle -->
+<polyline
+points="120,220 140,220 140,240"
+fill="none"
+stroke="#334155"
+stroke-width="2"/>
+
+<text class="label" x="110" y="255">B</text>
+<text class="label" x="105" y="72">A</text>
+<text class="label" x="326" y="248">C</text>
+
+<text class="label" x="70" y="165">6 cm</text>
+<text class="label" x="205" y="260">8 cm</text>
+<text class="label" x="225" y="150">?</text>
+
+</svg>
