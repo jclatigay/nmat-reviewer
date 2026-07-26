@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 520 320"
+width="520"
+height="320">
+
+<style>
+.shape{fill:#DBEAFE;stroke:#2563EB;stroke-width:2.5}
+.dash{stroke:#64748B;stroke-width:1.5}
+.label{font:600 14px Arial,sans-serif;fill:#1E293B}
+.dot{fill:#334155}
+</style>
+
+<rect x="2" y="2" width="516" height="316"
+rx="12"
+fill="#FFF"
+stroke="#CBD5E0"
+stroke-width="2"/>
+
+<circle class="shape" cx="260" cy="160" r="95"/>
+<circle class="dot" cx="260" cy="160" r="3"/>
+<line class="dash" x1="260" y1="160" x2="355" y2="160"/>
+<text class="label" x="305" y="150" text-anchor="middle">r</text>
+<text class="label" x="260" y="270" text-anchor="middle">Area = 154 m²</text>
+
+</svg>

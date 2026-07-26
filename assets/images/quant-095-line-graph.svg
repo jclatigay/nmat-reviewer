@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 520 320"
+width="520"
+height="320">
+
+<style>
+.title{font:600 16px Arial,sans-serif;fill:#1A365D}
+.axis{stroke:#475569;stroke-width:2}
+.grid{stroke:#E2E8F0}
+.line{fill:none;stroke:#2563EB;stroke-width:2.5}
+.pt{fill:#2563EB}
+.label{font:12px Arial,sans-serif;fill:#64748B}
+.value{font:600 11px Arial,sans-serif;fill:#1E293B}
+.hour{font:12px Arial,sans-serif;fill:#334155}
+</style>
+
+<rect x="2" y="2" width="516" height="316"
+rx="12"
+fill="#FFF"
+stroke="#CBD5E0"
+stroke-width="2"/>
+
+<text class="title" x="24" y="30">
+Patient Temperature (°C) Over 12 Hours
+</text>
+
+<!-- grid (36.5 to 39.5, step 1.0 at 37/38/39) -->
+<line class="grid" x1="70" y1="226.67" x2="470" y2="226.67"/>
+<line class="grid" x1="70" y1="160" x2="470" y2="160"/>
+<line class="grid" x1="70" y1="93.33" x2="470" y2="93.33"/>
+
+<!-- axes -->
+<line class="axis" x1="70" y1="60" x2="70" y2="260"/>
+<line class="axis" x1="70" y1="260" x2="470" y2="260"/>
+
+<!-- y labels -->
+<text class="label" x="40" y="230">37</text>
+<text class="label" x="40" y="164">38</text>
+<text class="label" x="40" y="97">39</text>
+
+<!-- data line: 37.0, 37.1, 37.3, 37.2, 38.6, 38.9, 38.7 -->
+<polyline class="line" points="70,226.67 136.67,220 203.33,206.67 270,213.33 336.67,120 403.33,100 470,113.33"/>
+
+<circle class="pt" cx="70" cy="226.67" r="4"/>
+<circle class="pt" cx="136.67" cy="220" r="4"/>
+<circle class="pt" cx="203.33" cy="206.67" r="4"/>
+<circle class="pt" cx="270" cy="213.33" r="4"/>
+<circle class="pt" cx="336.67" cy="120" r="4"/>
+<circle class="pt" cx="403.33" cy="100" r="4"/>
+<circle class="pt" cx="470" cy="113.33" r="4"/>
+
+<!-- values -->
+<text class="value" x="70" y="214" text-anchor="middle">37.0</text>
+<text class="value" x="136.67" y="208" text-anchor="middle">37.1</text>
+<text class="value" x="203.33" y="195" text-anchor="middle">37.3</text>
+<text class="value" x="270" y="228" text-anchor="middle">37.2</text>
+<text class="value" x="336.67" y="108" text-anchor="middle">38.6</text>
+<text class="value" x="403.33" y="88" text-anchor="middle">38.9</text>
+<text class="value" x="470" y="101" text-anchor="middle">38.7</text>
+
+<!-- hour labels -->
+<text class="hour" x="70" y="280" text-anchor="middle">0h</text>
+<text class="hour" x="136.67" y="280" text-anchor="middle">2h</text>
+<text class="hour" x="203.33" y="280" text-anchor="middle">4h</text>
+<text class="hour" x="270" y="280" text-anchor="middle">6h</text>
+<text class="hour" x="336.67" y="280" text-anchor="middle">8h</text>
+<text class="hour" x="403.33" y="280" text-anchor="middle">10h</text>
+<text class="hour" x="470" y="280" text-anchor="middle">12h</text>
+
+</svg>

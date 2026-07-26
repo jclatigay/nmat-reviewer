@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 520 320"
+width="520"
+height="320">
+
+<style>
+.title{font:600 16px Arial,sans-serif;fill:#1A365D}
+.legend{font:13px Arial,sans-serif;fill:#334155}
+.pct{font:600 12px Arial,sans-serif;fill:#FFFFFF}
+</style>
+
+<rect x="2" y="2" width="516" height="316"
+rx="12"
+fill="#FFF"
+stroke="#CBD5E0"
+stroke-width="2"/>
+
+<text class="title" x="24" y="30">
+Blood Type Distribution (200 Donors)
+</text>
+
+<!-- donut chart: O 45%, A 30%, B 15%, AB 10% -->
+<!-- r=80, circumference ~= 502.65 -->
+<g transform="rotate(-90 190 175)">
+  <circle cx="190" cy="175" r="80" fill="none" stroke="#2563EB" stroke-width="46"
+    stroke-dasharray="226.19 502.65" stroke-dashoffset="0"/>
+  <circle cx="190" cy="175" r="80" fill="none" stroke="#10B981" stroke-width="46"
+    stroke-dasharray="150.80 502.65" stroke-dashoffset="-226.19"/>
+  <circle cx="190" cy="175" r="80" fill="none" stroke="#F59E0B" stroke-width="46"
+    stroke-dasharray="75.40 502.65" stroke-dashoffset="-376.99"/>
+  <circle cx="190" cy="175" r="80" fill="none" stroke="#EF4444" stroke-width="46"
+    stroke-dasharray="50.27 502.65" stroke-dashoffset="-452.39"/>
+</g>
+
+<!-- center label -->
+<text x="190" y="170" text-anchor="middle" class="legend" font-weight="600">200</text>
+<text x="190" y="188" text-anchor="middle" class="legend" font-size="11">donors</text>
+
+<!-- legend -->
+<rect x="330" y="90" width="16" height="16" fill="#2563EB"/>
+<text class="legend" x="354" y="103">Type O — 45%</text>
+
+<rect x="330" y="120" width="16" height="16" fill="#10B981"/>
+<text class="legend" x="354" y="133">Type A — 30%</text>
+
+<rect x="330" y="150" width="16" height="16" fill="#F59E0B"/>
+<text class="legend" x="354" y="163">Type B — 15%</text>
+
+<rect x="330" y="180" width="16" height="16" fill="#EF4444"/>
+<text class="legend" x="354" y="193">Type AB — 10%</text>
+
+</svg>
