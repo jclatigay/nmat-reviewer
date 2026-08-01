@@ -1,0 +1,98 @@
+<svg viewBox="0 0 712 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+<rect x="20" y="18" width="64" height="64" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="52.0" y="104" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">1</text>
+<line x1="52.0" y1="50.0" x2="72.5" y2="50.0" stroke="#111" stroke-width="1.6"/>
+<line x1="52.0" y1="50.0" x2="66.5" y2="64.5" stroke="#111" stroke-width="1.6"/>
+<line x1="52.0" y1="50.0" x2="52.0" y2="70.5" stroke="#111" stroke-width="1.6"/>
+<line x1="52.0" y1="50.0" x2="37.5" y2="64.5" stroke="#111" stroke-width="1.6"/>
+<line x1="52.0" y1="50.0" x2="31.5" y2="50.0" stroke="#111" stroke-width="1.6"/>
+<line x1="52.0" y1="50.0" x2="37.5" y2="35.5" stroke="#111" stroke-width="1.6"/>
+<line x1="52.0" y1="50.0" x2="52.0" y2="29.5" stroke="#111" stroke-width="1.6"/>
+<line x1="52.0" y1="50.0" x2="66.5" y2="35.5" stroke="#111" stroke-width="1.6"/>
+<circle cx="52.0" cy="50.0" r="3" fill="#111"/>
+<rect x="49.0" y="17.6" width="6" height="6" fill="#111"/>
+<rect x="102" y="18" width="64" height="64" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="134.0" y="104" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">2</text>
+<line x1="134.0" y1="50.0" x2="154.5" y2="50.0" stroke="#111" stroke-width="1.6"/>
+<line x1="134.0" y1="50.0" x2="148.5" y2="64.5" stroke="#111" stroke-width="1.6"/>
+<line x1="134.0" y1="50.0" x2="134.0" y2="70.5" stroke="#111" stroke-width="1.6"/>
+<line x1="134.0" y1="50.0" x2="119.5" y2="64.5" stroke="#111" stroke-width="1.6"/>
+<line x1="134.0" y1="50.0" x2="113.5" y2="50.0" stroke="#111" stroke-width="1.6"/>
+<line x1="134.0" y1="50.0" x2="119.5" y2="35.5" stroke="#111" stroke-width="1.6"/>
+<line x1="134.0" y1="50.0" x2="134.0" y2="29.5" stroke="#111" stroke-width="1.6"/>
+<line x1="134.0" y1="50.0" x2="148.5" y2="35.5" stroke="#111" stroke-width="1.6"/>
+<circle cx="134.0" cy="50.0" r="3" fill="#111"/>
+<rect x="160.4" y="47.0" width="6" height="6" fill="#111"/>
+<rect x="184" y="18" width="64" height="64" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="216.0" y="104" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">3</text>
+<line x1="216.0" y1="50.0" x2="236.5" y2="50.0" stroke="#111" stroke-width="1.6"/>
+<line x1="216.0" y1="50.0" x2="230.5" y2="64.5" stroke="#111" stroke-width="1.6"/>
+<line x1="216.0" y1="50.0" x2="216.0" y2="70.5" stroke="#111" stroke-width="1.6"/>
+<line x1="216.0" y1="50.0" x2="201.5" y2="64.5" stroke="#111" stroke-width="1.6"/>
+<line x1="216.0" y1="50.0" x2="195.5" y2="50.0" stroke="#111" stroke-width="1.6"/>
+<line x1="216.0" y1="50.0" x2="201.5" y2="35.5" stroke="#111" stroke-width="1.6"/>
+<line x1="216.0" y1="50.0" x2="216.0" y2="29.5" stroke="#111" stroke-width="1.6"/>
+<line x1="216.0" y1="50.0" x2="230.5" y2="35.5" stroke="#111" stroke-width="1.6"/>
+<circle cx="216.0" cy="50.0" r="3" fill="#111"/>
+<rect x="213.0" y="76.4" width="6" height="6" fill="#111"/>
+<rect x="300" y="18" width="64" height="64" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="332.0" y="104" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(A)</text>
+<line x1="332.0" y1="50.0" x2="352.5" y2="50.0" stroke="#111" stroke-width="1.6"/>
+<line x1="332.0" y1="50.0" x2="346.5" y2="64.5" stroke="#111" stroke-width="1.6"/>
+<line x1="332.0" y1="50.0" x2="332.0" y2="70.5" stroke="#111" stroke-width="1.6"/>
+<line x1="332.0" y1="50.0" x2="317.5" y2="64.5" stroke="#111" stroke-width="1.6"/>
+<line x1="332.0" y1="50.0" x2="311.5" y2="50.0" stroke="#111" stroke-width="1.6"/>
+<line x1="332.0" y1="50.0" x2="317.5" y2="35.5" stroke="#111" stroke-width="1.6"/>
+<line x1="332.0" y1="50.0" x2="332.0" y2="29.5" stroke="#111" stroke-width="1.6"/>
+<line x1="332.0" y1="50.0" x2="346.5" y2="35.5" stroke="#111" stroke-width="1.6"/>
+<circle cx="332.0" cy="50.0" r="3" fill="#111"/>
+<rect x="329.0" y="17.6" width="6" height="6" fill="#111"/>
+<rect x="382" y="18" width="64" height="64" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="414.0" y="104" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(B)</text>
+<line x1="414.0" y1="50.0" x2="434.5" y2="50.0" stroke="#111" stroke-width="1.6"/>
+<line x1="414.0" y1="50.0" x2="428.5" y2="64.5" stroke="#111" stroke-width="1.6"/>
+<line x1="414.0" y1="50.0" x2="414.0" y2="70.5" stroke="#111" stroke-width="1.6"/>
+<line x1="414.0" y1="50.0" x2="399.5" y2="64.5" stroke="#111" stroke-width="1.6"/>
+<line x1="414.0" y1="50.0" x2="393.5" y2="50.0" stroke="#111" stroke-width="1.6"/>
+<line x1="414.0" y1="50.0" x2="399.5" y2="35.5" stroke="#111" stroke-width="1.6"/>
+<line x1="414.0" y1="50.0" x2="414.0" y2="29.5" stroke="#111" stroke-width="1.6"/>
+<line x1="414.0" y1="50.0" x2="428.5" y2="35.5" stroke="#111" stroke-width="1.6"/>
+<circle cx="414.0" cy="50.0" r="3" fill="#111"/>
+<rect x="440.4" y="47.0" width="6" height="6" fill="#111"/>
+<rect x="464" y="18" width="64" height="64" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="496.0" y="104" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(C)</text>
+<line x1="496.0" y1="50.0" x2="516.5" y2="50.0" stroke="#111" stroke-width="1.6"/>
+<line x1="496.0" y1="50.0" x2="510.5" y2="64.5" stroke="#111" stroke-width="1.6"/>
+<line x1="496.0" y1="50.0" x2="496.0" y2="70.5" stroke="#111" stroke-width="1.6"/>
+<line x1="496.0" y1="50.0" x2="481.5" y2="64.5" stroke="#111" stroke-width="1.6"/>
+<line x1="496.0" y1="50.0" x2="475.5" y2="50.0" stroke="#111" stroke-width="1.6"/>
+<line x1="496.0" y1="50.0" x2="481.5" y2="35.5" stroke="#111" stroke-width="1.6"/>
+<line x1="496.0" y1="50.0" x2="496.0" y2="29.5" stroke="#111" stroke-width="1.6"/>
+<line x1="496.0" y1="50.0" x2="510.5" y2="35.5" stroke="#111" stroke-width="1.6"/>
+<circle cx="496.0" cy="50.0" r="3" fill="#111"/>
+<rect x="493.0" y="76.4" width="6" height="6" fill="#111"/>
+<rect x="546" y="18" width="64" height="64" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="578.0" y="104" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(D)</text>
+<line x1="578.0" y1="50.0" x2="598.5" y2="50.0" stroke="#111" stroke-width="1.6"/>
+<line x1="578.0" y1="50.0" x2="592.5" y2="64.5" stroke="#111" stroke-width="1.6"/>
+<line x1="578.0" y1="50.0" x2="578.0" y2="70.5" stroke="#111" stroke-width="1.6"/>
+<line x1="578.0" y1="50.0" x2="563.5" y2="64.5" stroke="#111" stroke-width="1.6"/>
+<line x1="578.0" y1="50.0" x2="557.5" y2="50.0" stroke="#111" stroke-width="1.6"/>
+<line x1="578.0" y1="50.0" x2="563.5" y2="35.5" stroke="#111" stroke-width="1.6"/>
+<line x1="578.0" y1="50.0" x2="578.0" y2="29.5" stroke="#111" stroke-width="1.6"/>
+<line x1="578.0" y1="50.0" x2="592.5" y2="35.5" stroke="#111" stroke-width="1.6"/>
+<circle cx="578.0" cy="50.0" r="3" fill="#111"/>
+<rect x="595.8" y="67.8" width="6" height="6" fill="#111"/>
+<rect x="628" y="18" width="64" height="64" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="660.0" y="104" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(E)</text>
+<line x1="660.0" y1="50.0" x2="680.5" y2="50.0" stroke="#111" stroke-width="1.6"/>
+<line x1="660.0" y1="50.0" x2="674.5" y2="64.5" stroke="#111" stroke-width="1.6"/>
+<line x1="660.0" y1="50.0" x2="660.0" y2="70.5" stroke="#111" stroke-width="1.6"/>
+<line x1="660.0" y1="50.0" x2="645.5" y2="64.5" stroke="#111" stroke-width="1.6"/>
+<line x1="660.0" y1="50.0" x2="639.5" y2="50.0" stroke="#111" stroke-width="1.6"/>
+<line x1="660.0" y1="50.0" x2="645.5" y2="35.5" stroke="#111" stroke-width="1.6"/>
+<line x1="660.0" y1="50.0" x2="660.0" y2="29.5" stroke="#111" stroke-width="1.6"/>
+<line x1="660.0" y1="50.0" x2="674.5" y2="35.5" stroke="#111" stroke-width="1.6"/>
+<circle cx="660.0" cy="50.0" r="3" fill="#111"/>
+<rect x="627.6" y="47.0" width="6" height="6" fill="#111"/>
+</svg>

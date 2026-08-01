@@ -18,7 +18,7 @@ import { createTimer } from '../services/timer.js';
 import { renderExamHeader } from '../components/examHeader.js';
 import { renderProgressBar } from '../components/progressBar.js';
 import { renderChoiceList } from '../components/choiceList.js';
-import { renderPaletteDrawer, renderPaletteSidebar } from '../components/questionPalette.js';
+import { renderGroupedPaletteSidebar, renderPaletteDrawer, renderPaletteSidebar } from '../components/questionPalette.js';
 import { showConfirmModal } from '../components/confirmModal.js';
 
 let paletteOverlay = null;
@@ -137,7 +137,12 @@ export async function renderSession(container) {
     const hintShown = session.hintsRevealed.includes(question.id);
 
     progressContainer.replaceChildren(renderProgressBar(index, questions.length));
-    sidebarContainer.replaceChildren(renderPaletteSidebar(questions, session, jumpTo));
+    const useGroupedPalette = session.subtestId === 'inductive-reasoning';
+    sidebarContainer.replaceChildren(
+      useGroupedPalette
+        ? renderGroupedPaletteSidebar(questions, session, jumpTo)
+        : renderPaletteSidebar(questions, session, jumpTo)
+    );
 
     const parts = [];
 

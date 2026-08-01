@@ -1,27 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 190" width="460" height="190">
   <rect x="1" y="1" width="458" height="188" rx="12" fill="#fff" stroke="#cbd5e0"/>
-  <g fill="none" stroke="#1a365d" stroke-width="4" stroke-linecap="round">
-    <line x1="54" y1="76" x2="54" y2="34"/>
-    <line x1="136" y1="58" x2="178" y2="58"/>
-    <line x1="254" y1="34" x2="254" y2="76"/>
+  <g font-family="sans-serif" font-size="13" fill="#475569">
+    <text x="52" y="104">1</text>
+    <text x="152" y="104">2</text>
+    <text x="252" y="104">3</text>
+    <text x="352" y="104">4</text>
+  </g>
+  <g fill="none" stroke="#1a365d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 1: up -->
+    <line x1="54" y1="76" x2="54" y2="42"/>
+    <polygon points="54,32 46,46 62,46" fill="#1a365d"/>
+    <!-- 2: right -->
+    <line x1="136" y1="58" x2="170" y2="58"/>
+    <polygon points="180,58 166,50 166,66" fill="#1a365d"/>
+    <!-- 3: down -->
+    <line x1="254" y1="34" x2="254" y2="68"/>
+    <polygon points="254,78 246,64 262,64" fill="#1a365d"/>
   </g>
   <text x="330" y="66" font-family="sans-serif" font-size="28" fill="#718096">?</text>
-  <g font-family="sans-serif" font-size="13" fill="#475569">
-    <text x="50" y="104">1</text>
-    <text x="152" y="104">2</text>
-    <text x="250" y="104">3</text>
-    <text x="324" y="104">4</text>
-  </g>
   <g font-family="sans-serif" font-size="14" fill="#1a365d">
-    <text x="44" y="134">A</text>
-    <text x="144" y="134">B</text>
-    <text x="244" y="134">C</text>
-    <text x="344" y="134">D</text>
+    <text x="44" y="122">A</text>
+    <text x="144" y="122">B</text>
+    <text x="244" y="122">C</text>
+    <text x="344" y="122">D</text>
   </g>
-  <g fill="none" stroke="#1a365d" stroke-width="4" stroke-linecap="round">
-    <line x1="74" y1="164" x2="34" y2="164"/>
-    <line x1="154" y1="176" x2="154" y2="134"/>
-    <line x1="234" y1="164" x2="274" y2="164"/>
-    <line x1="354" y1="134" x2="354" y2="176"/>
+  <g fill="none" stroke="#1a365d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- A: left (correct) -->
+    <line x1="74" y1="154" x2="42" y2="154"/>
+    <polygon points="32,154 46,146 46,162" fill="#1a365d"/>
+    <!-- B: up -->
+    <line x1="154" y1="166" x2="154" y2="138"/>
+    <polygon points="154,128 146,142 162,142" fill="#1a365d"/>
+    <!-- C: down -->
+    <line x1="234" y1="142" x2="234" y2="170"/>
+    <polygon points="234,180 226,166 242,166" fill="#1a365d"/>
+    <!-- D: right -->
+    <line x1="354" y1="154" x2="386" y2="154"/>
+    <polygon points="396,154 382,146 382,162" fill="#1a365d"/>
   </g>
 </svg>

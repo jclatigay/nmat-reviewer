@@ -1,5 +1,6 @@
 import { el } from '../utils/dom.js';
 import { MODES } from '../config.js';
+import { groupQuestionsByTag } from '../utils/grouping.js';
 
 function buildPaletteButton(index, questionId, { isCurrent, isAnswered, isCorrect, isIncorrect, isFlagged, onJump }) {
   const classes = ['palette__btn'];
@@ -44,6 +45,36 @@ export function renderPalette(questions, session, onJump) {
   return palette;
 }
 
+export function renderGroupedPalette(questions, session, onJump) {
+  const wrapper = el('div', { className: 'palette-groups' });
+  const groups = groupQuestionsByTag(questions.map((question, index) => ({ ...question, __index: index })));
+
+  groups.forEach((group) => {
+    const groupSection = el('section', { className: 'palette-group' }, [
+      el('strong', { className: 'palette-group__title', textContent: group.label }),
+      el('div', { className: 'palette' }, group.questions.map((question) => {
+        const index = question.__index;
+        const selectedId = session.answers?.[question.id] ?? null;
+        const showAnswerFeedback = session.mode !== MODES.EXAM;
+        const isCorrect = showAnswerFeedback && !!selectedId && selectedId === question.correctChoiceId;
+        const isIncorrect = showAnswerFeedback && !!selectedId && selectedId !== question.correctChoiceId;
+
+        return buildPaletteButton(index, question.id, {
+          isCurrent: session.currentIndex === index,
+          isAnswered: !!selectedId,
+          isCorrect,
+          isIncorrect,
+          isFlagged: session.flagged.includes(question.id),
+          onJump,
+        });
+      })),
+    ]);
+    wrapper.appendChild(groupSection);
+  });
+
+  return wrapper;
+}
+
 export function renderPaletteDrawer(questions, session, onJump, onClose) {
   const backdrop = el('div', {
     className: 'overlay-backdrop overlay-backdrop--visible',
@@ -60,10 +91,15 @@ export function renderPaletteDrawer(questions, session, onJump, onClose) {
         onClick: onClose,
       }),
     ]),
-    renderPalette(questions, session, (index) => {
-      onJump(index);
-      onClose();
-    }),
+    session.subtestId === 'inductive-reasoning'
+      ? renderGroupedPalette(questions, session, (index) => {
+          onJump(index);
+          onClose();
+        })
+      : renderPalette(questions, session, (index) => {
+          onJump(index);
+          onClose();
+        }),
   ]);
 
   return { backdrop, drawer };
@@ -73,6 +109,14 @@ export function renderPaletteSidebar(questions, session, onJump) {
   const sidebar = el('aside', { className: 'palette-sidebar card' }, [
     el('strong', { textContent: 'Questions', style: 'display:block;margin-bottom:0.75rem;' }),
     renderPalette(questions, session, onJump),
+  ]);
+  return sidebar;
+}
+
+export function renderGroupedPaletteSidebar(questions, session, onJump) {
+  const sidebar = el('aside', { className: 'palette-sidebar card' }, [
+    el('strong', { textContent: 'Questions', style: 'display:block;margin-bottom:0.75rem;' }),
+    renderGroupedPalette(questions, session, onJump),
   ]);
   return sidebar;
 }

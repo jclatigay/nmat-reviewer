@@ -2,6 +2,7 @@ import { el } from '../utils/dom.js';
 import { navigate } from '../router.js';
 import { getResults } from '../services/sessionStore.js';
 import { filterDetails } from '../services/scoring.js';
+import { groupQuestionsByTag } from '../utils/grouping.js';
 
 const FILTERS = [
   { id: 'all', label: 'All' },
@@ -51,6 +52,19 @@ function renderReviewItem(detail) {
   ]);
 }
 
+function renderGroupedReview(details) {
+  const questions = details.map((detail) => detail.question);
+  const groups = groupQuestionsByTag(questions);
+  const detailById = new Map(details.map((detail) => [detail.question.id, detail]));
+
+  return groups.map((group) =>
+    el('section', { className: 'review-group' }, [
+      el('h2', { className: 'review-group__title', textContent: group.label }),
+      ...group.questions.map((question) => renderReviewItem(detailById.get(question.id))),
+    ])
+  );
+}
+
 export function renderReview(container) {
   const results = getResults();
 
@@ -67,12 +81,19 @@ export function renderReview(container) {
 
   function renderList() {
     const filtered = filterDetails(results.details, activeFilter);
-    const items = filtered.length > 0
-      ? filtered.map(renderReviewItem)
-      : [el('div', { className: 'card empty-state' }, [
-          el('h2', { className: 'empty-state__title', textContent: 'No questions in this view' }),
-          el('p', { className: 'empty-state__message', textContent: 'Try a different filter to review your answers.' }),
-        ])];
+    const grouped = results.subtestId === 'inductive-reasoning' && filtered.length > 0;
+    let items;
+
+    if (filtered.length === 0) {
+      items = [el('div', { className: 'card empty-state' }, [
+        el('h2', { className: 'empty-state__title', textContent: 'No questions in this view' }),
+        el('p', { className: 'empty-state__message', textContent: 'Try a different filter to review your answers.' }),
+      ])];
+    } else if (grouped) {
+      items = renderGroupedReview(filtered);
+    } else {
+      items = filtered.map(renderReviewItem);
+    }
 
     listContainer.replaceChildren(...items);
   }

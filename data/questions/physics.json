@@ -328,8 +328,8 @@
         { "id": "C", "text": "120 Wh" },
         { "id": "D", "text": "180 Wh" }
       ],
-      "correctChoiceId": "D",
-      "explanation": "Energy = power × time = 60 W × 2 h = 120 Wh; however since 2 hours times 60 W is 120 Wh, wait the answer should be 120 Wh. I'll set correctChoiceId to C.",
+      "correctChoiceId": "C",
+      "explanation": "Energy = power × time = 60 W × 2 h = 120 Wh; however since 2 hours times 60 W is 120 Wh.",
       "hint": "Multiply the wattage by operating time in hours.",
       "tags": ["energy"]
     },
@@ -364,8 +364,8 @@
         { "id": "C", "text": "60 km/h" },
         { "id": "D", "text": "65 km/h" }
       ],
-      "correctChoiceId": "A",
-      "explanation": "Average speed = distance ÷ time = 150 km ÷ 2.5 h = 60 km/h. Wait, 150 / 2.5 = 60, so correctChoiceId should be C.",
+      "correctChoiceId": "C",
+      "explanation": "Average speed = distance ÷ time = 150 km ÷ 2.5 h = 60 km/h.",
       "hint": "Divide the total distance by total travel time.",
       "tags": ["mechanics"]
     },
@@ -400,8 +400,8 @@
         { "id": "C", "text": "80 J" },
         { "id": "D", "text": "160 J" }
       ],
-      "correctChoiceId": "C",
-      "explanation": "Kinetic energy = ½mv² = 0.5 × 5 × 16 = 40 J. Wait correction: 0.5 × 5 × 16 = 40 J, so correctChoiceId should be B.",
+      "correctChoiceId": "B",
+      "explanation": "Kinetic energy = ½mv² = 0.5 × 5 × 16 = 40 J.",
       "hint": "Use KE = ½mv² with velocity squared.",
       "tags": ["mechanics"]
     },

@@ -269,6 +269,21 @@
   gap: var(--space-xs);
 }
 
+.palette-groups {
+  display: grid;
+  gap: var(--space-lg);
+}
+
+.palette-group {
+  display: grid;
+  gap: var(--space-sm);
+}
+
+.palette-group__title {
+  font-size: 0.9rem;
+  color: var(--color-primary);
+}
+
 @media (min-width: 768px) {
   .palette {
     grid-template-columns: repeat(6, 1fr);
@@ -517,6 +532,19 @@
 
 .review-item {
   margin-bottom: var(--space-lg);
+}
+
+.review-group {
+  display: grid;
+  gap: var(--space-md);
+  margin-bottom: var(--space-xl);
+}
+
+.review-group__title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: calc(var(--space-xs) * -1);
 }
 
 .review-item__header {

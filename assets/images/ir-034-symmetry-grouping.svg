@@ -1,0 +1,14 @@
+<svg viewBox="0 0 478 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+<rect x="20" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="65.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(A)</text>
+<polygon points="51.0,40.7 79.0,40.7 92.9,85.3 37.1,85.3" fill="none" stroke="#111" stroke-width="2.2"/>
+<rect x="136" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="181.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(B)</text>
+<polygon points="181.0,32.3 204.4,60.2 193.3,60.2 193.3,90.9 168.7,90.9 168.7,60.2 157.6,60.2" fill="none" stroke="#111" stroke-width="2.2"/>
+<rect x="252" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="297.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(C)</text>
+<polygon points="297.0,90.9 272.8,77.0 272.8,49.1 297.0,35.1 321.2,49.0 321.2,77.0" fill="none" stroke="#111" stroke-width="2.2"/>
+<rect x="368" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="413.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(D)</text>
+<polygon points="390.7,37.9 438.1,54.6 410.2,65.8 429.7,90.9 390.7,74.2" fill="none" stroke="#111" stroke-width="2.2"/>
+</svg>
