@@ -1,0 +1,42 @@
+<svg viewBox="0 0 902 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+<rect x="20" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="65.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">1</text>
+<line x1="34.4" y1="79.2" x2="95.6" y2="79.2" stroke="#111" stroke-width="2.2"/><polygon points="56.9,87.3 73.1,87.3 65.0,79.2" fill="#111"/>
+<circle cx="45.2" cy="63.0" r="5.2" fill="#111"/>
+<rect x="76.0" y="56.0" width="17.6" height="17.6" fill="none" stroke="#111" stroke-width="1.8"/>
+<rect x="126" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="171.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">2</text>
+<line x1="140.4" y1="79.2" x2="201.6" y2="79.2" stroke="#111" stroke-width="2.2"/><polygon points="162.9,87.3 179.1,87.3 171.0,79.2" fill="#111"/>
+<circle cx="145.2" cy="63.0" r="5.2" fill="#111"/><circle cx="157.2" cy="63.0" r="5.2" fill="#111"/>
+<polygon points="190.8,51.3 178.5,73.6 203.1,73.6" fill="none" stroke="#111" stroke-width="1.8"/>
+<rect x="232" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="277.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">3</text>
+<line x1="246.4" y1="79.2" x2="307.6" y2="79.2" stroke="#111" stroke-width="2.2"/><polygon points="268.9,87.3 285.1,87.3 277.0,79.2" fill="#111"/>
+<circle cx="250.0" cy="64.8" r="5.2" fill="#111"/><circle cx="257.2" cy="60.0" r="5.2" fill="#111"/><circle cx="264.4" cy="64.8" r="5.2" fill="#111"/>
+<polygon points="296.8,51.9 309.0,60.8 304.4,75.2 289.2,75.2 284.6,60.8" fill="none" stroke="#111" stroke-width="1.8"/>
+<rect x="368" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="413.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(A)</text>
+<line x1="382.4" y1="79.2" x2="443.6" y2="79.2" stroke="#111" stroke-width="2.2"/><polygon points="404.9,87.3 421.1,87.3 413.0,79.2" fill="#111"/>
+<circle cx="386.0" cy="60.6" r="5.2" fill="#111"/><circle cx="400.4" cy="60.6" r="5.2" fill="#111"/><circle cx="388.4" cy="67.2" r="5.2" fill="#111"/><circle cx="398.0" cy="67.2" r="5.2" fill="#111"/>
+<polygon points="432.8,51.9 445.0,60.8 440.4,75.2 425.2,75.2 420.6,60.8" fill="none" stroke="#111" stroke-width="1.8"/>
+<rect x="474" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="519.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(B)</text>
+<line x1="488.4" y1="79.2" x2="549.6" y2="79.2" stroke="#111" stroke-width="2.2"/><polygon points="510.9,87.3 527.1,87.3 519.0,79.2" fill="#111"/>
+<circle cx="492.0" cy="64.8" r="5.2" fill="#111"/><circle cx="499.2" cy="60.0" r="5.2" fill="#111"/><circle cx="506.4" cy="64.8" r="5.2" fill="#111"/>
+<polygon points="549.4,70.9 538.8,77.1 528.2,70.9 528.2,58.7 538.8,52.5 549.4,58.7" fill="none" stroke="#111" stroke-width="1.8"/>
+<rect x="580" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="625.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(C)</text>
+<line x1="594.4" y1="79.2" x2="655.6" y2="79.2" stroke="#111" stroke-width="2.2"/><polygon points="616.9,87.3 633.1,87.3 625.0,79.2" fill="#111"/>
+<circle cx="598.0" cy="60.6" r="5.2" fill="#111"/><circle cx="612.4" cy="60.6" r="5.2" fill="#111"/><circle cx="600.4" cy="67.2" r="5.2" fill="#111"/><circle cx="610.0" cy="67.2" r="5.2" fill="#111"/>
+<polygon points="655.4,70.9 644.8,77.1 634.2,70.9 634.2,58.7 644.8,52.5 655.4,58.7" fill="none" stroke="#111" stroke-width="1.8"/>
+<rect x="686" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="731.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(D)</text>
+<line x1="700.4" y1="79.2" x2="761.6" y2="79.2" stroke="#111" stroke-width="2.2"/><polygon points="722.9,87.3 739.1,87.3 731.0,79.2" fill="#111"/>
+<circle cx="704.0" cy="60.6" r="5.2" fill="#111"/><circle cx="718.4" cy="60.6" r="5.2" fill="#111"/><circle cx="711.2" cy="57.6" r="5.2" fill="#111"/><circle cx="707.0" cy="67.2" r="5.2" fill="#111"/><circle cx="715.4" cy="67.2" r="5.2" fill="#111"/>
+<polygon points="761.4,70.9 750.8,77.1 740.2,70.9 740.2,58.7 750.8,52.5 761.4,58.7" fill="none" stroke="#111" stroke-width="1.8"/>
+<rect x="792" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="837.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(E)</text>
+<line x1="806.4" y1="79.2" x2="867.6" y2="79.2" stroke="#111" stroke-width="2.2"/><polygon points="828.9,87.3 845.1,87.3 837.0,79.2" fill="#111"/>
+<circle cx="810.0" cy="60.6" r="5.2" fill="#111"/><circle cx="824.4" cy="60.6" r="5.2" fill="#111"/><circle cx="812.4" cy="67.2" r="5.2" fill="#111"/><circle cx="822.0" cy="67.2" r="5.2" fill="#111"/>
+<polygon points="856.8,51.3 844.5,73.6 869.1,73.6" fill="none" stroke="#111" stroke-width="1.8"/>
+</svg>

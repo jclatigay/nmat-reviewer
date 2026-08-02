@@ -1,0 +1,35 @@
+<svg viewBox="0 0 902 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+<defs><pattern id="hatch2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="5" stroke="#111" stroke-width="1.1"/></pattern></defs>
+<rect x="20" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="65.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">1</text>
+<polygon points="95.6,63.0 80.3,89.5 49.7,89.5 34.4,63.0 49.7,36.5 80.3,36.5" fill="url(#hatch2)" stroke="#111" stroke-width="2"/>
+<polygon points="65.0,111.6 58.5,94.3 71.5,94.3" fill="#111" stroke="#111" stroke-width="1"/>
+<rect x="126" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="171.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">2</text>
+<polygon points="201.6,63.0 186.3,89.5 155.7,89.5 140.4,63.0 155.7,36.5 186.3,36.5" fill="url(#hatch2)" stroke="#111" stroke-width="2"/>
+<polygon points="219.6,63.0 202.3,69.5 202.3,56.5" fill="#111" stroke="#111" stroke-width="1"/>
+<rect x="232" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="277.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">3</text>
+<polygon points="307.6,63.0 292.3,89.5 261.7,89.5 246.4,63.0 261.7,36.5 292.3,36.5" fill="url(#hatch2)" stroke="#111" stroke-width="2"/>
+<polygon points="277.0,14.4 283.5,31.7 270.5,31.7" fill="#111" stroke="#111" stroke-width="1"/>
+<rect x="368" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="413.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(A)</text>
+<polygon points="443.6,63.0 428.3,89.5 397.7,89.5 382.4,63.0 397.7,36.5 428.3,36.5" fill="url(#hatch2)" stroke="#111" stroke-width="2"/>
+<polygon points="364.4,63.0 381.7,56.5 381.7,69.5" fill="#111" stroke="#111" stroke-width="1"/>
+<rect x="474" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="519.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(B)</text>
+<polygon points="549.6,63.0 534.3,89.5 503.7,89.5 488.4,63.0 503.7,36.5 534.3,36.5" fill="url(#hatch2)" stroke="#111" stroke-width="2"/>
+<polygon points="567.6,63.0 550.3,69.5 550.3,56.5" fill="#111" stroke="#111" stroke-width="1"/>
+<rect x="580" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="625.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(C)</text>
+<polygon points="655.6,63.0 640.3,89.5 609.7,89.5 594.4,63.0 609.7,36.5 640.3,36.5" fill="url(#hatch2)" stroke="#111" stroke-width="2"/>
+<polygon points="625.0,14.4 631.5,31.7 618.5,31.7" fill="#111" stroke="#111" stroke-width="1"/>
+<rect x="686" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="731.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(D)</text>
+<polygon points="761.6,63.0 746.3,89.5 715.7,89.5 700.4,63.0 715.7,36.5 746.3,36.5" fill="url(#hatch2)" stroke="#111" stroke-width="2"/>
+<polygon points="731.0,111.6 724.5,94.3 737.5,94.3" fill="#111" stroke="#111" stroke-width="1"/>
+<rect x="792" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="837.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(E)</text>
+<polygon points="867.6,63.0 852.3,89.5 821.7,89.5 806.4,63.0 821.7,36.5 852.3,36.5" fill="url(#hatch2)" stroke="#111" stroke-width="2"/>
+<polygon points="871.4,97.4 854.6,89.7 863.7,80.6" fill="#111" stroke="#111" stroke-width="1"/>
+</svg>

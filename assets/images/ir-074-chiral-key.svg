@@ -1,0 +1,41 @@
+<svg viewBox="0 0 570 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <!-- Define the base chiral key shape -->
+  <defs>
+    <g id="key_base">
+      <!-- Key Handle (Bow) -->
+      <circle cx="-15" cy="0" r="8" fill="none" stroke="#111" stroke-width="2"/>
+      <!-- Key Shaft -->
+      <line x1="-7" y1="0" x2="20" y2="0" stroke="#111" stroke-width="2"/>
+      <!-- Teeth (Bottom edge) -->
+      <polyline points="3,0 3,7 8,7 8,0" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+      <polyline points="13,0 13,9 18,9 18,0" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+      <!-- Asymmetric Notch (Top edge) - Slants up towards the right, drops flat -->
+      <polygon points="0,0 7,-7 7,0" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+    </g>
+  </defs>
+
+  <!-- Option (A) - Rotated 30° -->
+  <rect x="20" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="65.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(A)</text>
+  <use href="#key_base" transform="translate(65, 63) rotate(30)" />
+
+  <!-- Option (B) - Rotated 135° -->
+  <rect x="126" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="171.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(B)</text>
+  <use href="#key_base" transform="translate(171, 63) rotate(135)" />
+
+  <!-- Option (C) - Rotated -75° -->
+  <rect x="232" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="277.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(C)</text>
+  <use href="#key_base" transform="translate(277, 63) rotate(-75)" />
+
+  <!-- Option (D) - Rotated -160° -->
+  <rect x="338" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="383.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(D)</text>
+  <use href="#key_base" transform="translate(383, 63) rotate(-160)" />
+
+  <!-- Option (E) [ODD ONE OUT] - Mirrored horizontally and rotated 60° -->
+  <rect x="444" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="489.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(E)</text>
+  <use href="#key_base" transform="translate(489, 63) scale(-1, 1) rotate(60)" />
+</svg>

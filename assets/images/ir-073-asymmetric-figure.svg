@@ -1,0 +1,42 @@
+<svg viewBox="0 0 570 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <!-- Define the base asymmetrical robot/stick figure -->
+  <defs>
+    <g id="robot_base">
+      <circle cx="0" cy="-20" r="6" fill="#111" />
+      <rect x="-8" y="-10" width="16" height="20" fill="none" stroke="#111" stroke-width="2"/>
+      <!-- Right arm (bends UP) -->
+      <polyline points="8,-2 18,-2 18,-12" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Left arm (bends DOWN) -->
+      <polyline points="-8,-2 -18,-2 -18,8" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Right leg -->
+      <line x1="4" y1="10" x2="10" y2="25" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+      <!-- Left leg -->
+      <line x1="-4" y1="10" x2="-10" y2="25" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <!-- Option (A) - Base shape rotated 0° -->
+  <rect x="20" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="65.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(A)</text>
+  <use href="#robot_base" transform="translate(65, 63) rotate(0)" />
+
+  <!-- Option (B) [ODD ONE OUT] - Mirrored and rotated 45° -->
+  <rect x="126" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="171.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(B)</text>
+  <use href="#robot_base" transform="translate(171, 63) scale(-1, 1) rotate(45)" />
+
+  <!-- Option (C) - Base shape rotated 135° -->
+  <rect x="232" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="277.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(C)</text>
+  <use href="#robot_base" transform="translate(277, 63) rotate(135)" />
+
+  <!-- Option (D) - Base shape rotated -120° (240°) -->
+  <rect x="338" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="383.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(D)</text>
+  <use href="#robot_base" transform="translate(383, 63) rotate(-120)" />
+
+  <!-- Option (E) - Base shape rotated -60° (300°) -->
+  <rect x="444" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="489.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(E)</text>
+  <use href="#robot_base" transform="translate(489, 63) rotate(-60)" />
+</svg>

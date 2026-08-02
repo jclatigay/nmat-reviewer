@@ -1,0 +1,36 @@
+<svg viewBox="0 0 570 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <!-- Option (A) - Stem UP (90°), Flag points LEFT (CCW) -->
+  <rect x="20" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="65.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(A)</text>
+  <circle cx="65.0" cy="63.0" r="20" fill="none" stroke="#111" stroke-width="2"/>
+  <line x1="65.0" y1="63.0" x2="65.0" y2="28.0" stroke="#111" stroke-width="2"/>
+  <polygon points="65.0,28.0 65.0,40.0 50.0,34.0" fill="none" stroke="#111" stroke-width="2"/>
+
+  <!-- Option (B) - Stem UP-RIGHT (45°), Flag points UP-LEFT (CCW) -->
+  <rect x="126" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="171.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(B)</text>
+  <circle cx="171.0" cy="63.0" r="20" fill="none" stroke="#111" stroke-width="2"/>
+  <line x1="171.0" y1="63.0" x2="195.7" y2="38.3" stroke="#111" stroke-width="2"/>
+  <polygon points="195.7,38.3 187.2,46.8 178.7,34.2" fill="none" stroke="#111" stroke-width="2"/>
+
+  <!-- Option (C) - Stem DOWN-RIGHT (135°), Flag points UP-RIGHT (CCW) -->
+  <rect x="232" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="277.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(C)</text>
+  <circle cx="277.0" cy="63.0" r="20" fill="none" stroke="#111" stroke-width="2"/>
+  <line x1="277.0" y1="63.0" x2="301.7" y2="87.7" stroke="#111" stroke-width="2"/>
+  <polygon points="301.7,87.7 293.2,79.2 306.0,75.0" fill="none" stroke="#111" stroke-width="2"/>
+
+  <!-- Option (D) [ODD ONE OUT] - Stem DOWN-LEFT (225°), Flag points UP-LEFT (CW / Mirrored) -->
+  <rect x="338" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="383.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(D)</text>
+  <circle cx="383.0" cy="63.0" r="20" fill="none" stroke="#111" stroke-width="2"/>
+  <line x1="383.0" y1="63.0" x2="358.3" y2="87.7" stroke="#111" stroke-width="2"/>
+  <polygon points="358.3,87.7 366.8,79.2 354.0,75.0" fill="none" stroke="#111" stroke-width="2"/>
+
+  <!-- Option (E) - Stem UP-LEFT (315°), Flag points DOWN-LEFT (CCW) -->
+  <rect x="444" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="489.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(E)</text>
+  <circle cx="489.0" cy="63.0" r="20" fill="none" stroke="#111" stroke-width="2"/>
+  <line x1="489.0" y1="63.0" x2="464.3" y2="38.3" stroke="#111" stroke-width="2"/>
+  <polygon points="464.3,38.3 472.8,46.8 460.0,51.0" fill="none" stroke="#111" stroke-width="2"/>
+</svg>

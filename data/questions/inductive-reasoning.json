@@ -205,7 +205,7 @@
       "correctChoiceId": "D",
       "explanation": "5, 10, and 15 follow an increasing by 5 series; 22 does not fit the same pattern.",
       "hint": "Check if each option follows a consistent interval.",
-      "tags": ["classification"]
+      "tags": ["figure_grouping"]
     },
     {
       "id": "ir-012",
@@ -367,7 +367,7 @@
       "correctChoiceId": "B",
       "explanation": "Options A, C, and D each include a single diagonal line rising from lower left to upper right. Option B uses a plus sign instead.",
       "hint": "Compare the direction and number of lines in each option.",
-      "tags": ["classification"]
+      "tags": ["figure_grouping"]
     },
     {
       "id": "ir-021",
@@ -439,7 +439,7 @@
       "correctChoiceId": "D",
       "explanation": "Options A, B, and C are upright triangles. Option D is inverted, so it does not share the same orientation.",
       "hint": "Compare each figure's orientation rather than shape alone.",
-      "tags": ["classification"]
+      "tags": ["figure_grouping"]
     },
     {
       "id": "ir-025",
@@ -493,7 +493,7 @@
       "correctChoiceId": "A",
       "explanation": "Options B, C, and D have vertical mirror symmetry. Option A is uneven, so it does not match the group.",
       "hint": "Imagine folding each figure along a vertical center line.",
-      "tags": ["classification"]
+      "tags": ["figure_grouping"]
     },
     {
       "id": "ir-028",
@@ -547,7 +547,7 @@
       "correctChoiceId": "B",
       "explanation": "A, C, and D point along the main axes (up, right, and down). Option B is diagonal, so it does not fit.",
       "hint": "Compare whether the figure is axis-aligned or diagonal.",
-      "tags": ["classification"]
+      "tags": ["figure_grouping"]
     },
     {
       "id": "ir-031",
@@ -1117,6 +1117,310 @@
       "explanation": "The intervals alternate between −3 and −2: Y→V→T→Q→O→L.",
       "hint": "Check whether the backward jumps repeat.",
       "tags": ["letter_series", "medium"]
+    },
+    {
+      "id": "ir-061",
+      "number": 61,
+      "type": "figural_series",
+      "prompt": "A grid shows a hollow diamond outline made of black cells, one cell thick. The diamond grows outward by one ring each panel. Which panel completes the series?",
+      "passage": null,
+      "image": "assets/images/ir-061-diamond-grid-growth.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Each panel's black cells sit exactly one step further from the center than the last: distance 1, then 2, then 3. The next diamond ring sits at distance 4, reaching the edges of the grid. Option B shows that ring; the other options repeat an earlier size, fill in the whole diamond solid instead of just the outline, or shift the diamond off-center.",
+      "hint": "Measure how far the black cells sit from the center of the grid, not how many there are.",
+      "tags": ["figural_series"]
+    },
+    {
+      "id": "ir-062",
+      "number": 62,
+      "type": "figural_series",
+      "prompt": "A polygon gains one side each panel (square, pentagon, hexagon), and the number of circle/x symbols arranged inside it - alternating circle, x, circle, x - always matches the number of sides. Which panel completes the series?",
+      "passage": null,
+      "image": "assets/images/ir-062-polygon-symbol-growth.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "E",
+      "explanation": "Sides increase 4, 5, 6, so the next shape is a 7-sided polygon (heptagon), and it should contain 7 symbols alternating circle and x. Option E matches both the side count and the symbol count with the correct alternating pattern; the other options mismatch the side count, the symbol count, or use only circles instead of alternating.",
+      "hint": "Two counts should always match each other here - the sides of the shape and the symbols inside it.",
+      "tags": ["figural_series"]
+    },
+    {
+      "id": "ir-063",
+      "number": 63,
+      "type": "figural_series",
+      "prompt": "A target made of 3 rings and 8 spokes has some of its sectors striped, starting at the top and filling clockwise. The striped count grows by 2 each panel: 2, then 4, then 6. Which panel completes the series?",
+      "passage": null,
+      "image": "assets/images/ir-063-target-hatch-growth.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The striped sector count goes 2, 4, 6 - adding 2 each panel - so the next panel needs all 8 sectors striped, filled from the center all the way to the outer ring. Option C shows the fully striped target; the other options repeat an earlier count, use the wrong count, or leave the innermost ring blank in every striped sector.",
+      "hint": "Count the striped sectors, and check whether the stripes reach all the way to the center in each one.",
+      "tags": ["figural_series"]
+    },
+    {
+      "id": "ir-064",
+      "number": 64,
+      "type": "figural_series",
+      "prompt": "Eight crescent shapes are scattered in fixed positions. More of them turn solid black each panel: 1, then 3, then 5. Which panel completes the series?",
+      "passage": null,
+      "image": "assets/images/ir-064-crescent-fill-growth.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The count of black crescents rises by 2 each panel: 1, 3, 5, so the next panel needs 7 filled black (with one still left white). Option C shows exactly 7 black crescents and 1 white one; the other options are off by one in either direction, repeat an earlier count, or swap the crescents for plain filled circles at the right count.",
+      "hint": "Count only the solid black crescents, and check the total carefully - some distractors are only off by one.",
+      "tags": ["figural_series"]
+    },
+    {
+      "id": "ir-065",
+      "number": 65,
+      "type": "figural_series",
+      "prompt": "A hatched hexagon stays fixed while a small black flag sits at its edge. The flag moves a quarter turn clockwise each panel: bottom, then right, then top. Which panel completes the series?",
+      "passage": null,
+      "image": "assets/images/ir-065-hexagon-flag-rotation.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "The flag travels clockwise in quarter turns around the hexagon: bottom, right, top, so the next position is left. Option A places the flag at the left while the hexagon itself stays the same size, shape, and hatching throughout.",
+      "hint": "Only the flag's position changes here - track it like a clock hand moving clockwise.",
+      "tags": ["figural_series"]
+    },
+    {
+      "id": "ir-066",
+      "number": 66,
+      "type": "figural_series",
+      "prompt": "A large outline shape cycles through circle, triangle, pentagon, and square, one per panel, while a small diamond sits beside it unchanged in every panel. Which panel completes the series?",
+      "passage": null,
+      "image": "assets/images/ir-066-shape-cycle-companion.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The large shape follows a fixed cycle: circle, triangle, pentagon, so the next one in line is a square. Option C shows the square with the small diamond still present beside it; the other options repeat an earlier shape in the cycle or drop the diamond companion entirely.",
+      "hint": "The large shape follows its own fixed order - the small diamond is just along for the ride and never changes.",
+      "tags": ["figural_series"]
+    },
+    {
+      "id": "ir-067",
+      "number": 67,
+      "type": "figural_series",
+      "prompt": "A stack of 4 rows balances on a triangular pivot. Each panel, one more row (counting from the bottom) converts from a rectangle to a triangle: 1, then 2, then 3 rows converted. Which panel completes the series?",
+      "passage": null,
+      "image": "assets/images/ir-067-beam-conversion.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The number of converted rows rises by 1 each panel, counting from the bottom: 1, 2, 3, so the next panel should have all 4 rows converted to triangles. Option B shows all 4 rows as triangles. Option C has the same shape count as panel 3 (3 triangles, 1 rectangle) but stacks them in the wrong order - rectangle at the bottom instead of the top - so watch out for options that get a count right but the stacking order wrong.",
+      "hint": "Two things matter here: how many rows have converted, and whether the conversion is still happening from the bottom up.",
+      "tags": ["figural_series"]
+    },
+    {
+      "id": "ir-068",
+      "number": 68,
+      "type": "figural_series",
+      "prompt": "A spoke figure gains one spoke each panel (3, then 4, then 5) while the whole figure also rotates 15 degrees clockwise each panel. Which panel completes the series?",
+      "passage": null,
+      "image": "assets/images/ir-068-spoke-count-rotation.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "Two things change together here: the spoke count goes 3, 4, 5 (so next is 6), and the rotation goes 0, 15, 30 degrees (so next is 45). Option D is the only one that gets both right at once - the other options get one of the two correct while getting the other wrong.",
+      "hint": "Track the spoke count and the rotation angle separately, then check that both match before picking an answer.",
+      "tags": ["figural_series"]
+    },
+    {
+      "id": "ir-069",
+      "number": 69,
+      "type": "figural_series",
+      "prompt": "On a balance beam, a cluster of black dots grows by one each panel (1, then 2, then 3) on the left, while a companion outline shape on the right cycles through square, triangle, and pentagon - always a different shape than the panel before. Which panel completes the series?",
+      "passage": null,
+      "image": "assets/images/ir-069-beam-dot-companion.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The dot count goes 1, 2, 3, so the next panel needs 4 dots. The companion shape cycle goes square, triangle, pentagon, so the next new shape is a hexagon. Option C is the only one with both the correct dot count and the correct next shape in the cycle - the other options get the dot count right while repeating an old companion shape, or get the companion right while getting the dot count off by one or too high.",
+      "hint": "The dot count and the companion shape follow two separate rules - check both, not just one.",
+      "tags": ["figural_series"]
+    },
+    {
+      "id": "ir-070",
+      "number": 70,
+      "type": "figure_grouping",
+      "prompt": "Which of the following figures does not belong with the other four?",
+      "passage": null,
+      "image": "assets/images/ir-070-figure-grouping.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The flag point/triangle points in a counter-clockwise direction relative to the main line attached to the circle. In figure (D), the flag point is mirrored and points in the opposite (clockwise) orientation.",
+      "hint": "Look closely at the direction the small flag attachment points relative to the main radial stem.",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-071",
+      "number": 71,
+      "type": "figure_grouping",
+      "prompt": "Which of the following figures does not belong with the other four?",
+      "passage": null,
+      "image": "assets/images/ir-071-mirror-triangle.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The internal complex line pattern is a direct rotation of the same shape. Figure (C), however, features a mirrored version of this pattern, where the small apex triangle points in the opposite direction relative to its base line.",
+      "hint": "Compare the small triangles at the center: are they all rotations, or is one a reflection?",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-072",
+      "number": 72,
+      "type": "figure_grouping",
+      "prompt": "Which of the following figures does not belong with the other four?",
+      "passage": null,
+      "image": "assets/images/ir-072-dot-intersection.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "E",
+      "explanation": "In figures (A), (B), (C), and (D), exactly three distinct lines connect the cluster of five gray dots. In figure (E), there are four distinct lines connecting the same pattern of dots, making it the unique outlier.",
+      "hint": "Count the number of connection lines between the dots in each panel.",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-073",
+      "number": 73,
+      "type": "figure_grouping",
+      "prompt": "Which of the following figures does not belong with the other four?",
+      "passage": null,
+      "image": "assets/images/ir-073-asymmetric-figure.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Figures (A), (C), (D), and (E) are all rotations of the exact same asymmetrical figure. When oriented with the head pointing up, the figure's right arm always bends upwards and its left arm bends downwards. Figure (B) is a mirror reflection of this shape; when rotated upright, its right arm bends downwards instead.",
+      "hint": "Pick one specific feature (like the head) to mentally orient all the figures facing the same direction, then check the arms.",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-074",
+      "number": 74,
+      "type": "figure_grouping",
+      "prompt": "Which of the following figures does not belong with the other four?",
+      "passage": null,
+      "image": "assets/images/ir-074-chiral-key.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "E",
+      "explanation": "Figures (A), (B), (C), and (D) show the exact same key rotated at different angles. Note the relationship between the asymmetrical top notch and the bottom teeth. In figure (E), the key has been flipped (mirrored). You can tell because the slanted side of the top notch faces the opposite direction relative to the teeth.",
+      "hint": "Look at the small triangular notch on the flat side of the key's shaft. Which direction does the straight edge of that notch face compared to the teeth?",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-075",
+      "number": 75,
+      "type": "figure_grouping",
+      "prompt": "Which of the following figures does not belong with the other four?",
+      "passage": null,
+      "image": "assets/images/ir-075-molecule-stems.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Figures (A), (B), (D), and (E) are planar rotations of the exact same shape. If you look at the central circle, the 'side-shaded' circle is always 135 degrees counter-clockwise from the 'outward-shaded' circle. Figure (C) is a mirror reflection of this shape; its stems are arranged in the opposite orientation.",
+      "hint": "Pick one specific terminal circle (like the one with the black half pointing outward). From there, is the other circle located clockwise or counter-clockwise?",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-076",
+      "number": 76,
+      "type": "figure_grouping",
+      "prompt": "Which of the following figures does not belong with the other four?",
+      "passage": null,
+      "image": "assets/images/ir-076-wrapped-diamond.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "Figures (A), (B), (C), and (E) all show the exact same shape (a central half-shaded diamond wrapped by an angular hook) rotated in 2D space. Notice that the hook line always wraps around the white half of the diamond. In figure (D), the shape has been flipped/reflected; the hook wraps around the black half of the diamond instead.",
+      "hint": "Look at the relationship between the central shaded diamond and the outer line. Which color half (black or white) does the 'C' shaped part of the line wrap around?",
+      "tags": ["figure_grouping"]
     }
   ]
 }
