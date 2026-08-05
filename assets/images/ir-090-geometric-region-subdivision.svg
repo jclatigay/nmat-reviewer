@@ -1,0 +1,80 @@
+<svg viewBox="0 0 902 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <!-- Problem Panel 1: Diamond with 1 internal line -->
+  <rect x="20" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="65.0" y="130" font-size="16" text-anchor="middle" fill="#111">1</text>
+  <g transform="translate(65, 63)">
+    <polygon points="0,-32 32,0 0,32 -32,0" fill="none" stroke="#111" stroke-width="2"/>
+    <line x1="-16" y1="-16" x2="16" y2="16" stroke="#111" stroke-width="2"/>
+  </g>
+
+  <!-- Problem Panel 2: Circle with 2 internal lines -->
+  <rect x="126" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="171.0" y="130" font-size="16" text-anchor="middle" fill="#111">2</text>
+  <g transform="translate(171, 63)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#111" stroke-width="2"/>
+    <line x1="-20" y1="-22" x2="10" y2="28" stroke="#111" stroke-width="2"/>
+    <line x1="-28" y1="10" x2="28" y2="-10" stroke="#111" stroke-width="2"/>
+  </g>
+
+  <!-- Problem Panel 3: Square with 3 internal lines -->
+  <rect x="232" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="277.0" y="130" font-size="16" text-anchor="middle" fill="#111">3</text>
+  <g transform="translate(277, 63)">
+    <rect x="-28" y="-28" width="56" height="56" fill="none" stroke="#111" stroke-width="2"/>
+    <line x1="-28" y1="-10" x2="28" y2="-10" stroke="#111" stroke-width="2"/>
+    <line x1="-10" y1="-28" x2="-10" y2="28" stroke="#111" stroke-width="2"/>
+    <line x1="-10" y1="-10" x2="28" y2="28" stroke="#111" stroke-width="2"/>
+  </g>
+
+  <!-- Option (A): Circle with 4 lines (Wrong container shape) -->
+  <rect x="368" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="413.0" y="130" font-size="16" text-anchor="middle" fill="#111">(A)</text>
+  <g transform="translate(413, 63)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#111" stroke-width="2"/>
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#111" stroke-width="2"/>
+    <line x1="0" y1="-30" x2="0" y2="30" stroke="#111" stroke-width="2"/>
+    <line x1="-21" y1="-21" x2="21" y2="21" stroke="#111" stroke-width="2"/>
+    <line x1="-21" y1="21" x2="21" y2="-21" stroke="#111" stroke-width="2"/>
+  </g>
+
+  <!-- Option (B): Square with 4 lines (Wrong container shape) -->
+  <rect x="474" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="519.0" y="130" font-size="16" text-anchor="middle" fill="#111">(B)</text>
+  <g transform="translate(519, 63)">
+    <rect x="-28" y="-28" width="56" height="56" fill="none" stroke="#111" stroke-width="2"/>
+    <line x1="-28" y1="-28" x2="28" y2="28" stroke="#111" stroke-width="2"/>
+    <line x1="-28" y1="28" x2="28" y2="-28" stroke="#111" stroke-width="2"/>
+    <line x1="0" y1="-28" x2="0" y2="28" stroke="#111" stroke-width="2"/>
+    <line x1="-28" y1="0" x2="28" y2="0" stroke="#111" stroke-width="2"/>
+  </g>
+
+  <!-- Option (C) [CORRECT]: Diamond with 4 internal lines -->
+  <rect x="580" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="625.0" y="130" font-size="16" text-anchor="middle" fill="#111">(C)</text>
+  <g transform="translate(625, 63)">
+    <polygon points="0,-32 32,0 0,32 -32,0" fill="none" stroke="#111" stroke-width="2"/>
+    <line x1="-16" y1="-16" x2="16" y2="16" stroke="#111" stroke-width="2"/>
+    <line x1="-16" y1="16" x2="16" y2="-16" stroke="#111" stroke-width="2"/>
+    <line x1="-32" y1="0" x2="32" y2="0" stroke="#111" stroke-width="2"/>
+    <line x1="0" y1="-32" x2="0" y2="32" stroke="#111" stroke-width="2"/>
+  </g>
+
+  <!-- Option (D): Diamond with 2 lines (Too few lines) -->
+  <rect x="686" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="731.0" y="130" font-size="16" text-anchor="middle" fill="#111">(D)</text>
+  <g transform="translate(731, 63)">
+    <polygon points="0,-32 32,0 0,32 -32,0" fill="none" stroke="#111" stroke-width="2"/>
+    <line x1="-32" y1="0" x2="32" y2="0" stroke="#111" stroke-width="2"/>
+    <line x1="0" y1="-32" x2="0" y2="32" stroke="#111" stroke-width="2"/>
+  </g>
+
+  <!-- Option (E): Circle with 3 lines (Wrong container shape) -->
+  <rect x="792" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="837.0" y="130" font-size="16" text-anchor="middle" fill="#111">(E)</text>
+  <g transform="translate(837, 63)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#111" stroke-width="2"/>
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#111" stroke-width="2"/>
+    <line x1="0" y1="-30" x2="0" y2="30" stroke="#111" stroke-width="2"/>
+    <line x1="-21" y1="-21" x2="21" y2="21" stroke="#111" stroke-width="2"/>
+  </g>
+</svg>

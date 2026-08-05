@@ -1,0 +1,78 @@
+<svg viewBox="0 0 902 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <!-- Pattern for Checkers -->
+    <pattern id="checkers" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="4" height="4" fill="#111"/>
+      <rect x="4" y="4" width="4" height="4" fill="#111"/>
+      <rect x="4" y="0" width="4" height="4" fill="#fff"/>
+      <rect x="0" y="4" width="4" height="4" fill="#fff"/>
+    </pattern>
+
+    <!-- Composite Symbol Group A, B, C, D -->
+    <g id="compound_shape_valid">
+      <!-- L-channel base -->
+      <polyline points="-25,25 -25,-5 5,-5" fill="none" stroke="#111" stroke-width="2.5"/>
+      <polyline points="-19,25 -19,1 11,1" fill="none" stroke="#111" stroke-width="2.5"/>
+      <line x1="-25" y1="25" x2="-19" y2="25" stroke="#111" stroke-width="2.5"/>
+      <line x1="5" y1="-5" x2="11" y2="1" stroke="#111" stroke-width="2.5"/>
+      
+      <!-- Checkered block intersecting stem -->
+      <rect x="-6" y="-18" width="12" height="12" fill="#fff" stroke="#111" stroke-width="2"/>
+      <rect x="-6" y="-18" width="12" height="12" fill="url(#checkers)"/>
+
+      <!-- Circle node at top extension -->
+      <circle cx="-3" cy="-28" r="8" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M-11,-28 A8,8 0 0,0 5,-28 Z" fill="#111"/>
+    </g>
+
+    <!-- Composite Symbol Group E (Modified/Odd) -->
+    <g id="compound_shape_invalid">
+      <polyline points="-25,25 -25,-5 5,-5" fill="none" stroke="#111" stroke-width="2.5"/>
+      <polyline points="-19,25 -19,1 11,1" fill="none" stroke="#111" stroke-width="2.5"/>
+      <line x1="-25" y1="25" x2="-19" y2="25" stroke="#111" stroke-width="2.5"/>
+      <line x1="5" y1="-5" x2="11" y2="1" stroke="#111" stroke-width="2.5"/>
+      
+      <!-- Swapped positions: Circle lower, checkers higher -->
+      <circle cx="-3" cy="-18" r="8" fill="#fff" stroke="#111" stroke-width="2"/>
+      <path d="M-11,-18 A8,8 0 0,0 5,-18 Z" fill="#111"/>
+
+      <rect x="-9" y="-34" width="12" height="12" fill="#fff" stroke="#111" stroke-width="2"/>
+      <rect x="-9" y="-34" width="12" height="12" fill="url(#checkers)"/>
+    </g>
+  </defs>
+
+  <!-- Choice (A) -->
+  <rect x="146" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="191" y="130" font-size="16" text-anchor="middle" fill="#111">(A)</text>
+  <g transform="translate(191, 63)">
+    <use href="#compound_shape_valid"/>
+  </g>
+
+  <!-- Choice (B) -->
+  <rect x="276" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="321" y="130" font-size="16" text-anchor="middle" fill="#111">(B)</text>
+  <g transform="translate(321, 63) rotate(45)">
+    <use href="#compound_shape_valid"/>
+  </g>
+
+  <!-- Choice (C) -->
+  <rect x="406" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="451" y="130" font-size="16" text-anchor="middle" fill="#111">(C)</text>
+  <g transform="translate(451, 63) rotate(-90)">
+    <use href="#compound_shape_valid"/>
+  </g>
+
+  <!-- Choice (D) -->
+  <rect x="536" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="581" y="130" font-size="16" text-anchor="middle" fill="#111">(D)</text>
+  <g transform="translate(581, 63) rotate(135)">
+    <use href="#compound_shape_valid"/>
+  </g>
+
+  <!-- Choice (E) [ODD ONE OUT] -->
+  <rect x="666" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="711" y="130" font-size="16" text-anchor="middle" fill="#111">(E)</text>
+  <g transform="translate(711, 63) rotate(45)">
+    <use href="#compound_shape_invalid"/>
+  </g>
+</svg>

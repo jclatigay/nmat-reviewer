@@ -1421,6 +1421,462 @@
       "explanation": "Figures (A), (B), (C), and (E) all show the exact same shape (a central half-shaded diamond wrapped by an angular hook) rotated in 2D space. Notice that the hook line always wraps around the white half of the diamond. In figure (D), the shape has been flipped/reflected; the hook wraps around the black half of the diamond instead.",
       "hint": "Look at the relationship between the central shaded diamond and the outer line. Which color half (black or white) does the 'C' shaped part of the line wrap around?",
       "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-077",
+      "number": 77,
+      "type": "figure_grouping",
+      "prompt": "Each five-pointed star has two of its points shaded black. Which figure does NOT belong with the others?",
+      "passage": null,
+      "image": "assets/images/ir-077-star-shading-grouping.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "In figures A, B, D, and E, the two black points always have one white point between them. In figure C, the two black points sit right next to each other with no white point in between.",
+      "hint": "Don't just count the black points - look at whether they're touching each other or not.",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-078",
+      "number": 78,
+      "type": "figure_grouping",
+      "prompt": "Each figure is made of two overlapping triangles. Which figure does NOT belong with the others?",
+      "passage": null,
+      "image": "assets/images/ir-078-hexagram-grouping.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "E",
+      "explanation": "In figures A, B, C, and D, the two triangles are offset so they form a symmetric six-pointed star shape. In figure E, the triangles are offset by the wrong amount, so the overlap looks lopsided instead of forming a proper six-pointed star.",
+      "hint": "Check whether the overlap makes a neat six-pointed star or looks tilted and uneven.",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-079",
+      "number": 79,
+      "type": "figure_grouping",
+      "prompt": "Each hexagon contains a circle, square, triangle, star, and diamond, with two of the five shapes shaded black. Which figure does NOT belong with the others?",
+      "passage": null,
+      "image": "assets/images/ir-079-hexagon-shape-identity.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "In figures A, C, D, and E, the two black shapes are always the circle and the triangle, no matter where they sit inside the hexagon. In figure B, the black shapes are the square and the star instead.",
+      "hint": "Don't just count the black shapes - identify which two shape types are black in each figure.",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-080",
+      "number": 80,
+      "type": "figure_grouping",
+      "prompt": "Each box scatters four outline shapes. Which figure does NOT belong with the others?",
+      "passage": null,
+      "image": "assets/images/ir-080-shape-category-composition.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "Figures A, B, C, and E each contain exactly one circle, one triangle, one quadrilateral, and one pentagon - one shape from each of four categories. Figure D has two quadrilaterals and two triangles instead, with no circle and no pentagon at all.",
+      "hint": "Check whether all four shape categories are represented, not just whether the shapes look similar at a glance.",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-081",
+      "number": 81,
+      "type": "figure_grouping",
+      "prompt": "Two shapes sit on a short connecting bar, one filled black and one left white. Which figure does NOT belong with the others?",
+      "passage": null,
+      "image": "assets/images/ir-081-fill-position-rule.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "In figures B, C, D, and E, the black (filled) shape always sits on the left side of the bar, regardless of whether it's a triangle or a circle. In figure A, the black shape sits on the right side instead.",
+      "hint": "Ignore which shape is a triangle and which is a circle - focus on which side the black one is on.",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-082",
+      "number": 82,
+      "type": "figure_grouping",
+      "prompt": "Each box scatters the same five glyphs - { }, [ ], #, %, and ≠ - at different positions and angles. Which figure does NOT belong with the others?",
+      "passage": null,
+      "image": "assets/images/ir-082-glyph-set-matching.svg",
+      "choices": [
+        { "id": "A", "text": "Figure A" },
+        { "id": "B", "text": "Figure B" },
+        { "id": "C", "text": "Figure C" },
+        { "id": "D", "text": "Figure D" },
+        { "id": "E", "text": "Figure E" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Figures A, B, D, and E all contain exactly the same five glyphs: { }, [ ], #, %, and ≠, just scattered and rotated differently. Figure C is missing the % sign and has an & symbol in its place instead.",
+      "hint": "Position and rotation don't matter here - check off each of the five glyphs against what's actually in the box.",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-083",
+      "number": 83,
+      "type": "figure_grouping",
+      "prompt": "Each 4x4 grid has 4 gray cells and two diagonal lines drawn across it. Which figure does NOT belong with the others?",
+      "passage": null,
+      "image": "assets/images/ir-083-grid-line-endpoint.svg",
+      "choices": [
+        { "id": "A", "text": "Figure A" },
+        { "id": "B", "text": "Figure B" },
+        { "id": "C", "text": "Figure C" },
+        { "id": "D", "text": "Figure D" },
+        { "id": "E", "text": "Figure E" }
+      ],
+      "correctChoiceId": "E",
+      "explanation": "In figures A, B, C, and D, both ends of both lines always land exactly on the center of a gray cell. In figure E, one end of a line lands on a white cell instead.",
+      "hint": "Trace every line end back to the cell it lands on, and check whether that cell is actually shaded.",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-084",
+      "number": 84,
+      "type": "figure_grouping",
+      "prompt": "Each box contains one large outline shape. Which figure does NOT belong with the others?",
+      "passage": null,
+      "image": "assets/images/ir-084-simple-vs-selfintersecting.svg",
+      "choices": [
+        { "id": "A", "text": "Figure A" },
+        { "id": "B", "text": "Figure B" },
+        { "id": "C", "text": "Figure C" },
+        { "id": "D", "text": "Figure D" },
+        { "id": "E", "text": "Figure E" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The triangle, pill, circle, and diamond in figures A, B, C, and E are all simple closed shapes - their outlines never cross themselves. Figure D is a bowtie shape whose outline crosses itself in the middle, forming two separate triangular sections instead of one enclosed area.",
+      "hint": "Trace the outline of each shape with your finger - does it ever cross over itself?",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-085",
+      "number": 85,
+      "type": "figural_series",
+      "prompt": "Which of the figures on the right completes the series on the left?",
+      "passage": null,
+      "image": "assets/images/ir-085-rotational-shading.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The hatched region inside the diamond rotates 90° clockwise from panel to panel: Top-Left (1) -> Top-Right (2) -> Bottom-Right (3). Following this clockwise rule, the 4th panel must have the hatching in the Bottom-Left quadrant, which is Option C.",
+      "hint": "Track the position of the hatched quadrant. Which direction is it rotating step-by-step?",
+      "tags": ["figural_series"]
+    },
+    {
+      "id": "ir-086",
+      "number": 86,
+      "type": "figural_series",
+      "prompt": "Which of the figures on the right completes the series on the left?",
+      "passage": null,
+      "image": "assets/images/ir-086-moving-lens.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The lens shape moves continuously from left to right across the box while the central hexagon remains fixed. In Panel 1, the lens is on the far left. In Panel 2, it shifts right to overlap the left edge of the hexagon. In Panel 3, it centers directly over the hexagon. Continuing this rightward trajectory, the lens in Panel 4 must shift further right to overlap the right half of the hexagon, which corresponds to Option C.",
+      "hint": "Follow the horizontal motion of the curved double-arc lens relative to the stationary central hexagon.",
+      "tags": ["figural_series"]
+    },
+    {
+      "id": "ir-087",
+      "number": 87,
+      "type": "figural_series",
+      "prompt": "Which of the figures on the right completes the series on the left?",
+      "passage": null,
+      "image": "assets/images/ir-087-growing-dot-chain.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "There are two rules happening simultaneously. First, the continuous line grows by exactly two dots in each panel (Panel 1 has 2 dots, Panel 2 has 4 dots, Panel 3 has 6 dots). Following this pattern, the next panel must have 8 dots tracing the snake-like path. Second, the single solid black dot alternates its position: it is at the START of the path in odd panels (1 and 3) and at the END of the path in even panels (2 and 4). Option A is the only figure with exactly 8 dots where the solid dot is at the very end of the path.",
+      "hint": "Count the number of dots in each panel to find the growth pattern. Then, check whether the solid black dot is at the beginning or the end of the line.",
+      "tags": ["figural_series"]
+    },
+    {
+      "id": "ir-088",
+      "number": 88,
+      "type": "figural_series",
+      "prompt": "Which of the figures on the right completes the series on the left?",
+      "passage": null,
+      "image": "assets/images/ir-088-alternating-bars-ovals.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "There are two alternating rules in this sequence. First, the outer line framing alternates between horizontal bars (top/bottom) in odd panels and vertical bars (left/right) in even panels. Panel 4 must have vertical side bars. Second, the single solid black oval rotates clockwise around the center (270° Left → 180° Bottom → 90° Right → 0° Top). Therefore, Panel 4 requires vertical side bars with the top oval shaded black, which corresponds to Option B.",
+      "hint": "Track the position of the solid black oval step-by-step as it rotates around the center, and note how the outer line bars flip orientation.",
+      "tags": ["figural_series"]
+    },
+    {
+      "id": "ir-089",
+      "number": 89,
+      "type": "figural_series",
+      "prompt": "Which of the figures on the right completes the series on the left?",
+      "passage": null,
+      "image": "assets/images/ir-089-hexagon-sector-accumulation.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "In each step, one additional triangular sector of the outer hexagon is shaded black in a continuous clockwise direction. Panel 1 has 1 sector shaded, Panel 2 has 2 sectors shaded, and Panel 3 has 3 sectors shaded. Following this pattern, Panel 4 must have 4 contiguous sectors shaded black, starting from the top-right and wrapping around to the bottom-left (Option D).",
+      "hint": "Count the number of black triangular sectors in each frame and see how they fill in around the hexagon.",
+      "tags": ["figural_series"]
+    },
+    {
+      "id": "ir-090",
+      "number": 90,
+      "type": "figural_series",
+      "prompt": "Which of the figures on the right completes the series on the left?",
+      "passage": null,
+      "image": "assets/images/ir-090-geometric-region-subdivision.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Two rules operate together in this series. First, the outer container shape follows a repeating cycle: Diamond -> Circle -> Square -> Diamond. Therefore, Panel 4 must be a Diamond. Second, the number of internal dividing lines increases sequentially (1 line in Panel 1, 2 lines in Panel 2, 3 lines in Panel 3). Panel 4 must contain 4 internal dividing lines, making Option C the correct choice.",
+      "hint": "Identify the repeating sequence of outer frame shapes (Diamond, Circle, Square...) and count how many straight lines cut across the inside of each figure.",
+      "tags": ["figural_series"]
+    },
+    {
+      "id": "ir-091",
+      "number": 91,
+      "type": "figure_grouping",
+      "prompt": "Find the figure that is different from the other four.",
+      "passage": null,
+      "image": "assets/images/ir-091-z-path-rotation.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "In figures A, B, C, and E, if you rotate the main Z-path shape, the relative placement and shading orientations of the two crescent moon elements maintain a consistent chiral relationship. In figure D, however, the relative position of the crescent moons has been mirrored incorrectly relative to the bent frame structure, making it the odd one out.",
+      "hint": " Mentally rotate each figure to align the Z-path frames and check if the relative positions and shading of the internal crescent moons match.",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-092",
+      "number": 92,
+      "type": "figure_grouping",
+      "prompt": "Find the figure that is different from the other four.",
+      "passage": null,
+      "image": "assets/images/ir-092-angular-alignment-checkers.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "E",
+      "explanation": "Figures A, B, C, and D can be rotated into exact superimposition, maintaining the specific sequence where the checkered block bridges the L-shaped connector and the half-shaded circular node lies at the terminal tip. In figure E, the spatial order and attachment of the circular node and checkered block are structurally inverted relative to the frame structure.",
+      "hint": "Check the exact sequence order from the corner bend outward: check where the checkered block sits relative to the circular node.",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-093",
+      "number": 93,
+      "type": "figure_grouping",
+      "prompt": "Find the figure that is different from the other four.",
+      "passage": null,
+      "image": "assets/images/ir-093-scaled-anomaly.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "E",
+      "explanation": "Figures A, B, C, and D contain the exact same four shapes (a circle, a square, a rectangle, and a triangle) which are identical in size and proportion, merely rotated and scattered differently. In figure E, the circle is significantly smaller in proportion to the other shapes, making it the odd one out.",
+      "hint": "Compare the relative sizes and proportions of the individual shapes across all five boxes.",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-094",
+      "number": 94,
+      "type": "figure_grouping",
+      "prompt": "Find the figure that is different from the other four.",
+      "passage": null,
+      "image": "assets/images/ir-094-chiral-rotation.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "Figures A, B, C, and E are all identical rotations of the exact same rigid design (an asymmetrical pinwheel). Figure D is a mirrored (flipped) version of this design. No matter how you rotate Figure D, it will never superimpose perfectly onto the others because its chirality (handedness) is reversed.",
+      "hint": "Try to mentally rotate the figures to face the same direction. Look carefully at the orientation of the black shaded triangles—one of these figures is flipped.",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-095",
+      "number": 95,
+      "type": "figure_grouping",
+      "prompt": "Find the figure that is different from the other four.",
+      "passage": null,
+      "image": "assets/images/ir-095-overlap-chain.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "In figures A, B, D, and E, the overlapping structures form a single continuous, linear chain. No single shape intersects with more than two other shapes. In figure C, the layout forms a 'hub' structure where the large central circle simultaneously overlaps with three independent outer shapes (a triangle, a square, and a hexagon).",
+      "hint": "Count how many other geometric shapes each individual shape intersects. Look for a pattern in how they are connected to one another.",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-096",
+      "number": 96,
+      "type": "figure_grouping",
+      "prompt": "Find the figure that is different from the other four.",
+      "passage": null,
+      "image": "assets/images/ir-096-vertex-ratio-invariant.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "In figures A, B, C, and E, the total number of triangle vertices equals the total number of hexagon vertices, meaning the ratio of triangles to hexagons is always 2:1, so 3 × N_triangle = 6 × N_hexagon. In figure D, there are 5 triangles (15 vertices) and 3 hexagons (18 vertices), so this equivalence is broken.",
+      "hint": "Calculate the total number of sides/vertices contributed by each shape category inside every box.",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-097",
+      "number": 97,
+      "type": "figure_grouping",
+      "prompt": "Find the figure that is different from the other four.",
+      "passage": null,
+      "image": "assets/images/ir-097-asymmetric-angular-tabs.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "Figures A, B, C, and E are direct 2D rotations of the same asymmetric wheel design (containing three square tabs and one triangular tab placed at non-uniform angular intervals of 60°, 120°, 90°, and 90°). Figure D is a mirrored (reflected) version, making its spatial chirality inverted.",
+      "hint": "Trace the clockwise order and angular distances between the tabs around the circle.",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-098",
+      "number": 98,
+      "type": "figure_grouping",
+      "prompt": "Find the figure that is different from the other four.",
+      "passage": null,
+      "image": "assets/images/ir-098-dual-progression-diagonal.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "In figures A, B, D, and E, the three shapes aligned along the diagonal obey a dual progression: moving along the diagonal line, the shapes strictly increase both in overall size (Small → Medium → Large) and in vertex count (N → N + 1 → N + 2). In figure C, the size increases correctly, but the vertex count sequence is broken (3 → 6 → 5).",
+      "hint": "Check both the size progression AND the vertex count (number of sides) of the shapes along each diagonal line.",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-099",
+      "number": 99,
+      "type": "figure_grouping",
+      "prompt": "Find the figure that is different from the other four.",
+      "passage": null,
+      "image": "assets/images/ir-099-topological-overlap.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "In figures A, B, D, and E, the elongated wedge shape acts as a connecting bridge that simultaneously intersects both the circle and the heart shape, while the triangle remains completely isolated (non-overlapping). In figure C, the triangle overlaps the wedge, and the circle is left detached, violating the topological connection rule.",
+      "hint": "Examine which shapes intersect the elongated wedge and which shape is completely isolated without overlaps.",
+      "tags": ["figure_grouping"]
+    },
+    {
+      "id": "ir-100",
+      "number": 100,
+      "type": "figure_grouping",
+      "prompt": "Find the figure that is different from the other four.",
+      "passage": null,
+      "image": "assets/images/ir-100-shading-polarity.svg",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "In figures A, B, D, and E, the shading polarity obeys a dual structural rule: when the large rectangle has its **bottom half** shaded black, the black half of the bottom horizontal bar points **towards** the narrow vertical bar. When the large rectangle has its **top half** shaded black, the black half of the horizontal bar points **away** from the narrow vertical bar. Figure C violates this relationship by having its top half shaded black while its horizontal black section incorrectly points towards the narrow bar.",
+      "hint": "Analyze the position of the black shaded half in the bottom horizontal bar relative to the thin vertical bar and the shading of the large block.",
+      "tags": ["figure_grouping"]
     }
   ]
 }

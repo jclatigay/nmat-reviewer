@@ -1,0 +1,58 @@
+<svg viewBox="0 0 902 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <!-- Base Asymmetrical Chiral Pinwheel -->
+    <g id="pinwheel_base">
+      <!-- Main grid -->
+      <rect x="-20" y="-20" width="40" height="40" fill="none" stroke="#111" stroke-width="2"/>
+      <line x1="-20" y1="-20" x2="20" y2="20" stroke="#111" stroke-width="2"/>
+      <line x1="-20" y1="20" x2="20" y2="-20" stroke="#111" stroke-width="2"/>
+      <line x1="0" y1="-20" x2="0" y2="20" stroke="#111" stroke-width="2"/>
+      <line x1="-20" y1="0" x2="20" y2="0" stroke="#111" stroke-width="2"/>
+      
+      <!-- Internal Shaded Triangles to create chirality -->
+      <polygon points="0,0 20,0 20,-20" fill="#111"/> <!-- Top Right -->
+      <polygon points="0,0 -20,0 -20,20" fill="#111"/> <!-- Bottom Left -->
+      <polygon points="0,0 0,-20 -20,-20" fill="#111"/> <!-- Top Left -->
+      <polygon points="0,0 0,20 20,20" fill="#111"/> <!-- Bottom Right -->
+      
+      <!-- External Attachments (Breaks strict 4-way symmetry, establishes 180-deg symmetry) -->
+      <polygon points="20,-20 30,-20 20,-10" fill="#fff" stroke="#111" stroke-width="1.5"/>
+      <polygon points="-20,20 -30,20 -20,10" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    </g>
+  </defs>
+
+  <!-- Choice (A) - Base Orientation -->
+  <rect x="146" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="191" y="130" font-size="16" text-anchor="middle" fill="#111">(A)</text>
+  <g transform="translate(191, 63)">
+    <use href="#pinwheel_base"/>
+  </g>
+
+  <!-- Choice (B) - Rotated 90 degrees -->
+  <rect x="276" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="321" y="130" font-size="16" text-anchor="middle" fill="#111">(B)</text>
+  <g transform="translate(321, 63) rotate(90)">
+    <use href="#pinwheel_base"/>
+  </g>
+
+  <!-- Choice (C) - Rotated 180 degrees -->
+  <rect x="406" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="451" y="130" font-size="16" text-anchor="middle" fill="#111">(C)</text>
+  <g transform="translate(451, 63) rotate(180)">
+    <use href="#pinwheel_base"/>
+  </g>
+
+  <!-- Choice (D) [ODD ONE OUT] - Mirrored/Flipped -->
+  <rect x="536" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="581" y="130" font-size="16" text-anchor="middle" fill="#111">(D)</text>
+  <g transform="translate(581, 63) scale(-1, 1)">
+    <use href="#pinwheel_base"/>
+  </g>
+
+  <!-- Choice (E) - Rotated 270 degrees -->
+  <rect x="666" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="711" y="130" font-size="16" text-anchor="middle" fill="#111">(E)</text>
+  <g transform="translate(711, 63) rotate(270)">
+    <use href="#pinwheel_base"/>
+  </g>
+</svg>

@@ -1,0 +1,107 @@
+<svg viewBox="0 0 902 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <!-- Base Hexagon Grid Wireframe -->
+    <g id="hex_grid">
+      <polygon points="30,0 15,25.98 -15,25.98 -30,0 -15,-25.98 15,-25.98" fill="none" stroke="#111" stroke-width="2"/>
+      <polygon points="14,0 7,12.12 -7,12.12 -14,0 -7,-12.12 7,-12.12" fill="none" stroke="#111" stroke-width="1.5"/>
+      <line x1="14" y1="0" x2="30" y2="0" stroke="#111" stroke-width="1.5"/>
+      <line x1="7" y1="12.12" x2="15" y2="25.98" stroke="#111" stroke-width="1.5"/>
+      <line x1="-7" y1="12.12" x2="-15" y2="25.98" stroke="#111" stroke-width="1.5"/>
+      <line x1="-14" y1="0" x2="-30" y2="0" stroke="#111" stroke-width="1.5"/>
+      <line x1="-7" y1="-12.12" x2="-15" y2="-25.98" stroke="#111" stroke-width="1.5"/>
+      <line x1="7" y1="-12.12" x2="15" y2="-25.98" stroke="#111" stroke-width="1.5"/>
+    </g>
+
+    <!-- Shaded Wedges -->
+    <!-- Sector 1: Top-Right (0 to 60 deg) -->
+    <polygon id="wedge1" points="14,0 30,0 15,25.98 7,12.12" fill="#111"/>
+    <!-- Sector 2: Bottom-Right (60 to 120 deg) -->
+    <polygon id="wedge2" points="7,12.12 15,25.98 -15,25.98 -7,12.12" fill="#111"/>
+    <!-- Sector 3: Bottom-Left (120 to 180 deg) -->
+    <polygon id="wedge3" points="-7,12.12 -15,25.98 -30,0 -14,0" fill="#111"/>
+    <!-- Sector 4: Mid-Left (180 to 240 deg) -->
+    <polygon id="wedge4" points="-14,0 -30,0 -15,-25.98 -7,-12.12" fill="#111"/>
+    <!-- Sector 5: Top-Left (240 to 300 deg) -->
+    <polygon id="wedge5" points="-7,-12.12 -15,-25.98 15,-25.98 7,-12.12" fill="#111"/>
+  </defs>
+
+  <!-- Problem Panel 1: 1 Wedge -->
+  <rect x="20" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="65.0" y="130" font-size="16" text-anchor="middle" fill="#111">1</text>
+  <g transform="translate(65, 63)">
+    <use href="#wedge1"/>
+    <use href="#hex_grid"/>
+  </g>
+
+  <!-- Problem Panel 2: 2 Wedges -->
+  <rect x="126" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="171.0" y="130" font-size="16" text-anchor="middle" fill="#111">2</text>
+  <g transform="translate(171, 63)">
+    <use href="#wedge1"/>
+    <use href="#wedge2"/>
+    <use href="#hex_grid"/>
+  </g>
+
+  <!-- Problem Panel 3: 3 Wedges -->
+  <rect x="232" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="277.0" y="130" font-size="16" text-anchor="middle" fill="#111">3</text>
+  <g transform="translate(277, 63)">
+    <use href="#wedge1"/>
+    <use href="#wedge2"/>
+    <use href="#wedge3"/>
+    <use href="#hex_grid"/>
+  </g>
+
+  <!-- Option (A): 3 Wedges (Repeat panel 3) -->
+  <rect x="368" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="413.0" y="130" font-size="16" text-anchor="middle" fill="#111">(A)</text>
+  <g transform="translate(413, 63)">
+    <use href="#wedge1"/>
+    <use href="#wedge2"/>
+    <use href="#wedge3"/>
+    <use href="#hex_grid"/>
+  </g>
+
+  <!-- Option (B): 5 Wedges (Too many) -->
+  <rect x="474" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="519.0" y="130" font-size="16" text-anchor="middle" fill="#111">(B)</text>
+  <g transform="translate(519, 63)">
+    <use href="#wedge1"/>
+    <use href="#wedge2"/>
+    <use href="#wedge3"/>
+    <use href="#wedge4"/>
+    <use href="#wedge5"/>
+    <use href="#hex_grid"/>
+  </g>
+
+  <!-- Option (C): 2 Wedges (Too few) -->
+  <rect x="580" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="625.0" y="130" font-size="16" text-anchor="middle" fill="#111">(C)</text>
+  <g transform="translate(625, 63)">
+    <use href="#wedge1"/>
+    <use href="#wedge3"/>
+    <use href="#hex_grid"/>
+  </g>
+
+  <!-- Option (D) [CORRECT]: 4 Wedges -->
+  <rect x="686" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="731.0" y="130" font-size="16" text-anchor="middle" fill="#111">(D)</text>
+  <g transform="translate(731, 63)">
+    <use href="#wedge1"/>
+    <use href="#wedge2"/>
+    <use href="#wedge3"/>
+    <use href="#wedge4"/>
+    <use href="#hex_grid"/>
+  </g>
+
+  <!-- Option (E): 4 Non-contiguous Wedges (FIXED TRANSLATION TO 837) -->
+  <rect x="792" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="837.0" y="130" font-size="16" text-anchor="middle" fill="#111">(E)</text>
+  <g transform="translate(837, 63)">
+    <use href="#wedge1"/>
+    <use href="#wedge2"/>
+    <use href="#wedge4"/>
+    <use href="#wedge5"/>
+    <use href="#hex_grid"/>
+  </g>
+</svg>

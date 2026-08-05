@@ -1,0 +1,77 @@
+<svg viewBox="0 0 902 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <!-- Large Rect: Top Black, Bottom White -->
+    <g id="fg100_rect_top_black">
+      <rect x="-12" y="-18" width="24" height="18" fill="#111" stroke="#111" stroke-width="1.5"/>
+      <rect x="-12" y="0" width="24" height="18" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    </g>
+    <!-- Large Rect: Bottom Black, Top White -->
+    <g id="fg100_rect_bot_black">
+      <rect x="-12" y="-18" width="24" height="18" fill="#fff" stroke="#111" stroke-width="1.5"/>
+      <rect x="-12" y="0" width="24" height="18" fill="#111" stroke="#111" stroke-width="1.5"/>
+    </g>
+
+    <!-- Thin Bar: Center Third Black -->
+    <g id="fg100_thin_bar">
+      <rect x="-4" y="-18" width="8" height="12" fill="#fff" stroke="#111" stroke-width="1.5"/>
+      <rect x="-4" y="-6" width="8" height="12" fill="#111" stroke="#111" stroke-width="1.5"/>
+      <rect x="-4" y="6" width="8" height="12" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    </g>
+
+    <!-- Horiz Bar: Left Black -->
+    <g id="fg100_horiz_left_black">
+      <rect x="-12" y="-5" width="12" height="10" fill="#111" stroke="#111" stroke-width="1.5"/>
+      <rect x="0" y="-5" width="12" height="10" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    </g>
+    <!-- Horiz Bar: Right Black -->
+    <g id="fg100_horiz_right_black">
+      <rect x="-12" y="-5" width="12" height="10" fill="#fff" stroke="#111" stroke-width="1.5"/>
+      <rect x="0" y="-5" width="12" height="10" fill="#111" stroke="#111" stroke-width="1.5"/>
+    </g>
+  </defs>
+
+  <!-- Choice (A): Bottom Black Rect, Thin Bar RIGHT -> Horiz Black RIGHT (towards thin bar) -->
+  <rect x="146" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="191" y="130" font-size="16" text-anchor="middle" fill="#111">(A)</text>
+  <g transform="translate(191, 63)">
+    <use href="#fg100_rect_bot_black" transform="translate(-10, -6)"/>
+    <use href="#fg100_thin_bar" transform="translate(14, -6)"/>
+    <use href="#fg100_horiz_right_black" transform="translate(-2, 25)"/>
+  </g>
+
+  <!-- Choice (B): Bottom Black Rect, Thin Bar LEFT -> Horiz Black LEFT (towards thin bar) -->
+  <rect x="276" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="321" y="130" font-size="16" text-anchor="middle" fill="#111">(B)</text>
+  <g transform="translate(321, 63)">
+    <use href="#fg100_thin_bar" transform="translate(-14, -6)"/>
+    <use href="#fg100_rect_bot_black" transform="translate(10, -6)"/>
+    <use href="#fg100_horiz_left_black" transform="translate(-2, 25)"/>
+  </g>
+
+  <!-- Choice (C) [ODD ONE OUT]: Top Black Rect, Thin Bar LEFT -> Horiz Black should be RIGHT (away), but is LEFT! -->
+  <rect x="406" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="451" y="130" font-size="16" text-anchor="middle" fill="#111">(C)</text>
+  <g transform="translate(451, 63)">
+    <use href="#fg100_thin_bar" transform="translate(-14, -6)"/>
+    <use href="#fg100_rect_top_black" transform="translate(10, -6)"/>
+    <use href="#fg100_horiz_left_black" transform="translate(-2, 25)"/>
+  </g>
+
+  <!-- Choice (D): Top Black Rect, Thin Bar RIGHT -> Horiz Black LEFT (away from thin bar) -->
+  <rect x="536" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="581" y="130" font-size="16" text-anchor="middle" fill="#111">(D)</text>
+  <g transform="translate(581, 63)">
+    <use href="#fg100_rect_top_black" transform="translate(-10, -6)"/>
+    <use href="#fg100_thin_bar" transform="translate(14, -6)"/>
+    <use href="#fg100_horiz_left_black" transform="translate(-2, 25)"/>
+  </g>
+
+  <!-- Choice (E): Top Black Rect, Thin Bar LEFT -> Horiz Black RIGHT (away from thin bar) -->
+  <rect x="666" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="711" y="130" font-size="16" text-anchor="middle" fill="#111">(E)</text>
+  <g transform="translate(711, 63)">
+    <use href="#fg100_thin_bar" transform="translate(-14, -6)"/>
+    <use href="#fg100_rect_top_black" transform="translate(10, -6)"/>
+    <use href="#fg100_horiz_right_black" transform="translate(-2, 25)"/>
+  </g>
+</svg>

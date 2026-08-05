@@ -1,0 +1,63 @@
+<svg viewBox="0 0 902 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <!-- Base Shapes (Standard Size) -->
+    <circle id="shape_circle" cx="0" cy="0" r="10" fill="none" stroke="#111" stroke-width="2"/>
+    <rect id="shape_square" x="-10" y="-10" width="20" height="20" fill="none" stroke="#111" stroke-width="2"/>
+    <rect id="shape_rect" x="-15" y="-6" width="30" height="12" fill="none" stroke="#111" stroke-width="2"/>
+    <polygon id="shape_tri" points="0,-12 -11,8 11,8" fill="none" stroke="#111" stroke-width="2"/>
+    
+    <!-- Scaled Down Anomaly -->
+    <circle id="shape_circle_small" cx="0" cy="0" r="4" fill="none" stroke="#111" stroke-width="2"/>
+  </defs>
+
+  <!-- Choice (A) -->
+  <rect x="146" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="191" y="130" font-size="16" text-anchor="middle" fill="#111">(A)</text>
+  <g transform="translate(191, 63)">
+    <use href="#shape_circle" transform="translate(-20, -20)"/>
+    <use href="#shape_square" transform="translate(0, 5)"/>
+    <use href="#shape_rect" transform="translate(20, -10) rotate(90)"/>
+    <use href="#shape_tri" transform="translate(-15, 20)"/>
+  </g>
+
+  <!-- Choice (B) -->
+  <rect x="276" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="321" y="130" font-size="16" text-anchor="middle" fill="#111">(B)</text>
+  <g transform="translate(321, 63)">
+    <use href="#shape_circle" transform="translate(20, -20)"/>
+    <use href="#shape_square" transform="translate(-15, -10) rotate(30)"/>
+    <use href="#shape_rect" transform="translate(5, 10) rotate(-60)"/>
+    <use href="#shape_tri" transform="translate(-20, 20) rotate(-45)"/>
+  </g>
+
+  <!-- Choice (C) -->
+  <rect x="406" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="451" y="130" font-size="16" text-anchor="middle" fill="#111">(C)</text>
+  <g transform="translate(451, 63)">
+    <use href="#shape_circle" transform="translate(0, 0)"/>
+    <use href="#shape_square" transform="translate(20, -15) rotate(15)"/>
+    <use href="#shape_rect" transform="translate(0, 22)"/>
+    <use href="#shape_tri" transform="translate(-20, -15) rotate(20)"/>
+  </g>
+
+  <!-- Choice (D) -->
+  <rect x="536" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="581" y="130" font-size="16" text-anchor="middle" fill="#111">(D)</text>
+  <g transform="translate(581, 63)">
+    <use href="#shape_circle" transform="translate(-5, 5)"/>
+    <use href="#shape_square" transform="translate(18, 12)"/>
+    <use href="#shape_rect" transform="translate(0, -20)"/>
+    <use href="#shape_tri" transform="translate(-18, 18) rotate(-30)"/>
+  </g>
+
+  <!-- Choice (E) [ODD ONE OUT - Small Circle] -->
+  <rect x="666" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="711" y="130" font-size="16" text-anchor="middle" fill="#111">(E)</text>
+  <g transform="translate(711, 63)">
+    <!-- Small circle anomaly -->
+    <use href="#shape_circle_small" transform="translate(15, 20)"/>
+    <use href="#shape_square" transform="translate(-15, 15)"/>
+    <use href="#shape_rect" transform="translate(15, -5) rotate(45)"/>
+    <use href="#shape_tri" transform="translate(-15, -18) rotate(-15)"/>
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+<svg viewBox="0 0 902 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <!-- Hatched Quadrant Template (Top-Left by default) -->
+    <g id="hatched_quadrant">
+      <line x1="-7.5" y1="0" x2="0" y2="-7.5" stroke="#111" stroke-width="1.5"/>
+      <line x1="-15" y1="0" x2="0" y2="-15" stroke="#111" stroke-width="1.5"/>
+      <line x1="-22.5" y1="0" x2="0" y2="-22.5" stroke="#111" stroke-width="1.5"/>
+    </g>
+
+    <!-- Base Diamond Frame -->
+    <g id="diamond_frame">
+      <circle cx="0" cy="0" r="35" fill="none" stroke="#111" stroke-width="2"/>
+      <polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#111" stroke-width="2"/>
+      <line x1="-30" y1="0" x2="30" y2="0" stroke="#111" stroke-width="1.5"/>
+      <line x1="0" y1="-30" x2="0" y2="30" stroke="#111" stroke-width="1.5"/>
+    </g>
+  </defs>
+
+  <!-- Problem Panel 1: Top-Left (0 deg) -->
+  <rect x="20" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="65.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">1</text>
+  <use href="#diamond_frame" transform="translate(65, 63)" />
+  <use href="#hatched_quadrant" transform="translate(65, 63) rotate(0)" />
+
+  <!-- Problem Panel 2: Top-Right (90 deg) -->
+  <rect x="126" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="171.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">2</text>
+  <use href="#diamond_frame" transform="translate(171, 63)" />
+  <use href="#hatched_quadrant" transform="translate(171, 63) rotate(90)" />
+
+  <!-- Problem Panel 3: Bottom-Right (180 deg) -->
+  <rect x="232" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="277.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">3</text>
+  <use href="#diamond_frame" transform="translate(277, 63)" />
+  <use href="#hatched_quadrant" transform="translate(277, 63) rotate(180)" />
+
+  <!-- Option (A): Top-Right (90 deg) -->
+  <rect x="368" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="413.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(A)</text>
+  <use href="#diamond_frame" transform="translate(413, 63)" />
+  <use href="#hatched_quadrant" transform="translate(413, 63) rotate(90)" />
+
+  <!-- Option (B): Top-Left (0 deg) -->
+  <rect x="474" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="519.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(B)</text>
+  <use href="#diamond_frame" transform="translate(519, 63)" />
+  <use href="#hatched_quadrant" transform="translate(519, 63) rotate(0)" />
+
+  <!-- Option (C) [CORRECT]: Bottom-Left (270 deg) -->
+  <rect x="580" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="625.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(C)</text>
+  <use href="#diamond_frame" transform="translate(625, 63)" />
+  <use href="#hatched_quadrant" transform="translate(625, 63) rotate(270)" />
+
+  <!-- Option (D): Bottom-Right (180 deg) -->
+  <rect x="686" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="731.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(D)</text>
+  <use href="#diamond_frame" transform="translate(731, 63)" />
+  <use href="#hatched_quadrant" transform="translate(731, 63) rotate(180)" />
+
+  <!-- Option (E): Opposite Quadrants (0 deg + 180 deg) -->
+  <rect x="792" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="837.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(E)</text>
+  <use href="#diamond_frame" transform="translate(837, 63)" />
+  <use href="#hatched_quadrant" transform="translate(837, 63) rotate(0)" />
+  <use href="#hatched_quadrant" transform="translate(837, 63) rotate(180)" />
+</svg>

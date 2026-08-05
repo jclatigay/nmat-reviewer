@@ -1,0 +1,68 @@
+<svg viewBox="0 0 902 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <!-- Reusable Z-Path Master Template -->
+    <g id="z_path_base">
+      <polyline points="-25,35 -5,20 -5,-20 25,-35" fill="none" stroke="#111" stroke-width="2.5"/>
+      <polyline points="-25,43 -5,28 -5,-12 25,-27" fill="none" stroke="#111" stroke-width="2.5"/>
+      <!-- Inner line connection to make solid channel -->
+      <line x1="-25" y1="35" x2="-25" y2="43" stroke="#111" stroke-width="2.5"/>
+      <line x1="25" y1="-35" x2="25" y2="-27" stroke="#111" stroke-width="2.5"/>
+    </g>
+    <!-- Crescent Moon 1 (Upright-ish) -->
+    <g id="moon_up">
+      <path d="M0,-8 A6,6 0 0,1 0,8 A8,8 0 0,0 0,-8" fill="#111"/>
+      <path d="M0,-8 A6,6 0 0,1 0,8 A8,8 0 0,0 0,-8" fill="none" stroke="#111" stroke-width="1.2"/>
+    </g>
+    <!-- Crescent Moon 2 (Flipped/Rotated) -->
+    <g id="moon_down">
+      <path d="M-6,0 A6,6 0 0,1 6,0 A8,8 0 0,0 -6,0" fill="#111"/>
+      <path d="M-6,0 A6,6 0 0,1 6,0 A8,8 0 0,0 -6,0" fill="none" stroke="#111" stroke-width="1.2"/>
+    </g>
+  </defs>
+
+  <!-- Choice (A) -->
+  <rect x="146" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="191" y="130" font-size="16" text-anchor="middle" fill="#111">(A)</text>
+  <g transform="translate(191, 63)">
+    <use href="#z_path_base"/>
+    <g transform="translate(-14, 0)"><use href="#moon_up"/></g>
+    <g transform="translate(14, -12)"><use href="#moon_down"/></g>
+  </g>
+
+  <!-- Choice (B) -->
+  <rect x="276" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="321" y="130" font-size="16" text-anchor="middle" fill="#111">(B)</text>
+  <g transform="translate(321, 63) scale(-1, 1) rotate(180)">
+    <use href="#z_path_base"/>
+    <g transform="translate(-14, 0)"><use href="#moon_up"/></g>
+    <g transform="translate(14, -12)"><use href="#moon_down"/></g>
+  </g>
+
+  <!-- Choice (C) -->
+  <rect x="406" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="451" y="130" font-size="16" text-anchor="middle" fill="#111">(C)</text>
+  <g transform="translate(451, 63) rotate(-90)">
+    <use href="#z_path_base"/>
+    <g transform="translate(-14, 0)"><use href="#moon_up"/></g>
+    <g transform="translate(14, -12)"><use href="#moon_down"/></g>
+  </g>
+
+  <!-- Choice (D) [ODD ONE OUT] -->
+  <rect x="536" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="581" y="130" font-size="16" text-anchor="middle" fill="#111">(D)</text>
+  <g transform="translate(581, 63)">
+    <use href="#z_path_base"/>
+    <!-- Swapped/mismatched internal configuration -->
+    <g transform="translate(-14, 0)"><use href="#moon_down"/></g>
+    <g transform="translate(14, -12)"><use href="#moon_up"/></g>
+  </g>
+
+  <!-- Choice (E) -->
+  <rect x="666" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="711" y="130" font-size="16" text-anchor="middle" fill="#111">(E)</text>
+  <g transform="translate(711, 63) rotate(180)">
+    <use href="#z_path_base"/>
+    <g transform="translate(-14, 0)"><use href="#moon_up"/></g>
+    <g transform="translate(14, -12)"><use href="#moon_down"/></g>
+  </g>
+</svg>

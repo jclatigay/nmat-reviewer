@@ -1,0 +1,68 @@
+<svg viewBox="0 0 902 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <!-- Base Shapes -->
+    <path id="fg99_heart" d="M0,-5 C-5,-13 -12,-5 -12,0 C-12,7 0,14 0,14 C0,14 12,7 12,0 C12,-5 5,-13 0,-5 Z" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <circle id="fg99_circle" cx="0" cy="0" r="8" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <polygon id="fg99_tri" points="0,-9 -8,7 8,7" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <polygon id="fg99_wedge" points="-20,0 15,-6 15,6" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  </defs>
+
+  <!-- Choice (A) -->
+  <rect x="146" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="191" y="130" font-size="16" text-anchor="middle" fill="#111">(A)</text>
+  <g transform="translate(191, 63)">
+    <!-- Isolated Triangle -->
+    <use href="#fg99_tri" transform="translate(-20, 18)"/>
+    <!-- Wedge bridging Circle and Heart -->
+    <use href="#fg99_wedge" transform="translate(0, 5) rotate(25)"/>
+    <use href="#fg99_circle" transform="translate(-15, -5)"/>
+    <use href="#fg99_heart" transform="translate(12, -8)"/>
+  </g>
+
+  <!-- Choice (B) -->
+  <rect x="276" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="321" y="130" font-size="16" text-anchor="middle" fill="#111">(B)</text>
+  <g transform="translate(321, 63)">
+    <!-- Isolated Triangle -->
+    <use href="#fg99_tri" transform="translate(-20, -15)"/>
+    <!-- Wedge bridging Circle and Heart -->
+    <use href="#fg99_wedge" transform="translate(-2, 10) rotate(-15)"/>
+    <use href="#fg99_circle" transform="translate(14, 8)"/>
+    <use href="#fg99_heart" transform="translate(-10, -2)"/>
+  </g>
+
+  <!-- Choice (C) [ODD ONE OUT] -->
+  <rect x="406" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="451" y="130" font-size="16" text-anchor="middle" fill="#111">(C)</text>
+  <g transform="translate(451, 63)">
+    <!-- Triangle overlaps wedge instead! Circle is isolated -->
+    <use href="#fg99_circle" transform="translate(20, -18)"/>
+    <use href="#fg99_wedge" transform="translate(-5, 0) rotate(35)"/>
+    <use href="#fg99_tri" transform="translate(5, 12)"/>
+    <use href="#fg99_heart" transform="translate(-18, -10)"/>
+  </g>
+
+  <!-- Choice (D) -->
+  <rect x="536" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="581" y="130" font-size="16" text-anchor="middle" fill="#111">(D)</text>
+  <g transform="translate(581, 63)">
+    <!-- Isolated Triangle -->
+    <use href="#fg99_tri" transform="translate(-22, -12)"/>
+    <!-- Wedge bridging Circle and Heart -->
+    <use href="#fg99_wedge" transform="translate(2, 12) rotate(30)"/>
+    <use href="#fg99_circle" transform="translate(-10, 18)"/>
+    <use href="#fg99_heart" transform="translate(10, -5)"/>
+  </g>
+
+  <!-- Choice (E) -->
+  <rect x="666" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="711" y="130" font-size="16" text-anchor="middle" fill="#111">(E)</text>
+  <g transform="translate(711, 63)">
+    <!-- Isolated Triangle -->
+    <use href="#fg99_tri" transform="translate(0, 20)"/>
+    <!-- Wedge bridging Circle and Heart -->
+    <use href="#fg99_wedge" transform="translate(-5, -10) rotate(-45)"/>
+    <use href="#fg99_circle" transform="translate(-12, -20)"/>
+    <use href="#fg99_heart" transform="translate(8, -8)"/>
+  </g>
+</svg>

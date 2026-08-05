@@ -1,0 +1,27 @@
+<svg viewBox="0 0 612 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+<rect x="20" y="18" width="100" height="100" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="70.0" y="140" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(A)</text>
+<line x1="66.0" y1="70.0" x2="72.0" y2="70.0" stroke="#111" stroke-width="2"/>
+<polygon points="50.0,51.6 33.2,82.8 66.8,82.8" fill="white" stroke="#111" stroke-width="1.8"/>
+<circle cx="88.0" cy="70.0" r="16.0" fill="#111" stroke="#111" stroke-width="1.8"/>
+<rect x="138" y="18" width="100" height="100" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="188.0" y="140" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(B)</text>
+<line x1="184.0" y1="70.0" x2="190.0" y2="70.0" stroke="#111" stroke-width="2"/>
+<polygon points="168.0,51.6 151.2,82.8 184.8,82.8" fill="#111" stroke="#111" stroke-width="1.8"/>
+<circle cx="206.0" cy="70.0" r="16.0" fill="white" stroke="#111" stroke-width="1.8"/>
+<rect x="256" y="18" width="100" height="100" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="306.0" y="140" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(C)</text>
+<line x1="302.0" y1="70.0" x2="308.0" y2="70.0" stroke="#111" stroke-width="2"/>
+<circle cx="286.0" cy="70.0" r="16.0" fill="#111" stroke="#111" stroke-width="1.8"/>
+<circle cx="324.0" cy="70.0" r="16.0" fill="white" stroke="#111" stroke-width="1.8"/>
+<rect x="374" y="18" width="100" height="100" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="424.0" y="140" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(D)</text>
+<line x1="420.0" y1="70.0" x2="426.0" y2="70.0" stroke="#111" stroke-width="2"/>
+<polygon points="404.0,51.6 387.2,82.8 420.8,82.8" fill="#111" stroke="#111" stroke-width="1.8"/>
+<polygon points="442.0,51.6 425.2,82.8 458.8,82.8" fill="white" stroke="#111" stroke-width="1.8"/>
+<rect x="492" y="18" width="100" height="100" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="542.0" y="140" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(E)</text>
+<line x1="538.0" y1="70.0" x2="544.0" y2="70.0" stroke="#111" stroke-width="2"/>
+<circle cx="522.0" cy="70.0" r="16.0" fill="#111" stroke="#111" stroke-width="1.8"/>
+<polygon points="560.0,51.6 543.2,82.8 576.8,82.8" fill="white" stroke="#111" stroke-width="1.8"/>
+</svg>

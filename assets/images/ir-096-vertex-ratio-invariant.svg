@@ -1,0 +1,74 @@
+<svg viewBox="0 0 902 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <polygon id="fg96_tri" points="0,-5 -5,4 5,4" fill="none" stroke="#111" stroke-width="1.5"/>
+    <polygon id="fg96_hex" points="-5,0 -2.5,-4.3 2.5,-4.3 5,0 2.5,4.3 -2.5,4.3" fill="none" stroke="#111" stroke-width="1.5"/>
+  </defs>
+
+  <!-- Choice (A): 4 Triangles (12 v), 2 Hexagons (12 v) -->
+  <rect x="146" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="191" y="130" font-size="16" text-anchor="middle" fill="#111">(A)</text>
+  <g transform="translate(191, 63)">
+    <use href="#fg96_tri" transform="translate(-22, -22)"/>
+    <use href="#fg96_tri" transform="translate(22, -22)"/>
+    <use href="#fg96_tri" transform="translate(-22, 22)"/>
+    <use href="#fg96_tri" transform="translate(22, 22)"/>
+    <use href="#fg96_hex" transform="translate(0, -12)"/>
+    <use href="#fg96_hex" transform="translate(0, 12)"/>
+  </g>
+
+  <!-- Choice (B): 6 Triangles (18 v), 3 Hexagons (18 v) -->
+  <rect x="276" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="321" y="130" font-size="16" text-anchor="middle" fill="#111">(B)</text>
+  <g transform="translate(321, 63)">
+    <use href="#fg96_tri" transform="translate(-25, -25)"/>
+    <use href="#fg96_tri" transform="translate(0, -25)"/>
+    <use href="#fg96_tri" transform="translate(25, -25)"/>
+    <use href="#fg96_tri" transform="translate(-25, 25)"/>
+    <use href="#fg96_tri" transform="translate(0, 25)"/>
+    <use href="#fg96_tri" transform="translate(25, 25)"/>
+    <use href="#fg96_hex" transform="translate(-16, 0)"/>
+    <use href="#fg96_hex" transform="translate(0, 0)"/>
+    <use href="#fg96_hex" transform="translate(16, 0)"/>
+  </g>
+
+  <!-- Choice (C): 2 Triangles (6 v), 1 Hexagon (6 v) -->
+  <rect x="406" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="451" y="130" font-size="16" text-anchor="middle" fill="#111">(C)</text>
+  <g transform="translate(451, 63)">
+    <use href="#fg96_tri" transform="translate(-18, -10)"/>
+    <use href="#fg96_tri" transform="translate(18, -10)"/>
+    <use href="#fg96_hex" transform="translate(0, 12)"/>
+  </g>
+
+  <!-- Choice (D) [ODD ONE OUT]: 5 Triangles (15 v), 3 Hexagons (18 v) -->
+  <rect x="536" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="581" y="130" font-size="16" text-anchor="middle" fill="#111">(D)</text>
+  <g transform="translate(581, 63)">
+    <use href="#fg96_tri" transform="translate(-22, -22)"/>
+    <use href="#fg96_tri" transform="translate(0, -25)"/>
+    <use href="#fg96_tri" transform="translate(22, -22)"/>
+    <use href="#fg96_tri" transform="translate(-18, 22)"/>
+    <use href="#fg96_tri" transform="translate(18, 22)"/>
+    <use href="#fg96_hex" transform="translate(-18, 0)"/>
+    <use href="#fg96_hex" transform="translate(0, 0)"/>
+    <use href="#fg96_hex" transform="translate(18, 0)"/>
+  </g>
+
+  <!-- Choice (E): 8 Triangles (24 v), 4 Hexagons (24 v) -->
+  <rect x="666" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="711" y="130" font-size="16" text-anchor="middle" fill="#111">(E)</text>
+  <g transform="translate(711, 63)">
+    <use href="#fg96_tri" transform="translate(-26, -26)"/>
+    <use href="#fg96_tri" transform="translate(-9, -26)"/>
+    <use href="#fg96_tri" transform="translate(9, -26)"/>
+    <use href="#fg96_tri" transform="translate(26, -26)"/>
+    <use href="#fg96_tri" transform="translate(-26, 26)"/>
+    <use href="#fg96_tri" transform="translate(-9, 26)"/>
+    <use href="#fg96_tri" transform="translate(9, 26)"/>
+    <use href="#fg96_tri" transform="translate(26, 26)"/>
+    <use href="#fg96_hex" transform="translate(-24, 0)"/>
+    <use href="#fg96_hex" transform="translate(-8, 0)"/>
+    <use href="#fg96_hex" transform="translate(8, 0)"/>
+    <use href="#fg96_hex" transform="translate(24, 0)"/>
+  </g>
+</svg>

@@ -1,0 +1,115 @@
+<svg viewBox="0 0 902 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <!-- Define reusable dots -->
+  <defs>
+    <circle id="dot-hollow" cx="0" cy="0" r="3.5" fill="#fff" stroke="#111" stroke-width="2"/>
+    <circle id="dot-solid" cx="0" cy="0" r="3.5" fill="#111" stroke="#111" stroke-width="2"/>
+  </defs>
+
+  <!-- Problem Panel 1: 2 dots. Solid at START (node 1) -->
+  <rect x="20" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="65.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">1</text>
+  <g transform="translate(65, 63)">
+    <polyline points="-20,-20 0,-20" fill="none" stroke="#111" stroke-width="2"/>
+    <use href="#dot-solid" x="-20" y="-20" />
+    <use href="#dot-hollow" x="0" y="-20" />
+  </g>
+
+  <!-- Problem Panel 2: 4 dots. Solid at END (node 4) -->
+  <rect x="126" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="171.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">2</text>
+  <g transform="translate(171, 63)">
+    <polyline points="-20,-20 0,-20 20,-20 20,0" fill="none" stroke="#111" stroke-width="2"/>
+    <use href="#dot-hollow" x="-20" y="-20" />
+    <use href="#dot-hollow" x="0" y="-20" />
+    <use href="#dot-hollow" x="20" y="-20" />
+    <use href="#dot-solid" x="20" y="0" />
+  </g>
+
+  <!-- Problem Panel 3: 6 dots. Solid at START (node 1) -->
+  <rect x="232" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="277.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">3</text>
+  <g transform="translate(277, 63)">
+    <polyline points="-20,-20 0,-20 20,-20 20,0 0,0 -20,0" fill="none" stroke="#111" stroke-width="2"/>
+    <use href="#dot-solid" x="-20" y="-20" />
+    <use href="#dot-hollow" x="0" y="-20" />
+    <use href="#dot-hollow" x="20" y="-20" />
+    <use href="#dot-hollow" x="20" y="0" />
+    <use href="#dot-hollow" x="0" y="0" />
+    <use href="#dot-hollow" x="-20" y="0" />
+  </g>
+
+  <!-- Option (A) [CORRECT]: 8 dots. Solid at END (node 8) -->
+  <rect x="368" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="413.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(A)</text>
+  <g transform="translate(413, 63)">
+    <polyline points="-20,-20 0,-20 20,-20 20,0 0,0 -20,0 -20,20 0,20" fill="none" stroke="#111" stroke-width="2"/>
+    <use href="#dot-hollow" x="-20" y="-20" />
+    <use href="#dot-hollow" x="0" y="-20" />
+    <use href="#dot-hollow" x="20" y="-20" />
+    <use href="#dot-hollow" x="20" y="0" />
+    <use href="#dot-hollow" x="0" y="0" />
+    <use href="#dot-hollow" x="-20" y="0" />
+    <use href="#dot-hollow" x="-20" y="20" />
+    <use href="#dot-solid" x="0" y="20" />
+  </g>
+
+  <!-- Option (B): 8 dots, but solid dot is at START (Incorrect rule) -->
+  <rect x="474" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="519.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(B)</text>
+  <g transform="translate(519, 63)">
+    <polyline points="-20,-20 0,-20 20,-20 20,0 0,0 -20,0 -20,20 0,20" fill="none" stroke="#111" stroke-width="2"/>
+    <use href="#dot-solid" x="-20" y="-20" />
+    <use href="#dot-hollow" x="0" y="-20" />
+    <use href="#dot-hollow" x="20" y="-20" />
+    <use href="#dot-hollow" x="20" y="0" />
+    <use href="#dot-hollow" x="0" y="0" />
+    <use href="#dot-hollow" x="-20" y="0" />
+    <use href="#dot-hollow" x="-20" y="20" />
+    <use href="#dot-hollow" x="0" y="20" />
+  </g>
+
+  <!-- Option (C): 7 dots (Too short) -->
+  <rect x="580" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="625.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(C)</text>
+  <g transform="translate(625, 63)">
+    <polyline points="-20,-20 0,-20 20,-20 20,0 0,0 -20,0 -20,20" fill="none" stroke="#111" stroke-width="2"/>
+    <use href="#dot-hollow" x="-20" y="-20" />
+    <use href="#dot-hollow" x="0" y="-20" />
+    <use href="#dot-hollow" x="20" y="-20" />
+    <use href="#dot-hollow" x="20" y="0" />
+    <use href="#dot-hollow" x="0" y="0" />
+    <use href="#dot-hollow" x="-20" y="0" />
+    <use href="#dot-solid" x="-20" y="20" />
+  </g>
+
+  <!-- Option (D): 9 dots (Too long) -->
+  <rect x="686" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="731.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(D)</text>
+  <g transform="translate(731, 63)">
+    <polyline points="-20,-20 0,-20 20,-20 20,0 0,0 -20,0 -20,20 0,20 20,20" fill="none" stroke="#111" stroke-width="2"/>
+    <use href="#dot-solid" x="-20" y="-20" />
+    <use href="#dot-hollow" x="0" y="-20" />
+    <use href="#dot-hollow" x="20" y="-20" />
+    <use href="#dot-hollow" x="20" y="0" />
+    <use href="#dot-hollow" x="0" y="0" />
+    <use href="#dot-hollow" x="-20" y="0" />
+    <use href="#dot-hollow" x="-20" y="20" />
+    <use href="#dot-hollow" x="0" y="20" />
+    <use href="#dot-hollow" x="20" y="20" />
+  </g>
+
+  <!-- Option (E): 8 dots, but incorrect path shape -->
+  <rect x="792" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="837.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(E)</text>
+  <g transform="translate(837, 63)">
+    <polyline points="-20,-20 0,-20 20,-20 20,0 0,0 -20,0 0,20 20,20" fill="none" stroke="#111" stroke-width="2"/>
+    <use href="#dot-hollow" x="-20" y="-20" />
+    <use href="#dot-hollow" x="0" y="-20" />
+    <use href="#dot-hollow" x="20" y="-20" />
+    <use href="#dot-hollow" x="20" y="0" />
+    <use href="#dot-hollow" x="0" y="0" />
+    <use href="#dot-hollow" x="-20" y="0" />
+    <use href="#dot-hollow" x="0" y="20" />
+    <use href="#dot-solid" x="20" y="20" />
+  </g>
+</svg>

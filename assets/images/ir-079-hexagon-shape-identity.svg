@@ -1,0 +1,42 @@
+<svg viewBox="0 0 612 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+<rect x="20" y="18" width="100" height="100" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="70.0" y="140" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(A)</text>
+<polygon points="114.0,68.0 92.0,106.1 48.0,106.1 26.0,68.0 48.0,29.9 92.0,29.9" fill="none" stroke="#111" stroke-width="1.8"/>
+<circle cx="50.0" cy="46.0" r="8.5" fill="#111" stroke="#111" stroke-width="1.5"/>
+<rect x="75.2" y="36.2" width="13.6" height="13.6" fill="white" stroke="#111" stroke-width="1.5"/>
+<polygon points="88.0,68.2 79.1,84.8 96.9,84.8" fill="#111" stroke="#111" stroke-width="1.5"/>
+<polygon points="62.0,76.2 64.5,82.6 71.3,83.0 66.0,87.3 67.7,93.9 62.0,90.2 56.3,93.9 58.0,87.3 52.7,83.0 59.5,82.6" fill="white" stroke="#111" stroke-width="1.5"/>
+<polygon points="44.0,62.8 54.2,73.0 44.0,83.2 33.8,73.0" fill="white" stroke="#111" stroke-width="1.5"/>
+<rect x="138" y="18" width="100" height="100" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="188.0" y="140" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(B)</text>
+<polygon points="231.7,73.4 205.2,108.5 161.5,103.1 144.3,62.6 170.8,27.5 214.5,32.9" fill="none" stroke="#111" stroke-width="1.8"/>
+<rect x="161.2" y="39.2" width="13.6" height="13.6" fill="#111" stroke="#111" stroke-width="1.5"/>
+<polygon points="200.0,33.2 191.1,49.8 208.9,49.8" fill="white" stroke="#111" stroke-width="1.5"/>
+<polygon points="206.0,68.2 208.5,74.6 215.3,75.0 210.0,79.3 211.7,85.9 206.0,82.2 200.3,85.9 202.0,79.3 196.7,75.0 203.5,74.6" fill="#111" stroke="#111" stroke-width="1.5"/>
+<polygon points="180.0,75.8 190.2,86.0 180.0,96.2 169.8,86.0" fill="white" stroke="#111" stroke-width="1.5"/>
+<circle cx="162.0" cy="73.0" r="8.5" fill="white" stroke="#111" stroke-width="1.5"/>
+<rect x="256" y="18" width="100" height="100" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="306.0" y="140" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(C)</text>
+<polygon points="348.7,78.6 318.1,110.3 275.4,99.7 263.3,57.4 293.9,25.7 336.6,36.3" fill="none" stroke="#111" stroke-width="1.8"/>
+<polygon points="286.0,36.2 277.1,52.8 294.9,52.8" fill="#111" stroke="#111" stroke-width="1.5"/>
+<polygon points="318.0,33.2 320.5,39.6 327.3,40.0 322.0,44.3 323.7,50.9 318.0,47.2 312.3,50.9 314.0,44.3 308.7,40.0 315.5,39.6" fill="white" stroke="#111" stroke-width="1.5"/>
+<polygon points="324.0,67.8 334.2,78.0 324.0,88.2 313.8,78.0" fill="white" stroke="#111" stroke-width="1.5"/>
+<circle cx="298.0" cy="86.0" r="8.5" fill="#111" stroke="#111" stroke-width="1.5"/>
+<rect x="273.2" y="66.2" width="13.6" height="13.6" fill="white" stroke="#111" stroke-width="1.5"/>
+<rect x="374" y="18" width="100" height="100" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="424.0" y="140" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(D)</text>
+<polygon points="465.1,83.8 430.9,111.5 389.8,95.7 382.9,52.2 417.1,24.5 458.2,40.3" fill="none" stroke="#111" stroke-width="1.8"/>
+<polygon points="404.0,36.2 406.5,42.6 413.3,43.0 408.0,47.3 409.7,53.9 404.0,50.2 398.3,53.9 400.0,47.3 394.7,43.0 401.5,42.6" fill="white" stroke="#111" stroke-width="1.5"/>
+<polygon points="436.0,32.8 446.2,43.0 436.0,53.2 425.8,43.0" fill="white" stroke="#111" stroke-width="1.5"/>
+<circle cx="442.0" cy="78.0" r="8.5" fill="#111" stroke="#111" stroke-width="1.5"/>
+<rect x="409.2" y="79.2" width="13.6" height="13.6" fill="white" stroke="#111" stroke-width="1.5"/>
+<polygon points="398.0,63.2 389.1,79.8 406.9,79.8" fill="#111" stroke="#111" stroke-width="1.5"/>
+<rect x="492" y="18" width="100" height="100" fill="none" stroke="#111" stroke-width="2.5"/>
+<text x="542.0" y="140" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(E)</text>
+<polygon points="580.8,88.7 543.5,112.0 504.7,91.3 503.2,47.3 540.5,24.0 579.3,44.7" fill="none" stroke="#111" stroke-width="1.8"/>
+<polygon points="522.0,35.8 532.2,46.0 522.0,56.2 511.8,46.0" fill="white" stroke="#111" stroke-width="1.5"/>
+<circle cx="554.0" cy="43.0" r="8.5" fill="#111" stroke="#111" stroke-width="1.5"/>
+<rect x="553.2" y="71.2" width="13.6" height="13.6" fill="white" stroke="#111" stroke-width="1.5"/>
+<polygon points="534.0,76.2 525.1,92.8 542.9,92.8" fill="#111" stroke="#111" stroke-width="1.5"/>
+<polygon points="516.0,63.2 518.5,69.6 525.3,70.0 520.0,74.3 521.7,80.9 516.0,77.2 510.3,80.9 512.0,74.3 506.7,70.0 513.5,69.6" fill="white" stroke="#111" stroke-width="1.5"/>
+</svg>

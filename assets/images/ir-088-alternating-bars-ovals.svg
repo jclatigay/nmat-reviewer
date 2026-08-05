@@ -1,0 +1,95 @@
+<svg viewBox="0 0 902 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <!-- Outer Horizontal Lines (Slightly adjusted spacing) -->
+    <g id="bars_horizontal">
+      <line x1="-20" y1="-32" x2="20" y2="-32" stroke="#111" stroke-width="2"/>
+      <line x1="-26" y1="-26" x2="26" y2="-26" stroke="#111" stroke-width="2"/>
+      <line x1="-32" y1="-20" x2="32" y2="-20" stroke="#111" stroke-width="2"/>
+      <line x1="-32" y1="20" x2="32" y2="20" stroke="#111" stroke-width="2"/>
+      <line x1="-26" y1="26" x2="26" y2="26" stroke="#111" stroke-width="2"/>
+      <line x1="-20" y1="32" x2="20" y2="32" stroke="#111" stroke-width="2"/>
+    </g>
+
+    <!-- Outer Vertical Lines (Slightly adjusted spacing) -->
+    <g id="bars_vertical">
+      <line x1="-32" y1="-20" x2="-32" y2="20" stroke="#111" stroke-width="2"/>
+      <line x1="-26" y1="-26" x2="-26" y2="26" stroke="#111" stroke-width="2"/>
+      <line x1="-20" y1="-32" x2="-20" y2="32" stroke="#111" stroke-width="2"/>
+      <line x1="20" y1="-32" x2="20" y2="32" stroke="#111" stroke-width="2"/>
+      <line x1="26" y1="-26" x2="26" y2="26" stroke="#111" stroke-width="2"/>
+      <line x1="32" y1="-20" x2="32" y2="20" stroke="#111" stroke-width="2"/>
+    </g>
+  </defs>
+
+  <!-- Problem Panel 1: Horizontal Bars, Black Oval LEFT -->
+  <rect x="20" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="65.0" y="130" font-size="16" text-anchor="middle" fill="#111">1</text>
+  <g transform="translate(65, 63)">
+    <use href="#bars_horizontal"/>
+    <ellipse cx="-11" cy="0" rx="5" ry="10" fill="#111" stroke="#111" stroke-width="1.5"/>
+    <ellipse cx="11" cy="0" rx="5" ry="10" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  </g>
+
+  <!-- Problem Panel 2: Vertical Bars, Black Oval BOTTOM -->
+  <rect x="126" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="171.0" y="130" font-size="16" text-anchor="middle" fill="#111">2</text>
+  <g transform="translate(171, 63)">
+    <use href="#bars_vertical"/>
+    <ellipse cx="0" cy="-11" rx="10" ry="5" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <ellipse cx="0" cy="11" rx="10" ry="5" fill="#111" stroke="#111" stroke-width="1.5"/>
+  </g>
+
+  <!-- Problem Panel 3: Horizontal Bars, Black Oval RIGHT -->
+  <rect x="232" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="277.0" y="130" font-size="16" text-anchor="middle" fill="#111">3</text>
+  <g transform="translate(277, 63)">
+    <use href="#bars_horizontal"/>
+    <ellipse cx="-11" cy="0" rx="5" ry="10" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <ellipse cx="11" cy="0" rx="5" ry="10" fill="#111" stroke="#111" stroke-width="1.5"/>
+  </g>
+
+  <!-- Option (A): Vertical Bars, Black Oval BOTTOM -->
+  <rect x="368" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="413.0" y="130" font-size="16" text-anchor="middle" fill="#111">(A)</text>
+  <g transform="translate(413, 63)">
+    <use href="#bars_vertical"/>
+    <ellipse cx="0" cy="-11" rx="10" ry="5" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <ellipse cx="0" cy="11" rx="10" ry="5" fill="#111" stroke="#111" stroke-width="1.5"/>
+  </g>
+
+  <!-- Option (B) [CORRECT]: Vertical Bars, Black Oval TOP -->
+  <rect x="474" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="519.0" y="130" font-size="16" text-anchor="middle" fill="#111">(B)</text>
+  <g transform="translate(519, 63)">
+    <use href="#bars_vertical"/>
+    <ellipse cx="0" cy="-11" rx="10" ry="5" fill="#111" stroke="#111" stroke-width="1.5"/>
+    <ellipse cx="0" cy="11" rx="10" ry="5" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  </g>
+
+  <!-- Option (C): Vertical Bars, BOTH Ovals Black -->
+  <rect x="580" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="625.0" y="130" font-size="16" text-anchor="middle" fill="#111">(C)</text>
+  <g transform="translate(625, 63)">
+    <use href="#bars_vertical"/>
+    <ellipse cx="0" cy="-11" rx="10" ry="5" fill="#111" stroke="#111" stroke-width="1.5"/>
+    <ellipse cx="0" cy="11" rx="10" ry="5" fill="#111" stroke="#111" stroke-width="1.5"/>
+  </g>
+
+  <!-- Option (D): Horizontal Bars, Black Oval TOP -->
+  <rect x="686" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="731.0" y="130" font-size="16" text-anchor="middle" fill="#111">(D)</text>
+  <g transform="translate(731, 63)">
+    <use href="#bars_horizontal"/>
+    <ellipse cx="-11" cy="0" rx="5" ry="10" fill="#111" stroke="#111" stroke-width="1.5"/>
+    <ellipse cx="11" cy="0" rx="5" ry="10" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  </g>
+
+  <!-- Option (E): Vertical Bars, BOTH Ovals White (FIXED TRANSLATION) -->
+  <rect x="792" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="837.0" y="130" font-size="16" text-anchor="middle" fill="#111">(E)</text>
+  <g transform="translate(837, 63)">
+    <use href="#bars_vertical"/>
+    <ellipse cx="0" cy="-11" rx="10" ry="5" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <ellipse cx="0" cy="11" rx="10" ry="5" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  </g>
+</svg>

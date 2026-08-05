@@ -1,0 +1,57 @@
+<svg viewBox="0 0 902 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <!-- Master Asymmetric Wheel Base -->
+    <g id="fg97_wheel">
+      <circle cx="0" cy="0" r="24" fill="none" stroke="#111" stroke-width="2"/>
+      <!-- Square tab at 0 deg -->
+      <rect x="24" y="-4" width="8" height="8" fill="#fff" stroke="#111" stroke-width="1.5"/>
+      <!-- Square tab at 60 deg -->
+      <g transform="rotate(60)">
+        <rect x="24" y="-4" width="8" height="8" fill="#fff" stroke="#111" stroke-width="1.5"/>
+      </g>
+      <!-- Triangle tab at 180 deg -->
+      <g transform="rotate(180)">
+        <polygon points="24,0 32,-5 32,5" fill="#fff" stroke="#111" stroke-width="1.5"/>
+      </g>
+      <!-- Square tab at 270 deg -->
+      <g transform="rotate(270)">
+        <rect x="24" y="-4" width="8" height="8" fill="#fff" stroke="#111" stroke-width="1.5"/>
+      </g>
+    </g>
+  </defs>
+
+  <!-- Choice (A): Base Rotation (0 deg) -->
+  <rect x="146" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="191" y="130" font-size="16" text-anchor="middle" fill="#111">(A)</text>
+  <g transform="translate(191, 63)">
+    <use href="#fg97_wheel"/>
+  </g>
+
+  <!-- Choice (B): Rotated 75 deg -->
+  <rect x="276" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="321" y="130" font-size="16" text-anchor="middle" fill="#111">(B)</text>
+  <g transform="translate(321, 63) rotate(75)">
+    <use href="#fg97_wheel"/>
+  </g>
+
+  <!-- Choice (C): Rotated 150 deg -->
+  <rect x="406" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="451" y="130" font-size="16" text-anchor="middle" fill="#111">(C)</text>
+  <g transform="translate(451, 63) rotate(150)">
+    <use href="#fg97_wheel"/>
+  </g>
+
+  <!-- Choice (D) [ODD ONE OUT]: Mirrored / Inverted Chirality -->
+  <rect x="536" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="581" y="130" font-size="16" text-anchor="middle" fill="#111">(D)</text>
+  <g transform="translate(581, 63) scale(-1, 1) rotate(45)">
+    <use href="#fg97_wheel"/>
+  </g>
+
+  <!-- Choice (E): Rotated 230 deg -->
+  <rect x="666" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="711" y="130" font-size="16" text-anchor="middle" fill="#111">(E)</text>
+  <g transform="translate(711, 63) rotate(230)">
+    <use href="#fg97_wheel"/>
+  </g>
+</svg>

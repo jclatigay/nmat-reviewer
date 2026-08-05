@@ -1,0 +1,57 @@
+<svg viewBox="0 0 902 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <!-- Fixed Hexagon -->
+    <polygon id="hexagon" points="18,0 9,15.6 -9,15.6 -18,0 -9,-15.6 9,-15.6" fill="none" stroke="#111" stroke-width="2"/>
+    
+    <!-- Moving Lens (Double Arc) -->
+    <path id="lens" d="M 0,-28 A 35,35 0 0,1 0,28 A 35,35 0 0,1 0,-28" fill="none" stroke="#111" stroke-width="2"/>
+  </defs>
+
+  <!-- Problem Panel 1: Lens at x = -32 (Far Left) -->
+  <rect x="20" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="65.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">1</text>
+  <use href="#hexagon" transform="translate(65, 63)" />
+  <use href="#lens" transform="translate(33, 63)" />
+
+  <!-- Problem Panel 2: Lens at x = -16 (Left Overlap) -->
+  <rect x="126" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="171.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">2</text>
+  <use href="#hexagon" transform="translate(171, 63)" />
+  <use href="#lens" transform="translate(155, 63)" />
+
+  <!-- Problem Panel 3: Lens at x = 0 (Centered) -->
+  <rect x="232" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="277.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">3</text>
+  <use href="#hexagon" transform="translate(277, 63)" />
+  <use href="#lens" transform="translate(277, 63)" />
+
+  <!-- Option (A): Lens at x = +32 (Far Right) -->
+  <rect x="368" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="413.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(A)</text>
+  <use href="#hexagon" transform="translate(413, 63)" />
+  <use href="#lens" transform="translate(445, 63)" />
+
+  <!-- Option (B): Lens at x = 0 (Centered) -->
+  <rect x="474" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="519.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(B)</text>
+  <use href="#hexagon" transform="translate(519, 63)" />
+  <use href="#lens" transform="translate(519, 63)" />
+
+  <!-- Option (C) [CORRECT]: Lens at x = +16 (Right Overlap) -->
+  <rect x="580" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="625.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(C)</text>
+  <use href="#hexagon" transform="translate(625, 63)" />
+  <use href="#lens" transform="translate(641, 63)" />
+
+  <!-- Option (D): Lens at x = -16 (Left Overlap) -->
+  <rect x="686" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="731.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(D)</text>
+  <use href="#hexagon" transform="translate(731, 63)" />
+  <use href="#lens" transform="translate(715, 63)" />
+
+  <!-- Option (E): Lens at x = -32 (Far Left) -->
+  <rect x="792" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="837.0" y="130" font-size="16" text-anchor="middle" font-family="Arial, sans-serif" fill="#111">(E)</text>
+  <use href="#hexagon" transform="translate(837, 63)" />
+  <use href="#lens" transform="translate(805, 63)" />
+</svg>

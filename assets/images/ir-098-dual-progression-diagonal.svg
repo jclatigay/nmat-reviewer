@@ -1,0 +1,61 @@
+<svg viewBox="0 0 902 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <!-- Choice (A): Top-Left to Bottom-Right [Tri (3) -> Square (4) -> Pent (5)] -->
+  <rect x="146" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="191" y="130" font-size="16" text-anchor="middle" fill="#111">(A)</text>
+  <g transform="translate(191, 63)">
+    <!-- Small Triangle -->
+    <polygon points="-22,-26 -26,-18 -18,-18" fill="none" stroke="#111" stroke-width="1.5"/>
+    <!-- Medium Square -->
+    <rect x="-7" y="-7" width="14" height="14" fill="none" stroke="#111" stroke-width="1.5"/>
+    <!-- Large Pentagon -->
+    <polygon points="22,10 11,18 15,31 29,31 33,18" fill="none" stroke="#111" stroke-width="1.5"/>
+  </g>
+
+  <!-- Choice (B): Bottom-Left to Top-Right [Square (4) -> Pent (5) -> Hex (6)] -->
+  <rect x="276" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="321" y="130" font-size="16" text-anchor="middle" fill="#111">(B)</text>
+  <g transform="translate(321, 63)">
+    <!-- Small Square -->
+    <rect x="-26" y="18" width="8" height="8" fill="none" stroke="#111" stroke-width="1.5"/>
+    <!-- Medium Pentagon -->
+    <polygon points="0,-9 -8,-3 -5,7 5,7 8,-3" fill="none" stroke="#111" stroke-width="1.5"/>
+    <!-- Large Hexagon -->
+    <polygon points="22,-34 11,-27 11,-14 22,-7 33,-14 33,-27" fill="none" stroke="#111" stroke-width="1.5"/>
+  </g>
+
+  <!-- Choice (C) [ODD ONE OUT]: [Tri (3) -> Hex (6) -> Pent (5)] -->
+  <rect x="406" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="451" y="130" font-size="16" text-anchor="middle" fill="#111">(C)</text>
+  <g transform="translate(451, 63)">
+    <!-- Small Triangle -->
+    <polygon points="-22,-26 -26,-18 -18,-18" fill="none" stroke="#111" stroke-width="1.5"/>
+    <!-- Medium Hexagon (Breaks vertex rule!) -->
+    <polygon points="0,-8 -7,-4 -7,4 0,8 7,4 7,-4" fill="none" stroke="#111" stroke-width="1.5"/>
+    <!-- Large Pentagon -->
+    <polygon points="22,10 11,18 15,31 29,31 33,18" fill="none" stroke="#111" stroke-width="1.5"/>
+  </g>
+
+  <!-- Choice (D): Top-Right to Bottom-Left [Tri (3) -> Square (4) -> Pent (5)] -->
+  <rect x="536" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="581" y="130" font-size="16" text-anchor="middle" fill="#111">(D)</text>
+  <g transform="translate(581, 63)">
+    <!-- Small Triangle -->
+    <polygon points="22,-26 18,-18 26,-18" fill="none" stroke="#111" stroke-width="1.5"/>
+    <!-- Medium Square -->
+    <rect x="-7" y="-7" width="14" height="14" fill="none" stroke="#111" stroke-width="1.5"/>
+    <!-- Large Pentagon -->
+    <polygon points="-22,10 -33,18 -29,31 -15,31 -11,18" fill="none" stroke="#111" stroke-width="1.5"/>
+  </g>
+
+  <!-- Choice (E): Bottom-Right to Top-Left [Pent (5) -> Hex (6) -> Hept (7)] -->
+  <rect x="666" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="711" y="130" font-size="16" text-anchor="middle" fill="#111">(E)</text>
+  <g transform="translate(711, 63)">
+    <!-- Small Pentagon -->
+    <polygon points="22,18 17,22 19,27 25,27 27,22" fill="none" stroke="#111" stroke-width="1.5"/>
+    <!-- Medium Hexagon -->
+    <polygon points="0,-8 -7,-4 -7,4 0,8 7,4 7,-4" fill="none" stroke="#111" stroke-width="1.5"/>
+    <!-- Large Heptagon (7 sides) -->
+    <polygon points="-22,-34 -31,-29 -34,-19 -28,-10 -16,-10 -10,-19 -13,-29" fill="none" stroke="#111" stroke-width="1.5"/>
+  </g>
+</svg>

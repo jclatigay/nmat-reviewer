@@ -1,0 +1,50 @@
+<svg viewBox="0 0 902 150" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <!-- Choice (A) - Chain of 3 -->
+  <rect x="146" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="191" y="130" font-size="16" text-anchor="middle" fill="#111">(A)</text>
+  <g transform="translate(191, 63)">
+    <circle cx="-12" cy="-12" r="10" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <polygon points="0,-8 -12,10 12,10" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <rect x="5" y="5" width="16" height="16" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  </g>
+
+  <!-- Choice (B) - Chain of 4 -->
+  <rect x="276" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="321" y="130" font-size="16" text-anchor="middle" fill="#111">(B)</text>
+  <g transform="translate(321, 63)">
+    <polygon points="-25,0 -20,-8 -10,-8 -5,0 -10,8 -20,8" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <circle cx="-5" cy="-8" r="9" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <rect x="0" y="-18" width="16" height="12" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <polygon points="12,-20 6,-8 22,-8" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  </g>
+
+  <!-- Choice (C) [ODD ONE OUT] - Hub overlapping 3 independent shapes -->
+  <rect x="406" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="451" y="130" font-size="16" text-anchor="middle" fill="#111">(C)</text>
+  <g transform="translate(451, 63)">
+    <polygon points="-15,10 -25,22 -5,22" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <rect x="8" y="5" width="16" height="16" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <polygon points="-12,-22 -5,-26 5,-26 12,-22 5,-18 -5,-18" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <!-- Central Hub Circle overlaps all three outer shapes -->
+    <circle cx="0" cy="0" r="14" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  </g>
+
+  <!-- Choice (D) - Chain of 3 -->
+  <rect x="536" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="581" y="130" font-size="16" text-anchor="middle" fill="#111">(D)</text>
+  <g transform="translate(581, 63)">
+    <rect x="-20" y="10" width="22" height="12" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <polygon points="-5,-5 -15,10 5,10" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <circle cx="8" cy="-8" r="11" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  </g>
+
+  <!-- Choice (E) - Chain of 4 -->
+  <rect x="666" y="18" width="90" height="90" fill="none" stroke="#111" stroke-width="2.5"/>
+  <text x="711" y="130" font-size="16" text-anchor="middle" fill="#111">(E)</text>
+  <g transform="translate(711, 63)">
+    <circle cx="-16" cy="12" r="8" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <rect x="-12" y="-2" width="14" height="14" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <polygon points="5,-14 12,-3 -2,-3" fill="#fff" stroke="#111" stroke-width="1.5"/>
+    <polygon points="12,-15 18,-22 26,-22 32,-15 26,-8 18,-8" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  </g>
+</svg>
