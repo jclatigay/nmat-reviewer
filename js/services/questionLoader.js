@@ -44,6 +44,42 @@ function shuffleQuestions(questions) {
   return shuffled;
 }
 
+function resolveQuestionCategory(question, categoryOrder) {
+  if (categoryOrder.includes(question.type)) {
+    return question.type;
+  }
+
+  if (question.type === 'number_letter_series' && Array.isArray(question.tags)) {
+    const matchedTag = question.tags.find((tag) => categoryOrder.includes(tag));
+    if (matchedTag) {
+      return matchedTag;
+    }
+  }
+
+  console.warn(
+    `Question ${question.id} has unmapped type "${question.type}"; placing at end of session order.`
+  );
+  return null;
+}
+
+function orderQuestionsByCategoryBlocks(questions, categoryOrder) {
+  const grouped = Object.fromEntries(categoryOrder.map((category) => [category, []]));
+  const unmapped = [];
+
+  questions.forEach((question) => {
+    const category = resolveQuestionCategory(question, categoryOrder);
+    if (category && grouped[category]) {
+      grouped[category].push(question);
+    } else {
+      unmapped.push(question);
+    }
+  });
+
+  return categoryOrder
+    .flatMap((category) => shuffleQuestions(grouped[category]))
+    .concat(unmapped);
+}
+
 export async function loadQuestions(subtestId, shouldShuffle = false) {
   const subtest = await getSubtestById(subtestId);
   if (!subtest) {
@@ -64,7 +100,17 @@ export async function loadQuestions(subtestId, shouldShuffle = false) {
   data.questions.forEach((q, i) => validateQuestion(q, i));
 
   const orderedQuestions = data.questions.sort((a, b) => a.number - b.number);
-  const questions = shouldShuffle ? shuffleQuestions(orderedQuestions) : orderedQuestions;
+
+  let questions = orderedQuestions;
+  if (shouldShuffle) {
+    const categoryOrder = subtest.questionOrder?.strategy === 'category_blocks'
+      ? subtest.questionOrder.categories
+      : null;
+
+    questions = categoryOrder
+      ? orderQuestionsByCategoryBlocks(orderedQuestions, categoryOrder)
+      : shuffleQuestions(orderedQuestions);
+  }
 
   return {
     meta: data.meta || {},

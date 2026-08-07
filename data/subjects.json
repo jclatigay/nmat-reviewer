@@ -16,7 +16,16 @@
       "timeLimitMinutes": 30,
       "targetItemCount": 30,
       "questionFile": "data/questions/inductive-reasoning.json",
-      "description": "Number, letter, and figural series; figure grouping"
+      "description": "Number, letter, and figural series; figure grouping",
+      "questionOrder": {
+        "strategy": "category_blocks",
+        "categories": [
+          "figural_series",
+          "figure_grouping",
+          "number_series",
+          "letter_series"
+        ]
+      }
     },
     {
       "id": "quantitative",

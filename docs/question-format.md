@@ -75,6 +75,23 @@ Each subtest has its own JSON file in `data/questions/`:
 }
 ```
 
+## Inductive Reasoning session order
+
+Inductive Reasoning uses fixed category blocks during Study and Exam sessions:
+
+1. Figure series (`figural_series`)
+2. Figure groupings (`figure_grouping`)
+3. Number series (`number_series`)
+4. Letter series (`letter_series`)
+
+Questions are shuffled **within each block only**, not across the whole subtest. Other subtests still shuffle all questions together.
+
+When adding Inductive Reasoning items:
+
+- Set `type` to one of the four category ids above.
+- For mixed-format items, use `type: "number_letter_series"` and include a matching tag: `"number_series"` or `"letter_series"`.
+- Keep `number` sequential in the JSON file for authoring; session order is determined at runtime.
+
 ## Adding a new question
 
 1. Open the subtest JSON file in your editor.
