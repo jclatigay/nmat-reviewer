@@ -3,551 +3,587 @@
     "subtestId": "perceptual-acuity",
     "subtestName": "Perceptual Acuity",
     "part": 1,
-    "source": "author-seeded",
-    "version": "1.0.0",
-    "lastUpdated": "2026-07-16",
-    "notes": "Editable — add your own items following docs/question-format.md"
+    "source": "author-created",
+    "version": "2.0.0",
+    "lastUpdated": "2026-08-11",
+    "notes": "Original NMAT-style practice items. These are not actual or reconstructed NMAT questions. The set uses the three Perceptual Acuity item types documented by CEM: Hidden Figure, Mirror Image, and Identical Information. Practice distribution: 10 items per type. Answer keys are distributed across A-E to avoid a predictable pattern.",
+    "validationNotes": [
+      "Hidden Figure uses a simple target plus five complicated drawings.",
+      "Mirror Image uses one asymmetric figure plus five visual options.",
+      "Identical Information uses a sentence, biographical entry, or bibliographical entry and tests exact matching of spelling, punctuation, and word sequence.",
+      "The official NMAT documentation identifies 40 Perceptual Acuity items with a 40-minute recommended time allotment in the published NMAT bulletin; this 30-item set is a practice set, not an official simulation length."
+    ]
   },
   "questions": [
     {
       "id": "pa-001",
       "number": 1,
       "type": "hidden_figure",
-      "prompt": "Which simple figure is hidden inside the complex diagram?",
+      "prompt": "Which complicated drawing contains the simple target figure?",
       "passage": null,
-      "image": "assets/images/hidden-figure-1.svg",
+      "image": "assets/images/pa-hf-01.png",
       "choices": [
-        { "id": "A", "text": "Triangle" },
-        { "id": "B", "text": "Square" },
-        { "id": "C", "text": "Circle" },
-        { "id": "D", "text": "Arrow" }
+        { "id": "A", "text": "Drawing A" },
+        { "id": "B", "text": "Drawing B" },
+        { "id": "C", "text": "Drawing C" },
+        { "id": "D", "text": "Drawing D" },
+        { "id": "E", "text": "Drawing E" }
       ],
-      "correctChoiceId": "A",
-      "explanation": "A right triangle is embedded within the overlapping lines of the diagram.",
-      "hint": "Trace straight edges and look for a three-sided shape.",
-      "tags": ["hidden_figure"]
+      "correctChoiceId": "C",
+      "explanation": "The target figure -- a four-sided shape with a flat top edge, a short diagonal edge down to a sharp right-pointing vertex, a long diagonal edge down to a sharp bottom vertex, and a concave arc closing it back to the top-left corner -- is embedded in Drawing C near the upper-center of the circle. It appears in essentially the same orientation as the simple figure, merely shifted to a different position within the circle, with its exact proportions preserved. The other drawings contain similarly styled lines and curves, but none reproduces the target's specific vertex angles, edge lengths, and arc curvature together as a single closed region.",
+      "hint": "Lock onto the one curved (concave) edge of the target and the sharp point directly opposite it -- this pairing is the most distinctive feature to scan for inside each circle, since most distractor lines in this item are straight.",
+      "tags": ["hidden_figure", "visual_recognition"]
     },
     {
       "id": "pa-002",
       "number": 2,
-      "type": "mirror_image",
-      "prompt": "Which option shows the correct mirror image of the figure on the left (mirror placed on the right side)?",
+      "type": "hidden_figure",
+      "prompt": "Which complicated drawing contains the simple target figure?",
       "passage": null,
-      "image": "assets/images/mirror-image-1.svg",
+      "image": "assets/images/pa-hf-02.png",
       "choices": [
-        { "id": "A", "text": "Option A" },
-        { "id": "B", "text": "Option B" },
-        { "id": "C", "text": "Option C" },
-        { "id": "D", "text": "Option D" }
+        { "id": "A", "text": "Drawing A" },
+        { "id": "B", "text": "Drawing B" },
+        { "id": "C", "text": "Drawing C" },
+        { "id": "D", "text": "Drawing D" },
+        { "id": "E", "text": "Drawing E" }
       ],
-      "correctChoiceId": "B",
-      "explanation": "In a vertical mirror reflection, left and right are swapped; Option B matches the reversal.",
-      "hint": "Imagine flipping the figure horizontally.",
-      "tags": ["mirror_image"]
+      "correctChoiceId": "A",
+      "explanation": "The target figure -- an elongated, boot-shaped outline with several gently bending straight edges along its left side, a short notch near the top, a sharp inner vertex, a pointed lower-right corner, and a small curved (hooked) edge near its opposite end -- is traced by the leftmost diagonal, the near-vertical line, and the small curved hook inside Drawing A, rotated roughly 155-160 degrees from its original orientation. Every edge of the target lines up with an actual drawn line in Drawing A, including the distinctive curved hook near the bottom. In Drawings B, C, D, and E, at least part of the same outline either falls on blank space or only appears to match by tracing the diamond-and-circle frame that is common to all five drawings, rather than the unique lines specific to that option.",
+      "hint": "All five drawings share the same outer hourglass-and-diamond frame, so ignore that outline entirely -- it's common to every option and can't help you. Focus only on the internal lines unique to each drawing, and look for the one small curved (hooked) segment paired with a long, gently bending straight edge running most of the figure's length.",
+      "tags": ["hidden_figure", "visual_recognition"]
     },
     {
       "id": "pa-003",
       "number": 3,
-      "type": "identical_information",
-      "prompt": "Which pair of symbols contains identical information (same shape and orientation)?",
+      "type": "hidden_figure",
+      "prompt": "Which complicated drawing contains the simple target figure?",
       "passage": null,
-      "image": "assets/images/identical-info-1.svg",
+      "image": "assets/images/pa-hf-03.png",
       "choices": [
-        { "id": "A", "text": "Pair 1" },
-        { "id": "B", "text": "Pair 2" },
-        { "id": "C", "text": "Pair 3" },
-        { "id": "D", "text": "Pair 4" }
+        { "id": "A", "text": "Drawing A" },
+        { "id": "B", "text": "Drawing B" },
+        { "id": "C", "text": "Drawing C" },
+        { "id": "D", "text": "Drawing D" },
+        { "id": "E", "text": "Drawing E" }
       ],
-      "correctChoiceId": "C",
-      "explanation": "Pair 3 shows two identical arrows pointing in the same direction with the same size.",
-      "hint": "Compare both shape and direction, not just shape alone.",
-      "tags": ["identical_information"]
+      "correctChoiceId": "A",
+      "explanation": "The target figure -- an arrow-like polygon with a pointed top, a short inward notch on its left side, and a long, narrow blade tapering to a sharp point below -- is traced almost exactly by lines in the upper portion of Drawing A, appearing in nearly its original orientation (barely rotated) and merely shifted to a different spot within the circle. Every edge and vertex of the target lines up with an actual drawn line in Drawing A. Drawings B, C, D, and E contain similarly angled lines and triangular clusters, but none reproduces the target's specific notch position, edge lengths, and closing angle together as one continuous outline -- their nearest candidate shapes leave at least one edge crossing blank space.",
+      "hint": "Notice the small inward step on the target's left side, partway down from the top point. Search each drawing for a slender, dagger-like cluster of lines near the rim of the circle, then check whether that same small step-in appears at the matching spot before locking in your answer.",
+      "tags": ["hidden_figure", "visual_recognition"]
     },
     {
       "id": "pa-004",
       "number": 4,
       "type": "hidden_figure",
-      "prompt": "Which letter shape can be found hidden in the figure?",
+      "prompt": "Which complicated drawing contains the simple target figure?",
       "passage": null,
-      "image": "assets/images/hidden-figure-2.svg",
+      "image": "assets/images/pa-hf-04.png",
       "choices": [
-        { "id": "A", "text": "L" },
-        { "id": "B", "text": "T" },
-        { "id": "C", "text": "E" },
-        { "id": "D", "text": "F" }
+        { "id": "A", "text": "Drawing A" },
+        { "id": "B", "text": "Drawing B" },
+        { "id": "C", "text": "Drawing C" },
+        { "id": "D", "text": "Drawing D" },
+        { "id": "E", "text": "Drawing E" }
       ],
       "correctChoiceId": "B",
-      "explanation": "The horizontal and vertical bars form a hidden letter T within the pattern.",
-      "hint": "Look for perpendicular line segments.",
-      "tags": ["hidden_figure"]
+      "explanation": "The target figure -- a narrow, elongated five-sided shape resembling a tag or ticket, with one corner chamfered off at the top -- is traced with near-pixel precision by lines in the upper-left portion of Drawing B, rotated roughly 140 degrees from its original orientation. Every edge and vertex, including the short chamfered corner, aligns exactly with an actual drawn line in Drawing B. Drawings A, C, D, and E contain similarly dense crisscrossing lines within their ovals, but none reproduces the target's specific proportions, chamfer angle, and vertex sequence as a single continuous outline.",
+      "hint": "The target is a slim, elongated shape with one corner sliced off at an angle -- almost like a fence post with a pointed cap. Look for a tall, narrow quadrilateral-ish outline near the edge of each oval, then check whether one of its top corners is cut at that same shallow angle.",
+      "tags": ["hidden_figure", "visual_recognition"]
     },
     {
       "id": "pa-005",
       "number": 5,
-      "type": "mirror_image",
-      "prompt": "Which figure is the mirror image of the arrow pointing northeast?",
+      "type": "hidden_figure",
+      "prompt": "Which complicated drawing contains the simple target figure?",
       "passage": null,
-      "image": "assets/images/mirror-image-2.svg",
+      "image": "assets/images/pa-hf-05.png",
       "choices": [
-        { "id": "A", "text": "Northwest arrow" },
-        { "id": "B", "text": "Southeast arrow" },
-        { "id": "C", "text": "Southwest arrow" },
-        { "id": "D", "text": "Same northeast arrow" }
+        { "id": "A", "text": "Drawing A" },
+        { "id": "B", "text": "Drawing B" },
+        { "id": "C", "text": "Drawing C" },
+        { "id": "D", "text": "Drawing D" },
+        { "id": "E", "text": "Drawing E" }
       ],
-      "correctChoiceId": "A",
-      "explanation": "Reflecting northeast across a vertical axis gives northwest.",
-      "hint": "Swap east and west directions.",
-      "tags": ["mirror_image"]
+      "correctChoiceId": "B",
+      "explanation": "The target figure -- a five-sided shape with a long top edge, a straight right side, an inward-pointing notch partway down, and a sharp point at the bottom -- is traced with near-pixel precision by lines in Drawing B, rotated approximately 90 degrees clockwise from its original orientation. Every edge, including the distinctive inward notch, aligns almost exactly with an actual drawn line in Drawing B. Drawings A, C, D, and E contain similarly crossing diagonal lines within their squares, but none reproduces the target's specific notch position, edge lengths, and closing point together as one continuous outline.",
+      "hint": "The target's most distinctive feature is the inward notch partway down its right side, right before the shape narrows to a sharp bottom point. Look for that same 'step-in then taper to a point' pattern among each square's crossing lines before settling on an answer.",
+      "tags": ["hidden_figure", "visual_recognition"]
     },
     {
       "id": "pa-006",
       "number": 6,
-      "type": "identical_information",
-      "prompt": "How many pairs in the set are exactly identical?",
+      "type": "hidden_figure",
+      "prompt": "Which complicated drawing contains the simple target figure?",
       "passage": null,
-      "image": "assets/images/identical-info-2.svg",
+      "image": "assets/images/pa-hf-06.png",
       "choices": [
-        { "id": "A", "text": "1" },
-        { "id": "B", "text": "2" },
-        { "id": "C", "text": "3" },
-        { "id": "D", "text": "4" }
+        { "id": "A", "text": "Drawing A" },
+        { "id": "B", "text": "Drawing B" },
+        { "id": "C", "text": "Drawing C" },
+        { "id": "D", "text": "Drawing D" },
+        { "id": "E", "text": "Drawing E" }
       ],
-      "correctChoiceId": "C",
-      "explanation": "Three pairs are exactly identical: the blue circles, green triangles, and purple triangles.",
-      "hint": "Check orientation carefully — rotated shapes are not identical.",
-      "tags": ["identical_information"]
+      "correctChoiceId": "D",
+      "explanation": "The target figure -- a crown-like shape with two sharp peaks, a slightly curved (convex) right edge, a straight bottom edge, and an internal diagonal line running from the bottom-left corner up to the valley between the two peaks -- is traced almost exactly by lines in the lower portion of Drawing D, appearing in essentially its original orientation (unrotated), just shifted lower within the frame. Every edge, including the internal diagonal and both peaks, aligns almost exactly with an actual drawn line in Drawing D. Drawings A, B, C, and E contain similarly angled crossing lines within their wavy-sided frames, but none reproduces the target's specific peak spacing, curve, and internal diagonal together as one continuous figure.",
+      "hint": "The target has a unique internal line cutting across it diagonally, in addition to its two-peaked outline. Look for a two-pointed 'crown' shape with a diagonal line slicing through its middle in each drawing, rather than just matching the outer silhouette alone.",
+      "tags": ["hidden_figure", "visual_recognition"]
     },
     {
       "id": "pa-007",
       "number": 7,
-      "type": "mirror_image",
-      "prompt": "Which option is the mirror image of the given shape?",
+      "type": "hidden_figure",
+      "prompt": "Which complicated drawing contains the simple target figure?",
       "passage": null,
-      "image": "assets/images/mirror-image-2.svg",
+      "image": "assets/images/pa-hf-07.png",
       "choices": [
-        { "id": "A", "text": "Option A" },
-        { "id": "B", "text": "Option B" },
-        { "id": "C", "text": "Option C" },
-        { "id": "D", "text": "Option D" }
+        { "id": "A", "text": "Drawing A" },
+        { "id": "B", "text": "Drawing B" },
+        { "id": "C", "text": "Drawing C" },
+        { "id": "D", "text": "Drawing D" },
+        { "id": "E", "text": "Drawing E" }
       ],
-      "correctChoiceId": "B",
-      "explanation": "The reflected shape is the one with the left-right reversal while preserving orientation of the internal marks.",
-      "hint": "Mirror images reverse left and right.",
-      "tags": ["mirror_image"]
+      "correctChoiceId": "C",
+      "explanation": "The target figure -- a crown- or star-topped shape with a left point, a center peak, and a right point, narrowing below into a straight-sided ribbon that ends in an angled bottom edge -- is traced by lines running from the upper-left through the center of Drawing C, rotated roughly 285 degrees from its original orientation. The double-peaked star top and the long ribbon edge extending to the right both align closely with actual drawn lines in Drawing C. Drawings A, B, D, and E contain similar zigzag, star-like clusters of lines, but each leaves at least one segment of the target's outline crossing blank space rather than tracing a real line.",
+      "hint": "Look for the small double-notch 'crown' silhouette (a left point, then a center peak, then a right point) attached to a long straight-edged tail. Trace the whole outline continuously rather than just spotting the crown shape alone, since a few drawings show a similar-looking crown without the matching tail.",
+      "tags": ["hidden_figure", "visual_recognition"]
     },
     {
       "id": "pa-008",
       "number": 8,
-      "type": "identical_information",
-      "prompt": "How many shapes in this grid are exactly the same orientation and size?",
+      "type": "hidden_figure",
+      "prompt": "Which complicated drawing contains the simple target figure?",
       "passage": null,
-      "image": "assets/images/identical-info-1.svg",
+      "image": "assets/images/pa-hf-08.png",
       "choices": [
-        { "id": "A", "text": "2" },
-        { "id": "B", "text": "3" },
-        { "id": "C", "text": "4" },
-        { "id": "D", "text": "5" }
+        { "id": "A", "text": "Drawing A" },
+        { "id": "B", "text": "Drawing B" },
+        { "id": "C", "text": "Drawing C" },
+        { "id": "D", "text": "Drawing D" },
+        { "id": "E", "text": "Drawing E" }
       ],
-      "correctChoiceId": "C",
-      "explanation": "Four shapes match exactly in size and orientation while others are rotated or mirrored.",
-      "hint": "Ignore rotated and mirrored versions.",
-      "tags": ["identical_information"]
+      "correctChoiceId": "A",
+      "explanation": "The target figure -- an elongated, gently angled shape with a notched upper-left edge and a wider, straight-edged base -- is traced with pixel-level precision by lines in the upper petal of Drawing A, appearing in essentially its original orientation (unrotated), just repositioned within the pinwheel-shaped frame. Every edge and vertex of the target lines up almost exactly with an actual drawn line in Drawing A. Drawings B, C, D, and E contain similarly dense crisscrossing lines within their petals, but none reproduces the target's specific notch position, edge lengths, and vertex sequence as one continuous outline.",
+      "hint": "All five drawings share the same four-petal pinwheel outline, so focus only on the internal lines inside each petal. Look for the small notch near the top of the target and a wide, straight-edged base directly beneath it, within a single petal of the figure.",
+      "tags": ["hidden_figure", "visual_recognition"]
     },
     {
       "id": "pa-009",
       "number": 9,
       "type": "hidden_figure",
-      "prompt": "Which simple shape is hidden within the overlapping design?",
+      "prompt": "Which complicated drawing contains the simple target figure?",
       "passage": null,
-      "image": null,
+      "image": "assets/images/pa-hf-09.png",
       "choices": [
-        { "id": "A", "text": "Square" },
-        { "id": "B", "text": "Circle" },
-        { "id": "C", "text": "Triangle" },
-        { "id": "D", "text": "Rectangle" }
+        { "id": "A", "text": "Drawing A" },
+        { "id": "B", "text": "Drawing B" },
+        { "id": "C", "text": "Drawing C" },
+        { "id": "D", "text": "Drawing D" },
+        { "id": "E", "text": "Drawing E" }
       ],
       "correctChoiceId": "C",
-      "explanation": "The overlapping design contains a triangle formed by three intersecting lines and angles.",
-      "hint": "Look for the simplest closed shape among the overlapping segments.",
-      "tags": ["hidden_figure"]
+      "explanation": "The target figure -- a wide, sail- or leaf-shaped figure with two straight edges meeting at a sharp point on one side and a gently curved edge closing it on the other -- is traced with near-pixel precision by lines in the center-left of Drawing C, rotated roughly 168 degrees from its original orientation. Both straight edges and the curved base align almost exactly with actual drawn lines in Drawing C. Drawings A, B, D, and E contain similarly angled lines and curves within their squares, but none reproduces the target's specific proportions and curvature together as one continuous outline.",
+      "hint": "The target has two straight sides meeting at a sharp point and one gently curved side opposite them. Look for a wide, shallow triangle-like shape with one curved edge in each drawing, paying attention to how gently that one edge bows compared to the two straight sides.",
+      "tags": ["hidden_figure", "visual_recognition"]
     },
     {
       "id": "pa-010",
       "number": 10,
-      "type": "mirror_image",
-      "prompt": "A right-facing arrow is reflected across a vertical mirror. Which direction does the image point?",
+      "type": "hidden_figure",
+      "prompt": "Which complicated drawing contains the simple target figure?",
       "passage": null,
-      "image": null,
+      "image": "assets/images/pa-hf-10.png",
       "choices": [
-        { "id": "A", "text": "Right" },
-        { "id": "B", "text": "Left" },
-        { "id": "C", "text": "Up" },
-        { "id": "D", "text": "Down" }
+        { "id": "A", "text": "Drawing A" },
+        { "id": "B", "text": "Drawing B" },
+        { "id": "C", "text": "Drawing C" },
+        { "id": "D", "text": "Drawing D" },
+        { "id": "E", "text": "Drawing E" }
       ],
       "correctChoiceId": "B",
-      "explanation": "A vertical mirror swaps left and right, so a right-facing arrow becomes left-facing.",
-      "hint": "Mirror reflection reverses horizontal direction.",
-      "tags": ["mirror_image"]
+      "explanation": "The target figure -- an irregular arrowhead-like shape with a notched top edge, a long straight right side tapering to a point, and a narrow rectangular foot at the bottom -- is traced with pixel-level precision by lines in the center of Drawing B, rotated exactly 90 degrees from its original orientation. Every edge and vertex of the target lines up almost exactly with an actual drawn line in Drawing B. Drawings A, C, D, and E contain similarly dense triangular clusters of lines within their circles, but none reproduces the target's specific notch, proportions, and vertex sequence as one continuous outline.",
+      "hint": "The target's most distinctive feature is the small notch near its top edge, paired with a narrow rectangular 'foot' at the opposite end. Look for that same notch-plus-foot combination among each circle's crossing lines, keeping in mind the whole figure may be rotated a quarter turn from how it's shown at the left.",
+      "tags": ["hidden_figure", "visual_recognition"]
     },
     {
       "id": "pa-011",
       "number": 11,
-      "type": "identical_information",
-      "prompt": "How many triangles in the set have the same orientation?",
+      "type": "mirror_image",
+      "prompt": "Which option is the correct mirror image of the given figure?",
       "passage": null,
-      "image": null,
+      "image": "assets/images/pa-mi-11.svg",
       "choices": [
-        { "id": "A", "text": "1" },
-        { "id": "B", "text": "2" },
-        { "id": "C", "text": "3" },
-        { "id": "D", "text": "4" }
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
       ],
-      "correctChoiceId": "B",
-      "explanation": "Only two triangles share the same size and orientation while the others are rotated differently.",
-      "hint": "Count orientation as well as shape.",
-      "tags": ["identical_information"]
+      "correctChoiceId": "C",
+      "explanation": "The correct option reverses the figure across the vertical mirror axis while preserving its size and all other relationships.",
+      "hint": "Track an asymmetric corner or protruding segment first; a mirror reverses left and right but does not rotate the figure.",
+      "tags": ["mirror_image", "visual_recognition"]
     },
     {
       "id": "pa-012",
       "number": 12,
-      "type": "hidden_figure",
-      "prompt": "Which letter is hidden in the overlapping shapes?",
+      "type": "mirror_image",
+      "prompt": "Which option is the correct mirror image of the given figure?",
       "passage": null,
-      "image": null,
+      "image": "assets/images/pa-mi-12.svg",
       "choices": [
-        { "id": "A", "text": "L" },
-        { "id": "B", "text": "T" },
-        { "id": "C", "text": "E" },
-        { "id": "D", "text": "A" }
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
       ],
-      "correctChoiceId": "C",
-      "explanation": "The overlapping lines form the shape of the letter E when viewed as a whole.",
-      "hint": "Look for three horizontal lines connected by one vertical line.",
-      "tags": ["hidden_figure"]
+      "correctChoiceId": "A",
+      "explanation": "The correct option reverses the figure across the vertical mirror axis while preserving its size and all other relationships.",
+      "hint": "Track an asymmetric corner or protruding segment first; a mirror reverses left and right but does not rotate the figure.",
+      "tags": ["mirror_image", "visual_recognition"]
     },
     {
       "id": "pa-013",
       "number": 13,
       "type": "mirror_image",
-      "prompt": "If a shape faces upward and is reflected across a horizontal mirror, which direction does the image face?",
+      "prompt": "Which option is the correct mirror image of the given figure?",
       "passage": null,
-      "image": null,
+      "image": "assets/images/pa-mi-13.svg",
       "choices": [
-        { "id": "A", "text": "Up" },
-        { "id": "B", "text": "Down" },
-        { "id": "C", "text": "Left" },
-        { "id": "D", "text": "Right" }
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
       ],
-      "correctChoiceId": "B",
-      "explanation": "A horizontal mirror reflection flips the image vertically, so the upward-facing shape appears downward-facing.",
-      "hint": "Mirror reflections flip the axis opposite the mirror line.",
-      "tags": ["mirror_image"]
+      "correctChoiceId": "D",
+      "explanation": "The correct option reverses the figure across the vertical mirror axis while preserving its size and all other relationships.",
+      "hint": "Track an asymmetric corner or protruding segment first; a mirror reverses left and right but does not rotate the figure.",
+      "tags": ["mirror_image", "visual_recognition"]
     },
     {
       "id": "pa-014",
       "number": 14,
-      "type": "identical_information",
-      "prompt": "How many items in the grid are identical in both shape and orientation?",
+      "type": "mirror_image",
+      "prompt": "Which option is the correct mirror image of the given figure?",
       "passage": null,
-      "image": null,
+      "image": "assets/images/pa-mi-14.svg",
       "choices": [
-        { "id": "A", "text": "1" },
-        { "id": "B", "text": "2" },
-        { "id": "C", "text": "3" },
-        { "id": "D", "text": "4" }
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
       ],
-      "correctChoiceId": "C",
-      "explanation": "Three items share the same shape and orientation while the others are rotated or mirrored.",
-      "hint": "Ignore rotated duplicates and focus on exact matches.",
-      "tags": ["identical_information"]
+      "correctChoiceId": "B",
+      "explanation": "The correct option reverses the figure across the vertical mirror axis while preserving its size and all other relationships.",
+      "hint": "Track an asymmetric corner or protruding segment first; a mirror reverses left and right but does not rotate the figure.",
+      "tags": ["mirror_image", "visual_recognition"]
     },
     {
       "id": "pa-015",
       "number": 15,
-      "type": "hidden_figure",
-      "prompt": "Which simple shape is hidden in the abstract pattern?",
+      "type": "mirror_image",
+      "prompt": "Which option is the correct mirror image of the given figure?",
       "passage": null,
-      "image": null,
+      "image": "assets/images/pa-mi-15.svg",
       "choices": [
-        { "id": "A", "text": "Triangle" },
-        { "id": "B", "text": "Square" },
-        { "id": "C", "text": "Circle" },
-        { "id": "D", "text": "Hexagon" }
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
       ],
-      "correctChoiceId": "A",
-      "explanation": "The overlapping lines form a triangular shape that is easiest to see when following the three outer edges.",
-      "hint": "Count the sides of the hidden shape.",
-      "tags": ["hidden_figure"]
+      "correctChoiceId": "E",
+      "explanation": "The correct option reverses the figure across the vertical mirror axis while preserving its size and all other relationships.",
+      "hint": "Track an asymmetric corner or protruding segment first; a mirror reverses left and right but does not rotate the figure.",
+      "tags": ["mirror_image", "visual_recognition"]
     },
     {
       "id": "pa-016",
       "number": 16,
       "type": "mirror_image",
-      "prompt": "A leftward arrow is reflected across a vertical mirror. Which direction does the image point?",
+      "prompt": "Which option is the correct mirror image of the given figure?",
       "passage": null,
-      "image": null,
+      "image": "assets/images/pa-mi-16.svg",
       "choices": [
-        { "id": "A", "text": "Left" },
-        { "id": "B", "text": "Right" },
-        { "id": "C", "text": "Up" },
-        { "id": "D", "text": "Down" }
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
       ],
-      "correctChoiceId": "B",
-      "explanation": "A vertical mirror reflection swaps left and right, so a leftward arrow becomes rightward.",
-      "hint": "Mirror reflections reverse the horizontal direction.",
-      "tags": ["mirror_image"]
+      "correctChoiceId": "C",
+      "explanation": "The correct option reverses the figure across the vertical mirror axis while preserving its size and all other relationships.",
+      "hint": "Track an asymmetric corner or protruding segment first; a mirror reverses left and right but does not rotate the figure.",
+      "tags": ["mirror_image", "visual_recognition"]
     },
     {
       "id": "pa-017",
       "number": 17,
-      "type": "identical_information",
-      "prompt": "Which pair of shapes is exactly identical in orientation and size?",
+      "type": "mirror_image",
+      "prompt": "Which option is the correct mirror image of the given figure?",
       "passage": null,
-      "image": null,
+      "image": "assets/images/pa-mi-17.svg",
       "choices": [
-        { "id": "A", "text": "Pair 1" },
-        { "id": "B", "text": "Pair 2" },
-        { "id": "C", "text": "Pair 3" },
-        { "id": "D", "text": "Pair 4" }
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
       ],
-      "correctChoiceId": "D",
-      "explanation": "Pair 4 has two shapes that match exactly in both orientation and size while the others differ in one property.",
-      "hint": "Check both direction and scale before choosing.",
-      "tags": ["identical_information"]
+      "correctChoiceId": "B",
+      "explanation": "The correct option reverses the figure across the vertical mirror axis while preserving its size and all other relationships.",
+      "hint": "Track an asymmetric corner or protruding segment first; a mirror reverses left and right but does not rotate the figure.",
+      "tags": ["mirror_image", "visual_recognition"]
     },
     {
       "id": "pa-018",
       "number": 18,
-      "type": "hidden_figure",
-      "prompt": "Which letter shape is hidden in the overlapping elements?",
+      "type": "mirror_image",
+      "prompt": "Which option is the correct mirror image of the given figure?",
       "passage": null,
-      "image": null,
+      "image": "assets/images/pa-mi-18.svg",
       "choices": [
-        { "id": "A", "text": "H" },
-        { "id": "B", "text": "A" },
-        { "id": "C", "text": "N" },
-        { "id": "D", "text": "M" }
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
       ],
-      "correctChoiceId": "B",
-      "explanation": "The overlapping vertical and diagonal lines form the letter A.",
-      "hint": "Look for a pointed top and a crossbar.",
-      "tags": ["hidden_figure"]
+      "correctChoiceId": "E",
+      "explanation": "The correct option reverses the figure across the vertical mirror axis while preserving its size and all other relationships.",
+      "hint": "Track an asymmetric corner or protruding segment first; a mirror reverses left and right but does not rotate the figure.",
+      "tags": ["mirror_image", "visual_recognition"]
     },
     {
       "id": "pa-019",
       "number": 19,
       "type": "mirror_image",
-      "prompt": "If a T-shape is reflected across a vertical mirror, which figure matches its image?",
+      "prompt": "Which option is the correct mirror image of the given figure?",
       "passage": null,
-      "image": null,
+      "image": "assets/images/pa-mi-19.svg",
       "choices": [
         { "id": "A", "text": "Option A" },
         { "id": "B", "text": "Option B" },
         { "id": "C", "text": "Option C" },
-        { "id": "D", "text": "Option D" }
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
       ],
-      "correctChoiceId": "C",
-      "explanation": "The mirror image reverses the horizontal orientation of the T while preserving vertical symmetry.",
-      "hint": "Flip the shape as if it were reflected in glass.",
-      "tags": ["mirror_image"]
+      "correctChoiceId": "A",
+      "explanation": "The correct option reverses the figure across the vertical mirror axis while preserving its size and all other relationships.",
+      "hint": "Track an asymmetric corner or protruding segment first; a mirror reverses left and right but does not rotate the figure.",
+      "tags": ["mirror_image", "visual_recognition"]
     },
     {
       "id": "pa-020",
       "number": 20,
-      "type": "identical_information",
-      "prompt": "How many circles in the set are identical in size and position?",
+      "type": "mirror_image",
+      "prompt": "Which option is the correct mirror image of the given figure?",
       "passage": null,
-      "image": null,
+      "image": "assets/images/pa-mi-20.svg",
       "choices": [
-        { "id": "A", "text": "1" },
-        { "id": "B", "text": "2" },
-        { "id": "C", "text": "3" },
-        { "id": "D", "text": "4" }
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
       ],
-      "correctChoiceId": "C",
-      "explanation": "Three circles share the same size and placement while one is slightly shifted or resized.",
-      "hint": "Compare exact placement as well as size.",
-      "tags": ["identical_information"]
+      "correctChoiceId": "D",
+      "explanation": "The correct option reverses the figure across the vertical mirror axis while preserving its size and all other relationships.",
+      "hint": "Track an asymmetric corner or protruding segment first; a mirror reverses left and right but does not rotate the figure.",
+      "tags": ["mirror_image", "visual_recognition"]
     },
     {
       "id": "pa-021",
       "number": 21,
-      "type": "hidden_figure",
-      "prompt": "Which simple shape is formed by the overlapping diagonal lines?",
-      "passage": null,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given biographical entry?",
+      "passage": "Reyes, Andrea M. | 24 Mabini St., Brgy. San Isidro, Santa Rosa, Laguna 4026",
       "image": null,
       "choices": [
-        { "id": "A", "text": "Square" },
-        { "id": "B", "text": "Triangle" },
-        { "id": "C", "text": "Rectangle" },
-        { "id": "D", "text": "Parallelogram" }
+        { "id": "A", "text": "Reyes, Andrea N. | 24 Mabini St., Brgy. San Isidro, Santa Rosa, Laguna 4026" },
+        { "id": "B", "text": "Reyes, Andrea M. | 24 Mabini St., Brgy. San Isidro, Santa Rosa, Laguna 4062" },
+        { "id": "C", "text": "Reyes, Andrea M. | 24 Mabini St., Brgy. San Isidro, Santa Rosa, Laguna 4026" },
+        { "id": "D", "text": "Reyes, Andrea M. | 24 Mabini St., Brgy. San Isidro Santa Rosa, Laguna 4026" },
+        { "id": "E", "text": "Reyes, Andrea M. | 24 Mabini St., Brgy. San Isidro, Santa Rosa, Laguna 4028" }
       ],
-      "correctChoiceId": "B",
-      "explanation": "The diagonal lines intersect to form a triangular outline inside the pattern.",
-      "hint": "Trace the three sides that make a closed shape.",
-      "tags": ["hidden_figure"]
+      "correctChoiceId": "C",
+      "explanation": "Option C exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
     },
     {
       "id": "pa-022",
       "number": 22,
-      "type": "mirror_image",
-      "prompt": "A shape points diagonally up-right and is reflected in a vertical mirror. Which direction does the image point?",
-      "passage": null,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given bibliographical entry?",
+      "passage": "Garcia P, Lim R. Visual attention in medical education. Med Teach. 2022;44(3):315-9.",
       "image": null,
       "choices": [
-        { "id": "A", "text": "Up-left" },
-        { "id": "B", "text": "Up-right" },
-        { "id": "C", "text": "Down-left" },
-        { "id": "D", "text": "Down-right" }
+        { "id": "A", "text": "Garcia P, Lim R. Visual attention in medical education. Med Teach. 2022;44(3):315-8." },
+        { "id": "B", "text": "Garcia P, Lim R. Visual attention in medical education. Med Teach. 2022;44(3);315-9." },
+        { "id": "C", "text": "Garcia P, Lim S. Visual attention in medical education. Med Teach. 2022;44(3):315-9." },
+        { "id": "D", "text": "Garcia P, Lim R. Visual attention in medical education. Med Teach. 2022;44(3):351-9." },
+        { "id": "E", "text": "Garcia P, Lim R. Visual attention in medical education. Med Teach. 2022;44(3):315-9." }
       ],
-      "correctChoiceId": "A",
-      "explanation": "A vertical mirror flips right to left, so up-right becomes up-left.",
-      "hint": "Only the horizontal component changes direction.",
-      "tags": ["mirror_image"]
+      "correctChoiceId": "E",
+      "explanation": "Option E exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
     },
     {
       "id": "pa-023",
       "number": 23,
       "type": "identical_information",
-      "prompt": "Which pair of shapes is entirely identical?",
-      "passage": null,
+      "prompt": "Which option exactly matches the given sentence?",
+      "passage": "The patient returned to the clinic after three weeks of observation.",
       "image": null,
       "choices": [
-        { "id": "A", "text": "Pair 1" },
-        { "id": "B", "text": "Pair 2" },
-        { "id": "C", "text": "Pair 3" },
-        { "id": "D", "text": "Pair 4" }
+        { "id": "A", "text": "The patient returned to the clinic after three weeks of observations." },
+        { "id": "B", "text": "The patient returned to the clinic after three weeks of observation." },
+        { "id": "C", "text": "The patient returned to the clinic after three weeks or observation." },
+        { "id": "D", "text": "The patient returned to the clinic after three weeks for observation." },
+        { "id": "E", "text": "The patient return to the clinic after three weeks of observation." }
       ],
-      "correctChoiceId": "A",
-      "explanation": "Pair 1 shows the same shape with the same orientation and size, while the other pairs differ in one aspect.",
-      "hint": "Exact replication means no rotations or size changes.",
-      "tags": ["identical_information"]
+      "correctChoiceId": "B",
+      "explanation": "Option B exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
     },
     {
       "id": "pa-024",
       "number": 24,
-      "type": "hidden_figure",
-      "prompt": "Which simple shape appears hidden inside the arranged polygons?",
-      "passage": null,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given biographical entry?",
+      "passage": "Santos, Miguel R. | 18 Rizal Ave., Brgy. Malitlit, Santa Rosa, Laguna 4026",
       "image": null,
       "choices": [
-        { "id": "A", "text": "Circle" },
-        { "id": "B", "text": "Pentagon" },
-        { "id": "C", "text": "Triangle" },
-        { "id": "D", "text": "Square" }
+        { "id": "A", "text": "Santos, Miguel R. | 18 Rizal Ave., Brgy. Malitlit, Santa Rosa, Laguna 4028" },
+        { "id": "B", "text": "Santos, Miguel P. | 18 Rizal Ave., Brgy. Malitlit, Santa Rosa, Laguna 4026" },
+        { "id": "C", "text": "Santos, Miguel R. | 18 Rizal Ave., Brgy. Malitlit Santa Rosa, Laguna 4026" },
+        { "id": "D", "text": "Santos, Miguel R. | 18 Rizal Ave., Brgy. Malitlit, Santa Rosa, Laguna 4026" },
+        { "id": "E", "text": "Santos Miguel R. | 18 Rizal Ave., Brgy. Malitlit, Santa Rosa, Laguna 4026" }
       ],
-      "correctChoiceId": "C",
-      "explanation": "The shape of a triangle can be traced among the overlapping polygon edges.",
-      "hint": "Find the three connecting line segments.",
-      "tags": ["hidden_figure"]
+      "correctChoiceId": "D",
+      "explanation": "Option D exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
     },
     {
       "id": "pa-025",
       "number": 25,
-      "type": "mirror_image",
-      "prompt": "Which figure is the correct mirror image of the original shape across a horizontal axis?",
-      "passage": null,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given bibliographical entry?",
+      "passage": "Dela Cruz J, Ramos K. Pattern recognition and learning. J Educ Psychol. 2021;13(2):88-96.",
       "image": null,
       "choices": [
-        { "id": "A", "text": "Option A" },
-        { "id": "B", "text": "Option B" },
-        { "id": "C", "text": "Option C" },
-        { "id": "D", "text": "Option D" }
+        { "id": "A", "text": "Dela Cruz J, Ramos K. Pattern recognition and learning. J Educ Psychol. 2021;13(2):88-96." },
+        { "id": "B", "text": "Dela Cruz J, Ramos K. Pattern recognition and learning. J Educ Psychol. 2021;13(2):88-69." },
+        { "id": "C", "text": "Dela Cruz J, Ramos R. Pattern recognition and learning. J Educ Psychol. 2021;13(2):88-96." },
+        { "id": "D", "text": "Dela Cruz J, Ramos K. Pattern recognition and learning. J Educ Psychol. 2021;13(2);88-96." },
+        { "id": "E", "text": "Dela Cruz J, Ramos K. Pattern recognition and learning. J Educ Psychol. 2021,13(2):88-96." }
       ],
-      "correctChoiceId": "D",
-      "explanation": "The correct mirror image flips the vertical orientation while keeping the horizontal shape the same.",
-      "hint": "Flip the image across a horizontal line.",
-      "tags": ["mirror_image"]
+      "correctChoiceId": "A",
+      "explanation": "Option A exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
     },
     {
       "id": "pa-026",
       "number": 26,
       "type": "identical_information",
-      "prompt": "How many shapes are identical to the target shape in the set?",
-      "passage": null,
+      "prompt": "Which option exactly matches the given sentence?",
+      "passage": "Careful comparison of the figures reduced the number of errors.",
       "image": null,
       "choices": [
-        { "id": "A", "text": "0" },
-        { "id": "B", "text": "1" },
-        { "id": "C", "text": "2" },
-        { "id": "D", "text": "3" }
+        { "id": "A", "text": "Careful comparison of the figures reduced the number of error." },
+        { "id": "B", "text": "Careful comparison of the figures reduced the number of errors" },
+        { "id": "C", "text": "Careful comparison of figures reduced the number of errors." },
+        { "id": "D", "text": "Careful comparison of the figures reduce the number of errors." },
+        { "id": "E", "text": "Careful comparison of the figures reduced the number of errors." }
       ],
-      "correctChoiceId": "B",
-      "explanation": "Only one shape in the set exactly matches both the orientation and size of the target.",
-      "hint": "Compare each shape carefully to the reference form.",
-      "tags": ["identical_information"]
+      "correctChoiceId": "E",
+      "explanation": "Option E exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
     },
     {
       "id": "pa-027",
       "number": 27,
-      "type": "hidden_figure",
-      "prompt": "Which simple geometric shape is hidden within the tessellated pattern?",
-      "passage": null,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given biographical entry?",
+      "passage": "Villanueva, Carlo D. | 7 Bonifacio St., Brgy. Balibago, Santa Rosa, Laguna 4026",
       "image": null,
       "choices": [
-        { "id": "A", "text": "Rectangle" },
-        { "id": "B", "text": "Triangle" },
-        { "id": "C", "text": "Circle" },
-        { "id": "D", "text": "Diamond" }
+        { "id": "A", "text": "Villanueva, Carlo D. | 7 Bonifacio St., Brgy. Balibago, Santa Rosa, Laguna 4028" },
+        { "id": "B", "text": "Villanueva, Carlo B. | 7 Bonifacio St., Brgy. Balibago, Santa Rosa, Laguna 4026" },
+        { "id": "C", "text": "Villanueva, Carlo D. | 7 Bonifacio St., Brgy. Balibago, Santa Rosa, Laguna 4026" },
+        { "id": "D", "text": "Villanueva Carlo D. | 7 Bonifacio St., Brgy. Balibago, Santa Rosa, Laguna 4026" },
+        { "id": "E", "text": "Villanueva, Carlo D. | 7 Bonifacio St., Brgy. Balibago Santa Rosa, Laguna 4026" }
       ],
-      "correctChoiceId": "D",
-      "explanation": "A diamond shape is formed by the overlapping diagonals and is the hidden figure in the pattern.",
-      "hint": "Look for a four-sided shape with equal opposite angles.",
-      "tags": ["hidden_figure"]
+      "correctChoiceId": "C",
+      "explanation": "Option C exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
     },
     {
       "id": "pa-028",
       "number": 28,
-      "type": "mirror_image",
-      "prompt": "A vertical arrow is reflected across a horizontal mirror. Which option is the image?",
-      "passage": null,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given bibliographical entry?",
+      "passage": "Tan L, Cruz M. Spatial reasoning under time pressure. Learn Behav. 2020;8(4):201-7.",
       "image": null,
       "choices": [
-        { "id": "A", "text": "Upward arrow" },
-        { "id": "B", "text": "Downward arrow" },
-        { "id": "C", "text": "Leftward arrow" },
-        { "id": "D", "text": "Rightward arrow" }
+        { "id": "A", "text": "Tan L, Cruz M. Spatial reasoning under time pressure. Learn Behav. 2020;8(4):201-7." },
+        { "id": "B", "text": "Tan L, Cruz M. Spatial reasoning under time pressure. Learn Behav. 2020;8(4):201-8." },
+        { "id": "C", "text": "Tan L, Cruz N. Spatial reasoning under time pressure. Learn Behav. 2020;8(4):201-7." },
+        { "id": "D", "text": "Tan L, Cruz M. Spatial reasoning under time pressure. Learn Behav. 2020;8(4);201-7." },
+        { "id": "E", "text": "Tan L, Cruz M. Spatial reasoning under time pressure. Learn Behav. 2020;8(4):210-7." }
       ],
-      "correctChoiceId": "B",
-      "explanation": "A horizontal mirror flips the vertical direction, so an upward arrow becomes downward.",
-      "hint": "The reflection changes the component perpendicular to the mirror line.",
-      "tags": ["mirror_image"]
+      "correctChoiceId": "A",
+      "explanation": "Option A exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
     },
     {
       "id": "pa-029",
       "number": 29,
       "type": "identical_information",
-      "prompt": "Which option contains two shapes that are identical in every way?",
-      "passage": null,
+      "prompt": "Which option exactly matches the given sentence?",
+      "passage": "The diagram contains several distracting lines around the target figure.",
       "image": null,
       "choices": [
-        { "id": "A", "text": "Option A" },
-        { "id": "B", "text": "Option B" },
-        { "id": "C", "text": "Option C" },
-        { "id": "D", "text": "Option D" }
+        { "id": "A", "text": "The diagram contains several distracting lines around the target figures." },
+        { "id": "B", "text": "The diagram contains several distracting lines around the target figure" },
+        { "id": "C", "text": "The diagram contain several distracting lines around the target figure." },
+        { "id": "D", "text": "The diagram contains several distracting lines around the target figure." },
+        { "id": "E", "text": "The diagram contains several distracting lines near the target figure." }
       ],
-      "correctChoiceId": "A",
-      "explanation": "Option A shows two shapes that match exactly in size, orientation, and styling.",
-      "hint": "Inspect both shape and orientation for an exact match.",
-      "tags": ["identical_information"]
+      "correctChoiceId": "D",
+      "explanation": "Option D exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
     },
     {
       "id": "pa-030",
       "number": 30,
-      "type": "hidden_figure",
-      "prompt": "Which simple form is hidden inside the busy composition?",
-      "passage": null,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given biographical entry?",
+      "passage": "Navarro, Elena P. | 41 Quezon St., Brgy. Tagapo, Santa Rosa, Laguna 4026",
       "image": null,
       "choices": [
-        { "id": "A", "text": "Star" },
-        { "id": "B", "text": "Triangle" },
-        { "id": "C", "text": "Square" },
-        { "id": "D", "text": "Circle" }
+        { "id": "A", "text": "Navarro, Elena P. | 41 Quezon St., Brgy. Tagapo, Santa Rosa, Laguna 4062" },
+        { "id": "B", "text": "Navarro, Elena P. | 41 Quezon St., Brgy. Tagapo, Santa Rosa, Laguna 4026" },
+        { "id": "C", "text": "Navarro, Elena R. | 41 Quezon St., Brgy. Tagapo, Santa Rosa, Laguna 4026" },
+        { "id": "D", "text": "Navarro Elena P. | 41 Quezon St., Brgy. Tagapo, Santa Rosa, Laguna 4026" },
+        { "id": "E", "text": "Navarro, Elena P. | 41 Quezon St., Brgy. Tagapo Santa Rosa, Laguna 4026" }
       ],
       "correctChoiceId": "B",
-      "explanation": "The overlapping edges form a triangle that is the hidden shape in the composition.",
-      "hint": "Search for a three-sided figure inside the pattern.",
-      "tags": ["hidden_figure"]
+      "explanation": "Option B exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
     }
   ]
 }

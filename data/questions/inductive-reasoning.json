@@ -87,7 +87,7 @@
       "type": "figural_series",
       "prompt": "Which figure completes the series?",
       "passage": null,
-      "image": "assets/images/figural-series-1.svg",
+      "image": "assets/images/ir-005-figural-series.svg",
       "choices": [
         { "id": "A", "text": "Triangle (3 sides)" },
         { "id": "B", "text": "Square (4 sides)" },
@@ -105,7 +105,7 @@
       "type": "figure_grouping",
       "prompt": "Which figure does NOT belong with the others?",
       "passage": null,
-      "image": "assets/images/figure-grouping-1.svg",
+      "image": "assets/images/ir-006-figure-grouping.svg",
       "choices": [
         { "id": "A", "text": "Figure A" },
         { "id": "B", "text": "Figure B" },
