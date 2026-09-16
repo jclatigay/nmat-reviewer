@@ -92,6 +92,21 @@ When adding Inductive Reasoning items:
 - For mixed-format items, use `type: "number_letter_series"` and include a matching tag: `"number_series"` or `"letter_series"`.
 - Keep `number` sequential in the JSON file for authoring; session order is determined at runtime.
 
+## Perceptual Acuity session order
+
+Perceptual Acuity uses fixed category blocks during Study and Exam sessions:
+
+1. Hidden Figure (`hidden_figure`)
+2. Mirror Image (`mirror_image`)
+3. Identical Information (`identical_information`)
+
+Questions are shuffled **within each block only**, not across the whole subtest.
+
+When adding Perceptual Acuity items:
+
+- Set `type` to one of the three category ids above.
+- Keep `number` sequential in the JSON file for authoring; session order is determined at runtime.
+
 ## Adding a new question
 
 1. Open the subtest JSON file in your editor.

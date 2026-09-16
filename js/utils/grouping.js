@@ -17,6 +17,15 @@ export function getQuestionGroupLabel(groupKey) {
   return LABELS[groupKey] || groupKey.replace(/_/g, ' ').replace(/\b\w/g, (m) => m.toUpperCase());
 }
 
+export function usesGroupedPalette(session) {
+  if (session?.useGroupedPalette !== undefined) {
+    return session.useGroupedPalette;
+  }
+
+  return session?.subtestId === 'inductive-reasoning'
+    || session?.subtestId === 'perceptual-acuity';
+}
+
 export function groupQuestionsByTag(questions) {
   const groups = [];
   const indexByKey = new Map();

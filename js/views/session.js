@@ -19,6 +19,7 @@ import { renderExamHeader } from '../components/examHeader.js';
 import { renderProgressBar } from '../components/progressBar.js';
 import { renderChoiceList } from '../components/choiceList.js';
 import { renderGroupedPaletteSidebar, renderPaletteDrawer, renderPaletteSidebar } from '../components/questionPalette.js';
+import { usesGroupedPalette } from '../utils/grouping.js';
 import { showConfirmModal } from '../components/confirmModal.js';
 
 let paletteOverlay = null;
@@ -137,9 +138,8 @@ export async function renderSession(container) {
     const hintShown = session.hintsRevealed.includes(question.id);
 
     progressContainer.replaceChildren(renderProgressBar(index, questions.length));
-    const useGroupedPalette = session.subtestId === 'inductive-reasoning';
     sidebarContainer.replaceChildren(
-      useGroupedPalette
+      usesGroupedPalette(session)
         ? renderGroupedPaletteSidebar(questions, session, jumpTo)
         : renderPaletteSidebar(questions, session, jumpTo)
     );

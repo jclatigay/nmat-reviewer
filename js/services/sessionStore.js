@@ -58,6 +58,7 @@ export function createSession(subtest, mode, questionCount, questionOrder = []) 
     submitted: false,
     questionCount,
     questionIds: questionOrder,
+    useGroupedPalette: subtest.questionOrder?.strategy === 'category_blocks',
   };
 
   saveSession(session);

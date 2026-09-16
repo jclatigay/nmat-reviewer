@@ -211,7 +211,7 @@
       "type": "mirror_image",
       "prompt": "Which option is the correct mirror image of the given figure?",
       "passage": null,
-      "image": "assets/images/pa-mi-11.svg",
+      "image": "assets/images/pa-mi-11.png",
       "choices": [
         { "id": "A", "text": "Option A" },
         { "id": "B", "text": "Option B" },
@@ -219,9 +219,9 @@
         { "id": "D", "text": "Option D" },
         { "id": "E", "text": "Option E" }
       ],
-      "correctChoiceId": "C",
-      "explanation": "The correct option reverses the figure across the vertical mirror axis while preserving its size and all other relationships.",
-      "hint": "Track an asymmetric corner or protruding segment first; a mirror reverses left and right but does not rotate the figure.",
+      "correctChoiceId": "A",
+      "explanation": "The target figure is a 3D rectangular prism (drawn with solid visible edges and dashed hidden edges) marked with a horizontal line, a near-vertical box edge, a shorter vertical mark stroke, and a diagonal stroke running from lower-left to upper-right through the center. In the correct mirror image, the entire figure reverses left-to-right: the diagonal stroke now runs from upper-left to lower-right, and the paired vertical lines (the box's near edge and the mark's own vertical stroke) shift to the left side of the dashed hidden edge instead of the right side, as they appear in the original. Option A reproduces this reversal correctly. Option B keeps the same left-of-dashed placement but does not reduce one of the paired vertical strokes to the shorter length seen in a true mirror. Option C introduces an extra hidden (dashed) edge that does not exist in the original figure. Option D shortens the mark's vertical stroke incorrectly, cutting off its upward portion instead of preserving a stroke that extends both above and below the crossing point. Option E reverses the vertical pair's placement correctly but reduces the diagonal to a partial ray instead of a full line running through the center.",
+      "hint": "Focus on two things: which side of the dashed hidden edge the pair of close vertical lines falls on, and which way the diagonal stroke tilts. A true mirror image reverses both of these from the original — it does not simply rotate the figure or leave the internal lines unchanged.",
       "tags": ["mirror_image", "visual_recognition"]
     },
     {
@@ -230,7 +230,7 @@
       "type": "mirror_image",
       "prompt": "Which option is the correct mirror image of the given figure?",
       "passage": null,
-      "image": "assets/images/pa-mi-12.svg",
+      "image": "assets/images/pa-mi-12.png",
       "choices": [
         { "id": "A", "text": "Option A" },
         { "id": "B", "text": "Option B" },
@@ -239,8 +239,8 @@
         { "id": "E", "text": "Option E" }
       ],
       "correctChoiceId": "A",
-      "explanation": "The correct option reverses the figure across the vertical mirror axis while preserving its size and all other relationships.",
-      "hint": "Track an asymmetric corner or protruding segment first; a mirror reverses left and right but does not rotate the figure.",
+      "explanation": "Option A is the correct mirror image. When the figure is reflected across a vertical mirror axis, its left and right sides are reversed while its shape, size, and relative positions of the internal lines remain unchanged. In the original figure, the distinctive diagonal divisions on the left and right lobes have specific orientations. After reflection, these diagonal lines switch sides and reverse their left-to-right direction. Option A reproduces these relationships correctly. The other options alter one or more internal line positions or orientations rather than producing a complete left-to-right reflection.",
+      "hint": "Focus on the internal diagonal lines in the two side lobes. A vertical mirror swaps the left and right sides and reverses the direction of each diagonal, while keeping the overall shape and size the same.",
       "tags": ["mirror_image", "visual_recognition"]
     },
     {
@@ -249,7 +249,7 @@
       "type": "mirror_image",
       "prompt": "Which option is the correct mirror image of the given figure?",
       "passage": null,
-      "image": "assets/images/pa-mi-13.svg",
+      "image": "assets/images/pa-mi-13.png",
       "choices": [
         { "id": "A", "text": "Option A" },
         { "id": "B", "text": "Option B" },
@@ -258,8 +258,8 @@
         { "id": "E", "text": "Option E" }
       ],
       "correctChoiceId": "D",
-      "explanation": "The correct option reverses the figure across the vertical mirror axis while preserving its size and all other relationships.",
-      "hint": "Track an asymmetric corner or protruding segment first; a mirror reverses left and right but does not rotate the figure.",
+      "explanation": "Option D is the correct mirror image because every part of the original square is reversed from left to right while keeping the same size and vertical position. The large circular shape with the square-shaped cutout in the upper-left of the original moves to the upper-right, with the cutout now appearing at the upper-right corner. Likewise, the polygon containing a circle in the upper-right moves to the upper-left, with its slanted sides reversed. In the lower half, the simple triangle that was in the lower-left moves to the lower-right, while the more complex triangular shape with the smaller polygon inside it moves from the lower-right to the lower-left. Option D preserves these four major positions and correctly reverses the internal shapes and line orientations. The other options have one or more details that remain in their original orientation or are altered rather than fully reflected.",
+      "hint": "Divide the figure into four sections and check them one at a time. The upper-left circle moves to the upper-right, the upper-right polygon moves to the upper-left, and the two lower shapes also switch sides. Check the small cutouts and internal lines to make sure they are reversed, not simply moved.",
       "tags": ["mirror_image", "visual_recognition"]
     },
     {
@@ -268,7 +268,7 @@
       "type": "mirror_image",
       "prompt": "Which option is the correct mirror image of the given figure?",
       "passage": null,
-      "image": "assets/images/pa-mi-14.svg",
+      "image": "assets/images/pa-mi-14.png",
       "choices": [
         { "id": "A", "text": "Option A" },
         { "id": "B", "text": "Option B" },
@@ -276,9 +276,9 @@
         { "id": "D", "text": "Option D" },
         { "id": "E", "text": "Option E" }
       ],
-      "correctChoiceId": "B",
-      "explanation": "The correct option reverses the figure across the vertical mirror axis while preserving its size and all other relationships.",
-      "hint": "Track an asymmetric corner or protruding segment first; a mirror reverses left and right but does not rotate the figure.",
+      "correctChoiceId": "E",
+      "explanation": "The target figure is a rose bloom with a curling stem and leaf fronds below it. In the correct mirror image, the entire figure reverses left-to-right: the upward-pointing inner petal leans the opposite direction, the petal folds and overlaps swap sides, and the stem's curl and the leaf fronds beneath it curve the opposite way, with the stem's cut tip ending on the mirrored side. Option E reproduces this reversal correctly across the bloom, the petal overlaps, and the stem/frond curvature. Options A, B, C, and D retain at least one element of the original figure's orientation instead of reversing it fully, making them distractors that mirror only part of the figure or preserve the original's curl direction.",
+      "hint": "Don't just check the rose bloom at the top — it can look deceptively similar across options. Trace the stem down to its curling tip and check which way it bends, and which way the leaf fronds point. A true mirror reverses the curl direction of the stem and fronds, not just the general outline.",
       "tags": ["mirror_image", "visual_recognition"]
     },
     {
@@ -287,83 +287,7 @@
       "type": "mirror_image",
       "prompt": "Which option is the correct mirror image of the given figure?",
       "passage": null,
-      "image": "assets/images/pa-mi-15.svg",
-      "choices": [
-        { "id": "A", "text": "Option A" },
-        { "id": "B", "text": "Option B" },
-        { "id": "C", "text": "Option C" },
-        { "id": "D", "text": "Option D" },
-        { "id": "E", "text": "Option E" }
-      ],
-      "correctChoiceId": "E",
-      "explanation": "The correct option reverses the figure across the vertical mirror axis while preserving its size and all other relationships.",
-      "hint": "Track an asymmetric corner or protruding segment first; a mirror reverses left and right but does not rotate the figure.",
-      "tags": ["mirror_image", "visual_recognition"]
-    },
-    {
-      "id": "pa-016",
-      "number": 16,
-      "type": "mirror_image",
-      "prompt": "Which option is the correct mirror image of the given figure?",
-      "passage": null,
-      "image": "assets/images/pa-mi-16.svg",
-      "choices": [
-        { "id": "A", "text": "Option A" },
-        { "id": "B", "text": "Option B" },
-        { "id": "C", "text": "Option C" },
-        { "id": "D", "text": "Option D" },
-        { "id": "E", "text": "Option E" }
-      ],
-      "correctChoiceId": "C",
-      "explanation": "The correct option reverses the figure across the vertical mirror axis while preserving its size and all other relationships.",
-      "hint": "Track an asymmetric corner or protruding segment first; a mirror reverses left and right but does not rotate the figure.",
-      "tags": ["mirror_image", "visual_recognition"]
-    },
-    {
-      "id": "pa-017",
-      "number": 17,
-      "type": "mirror_image",
-      "prompt": "Which option is the correct mirror image of the given figure?",
-      "passage": null,
-      "image": "assets/images/pa-mi-17.svg",
-      "choices": [
-        { "id": "A", "text": "Option A" },
-        { "id": "B", "text": "Option B" },
-        { "id": "C", "text": "Option C" },
-        { "id": "D", "text": "Option D" },
-        { "id": "E", "text": "Option E" }
-      ],
-      "correctChoiceId": "B",
-      "explanation": "The correct option reverses the figure across the vertical mirror axis while preserving its size and all other relationships.",
-      "hint": "Track an asymmetric corner or protruding segment first; a mirror reverses left and right but does not rotate the figure.",
-      "tags": ["mirror_image", "visual_recognition"]
-    },
-    {
-      "id": "pa-018",
-      "number": 18,
-      "type": "mirror_image",
-      "prompt": "Which option is the correct mirror image of the given figure?",
-      "passage": null,
-      "image": "assets/images/pa-mi-18.svg",
-      "choices": [
-        { "id": "A", "text": "Option A" },
-        { "id": "B", "text": "Option B" },
-        { "id": "C", "text": "Option C" },
-        { "id": "D", "text": "Option D" },
-        { "id": "E", "text": "Option E" }
-      ],
-      "correctChoiceId": "E",
-      "explanation": "The correct option reverses the figure across the vertical mirror axis while preserving its size and all other relationships.",
-      "hint": "Track an asymmetric corner or protruding segment first; a mirror reverses left and right but does not rotate the figure.",
-      "tags": ["mirror_image", "visual_recognition"]
-    },
-    {
-      "id": "pa-019",
-      "number": 19,
-      "type": "mirror_image",
-      "prompt": "Which option is the correct mirror image of the given figure?",
-      "passage": null,
-      "image": "assets/images/pa-mi-19.svg",
+      "image": "assets/images/pa-mi-15.png",
       "choices": [
         { "id": "A", "text": "Option A" },
         { "id": "B", "text": "Option B" },
@@ -372,8 +296,84 @@
         { "id": "E", "text": "Option E" }
       ],
       "correctChoiceId": "A",
-      "explanation": "The correct option reverses the figure across the vertical mirror axis while preserving its size and all other relationships.",
-      "hint": "Track an asymmetric corner or protruding segment first; a mirror reverses left and right but does not rotate the figure.",
+      "explanation": "The target figure, enclosed in a square frame, shows a hexagon on the left overlapping a tilted rectangle, which in turn overlaps a circle topped by a downward-pointing triangle on the right. In the correct mirror image, the entire arrangement reverses left-to-right: the triangle-and-circle cluster moves to the left side of the frame and the hexagon moves to the right side, with the tilted rectangle's overlap pattern reversing to match. Option A reproduces this correctly, placing the triangle and circle on the left and the hexagon on the right. The other options either keep the hexagon on the left (failing to reverse the overall layout) or alter the overlap relationships between the shapes instead of simply mirroring their positions.",
+      "hint": "Ignore the individual shapes' own symmetry (the circle and triangle look the same either way) and focus on which side of the frame the hexagon ends up on versus the triangle-and-circle cluster. A true mirror swaps their left-right positions entirely.",
+      "tags": ["mirror_image", "visual_recognition"]
+    },
+    {
+      "id": "pa-016",
+      "number": 16,
+      "type": "mirror_image",
+      "prompt": "Which option is the correct mirror image of the given figure?",
+      "passage": null,
+      "image": "assets/images/pa-mi-16.png",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The target figure shows two hanging bean pods with a veined leaf and a small curling tendril positioned at the upper-left, overlapping the left pod. In the correct mirror image, the entire figure reverses left-to-right: the leaf and tendril move to the upper-right, overlapping the right pod instead, while the two pods themselves keep their bumpy internal seam pattern but in mirrored left-right order. Option C reproduces this correctly, with the leaf and tendril shifted to the right side. The other options either leave the leaf on the left (matching the original instead of its mirror) or place it in a way that doesn't consistently reverse its position and overlap with the pods.",
+      "hint": "Focus on the leaf and the small curling tendril near the top of the pods rather than the pods themselves, since the pods look similar either way. A true mirror moves the leaf from the upper-left to the upper-right side of the figure.",
+      "tags": ["mirror_image", "visual_recognition"]
+    },
+    {
+      "id": "pa-017",
+      "number": 17,
+      "type": "mirror_image",
+      "prompt": "Which option is the correct mirror image of the given figure?",
+      "passage": null,
+      "image": "assets/images/pa-mi-17.png",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "The target figure is a pinwheel-like cross shape: a square outline with a notch cut into each of its four corners, all offset in the same rotational direction, which gives the whole figure a chirality (it cannot be rotated to match its own reflection). In the correct mirror image, this rotational offset reverses direction entirely — every notch that was cut toward one rotational sense now cuts toward the opposite sense, flipping the pinwheel's apparent spin. Option A reproduces this correctly, with the notch pattern reversed at every corner. The other options either preserve the original figure's rotational direction (making them identical or rotated versions of the original rather than true mirrors) or reverse the notches inconsistently at only some corners.",
+      "hint": "Ignore the overall square outline, since it looks the same either way. Instead, pick one corner notch and trace which direction it 'cuts' relative to the edges around it — a true mirror reverses this cutting direction at every corner, giving the whole shape the opposite rotational spin.",
+      "tags": ["mirror_image", "visual_recognition"]
+    },
+    {
+      "id": "pa-018",
+      "number": 18,
+      "type": "mirror_image",
+      "prompt": "Which option is the correct mirror image of the given figure?",
+      "passage": null,
+      "image": "assets/images/pa-mi-18.png",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The target figure is a mushroom whose cap has unevenly spaced gill lines (denser and more angled toward one side) and whose stem curves out to one side before curving back at the base, both of which break the figure's left-right symmetry. In the correct mirror image, both of these asymmetric features reverse together: the denser cluster of gill lines shifts to the opposite side of the cap, and the stem's curve bows out in the opposite direction. Option B reproduces this correctly, with the gill pattern and stem curvature both reversed from the original. The other options either mirror only one of these two features, or preserve the stem's original curve direction while only adjusting the cap, producing an inconsistent transformation rather than a true mirror.",
+      "hint": "Don't just check the cap outline, since mushroom caps look similar either way. Trace the stem's curve from top to bottom and compare it with how the gill lines bunch together on one side of the cap — a true mirror reverses both of these together, not just one.",
+      "tags": ["mirror_image", "visual_recognition"]
+    },
+    {
+      "id": "pa-019",
+      "number": 19,
+      "type": "mirror_image",
+      "prompt": "Which option is the correct mirror image of the given figure?",
+      "passage": null,
+      "image": "assets/images/pa-mi-19.png",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The target figure is a rectangle divided by five vertical lines (including its two side edges), where some lines are solid and others are dashed with gaps at specific heights. This solid/dashed sequence, read left to right, is not symmetric. In the correct mirror image, the entire left-to-right sequence of solid and dashed lines reverses: a line that was solid on the original's left side becomes dashed on the mirror's right side, and vice versa, with each dash's gap position also reversing in left-right order. Option B reproduces this correctly, with the dashed lines and their gap positions appearing in reversed order compared to the original. The other options either keep the original's solid/dashed sequence unchanged or reverse only part of the pattern.",
+      "hint": "Ignore the outer rectangle outline and instead read the sequence of internal lines from left to right, noting which are solid and which are dashed. A true mirror image reverses this entire left-to-right sequence, not just one or two lines.",
       "tags": ["mirror_image", "visual_recognition"]
     },
     {

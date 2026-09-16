@@ -43,7 +43,15 @@
       "timeLimitMinutes": 30,
       "targetItemCount": 30,
       "questionFile": "data/questions/perceptual-acuity.json",
-      "description": "Hidden figure, mirror image, and identical information"
+      "description": "Hidden figure, mirror image, and identical information",
+      "questionOrder": {
+        "strategy": "category_blocks",
+        "categories": [
+          "hidden_figure",
+          "mirror_image",
+          "identical_information"
+        ]
+      }
     },
     {
       "id": "biology",

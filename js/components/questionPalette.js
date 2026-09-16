@@ -1,6 +1,6 @@
 import { el } from '../utils/dom.js';
 import { MODES } from '../config.js';
-import { groupQuestionsByTag } from '../utils/grouping.js';
+import { groupQuestionsByTag, usesGroupedPalette } from '../utils/grouping.js';
 
 function buildPaletteButton(index, questionId, { isCurrent, isAnswered, isCorrect, isIncorrect, isFlagged, onJump }) {
   const classes = ['palette__btn'];
@@ -91,7 +91,7 @@ export function renderPaletteDrawer(questions, session, onJump, onClose) {
         onClick: onClose,
       }),
     ]),
-    session.subtestId === 'inductive-reasoning'
+    usesGroupedPalette(session)
       ? renderGroupedPalette(questions, session, (index) => {
           onJump(index);
           onClose();
