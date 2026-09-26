@@ -382,7 +382,7 @@
       "type": "mirror_image",
       "prompt": "Which option is the correct mirror image of the given figure?",
       "passage": null,
-      "image": "assets/images/pa-mi-20.svg",
+      "image": "assets/images/pa-mi-20.png",
       "choices": [
         { "id": "A", "text": "Option A" },
         { "id": "B", "text": "Option B" },
@@ -391,8 +391,8 @@
         { "id": "E", "text": "Option E" }
       ],
       "correctChoiceId": "D",
-      "explanation": "The correct option reverses the figure across the vertical mirror axis while preserving its size and all other relationships.",
-      "hint": "Track an asymmetric corner or protruding segment first; a mirror reverses left and right but does not rotate the figure.",
+      "explanation": "The target figure shows four screw-head circles woven together by interlocking rounded bands, arranged so the top-left circle has a vertical double-slot head, the top-right circle has a single horizontal slot, and the two bottom circles have diagonal slots tilted in opposite directions. In the correct mirror image, the entire arrangement reverses left-to-right: the horizontal-slot circle moves to the top-left, the vertical double-slot circle moves to the top-right, the two diagonal-slot circles swap corners, and each diagonal slot's tilt direction reverses to match its new position. Option D reproduces this correctly. The other options either leave the horizontal- and vertical-slot circles in their original left-right positions, or move the circles without correctly reversing the diagonal slots' tilt direction.",
+      "hint": "Check two things together: which corner each screw-slot style (vertical, horizontal, or diagonal) ends up in, and which way the diagonal slots tilt. A true mirror image swaps left and right corners and also flips the tilt direction of the diagonal slots — moving the circles alone isn't enough.",
       "tags": ["mirror_image", "visual_recognition"]
     },
     {
@@ -582,6 +582,595 @@
       ],
       "correctChoiceId": "B",
       "explanation": "Option B exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
+    },
+    {
+      "id": "pa-031",
+      "number": 31,
+      "type": "mirror_image",
+      "prompt": "Which option is the correct mirror image of the given figure?",
+      "passage": null,
+      "image": "assets/images/pa-mi-31.png",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "E",
+      "explanation": "The target figure is an eye and eyebrow drawn with clear left-right asymmetry: the eyebrow tapers from a thicker, curled end on the left to a thin point on the right; the eye's rounded tear-duct (inner corner) sits on the left; and the bold cluster of upper lashes, along with the small lower lash marks, sits at the outer corner on the right. In the correct mirror image, all three features reverse together: the eyebrow's thick end moves to the right, the tear-duct moves to the right side of the eye, and the lash cluster moves to the left side. Option E reproduces this correctly, with the eyebrow taper, tear-duct position, and lash cluster all consistently reversed. The other options reverse only some of these features while leaving others in their original position, producing an inconsistent, non-mirrored figure.",
+      "hint": "Check three things together, not just one: which end of the eyebrow is thicker, which corner of the eye has the rounded tear-duct shape, and which corner has the bold lash cluster. A true mirror reverses all three in the same direction — mirroring only the eyebrow or only the lashes is a common trap.",
+      "tags": ["mirror_image", "visual_recognition"]
+    },
+    {
+      "id": "pa-032",
+      "number": 32,
+      "type": "mirror_image",
+      "prompt": "Which option is the correct mirror image of the given figure?",
+      "passage": null,
+      "image": "assets/images/pa-mi-32.png",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The target figure is a 3D polyhedron (gem-like solid) drawn in wireframe, with a diamond-shaped central face and an asymmetric arrangement of surrounding facets: a narrower cluster of facets meeting at a sharp vertex on the upper-left, and a wider facet extending outward to a point on the right. In the correct mirror image, this facet arrangement reverses left-to-right: the narrow, sharply-angled cluster moves to the upper-right, and the wider extending facet moves to the left, while the central diamond face's orientation reverses to match. Option D reproduces this correctly. The other options either preserve the original's facet arrangement on the same side or distort the central diamond face's proportions instead of simply mirroring it.",
+      "hint": "Focus on the central diamond-shaped face and the sharp vertex point nearest it, rather than the overall outline (which can look similar across options). A true mirror moves the sharp vertex and its narrow facet cluster to the opposite side of the figure.",
+      "tags": ["mirror_image", "visual_recognition"]
+    },
+    {
+      "id": "pa-033",
+      "number": 33,
+      "type": "mirror_image",
+      "prompt": "Which option is the correct mirror image of the given figure?",
+      "passage": null,
+      "image": "assets/images/pa-mi-33.png",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The target figure is a striped half-dome with its flat edge on the right, a large triangle attached to its left (rounded) side pointing outward to the left, and a small circle attached to its flat right edge containing a tiny triangle pointing inward toward the dome. In the correct mirror image, the entire figure reverses left-to-right: the dome's flat edge moves to the left side and its rounded, striped side to the right; the large triangle moves to the right side, now pointing outward to the right; and the circle with its small inward-pointing triangle moves to the left side, attached to the dome's new flat edge. Option C reproduces this correctly. The other options either leave the dome's orientation unchanged or move only one of the two triangles while leaving the other in its original position.",
+      "hint": "Track three parts together: which side the dome's flat edge faces, which side the large outer triangle points toward, and which side the small circle-and-triangle sits on. A true mirror reverses all three at once — check that none of them was left in its original position.",
+      "tags": ["mirror_image", "visual_recognition"]
+    },
+    {
+      "id": "pa-034",
+      "number": 34,
+      "type": "hidden_figure",
+      "prompt": "Which complicated drawing contains the simple target figure?",
+      "passage": null,
+      "image": "assets/images/pa-hf-34.png",
+      "choices": [
+        { "id": "A", "text": "Drawing A" },
+        { "id": "B", "text": "Drawing B" },
+        { "id": "C", "text": "Drawing C" },
+        { "id": "D", "text": "Drawing D" },
+        { "id": "E", "text": "Drawing E" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The target figure -- a long vertical line with a short horizontal branch near its top, closed off by a diagonal line running from the end of the horizontal branch back down to a point on the vertical line -- is traced by the internal grid lines and one diagonal stroke in the upper-middle portion of Drawing B, in essentially the same orientation as the simple figure. The vertical grid line supplies the long tail, the horizontal midline supplies the branch, and the short diagonal stroke closes the small triangle at the top, exactly matching the target's proportions. Drawings A, C, D, and E contain similarly gridded squares with diagonal lines, but none reproduces the target's specific combination of a long vertical tail, a horizontal branch, and a closing diagonal as one continuous, correctly proportioned figure.",
+      "hint": "Ignore most of the grid lines, since they're common clutter shared by all the drawings. Look instead for one long vertical line paired with a short diagonal stroke that closes off a small triangle near the top -- that pairing is what makes the target figure distinctive.",
+      "tags": ["hidden_figure", "visual_recognition"]
+    },
+    {
+      "id": "pa-035",
+      "number": 35,
+      "type": "hidden_figure",
+      "prompt": "Which complicated drawing contains the simple target figure?",
+      "passage": null,
+      "image": "assets/images/pa-hf-35.png",
+      "choices": [
+        { "id": "A", "text": "Drawing A" },
+        { "id": "B", "text": "Drawing B" },
+        { "id": "C", "text": "Drawing C" },
+        { "id": "D", "text": "Drawing D" },
+        { "id": "E", "text": "Drawing E" }
+      ],
+      "correctChoiceId": "E",
+      "explanation": "The target figure -- a tall, narrow rectangle overlapping a short, wide rectangle at their centers, forming a compact plus-like cross -- is traced by a small rectangle and the surrounding grid lines in the lower-middle portion of Drawing E, in essentially the same proportions as the simple figure. The overlap of the short rectangle with the vertical grid lines on either side reproduces the target's cross shape almost exactly. Drawings A, B, C, and D contain similarly gridded squares with overlapping rectangular sections, but none reproduces the target's specific combination of a tall narrow rectangle and a short wide rectangle overlapping at the same proportions as one continuous cross shape.",
+      "hint": "Ignore the larger grid lines and diagonal strokes, since they're shared clutter across all the drawings. Look instead for a small rectangle that pokes out symmetrically above, below, and to both sides of a narrower vertical strip -- that combination forms the target's compact cross shape.",
+      "tags": ["hidden_figure", "visual_recognition"]
+    },
+    {
+      "id": "pa-036",
+      "number": 36,
+      "type": "hidden_figure",
+      "prompt": "Which complicated drawing contains the simple target figure?",
+      "passage": null,
+      "image": "assets/images/pa-hf-36.png",
+      "choices": [
+        { "id": "A", "text": "Drawing A" },
+        { "id": "B", "text": "Drawing B" },
+        { "id": "C", "text": "Drawing C" },
+        { "id": "D", "text": "Drawing D" },
+        { "id": "E", "text": "Drawing E" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The target figure -- a vertical line with a diagonal branch rising up and to the right from a point partway down its length, and a separate horizontal branch extending to the right from its base -- is traced by the internal lines in the left-center portion of Drawing D, in essentially the same orientation as the simple figure. The vertical segment, the diagonal rising toward the upper right, and the short horizontal segment near the base all align with actual drawn lines in Drawing D. Drawings A, B, C, and E contain similarly dense clusters of overlapping shapes and diagonal lines, but none reproduces the target's specific combination of a vertical line, a rising diagonal branch, and a horizontal base branch as one continuous, correctly proportioned figure.",
+      "hint": "Ignore the star, the curved lines, and the surrounding boxes, since these are clutter shared across the drawings. Look instead for a single vertical line with a diagonal branch rising from its middle and a short horizontal branch at its base -- that three-part combination is unique to the target figure.",
+      "tags": ["hidden_figure", "visual_recognition"]
+    },
+    {
+      "id": "pa-037",
+      "number": 37,
+      "type": "hidden_figure",
+      "prompt": "Which complicated drawing contains the simple target figure?",
+      "passage": null,
+      "image": "assets/images/pa-hf-37.png",
+      "choices": [
+        { "id": "A", "text": "Drawing A" },
+        { "id": "B", "text": "Drawing B" },
+        { "id": "C", "text": "Drawing C" },
+        { "id": "D", "text": "Drawing D" },
+        { "id": "E", "text": "Drawing E" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The target figure -- a two-step staircase line running down, right, down, and right again, with the lower step noticeably shorter than the upper one -- is traced by the internal grid lines in the center of Drawing D, in essentially the same orientation and proportions as the simple figure. Each of the four segments of the staircase aligns with an actual drawn line in Drawing D. Drawings A, B, C, and E contain similarly dense grids of interlocking rectangles, but none reproduces the target's specific two-step staircase with matching segment lengths as one continuous path.",
+      "hint": "Start at the upper-left end of the target and follow its line segment by segment. The path goes down, then right, then down, then left, and finally up. Look for the same sequence of turns and segment lengths forming one continuous path within the drawings.",
+      "tags": ["hidden_figure", "visual_recognition"]
+    },
+    {
+      "id": "pa-038",
+      "number": 38,
+      "type": "hidden_figure",
+      "prompt": "Which complicated drawing contains the simple target figure?",
+      "passage": null,
+      "image": "assets/images/pa-hf-38.png",
+      "choices": [
+        { "id": "A", "text": "Drawing A" },
+        { "id": "B", "text": "Drawing B" },
+        { "id": "C", "text": "Drawing C" },
+        { "id": "D", "text": "Drawing D" },
+        { "id": "E", "text": "Drawing E" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The target figure -- a stylized curved stroke resembling a bent hook, with a short angled top segment leading into a looping curve that hooks back on itself, paired beside a smaller curved tail -- is traced by the overlapping circle and curved boundary lines in the lower-right portion of Drawing B's hexagon, in essentially the same proportions as the simple figure. The hook's curve and its connecting angled stroke align closely with actual drawn lines in Drawing B. Drawings A, C, D, and E contain similarly dense clusters of overlapping circles and hexagon segments, but none reproduces the target's specific hooked curve and angled connecting stroke together as one continuous figure.",
+      "hint": "Ignore most of the circles, since overlapping circles appear in every option. Look instead for a curved line that loops back on itself like a hook, connected to a short angled stroke -- that combination is what makes the target figure distinctive.",
+      "tags": ["hidden_figure", "visual_recognition"]
+    },
+    {
+      "id": "pa-039",
+      "number": 39,
+      "type": "hidden_figure",
+      "prompt": "Which complicated drawing contains the simple target figure?",
+      "passage": null,
+      "image": "assets/images/pa-hf-39.png",
+      "choices": [
+        { "id": "A", "text": "Drawing A" },
+        { "id": "B", "text": "Drawing B" },
+        { "id": "C", "text": "Drawing C" },
+        { "id": "D", "text": "Drawing D" },
+        { "id": "E", "text": "Drawing E" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The target figure -- a jagged zigzag resembling a sideways 'Z' with an internal diagonal stroke, paired beside a separate short angled line -- is traced by the overlapping internal chords near the center of Drawing B's star, in essentially the same proportions as the simple figure. The zigzag's sequence of angled turns and its accompanying short stroke align with actual crossing lines in Drawing B. Drawings A, C, D, and E contain similarly dense five-pointed stars packed with internal chords, but none reproduces the target's specific zigzag-and-stroke combination at matching proportions as one continuous, correctly angled figure.",
+      "hint": "Ignore the star's outer points and most of the crisscrossing chords, since these are common clutter across every option. Focus on finding a zigzag with a short internal diagonal, positioned near a separate short angled line of about the same length -- that pairing is unique to the target figure.",
+      "tags": ["hidden_figure", "visual_recognition"]
+    },
+    {
+      "id": "pa-040",
+      "number": 40,
+      "type": "hidden_figure",
+      "prompt": "Which complicated drawing contains the simple target figure?",
+      "passage": null,
+      "image": "assets/images/pa-hf-40.png",
+      "choices": [
+        { "id": "A", "text": "Drawing A" },
+        { "id": "B", "text": "Drawing B" },
+        { "id": "C", "text": "Drawing C" },
+        { "id": "D", "text": "Drawing D" },
+        { "id": "E", "text": "Drawing E" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The target figure -- a rounded arch, like a shallow hump, meeting a straight line that angles up and away to the right, forming a checkmark-like tail -- is traced by the arch curve and its connecting upward line in the upper-middle portion of Drawing D, in essentially the same proportions as the simple figure. The arch's rounded top and the line trailing off to the upper right align with actual drawn curves in Drawing D. Drawings A, B, C, and E contain similarly dense clusters of overlapping circles, verticals, and curves, but none reproduces the target's specific arch-and-tail combination at matching proportions as one continuous figure.",
+      "hint": "Ignore the straight vertical lines and circles, since these appear as clutter in every option. Look instead for a single rounded arch whose right side continues into a line trailing up and away -- that arch-plus-tail combination is what makes the target figure distinctive.",
+      "tags": ["hidden_figure", "visual_recognition"]
+    },
+    {
+      "id": "pa-041",
+      "number": 41,
+      "type": "hidden_figure",
+      "prompt": "Which complicated drawing contains the simple target figure?",
+      "passage": null,
+      "image": "assets/images/pa-hf-41.png",
+      "choices": [
+        { "id": "A", "text": "Drawing A" },
+        { "id": "B", "text": "Drawing B" },
+        { "id": "C", "text": "Drawing C" },
+        { "id": "D", "text": "Drawing D" },
+        { "id": "E", "text": "Drawing E" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The target figure -- two triangles joined at a single crossing point, forming a bowtie or hourglass shape -- is traced by the intersecting triangular sections in the lower-left portion of Drawing C, in essentially the same proportions as the simple figure. The two triangles' shared crossing point and their relative sizes align with actual drawn lines in Drawing C. Drawings A, B, D, and E contain similarly dense triangular subdivisions, but none reproduces the target's specific bowtie crossing at matching proportions as one continuous figure.",
+      "hint": "Ignore most of the triangular grid lines, since dense triangle subdivisions appear in every option. Look instead for two triangles that meet at a single point like a bowtie or hourglass -- that crossing pattern is what makes the target figure distinctive.",
+      "tags": ["hidden_figure", "visual_recognition"]
+    },
+    {
+      "id": "pa-042",
+      "number": 42,
+      "type": "hidden_figure",
+      "prompt": "Which complicated drawing contains the simple target figure?",
+      "passage": null,
+      "image": "assets/images/pa-hf-42.png",
+      "choices": [
+        { "id": "A", "text": "Drawing A" },
+        { "id": "B", "text": "Drawing B" },
+        { "id": "C", "text": "Drawing C" },
+        { "id": "D", "text": "Drawing D" },
+        { "id": "E", "text": "Drawing E" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The target figure is a small, narrow triangle: two straight sides meeting at an apex, with a curved base arc that bows in toward the apex. In Drawing B it appears rotated about 180°, so the apex points downward. It sits in the upper-middle of the cone, just below the end of the central vertical line. Its downward-pointing apex is the crossing point of the two diagonal lines, its two sides are the upper halves of those diagonals, and its curved base is the small arc joining the cone's outer edges. Nothing else crosses the figure. Drawings A, C, D, and E contain similar arcs and crossing lines, but none reproduces the target's triangle with its curved base as cleanly as B.",
+      "hint": "The target may be turned upside down. Look for a narrow triangle bounded by two straight lines that meet at a point and a short curved line across the other end. In B, check where the diagonal lines cross just below the small arc near the top of the cone.",
+      "tags": ["hidden_figure", "visual_recognition"]
+    },
+    {
+      "id": "pa-043",
+      "number": 43,
+      "type": "hidden_figure",
+      "prompt": "Which complicated drawing contains the simple target figure?",
+      "passage": null,
+      "image": "assets/images/pa-hf-43.png",
+      "choices": [
+        { "id": "A", "text": "Drawing A" },
+        { "id": "B", "text": "Drawing B" },
+        { "id": "C", "text": "Drawing C" },
+        { "id": "D", "text": "Drawing D" },
+        { "id": "E", "text": "Drawing E" }
+      ],
+      "correctChoiceId": "E",
+      "explanation": "The target figure is an open, hook-like line: a gently curved edge, a small zigzag notch, a long curved side dropping to a short base, and a short straight tail. In Drawing E it appears rotated about 110° counterclockwise and is traced by drawn lines: the outer circle's arc down the left side, the top and right sides of the small square at the lower left, the crossing arcs along the bottom, an arc rising on the right, and finally the bottom and left sides of the large square near the top center. Every segment lies on a line that is actually drawn, and the proportions match the simple figure. Drawings A, B, C, and D contain the same kinds of arcs and square edges, but none of them lines up with the complete target outline.",
+      "hint": "The target is not closed and may be turned sideways. Ignore the whole circles and look for a path that uses pieces of arcs together with the corners and sides of the small squares. Try rotating the target about a quarter-turn.",
+      "tags": ["hidden_figure", "visual_recognition"]
+    },
+    {
+      "id": "pa-044",
+      "number": 44,
+      "type": "hidden_figure",
+      "prompt": "Which complicated drawing contains the simple target figure?",
+      "passage": null,
+      "image": "assets/images/pa-hf-44.png",
+      "choices": [
+        { "id": "A", "text": "Drawing A" },
+        { "id": "B", "text": "Drawing B" },
+        { "id": "C", "text": "Drawing C" },
+        { "id": "D", "text": "Drawing D" },
+        { "id": "E", "text": "Drawing E" }
+      ],
+      "correctChoiceId": "E",
+      "explanation": "The target figure is a closed, claw-like shape with a square corner (two flat sides) and two curved sides, one bowing inward and one bulging outward. In Drawing E it appears rotated 90° clockwise, near the center and slightly below the middle. Its flat sides follow the top and left edges of the small box-like corner, its inner curve follows the top of the dome-shaped arc at the lower left, and its outer curve follows the rounded right side of the large rounded shape. Every edge lies on a line that is actually drawn, and the size matches the simple figure. Drawings A, B, C, and D contain similar arcs and square corners, but none of them reproduces the whole outline.",
+      "hint": "The target may be turned. Find its square corner first, then look for the two curves that leave that corner and close the shape: one bowing inward and one bulging outward. Try rotating the target a quarter-turn.",
+      "tags": ["hidden_figure", "visual_recognition"]
+    },
+    {
+      "id": "pa-045",
+      "number": 45,
+      "type": "mirror_image",
+      "prompt": "Which option is the correct mirror image of the given figure?",
+      "passage": null,
+      "image": "assets/images/pa-mi-45.png",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The target figure is two joined panels. The left panel has a slotted circle with a diagonal slash running from top-left to bottom-right, a beveled square, and a small rectangle with a vertical line near its left edge and a horizontal line near its top. The right panel has a plain ring, a beveled square, and a small rectangle with a vertical line near its right edge and a horizontal line near its bottom, plus a folded corner at the bottom-right. In the correct mirror image, the whole arrangement reverses left-to-right: the plain-ring panel moves to the left and the slotted-circle panel moves to the right, the slash now runs from bottom-left to top-right, the folded corner moves to the bottom-left, and the lines inside the bottom rectangles reverse sides. The left rectangle now has its vertical line near the left edge and its horizontal line near the bottom, and the right rectangle has its horizontal line near the top and its vertical line near the right edge. Option D reproduces this correctly. The other options either leave the panels or the folded corner in their original positions, fail to reverse the direction of the slash, or move the panels correctly but do not reverse the lines inside the bottom rectangles.",
+      "hint": "Check several things together: which panel ends up on the left, which way the slash on the slotted circle runs, which bottom corner has the fold, and which sides the small lines inside the bottom rectangles are on. A true mirror image reverses all of these at once, so an option that gets only some of them right is not correct.",
+      "tags": ["mirror_image", "visual_recognition"]
+    },
+    {
+      "id": "pa-046",
+      "number": 46,
+      "type": "mirror_image",
+      "prompt": "Which option is the correct mirror image of the given figure?",
+      "passage": null,
+      "image": "assets/images/pa-mi-46.png",
+      "choices": [
+        { "id": "A", "text": "Option A" },
+        { "id": "B", "text": "Option B" },
+        { "id": "C", "text": "Option C" },
+        { "id": "D", "text": "Option D" },
+        { "id": "E", "text": "Option E" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The target figure is a slanted box: a flat top edge, a vertical left side, and a bottom edge shifted to the right so the right side slopes down and outward. Inside, two horizontal crossbars, a vertical line along the right side, and several diagonals all cross at a central point, with one steeply slanted line passing through that point from the top edge to the bottom edge. In the correct mirror image, the whole figure reverses left-to-right. The vertical side is now on the right and the vertical inner line is on the left. The bottom edge is shifted to the left so the left side slopes down and outward. Every diagonal leans the opposite way, and the steeply slanted line reverses its tilt. Option D reproduces this correctly. The other options have the same outline but each has one interior line misplaced: an upper diagonal at the wrong angle, a horizontal crossbar at the wrong height, or a slanted line meeting the bottom edge at the wrong point.",
+      "hint": "The outlines of the options look almost identical, so the difference is in the interior lines. Check the heights of the two horizontal crossbars, the angle of each diagonal from the central crossing point, and where each slanted line meets the top and bottom edges. In a true mirror image, all of them are reversed left to right.",
+      "tags": ["mirror_image", "visual_recognition"]
+    },
+    {
+      "id": "pa-047",
+      "number": 47,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given sentence?",
+      "passage": "Dosage: 3 – 4 caps daily in divided doses after meals",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Dosage: 3 – 4 cups daily in divided doses after meals" },
+        { "id": "B", "text": "Dosage: 3 – 4 caps daily in divided dozes after meals" },
+        { "id": "C", "text": "Dosage: 3 – 4 caps daily in divided doses after meals" },
+        { "id": "D", "text": "Dosage: 3 – 4 caps daily in divided doses after meal" },
+        { "id": "E", "text": "Dosage: 2 – 4 caps daily in divided doses after meals" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Option C exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
+    },
+    {
+      "id": "pa-048",
+      "number": 48,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given sentence?",
+      "passage": "Indications: In the prophylaxis and treatment of Vitamin B-complex deficiencies.",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Indications: In the prophylaxis and threatment of Vitamin B-complex deficiencies." },
+        { "id": "B", "text": "Indications: In the prophylaxis and treatment of Vitamin B-complex dificiencies." },
+        { "id": "C", "text": "Indications: In the prophylaxis and treatment of Vitamin B-complex deficiencies." },
+        { "id": "D", "text": "Indications: In the prophylaxis and treatment of Vitamin D-complex deficiencies." },
+        { "id": "E", "text": "Indications: In the prophylaxis and treatment of Vitamin B-complex deficiensies." }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Option C exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
+    },
+    {
+      "id": "pa-049",
+      "number": 49,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given sentence?",
+      "passage": "Clarke, R.P., Heredity, 3rd Edition, Prentice-Hall Englewood Cliffs, N.J., 1963.",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Clarke, R.P., Heredity, 3rd Edition, Prentice-Hall Englewood Cliffs, N.Y., 1963." },
+        { "id": "B", "text": "Clarke, R.P., Heredity, 3rd Edition, Prentice-Hall Englewood Cliffs, N.J., 1963." },
+        { "id": "C", "text": "Clark, R.P., Heredity, 3rd Edition, Prentice-Hall Englewood Cliffs, N.J., 1963." },
+        { "id": "D", "text": "Clarke, R.P., Heredity, 3rd Edition, Prentice-Hale Englewood Cliffs, N.J., 1963." },
+        { "id": "E", "text": "Clarke, P.R., Heredity, 3rd Edition, Prentice-Hall Englewood Cliffs, N.J., 1963." }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Option B exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
+    },
+    {
+      "id": "pa-050",
+      "number": 50,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given sentence?",
+      "passage": "Vitamin K, the antihemorrhagic vitamin, is necessary for production of prothrombin in the liver.",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Vitamin K, the antihemorhagic vitamin, is necessary for production of prothrombin in the liver." },
+        { "id": "B", "text": "Vitamin K, the antihemorrhagic vitamin, is necessary for production of prothrombon in the liver." },
+        { "id": "C", "text": "Vitamin K, the antihemorrhagic vitamin, is necessary for production of prothrombin on the liver." },
+        { "id": "D", "text": "Vitamin K, the antihemorrhagic vitamin, is necessary for production of prothrombin in the liver." },
+        { "id": "E", "text": "Vitamin K, the antihemorrhagic vitamin is necessary for production of prothrombin in the liver." }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "Option D exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
+    },
+    {
+      "id": "pa-051",
+      "number": 51,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given company address?",
+      "passage": "Yucuanseh Drug, Inc. | 284 Dasmariñas Street | P.O. Box 1761 | Manila, Philippines",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Yucuanseh Drug, Inc. | 284 Dasmariñas St. | P.O. Box 1761 | Manila, Philippines" },
+        { "id": "B", "text": "Yucuanseh Drug, Inc. | 284 Dasmariñas Street | P.O. Box 1671 | Manila, Philippines" },
+        { "id": "C", "text": "Yucuanseh Drug, Inc. | 284 Dasmariñas Street | P.O. Box 1761 | Manila, Phillipines" },
+        { "id": "D", "text": "Yucuanseh Drug, Inc. | 284 Dasmariñas Street | P.O. Box 1761 | Maynila, Philippines" },
+        { "id": "E", "text": "Yucuanseh Drug, Inc. | 284 Dasmariñas Street | P.O. Box 1761 | Manila, Philippines" }
+      ],
+      "correctChoiceId": "E",
+      "explanation": "Option E exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
+    },
+    {
+      "id": "pa-052",
+      "number": 52,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given bibliographical entry?",
+      "passage": "Franks, J., et al. 1959. The role of anxiety in psychophysiological reactions. A.M.A. Arch. Neurol. Psychiat., 81:227-232.",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Franks, J., et al. 1959. The role of anxiety in psychophysiological reaction. A.M.A. Arch. Neurol. Psychiat., 81:227-232." },
+        { "id": "B", "text": "Franks, J., et al. 1959. The role of anxiety in physiopsychological reactions. A.M.A. Arch. Neurol. Psychiat., 81:227-232." },
+        { "id": "C", "text": "Franks, J., et al. 1959. The role of anxiety in psychophysiological reactions. A.W.A. Arch. Neurol. Psychiat., 81:227-232." },
+        { "id": "D", "text": "Franks, J., et al. 1959. The role of anxiety in psychophysiological reactions. A.M.A. Arch. Neurol. Psychiat., 81:227-232." },
+        { "id": "E", "text": "Franks, J., et al. 1959. The role of anxiety in psychophysiological reactions. A.M.A. Arch. Neuro. Psychiat., 81:227-232." }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "Option D exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
+    },
+    {
+      "id": "pa-053",
+      "number": 53,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given sentence?",
+      "passage": "Phenolphthalein is obtained by heating phthalic anhydride in the presence of sulfuric acid.",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Phenolphthalein is obtained by heating pthalic anhydride in the presence of sulfuric acid." },
+        { "id": "B", "text": "Phenolphthalein is obtained by heating phthalic anhydride in the absence of sulfuric acid." },
+        { "id": "C", "text": "Phenophthalein is obtained by heating phthalic anhydride in the presence of sulfuric acid." },
+        { "id": "D", "text": "Phenolphthalein is obtained by heating phthalic anhydride in the presence of sulfurus acid." },
+        { "id": "E", "text": "Phenolphthalein is obtained by heating phthalic anhydride in the presence of sulfuric acid." }
+      ],
+      "correctChoiceId": "E",
+      "explanation": "Option E exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
+    },
+    {
+      "id": "pa-054",
+      "number": 54,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given sentence?",
+      "passage": "Books on China Rare & O/P. Also Japan & SE Asia. Latest catalogue from Oxus Books, 121 Astonville St., London SW 18.",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Books on China Rare & O/P. Also Japan & SE Asia. Latest catalogoe from Oxus Books, 121 Astonville St., London SW 18." },
+        { "id": "B", "text": "Books on China Rare & O/P. Also Japan & SE Asia. Latest catalogue from Oxus Books, 121 Astonvilla St., London SW 18." },
+        { "id": "C", "text": "Books on China Rare & O/P. Also Japan & SE Asia. Latest catalogue from Onus Books, 121 Astonville St., London SW 18." },
+        { "id": "D", "text": "Books on China Rare & O/P. Also Japan & SE Asia. Latest catalogue from Oxus Book, 121 Astonville St., London SW 18." },
+        { "id": "E", "text": "Books on China Rare & O/P. Also Japan & SE Asia. Latest catalogue from Oxus Books, 121 Astonville St., London SW 18." }
+      ],
+      "correctChoiceId": "E",
+      "explanation": "Option E exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
+    },
+    {
+      "id": "pa-055",
+      "number": 55,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given sentence?",
+      "passage": "Isolation and antimicrobial therapy are essential to abort epidemic infantile diarrhea.",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Isolation and antimicrobial therapy are essential to abort epidemic infantile diarhea." },
+        { "id": "B", "text": "Isolation and antimicrobial therapy are essential to abort epidemic infantile diarrhea." },
+        { "id": "C", "text": "Isolation and antimicorbial therapy are essential to abort epidemic infantile diarrhea." },
+        { "id": "D", "text": "Isolation and antimicrobial therapy are esential to abort epidemic infantile diarrhea." },
+        { "id": "E", "text": "Isolation and antimicrobial therapy were essential to abort epidemic infantile diarrhea." }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "Option B exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
+    },
+    {
+      "id": "pa-056",
+      "number": 56,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given sentence?",
+      "passage": "Skye, 13 miles off the northwest coast of Scotland, is the largest and most famous of the Hebrides.",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Skye, 13 miles off the northeast coast of Scotland, is the largest and most famous of the Hebrides." },
+        { "id": "B", "text": "Skye, 13 miles off the northwest coast of Scotland is the largest and most famous of the Hebrides." },
+        { "id": "C", "text": "Skye, 13 miles of the northwest coast of Scotland, is the largest and most famous of the Hebrides." },
+        { "id": "D", "text": "Skye, 13 miles off the northwest coast of Scotland, is the largest and most famous of the Hebriles." },
+        { "id": "E", "text": "Skye, 13 miles off the northwest coast of Scotland, is the largest and most famous of the Hebrides." }
+      ],
+      "correctChoiceId": "E",
+      "explanation": "Option E exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
+    },
+    {
+      "id": "pa-057",
+      "number": 57,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given sentence?",
+      "passage": "Phosphorous acid, H3PO3, can be prepared by the action of water upon P4O6, PCl3, PBr3, or PI3.",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Phosphorous acid, H3PO3, can be prepared by the action of water upon P4O6, P3Cl, PBr3, or PI3." },
+        { "id": "B", "text": "Phosphorous acid, H3PO3, can be prepared by the action of water upon P6O4, PCl3, PBr3, or PI3." },
+        { "id": "C", "text": "Phosphorous acid, HPO3, can be prepared by the action of water upon P4O6, PCl3, PBr3, or PI3." },
+        { "id": "D", "text": "Phosphorous acid, H3PO3, can be prepared by the action of water upon P4O6, PCl3, PBr3, or PI3." },
+        { "id": "E", "text": "Phosphouros acid, H3PO3, can be prepared by the action of water upon P4O6, PCl3, PBr3, or PI3." }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "Option D exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
+    },
+    {
+      "id": "pa-058",
+      "number": 58,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given sentence?",
+      "passage": "The end product of glycolysis is pyruvic acid, an important source of energy in all aerobic cells.",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "The end product of glycolyses is pyruvic acid, an important source of energy in all aerobic cells." },
+        { "id": "B", "text": "The end product of glycolysis is pyruvic acid, an important source of energy in all airobic cells." },
+        { "id": "C", "text": "The end product of glycolysis is pryuvic acid, an important source of energy in all aerobic cells." },
+        { "id": "D", "text": "The end product of glycolysis is pyruvic acid, an important source of energy in all aerobic cells." },
+        { "id": "E", "text": "The end products of glycolysis is pyruvic acid, an important source of energy in all aerobic cells." }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "Option D exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
+    },
+    {
+      "id": "pa-059",
+      "number": 59,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given company address?",
+      "passage": "Ku Choi Tong Chinese Drug Store | Cubao Branch No. 3 | 2369 Aurora Blvd., Q.C.",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Ku Chai Tong Chinese Drug Store | Cubao Branch No. 3 | 2369 Aurora Blvd., Q.C." },
+        { "id": "B", "text": "Ku Choi Tong Chinese Drug Store | Cubao Branch No. 3 | 2396 Aurora Blvd., Q.C." },
+        { "id": "C", "text": "Ku Choi Tong Chinese Drug Store | Cubao Branch No. 3 | 2369 Aurora Blvd, Q.C." },
+        { "id": "D", "text": "Ku Choi Tong Chinese Drug Store | Cubao Branch No. 8 | 2369 Aurora Blvd., Q.C." },
+        { "id": "E", "text": "Ku Choi Tong Chinese Drug Store | Cubao Branch No. 3 | 2369 Aurora Blvd., Q.C" }
+      ],
+      "correctChoiceId": "E",
+      "explanation": "Option E exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
+    },
+    {
+      "id": "pa-060",
+      "number": 60,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given institutional entry?",
+      "passage": "Beijing Medical College: Xue Huan Lu, Northern Suburb, Beijing, China",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Beijing Medical College: Sue Huan Lu, Northern Suburb, Beijing, China" },
+        { "id": "B", "text": "Beijing Medical College: Xue Huan Lee, Northern Suburb, Beijing, China" },
+        { "id": "C", "text": "Biejing Medical College: Xue Huan Lu, Northern Suburb, Beijing, China" },
+        { "id": "D", "text": "Beijing Medical College: Xue Huan Lu, Northern Suburd, Beijing, China" },
+        { "id": "E", "text": "Beijing Medical College: Xue Huan Lu, Northern Suburb, Beijing, China" }
+      ],
+      "correctChoiceId": "E",
+      "explanation": "Option E exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
+      "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
+      "tags": ["identical_information", "attention_to_detail"]
+    },
+    {
+      "id": "pa-061",
+      "number": 61,
+      "type": "identical_information",
+      "prompt": "Which option exactly matches the given sentence?",
+      "passage": "Depigmentation is a feature of old burn, scars, leprosy, and vitiligo.",
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Depigmentation is a feature of old burn, scars, leprosy and vitiligo." },
+        { "id": "B", "text": "Depigmentation is a feature of old burns, scars, leprosy, and vitiligo." },
+        { "id": "C", "text": "Dipegmentation is a feature of old burn, scars, leprosy, and vitiligo." },
+        { "id": "D", "text": "Depigmentation is a feature of old burn, scars, leprosy, and vitiligo." },
+        { "id": "E", "text": "Depigmentation is a feature of old burn, scars, leprosy, and witiligo." }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "Option D exactly matches the given information. The other choices contain a change in spelling, punctuation, word sequence, number, or another detail.",
       "hint": "Compare one detail at a time: spelling, punctuation, word order, numbers, and abbreviations.",
       "tags": ["identical_information", "attention_to_detail"]
     }
