@@ -714,7 +714,7 @@
         { "id": "E", "text": "Drawing E" }
       ],
       "correctChoiceId": "D",
-      "explanation": "The target figure -- a two-step staircase line running down, right, down, and right again, with the lower step noticeably shorter than the upper one -- is traced by the internal grid lines in the center of Drawing D, in essentially the same orientation and proportions as the simple figure. Each of the four segments of the staircase aligns with an actual drawn line in Drawing D. Drawings A, B, C, and E contain similarly dense grids of interlocking rectangles, but none reproduces the target's specific two-step staircase with matching segment lengths as one continuous path.",
+      "explanation": "The target figure -- a two-step staircase line running down, then right, then down, then left, and finally up -- is traced by the internal grid lines in the center of Drawing D, in essentially the same orientation and proportions as the simple figure. Each of the four segments of the staircase aligns with an actual drawn line in Drawing D. Drawings A, B, C, and E contain similarly dense grids of interlocking rectangles, but none reproduces the target's specific two-step staircase with matching segment lengths as one continuous path.",
       "hint": "Start at the upper-left end of the target and follow its line segment by segment. The path goes down, then right, then down, then left, and finally up. Look for the same sequence of turns and segment lengths forming one continuous path within the drawings.",
       "tags": ["hidden_figure", "visual_recognition"]
     },

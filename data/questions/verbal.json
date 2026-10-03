@@ -4,8 +4,18 @@
     "subtestName": "Verbal",
     "part": 1,
     "source": "author-seeded",
-    "version": "1.0.0",
-    "lastUpdated": "2026-07-16",
+    "version": "1.1.0",
+    "lastUpdated": "2026-10-04",
+    "sectionDirections": {
+      "title": "Section 1. Analogies",
+      "text": "Each item in this section consists of a series of words. The first word is related to the second in the same way as the third word is related to a fourth one which is missing. Select this missing word from the given choices.",
+      "example": {
+        "prompt": "MAN : WOMAN :: BOY : ?",
+        "choices": ["child", "friend", "baby", "girl"],
+        "answer": "girl",
+        "note": "There are other relationships involved in the items aside from that illustrated above."
+      }
+    },
     "notes": "Editable — add your own items following docs/question-format.md"
   },
   "questions": [
@@ -23,9 +33,9 @@
         { "id": "D", "text": "Publisher" }
       ],
       "correctChoiceId": "B",
-      "explanation": "An architect creates a building; an author creates a book. The relationship is creator to creation.",
-      "hint": "Think: person → thing they create.",
-      "tags": ["word_analogy"]
+      "explanation": "The relationship is creator to creation. An architect designs a building; an author writes a book. Library (A) is a place where books are kept, not something the author produces. Reader (C) is the audience who receives the work. Publisher (D) is a business that prints and sells the work, a separate role rather than the product. All three wrong choices are associated with an author, but only Book is what the author actually makes. Exam tip: NMAT distractors are often related words; the correct answer must repeat the exact relationship of the first pair.",
+      "hint": "Make a sentence: 'An architect makes a building, so an author makes a ___.' Choose the product, not the place, the audience, or the business.",
+      "tags": ["word_analogy", "creator_to_creation"]
     },
     {
       "id": "verbal-002",
@@ -41,9 +51,9 @@
         { "id": "D", "text": "Altitude" }
       ],
       "correctChoiceId": "B",
-      "explanation": "A thermometer measures temperature; a barometer measures atmospheric pressure.",
-      "hint": "What does each instrument measure?",
-      "tags": ["word_analogy"]
+      "explanation": "The relationship is instrument to the quantity it measures. A thermometer measures temperature; a barometer measures atmospheric (air) pressure. Every wrong choice is weather-related but belongs to a different instrument: humidity is measured by a hygrometer (A), wind speed by an anemometer (C), and altitude by an altimeter (D). A barometer can be used to estimate altitude, but its primary job is measuring air pressure. Memorize common instruments: seismograph (earthquakes), odometer (distance), speedometer (speed), hygrometer (humidity).",
+      "hint": "Use the sentence 'A ___ measures ___.' Know your instrument names: baro- relates to pressure. Reject choices that are weather terms but belong to other instruments.",
+      "tags": ["word_analogy", "instrument_to_measurement"]
     },
     {
       "id": "verbal-003",
@@ -59,9 +69,9 @@
         { "id": "D", "text": "Globes" }
       ],
       "correctChoiceId": "C",
-      "explanation": "A catalog lists items; an atlas is a collection of maps.",
-      "hint": "What type of collection does each reference work contain?",
-      "tags": ["word_analogy"]
+      "explanation": "The relationship is reference work to what it is made up of. A catalog is a collection of entries for items; an atlas is a collection of maps. Countries (A) and roads (B) are things that maps show, but they are not what the atlas is physically composed of. Globes (D) are round models of the Earth and are not bound into an atlas. The trap is confusing what the book depicts with what the book contains.",
+      "hint": "Ask what the book itself is made of. A catalog is made of entries for items; an atlas is made of ___. Choose the unit inside the book, not the subject matter it covers.",
+      "tags": ["word_analogy", "collection_to_contents"]
     },
     {
       "id": "verbal-004",
@@ -77,9 +87,9 @@
         { "id": "D", "text": "Shortages of veterinary staff on farms" }
       ],
       "correctChoiceId": "C",
-      "explanation": "The passage states that routine antibiotic use accelerates drug-resistant bacteria that can reach humans.",
-      "hint": "Look for what researchers 'warn' about.",
-      "tags": ["reading_comprehension"]
+      "explanation": "The concern is signaled by the word 'warn' in the second sentence: routine antibiotic use accelerates drug-resistant bacteria that can spread to humans. The last sentence supports this, since countries restrict the practice to preserve medicines for humans. Choices A, B, and D are never mentioned in the passage. Choice B is also contradicted, because antibiotics are described as promoting growth. Exam tip: for 'concern' or 'problem' questions, look for signal words such as warn, worry, risk, threat, and danger, and answer only from the text.",
+      "hint": "Find the signal word 'warn' and see what comes right after it. Eliminate any choice whose topic never appears in the passage.",
+      "tags": ["reading_comprehension", "supporting_detail"]
     },
     {
       "id": "verbal-005",
@@ -95,9 +105,9 @@
         { "id": "D", "text": "Psychological effects are stronger than any medication." }
       ],
       "correctChoiceId": "B",
-      "explanation": "The passage links placebo effects to trial design and notes ethical debate — not claims that placebos cure disease.",
-      "hint": "Combine the main idea of paragraph 1 with paragraph 2.",
-      "tags": ["reading_comprehension"]
+      "explanation": "A good summary covers the whole passage: (1) expectations influence symptoms, (2) trials use placebos because of this, (3) critics raise ethical concerns. Choice B captures all three. A overstates the passage, since placebos influence perceived symptoms and are not said to cure most diseases. C turns the critics' concern into an extreme demand ('all', 'immediately') that the passage never makes. D makes an unsupported comparison ('stronger than any medication'). Exam tip: absolute or extreme words (all, most, any, only, never, immediately) are red flags in summary and main-idea choices.",
+      "hint": "A summary must cover every paragraph or sentence. Cross out choices with extreme wording or claims the passage never makes.",
+      "tags": ["reading_comprehension", "summary"]
     },
     {
       "id": "verbal-006",
@@ -113,9 +123,9 @@
         { "id": "D", "text": "Constant" }
       ],
       "correctChoiceId": "B",
-      "explanation": "Ephemeral is the opposite of permanent; volatile is the opposite of stable.",
-      "hint": "This is an antonym analogy.",
-      "tags": ["word_analogy"]
+      "explanation": "The relationship is antonyms. Ephemeral means short-lived and is the opposite of permanent. The blank is in the third position, so you need the opposite of stable. Volatile means liable to change rapidly or unpredictably, which is the opposite of stable. Fixed (A), solid (C), and constant (D) are all synonyms or near-synonyms of stable, so they repeat the idea instead of reversing it. Vocabulary note: volatile is also used for substances that evaporate easily and for unstable markets or tempers.",
+      "hint": "Read it as 'ephemeral is to permanent as ___ is to stable.' Because the first pair is opposites, find the opposite of stable and cross out every synonym.",
+      "tags": ["word_analogy", "antonym", "vocabulary"]
     },
     {
       "id": "verbal-007",
@@ -131,9 +141,9 @@
         { "id": "D", "text": "Pollinators are harmful to urban spaces" }
       ],
       "correctChoiceId": "B",
-      "explanation": "The passage presents both benefits and concerns about redesigning parks with native plants, so the main idea is balance between ecology and appearance.",
-      "hint": "Look for the point that both supporters and critics are discussed.",
-      "tags": ["reading_comprehension"]
+      "explanation": "The passage presents benefits (less water, lower costs, pollinator habitats) and a concern (a less formal, less familiar look). The main idea must include both sides, which is what B does. A contradicts the passage, because parks are being redesigned, not removed. C overgeneralizes the critics' worry into a claim about all residents. D contradicts the passage, which presents pollinator habitats as a benefit. Exam tip: when a passage gives supporters' and critics' views, the main idea is usually a balanced statement; a choice covering only one side is incomplete.",
+      "hint": "Count how many viewpoints appear. If both supporters and critics speak, the main idea must reflect both. Reject choices that contradict a stated detail.",
+      "tags": ["reading_comprehension", "main_idea"]
     },
     {
       "id": "verbal-008",
@@ -149,9 +159,9 @@
         { "id": "D", "text": "Pollen" }
       ],
       "correctChoiceId": "C",
-      "explanation": "A bird lives in a nest; a bee lives in a hive.",
-      "hint": "Match the animal with its home.",
-      "tags": ["word_analogy"]
+      "explanation": "The relationship is animal to its home or dwelling. A bird lives and raises its young in a nest; a bee colony lives in a hive. Flower (A) is a food source the bee visits, honey (B) is a product the bee makes, and pollen (D) is material the bee collects. All three are associated with bees, but none is where a bee lives. Related animal-to-home pairs worth memorizing: bee : hive, ant : colony or anthill, fox : den, horse : stable, spider : web.",
+      "hint": "Ask 'Where does the animal live?' Reject food, products, and materials, which are related to bees but are not homes.",
+      "tags": ["word_analogy", "animal_to_home"]
     },
     {
       "id": "verbal-009",
@@ -167,9 +177,9 @@
         { "id": "D", "text": "Condense" }
       ],
       "correctChoiceId": "B",
-      "explanation": "Abridge is the opposite of lengthen; reduce is the opposite of enlarge.",
-      "hint": "This is an antonym analogy.",
-      "tags": ["word_analogy"]
+      "explanation": "The relationship is antonyms. To abridge is to shorten a text by cutting parts of it, and its opposite is to lengthen. To reduce is to make smaller, and its opposite is to enlarge. Shrink (A), compress (C), and condense (D) are all synonyms of reduce, so they repeat the idea instead of reversing it. Exam tip: when the first pair is opposites, eliminate every choice that means the same as the third word. Here three of the four choices are synonyms, so only one can be the antonym.",
+      "hint": "Confirm the first pair is opposites. Then find the opposite of REDUCE and cross out the synonyms (three of the choices).",
+      "tags": ["word_analogy", "antonym", "vocabulary"]
     },
     {
       "id": "verbal-010",
@@ -185,9 +195,9 @@
         { "id": "D", "text": "More office-based meetings." }
       ],
       "correctChoiceId": "B",
-      "explanation": "The passage highlights flexibility and improved work-life balance as main employee benefits of hybrid work.",
-      "hint": "Focus on the employee perspective in the passage.",
-      "tags": ["reading_comprehension"]
+      "explanation": "The second sentence gives two groups their own benefits: employees get flexibility and improved work-life balance, and employers get productivity and reduced overhead costs. The question asks about employees, so B is correct. A is a trap: reduced overhead is an employer benefit. C and D are not stated as benefits anywhere in the passage. Exam tip: when a passage mentions several groups, check who the question is asking about before choosing.",
+      "hint": "Ask 'for whom?' Underline the group named in the question and match it to the benefit stated for that same group.",
+      "tags": ["reading_comprehension", "supporting_detail"]
     },
     {
       "id": "verbal-011",
@@ -203,9 +213,9 @@
         { "id": "D", "text": "Fertile" }
       ],
       "correctChoiceId": "A",
-      "explanation": "Penurious means poor while wealthy is its opposite; arid means dry while humid is its opposite.",
-      "hint": "This is an antonym analogy.",
-      "tags": ["word_analogy"]
+      "explanation": "The relationship is antonyms. Penurious means extremely poor (or stingy) and wealthy is its opposite. Arid means very dry, so its opposite is humid, meaning containing a lot of moisture. Dry (B) is a synonym of arid. Barren (C) describes land that produces nothing, a typical result of aridity rather than its opposite. Fertile (D) is the opposite of barren and describes soil productivity, not moisture. Always compare on the same scale: arid and humid sit at opposite ends of the dryness-moisture scale.",
+      "hint": "First confirm the pair is antonyms. Then find the choice that is the opposite on the same scale as ARID (dry vs. moist). Cross out the synonym first.",
+      "tags": ["word_analogy", "antonym", "vocabulary"]
     },
     {
       "id": "verbal-012",
@@ -221,27 +231,27 @@
         { "id": "D", "text": "It eliminates the need for packaging entirely." }
       ],
       "correctChoiceId": "C",
-      "explanation": "The passage emphasizes reduced waste and long-term savings as reusable packaging benefits.",
-      "hint": "Supporters focus on the long-term advantages.",
-      "tags": ["reading_comprehension"]
+      "explanation": "The passage says reusable packaging cuts waste and lowers waste management costs, and that supporters see long-term environmental and financial savings. Choice C combines both. A is the reverse of the stated result, since customer loyalty becomes stronger. B is the critics' concern about initial expense, which supporters say is outweighed, so it is a drawback, not a benefit. D exaggerates; containers are reused, not eliminated. Exam tip: for 'benefit' questions, ignore the drawback sentence that follows words like 'while' or 'critics'.",
+      "hint": "Separate benefits from drawbacks. Words like 'while critics note' introduce the downside, so look for what supporters say instead.",
+      "tags": ["reading_comprehension", "inference"]
     },
-    {
+        {
       "id": "verbal-013",
       "number": 13,
       "type": "word_analogy",
-      "prompt": "PUPIL : EYE :: CORNER : ?",
+      "prompt": "PAGE : BOOK :: PETAL : ?",
       "passage": null,
       "image": null,
       "choices": [
-        { "id": "A", "text": "Room" },
-        { "id": "B", "text": "Angle" },
-        { "id": "C", "text": "Wall" },
-        { "id": "D", "text": "Edge" }
+        { "id": "A", "text": "Stem" },
+        { "id": "B", "text": "Flower" },
+        { "id": "C", "text": "Garden" },
+        { "id": "D", "text": "Bee" }
       ],
       "correctChoiceId": "B",
-      "explanation": "A pupil is part of an eye, just as a corner is part of an angle.",
-      "hint": "Match the part-to-whole relationship.",
-      "tags": ["word_analogy"]
+      "explanation": "The relationship is part to whole. A page is one of the parts that make up a book, and a petal is one of the parts that make up a flower. Stem (A) is another part of the flower, not a whole the petal belongs to; a petal is not part of a stem. Garden (C) contains flowers, so a petal belongs to it only indirectly, through the flower. Bee (D) is a visitor to flowers and has no part-to-whole link with petals. Exam tip: in part-to-whole items, choose the immediate whole, the one the part directly belongs to. Reject sibling parts (stem) and larger containers (garden).",
+      "hint": "Use 'A ___ is a part of a ___.' Reject another part of the same whole (stem) and anything much bigger (garden). Pick the immediate whole.",
+      "tags": ["word_analogy", "part_to_whole"]
     },
     {
       "id": "verbal-014",
@@ -257,9 +267,9 @@
         { "id": "D", "text": "To discourage outdoor activities." }
       ],
       "correctChoiceId": "C",
-      "explanation": "The passage explains green spaces are added for recreation, cleaner air, and heat reduction.",
-      "hint": "Focus on the reasons planners are adding these spaces.",
-      "tags": ["reading_comprehension"]
+      "explanation": "The reasons are given in the first sentence: planners respond to the growing need for recreation, cleaner air, and heat reduction. Choice C summarizes these (recreation plus environmental benefits). A, B, and D all contradict the passage, since green spaces are for relaxing and exercising, not traffic, industry, or discouraging outdoor activity. Exam tip: for 'why' questions, look for cause phrases such as 'as a response to', 'because', and 'in order to'.",
+      "hint": "Find the cause phrase 'as a response to' in the first sentence and match its list of needs to the choices. Reject any choice that contradicts the passage.",
+      "tags": ["reading_comprehension", "supporting_detail", "cause_and_reason"]
     },
     {
       "id": "verbal-015",
@@ -275,9 +285,9 @@
         { "id": "D", "text": "River" }
       ],
       "correctChoiceId": "A",
-      "explanation": "A bridge spans water; an airplane travels through the sky.",
-      "hint": "Match the medium through which each structure moves or spans.",
-      "tags": ["word_analogy"]
+      "explanation": "The relationship is structure or vehicle to the space it crosses. A bridge crosses over water; an airplane crosses through the sky. Runway (B) is the surface used for takeoff and landing, not the space the airplane travels through. Airport (C) is a facility. River (D) is a trap: it is a kind of water, so it belongs with the first pair and not with the airplane. Exam tip: the answer must belong to the airplane's side of the analogy, so avoid choices that echo the first pair.",
+      "hint": "Complete the sentence: 'A bridge crosses ___; an airplane crosses ___.' Reject choices that belong to the bridge side (like river) or to takeoff and landing.",
+      "tags": ["word_analogy", "object_to_medium"]
     },
     {
       "id": "verbal-016",
@@ -293,9 +303,9 @@
         { "id": "D", "text": "Deforestation" }
       ],
       "correctChoiceId": "C",
-      "explanation": "The passage focuses on rising sea levels and stronger storms affecting coastal communities.",
-      "hint": "Look for the threat that is repeated and connected to climate change.",
-      "tags": ["reading_comprehension"]
+      "explanation": "The first sentence states the threat directly: rising sea levels and stronger storms. The rest of the passage supports it: barriers and elevated homes are responses, and experts warn of more frequent and damaging floods. A (air pollution) and D (deforestation) are never mentioned. B (coastal erosion) is the tempting one because it fits the setting, but the passage does not discuss it. Exam tip: answer only from the passage and do not bring in outside knowledge, even if it is true.",
+      "hint": "Find the problem named in the first sentence and confirm it is repeated in later sentences. Reject choices that merely sound related to coasts or the environment.",
+      "tags": ["reading_comprehension", "main_idea"]
     },
     {
       "id": "verbal-017",
@@ -311,9 +321,9 @@
         { "id": "D", "text": "Duke" }
       ],
       "correctChoiceId": "B",
-      "explanation": "An empress is the female equivalent of an emperor, just as a queen is the female equivalent of a king.",
-      "hint": "This is a gender pair analogy.",
-      "tags": ["word_analogy"]
+      "explanation": "The relationship is male to female counterpart of the same rank. A queen is the female counterpart of a king, and an empress is the female counterpart of an emperor. Prince (A) and duke (D) are male titles of lower rank. King (C) is male and of a different rank, so it matches the first word, not the second. Exam tip: in gender-pair analogies, check both gender and rank or role.",
+      "hint": "Ask 'What is the female counterpart of an emperor?' Eliminate male titles and titles of a different rank.",
+      "tags": ["word_analogy", "gender_pair"]
     },
     {
       "id": "verbal-018",
@@ -329,27 +339,27 @@
         { "id": "D", "text": "Indifferent" }
       ],
       "correctChoiceId": "C",
-      "explanation": "The writer acknowledges benefits but also raises privacy concerns, indicating a cautiously optimistic attitude.",
-      "hint": "Consider both the positive and warning language in the passage.",
-      "tags": ["reading_comprehension"]
+      "explanation": "The author acknowledges real benefits (accessibility, convenience) and real worries (privacy, data collection), then suggests regulation to balance the two. That mix of approval and care is 'cautiously optimistic'. A and B are one-sided extremes, and the passage contains both positive and negative points. D is wrong because the writer clearly cares enough to propose a solution. Exam tip: when a passage has both praise and concern, the answer is usually a balanced attitude (cautious, measured, mixed). One-sided passages produce one-sided answers.",
+      "hint": "List the positive points and the negative points. If both are present, reject 'completely' or 'entirely' choices and pick the balanced tone.",
+      "tags": ["reading_comprehension", "attitude_and_tone"]
     },
-    {
+        {
       "id": "verbal-019",
       "number": 19,
       "type": "word_analogy",
-      "prompt": "SILENT : LOUD :: ARID : ?",
+      "prompt": "SILENT : LOUD :: SCARCE : ?",
       "passage": null,
       "image": null,
       "choices": [
-        { "id": "A", "text": "Dry" },
-        { "id": "B", "text": "Wet" },
-        { "id": "C", "text": "Cold" },
-        { "id": "D", "text": "Humid" }
+        { "id": "A", "text": "Rare" },
+        { "id": "B", "text": "Limited" },
+        { "id": "C", "text": "Valuable" },
+        { "id": "D", "text": "Abundant" }
       ],
       "correctChoiceId": "D",
-      "explanation": "Silent is the opposite of loud; arid is the opposite of humid.",
-      "hint": "This is an antonym analogy.",
-      "tags": ["word_analogy"]
+      "explanation": "The relationship is antonyms. Silent means making no sound, and loud is its opposite. Scarce means insufficient or hard to find, so its opposite is abundant, meaning present in large quantity. Rare (A) and limited (B) are synonyms of scarce, so they repeat the idea instead of reversing it. Valuable (C) is the association trap: scarce things often cost more, but valuable describes worth, not quantity, and it is not the opposite of scarce. Exam tip: when the first pair is opposites, cross out the synonyms first, then reject words that are merely associated with the given word.",
+      "hint": "Confirm the first pair is opposites. Cross out the two synonyms of SCARCE, then ask whether the remaining word reverses its meaning (quantity) or only goes along with it (value).",
+      "tags": ["word_analogy", "antonym", "vocabulary"]
     },
     {
       "id": "verbal-020",
@@ -365,9 +375,9 @@
         { "id": "D", "text": "Lower employee autonomy" }
       ],
       "correctChoiceId": "C",
-      "explanation": "The passage highlights that remote work can blur boundaries and make it hard for employees to disconnect.",
-      "hint": "Find the downside mentioned for remote work.",
-      "tags": ["reading_comprehension"]
+      "explanation": "The pivot word 'but' introduces the downsides: the boundary between home and work blurs, and employees struggle to disconnect. That matches C. A and B reverse the stated benefits, since remote work boosts flexibility and reduces commuting. D (lower employee autonomy) is never mentioned. The passage also mentions harder team cohesion for employers, but that is not offered as a choice. Exam tip: contrast words (but, however, while, although, yet) separate benefits from drawbacks, so use them to find the right half of the sentence.",
+      "hint": "Locate the contrast word 'but'. Benefits come before it and drawbacks after it. Reject choices that reverse a stated benefit.",
+      "tags": ["reading_comprehension", "supporting_detail"]
     },
     {
       "id": "verbal-021",
@@ -383,9 +393,9 @@
         { "id": "D", "text": "Paint" }
       ],
       "correctChoiceId": "A",
-      "explanation": "A spoon is used to eat; a pen is used to write.",
-      "hint": "Match each tool to its primary action.",
-      "tags": ["word_analogy"]
+      "explanation": "The relationship is tool to its primary function. A spoon is used mainly to eat, and a pen is used mainly to write. Draw (B) is a secondary use, since a pen can draw but that is not what it is chiefly for. Paint (D) is done with brushes, and cut (C) with blades or scissors. Exam tip: when two choices seem to fit a tool, choose its primary, defining function, the one the tool is named or designed for.",
+      "hint": "Ask 'What is a pen mainly for?' When more than one action fits, pick the primary function, not a possible side use.",
+      "tags": ["word_analogy", "tool_to_function"]
     },
     {
       "id": "verbal-022",
@@ -401,9 +411,9 @@
         { "id": "D", "text": "Client" }
       ],
       "correctChoiceId": "A",
-      "explanation": "A doctor works in a hospital; a judge works in a court.",
-      "hint": "Match the professional to their workplace.",
-      "tags": ["word_analogy"]
+      "explanation": "The relationship is workplace to the professional who works there. A doctor practices in a hospital; a judge presides in a court. Teacher (B) works in a school. Patient (C) and client (D) are people who come to a place to receive a service, not professionals who work there. Patient is the direct counterpart trap, since it is associated with hospital. Exam tip: check whether the second word is the one who provides the service or the one who receives it.",
+      "hint": "Ask 'Who works here and carries out its main function?' Remove people who only visit or receive services.",
+      "tags": ["word_analogy", "place_to_professional"]
     },
     {
       "id": "verbal-023",
@@ -419,9 +429,9 @@
         { "id": "D", "text": "They increase food waste." }
       ],
       "correctChoiceId": "B",
-      "explanation": "The passage stresses that single-use plastics cause long-term pollution in the environment.",
-      "hint": "Look for the environmental issue described.",
-      "tags": ["reading_comprehension"]
+      "explanation": "The concern about the plastics themselves is in the first sentence: they take hundreds of years to decompose, creating lasting environmental problems and pollution in oceans and landfills. That is B. A is never stated. C contradicts the passage, which calls them convenient. D is never mentioned. Note that the critics' point about affordable alternatives is about whether the ban will work, not a concern about plastics. Exam tip: separate what a passage says about the topic itself from what it says about proposed solutions.",
+      "hint": "The question asks about the plastics, not the bans. Find the 'but' that introduces their problem and ignore the critics' comment about bans.",
+      "tags": ["reading_comprehension", "main_idea"]
     },
     {
       "id": "verbal-024",
@@ -437,9 +447,9 @@
         { "id": "D", "text": "Solar system" }
       ],
       "correctChoiceId": "A",
-      "explanation": "A forest is made of trees, just as a galaxy contains many stars.",
-      "hint": "Think of the larger group formed by the smaller units.",
-      "tags": ["word_analogy"]
+      "explanation": "The relationship is individual unit to the group it forms. Many trees make a forest, and many stars make a galaxy. Planet (B) is a different kind of body, not a group of stars. Universe (C) does contain stars, but it is the largest whole and holds galaxies themselves, so it is too broad. Solar system (D) is built around a single star plus its planets, not a large group of stars. Exam tip: match the scale. The answer should be the immediate group, not the largest whole.",
+      "hint": "Ask 'What is a large group of stars called?' Pick the immediate group, not the biggest possible container.",
+      "tags": ["word_analogy", "unit_to_group"]
     },
     {
       "id": "verbal-025",
@@ -455,9 +465,9 @@
         { "id": "D", "text": "Formal and academic" }
       ],
       "correctChoiceId": "C",
-      "explanation": "The passage uses positive language to describe the benefits of community gardens.",
-      "hint": "Notice words like celebrate, support, and belonging.",
-      "tags": ["reading_comprehension"]
+      "explanation": "Words like 'celebrates', 'support', 'belonging', and 'fresh produce' carry a warm, approving feel, so the tone is appreciative and positive. A and B describe negative attitudes that have no support in the passage; B is also self-contradictory, since hostile and indifferent are opposite attitudes. D describes the style of the writing, not the author's attitude toward the subject, and the passage is not especially formal or academic anyway. Exam tip: tone questions are answered by underlining emotionally charged words, and a tone answer should describe feeling, not writing style.",
+      "hint": "Underline the feeling words (celebrates, support, belonging). Are they positive or negative? Reject choices that describe writing style instead of attitude.",
+      "tags": ["reading_comprehension", "attitude_and_tone"]
     },
     {
       "id": "verbal-026",
@@ -473,9 +483,9 @@
         { "id": "D", "text": "School" }
       ],
       "correctChoiceId": "A",
-      "explanation": "A parent guides a child like a teacher guides a student.",
-      "hint": "Think of the person who receives guidance.",
-      "tags": ["word_analogy"]
+      "explanation": "The relationship is the person who guides to the person being guided. A parent guides and raises a child, and a teacher guides and instructs a student. Principal (B) is a supervisor of the teacher, which reverses the direction of authority. Lesson (C) is what is taught, not a person. School (D) is the place where teaching happens. Exam tip: check direction. The second word should be the one who receives guidance, not someone above the first word or a thing.",
+      "hint": "Ask 'Who is taught or guided by a teacher?' Reject people above the teacher, things, and places.",
+      "tags": ["word_analogy", "guide_to_learner"]
     },
     {
       "id": "verbal-027",
@@ -491,9 +501,9 @@
         { "id": "D", "text": "Noise pollution" }
       ],
       "correctChoiceId": "C",
-      "explanation": "The passage states that better public transit reduces traffic congestion and pollution.",
-      "hint": "This problem is directly linked to too many cars on roads.",
-      "tags": ["reading_comprehension"]
+      "explanation": "The first sentence lists three problems reduced by better transit: traffic congestion, air pollution, and commuting costs. Only traffic congestion appears among the choices, so C is correct, and the second sentence supports it with 'fewer vehicles on the road'. Noise pollution (D) is the near-miss trap, since the passage mentions air pollution, not noise pollution. A and B are never mentioned. Exam tip: when a passage lists several items, the correct choice is often just one of them, and a similar-sounding choice may not be in the list at all.",
+      "hint": "List the problems named in the first sentence, then find the choice that matches one of them word for word. Watch for look-alike terms, such as noise pollution versus air pollution.",
+      "tags": ["reading_comprehension", "supporting_detail"]
     },
     {
       "id": "verbal-028",
@@ -509,9 +519,9 @@
         { "id": "D", "text": "Small" }
       ],
       "correctChoiceId": "B",
-      "explanation": "A microscope reveals tiny things; a telescope is used to view far things.",
-      "hint": "Match the instruments to the scale of their observations.",
-      "tags": ["word_analogy"]
+      "explanation": "The relationship is instrument to the kind of object it is used to observe. A microscope is used to view tiny things, and a telescope is used to view far (distant) things. Close (A) is the opposite of what a telescope is for. Bright (C) is a quality of some objects but not what defines a telescope's use. Small (D) is a trap: it is a synonym of tiny, so it repeats the microscope's side of the analogy. Exam tip: the answer should describe what the third word's instrument is for, not echo the second word.",
+      "hint": "Ask 'What kind of thing do you point a telescope at?' Cross out synonyms of TINY, because they belong to the microscope.",
+      "tags": ["word_analogy", "instrument_to_object_observed"]
     },
     {
       "id": "verbal-029",
@@ -527,9 +537,9 @@
         { "id": "D", "text": "Faster sprint speed" }
       ],
       "correctChoiceId": "B",
-      "explanation": "The passage specifically mentions mood improvement and stress reduction.",
-      "hint": "Look for the emotional benefits described.",
-      "tags": ["reading_comprehension"]
+      "explanation": "Both sentences focus on mental and emotional benefits: improved mood, reduced stress, more energy, and less anxiety. That is B. A (lower cholesterol), C (muscle mass), and D (sprint speed) are physical benefits that never appear in the passage; C is also weakened by the word 'only'. Exam tip: 'emphasized' means the idea repeated or stressed in the passage, so choose what is stated, not what is true in general.",
+      "hint": "Which idea appears in both sentences? Reject benefits that are true in real life but are not mentioned in the passage.",
+      "tags": ["reading_comprehension", "main_idea"]
     },
     {
       "id": "verbal-030",
@@ -545,9 +555,369 @@
         { "id": "D", "text": "Speak" }
       ],
       "correctChoiceId": "A",
-      "explanation": "A book is read; music is listened to.",
-      "hint": "Match each medium to the activity associated with it.",
-      "tags": ["word_analogy"]
+      "explanation": "The relationship is a work to the action used to take it in. A book is read, and music is listened to. Write (B) and compose (C) are actions of creating, not of experiencing, so they reverse the direction (compare item 1, creator to creation). Speak (D) is about producing words, not receiving music. Exam tip: check direction. Are you asking how the work is made or how it is received? Read is a receiving action, so the answer must also be a receiving action.",
+      "hint": "Ask 'What do you do with music once it exists?' Reject creating actions (write, compose) because READ is about receiving, not making.",
+      "tags": ["word_analogy", "work_to_action"]
+    },
+    {
+      "id": "verbal-031",
+      "number": 31,
+      "type": "word_analogy",
+      "prompt": "WEIGHT : KILOGRAM :: VOLUME : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Liter" },
+        { "id": "B", "text": "Carat" },
+        { "id": "C", "text": "Intensity" },
+        { "id": "D", "text": "Quantity" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "The relationship is quantity to its standard unit of measurement. A kilogram is a standard unit used to measure weight, and a liter is a standard unit used to measure volume. Carat (B) is also a unit, but it measures the weight (mass) of gemstones, not volume. Intensity (C) is a property that can be measured, not a unit. Quantity (D) is a general term for an amount, not a specific unit.",
+      "hint": "Ask: 'What unit is used to measure the second word's counterpart?' Look for a unit, not another property. Eliminate any choice that is a unit of something other than volume.",
+      "tags": ["word_analogy", "measurement_unit"]
+    },
+    {
+      "id": "verbal-032",
+      "number": 32,
+      "type": "word_analogy",
+      "prompt": "TITRATE : CHEMIST :: INSTALL : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Electrician" },
+        { "id": "B", "text": "Equipment" },
+        { "id": "C", "text": "Office" },
+        { "id": "D", "text": "Appointee" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "The relationship is action to the professional who performs it. Titration is a laboratory procedure carried out by a chemist, and installation of wiring, fixtures, and systems is carried out by an electrician. Equipment (B) is what gets installed, which is the object of the action. Office (C) is a place, not a performer. Appointee (D) is the person who is installed into a position, so it is the recipient of the action, not the doer. Always check whether the first word's partner is a doer or a receiver, then match it.",
+      "hint": "Titrate → who does it? A chemist, the person performing the action. Find the person who performs 'install', not the thing installed.",
+      "tags": ["word_analogy", "action_to_agent"]
+    },
+    {
+      "id": "verbal-033",
+      "number": 33,
+      "type": "word_analogy",
+      "prompt": "PRAISE : ODE :: LAMENT : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Epic" },
+        { "id": "B", "text": "Elegy" },
+        { "id": "C", "text": "Tale" },
+        { "id": "D", "text": "Romance" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The relationship is emotion or purpose to the literary form that expresses it. An ode is a lyric poem written to praise or celebrate its subject, and an elegy is a poem written to lament the dead or express sorrow. An epic (A) is a long narrative poem about heroic deeds. A tale (C) is a simple story with no specific emotional purpose. A romance (D) is a narrative of love or adventure. Memory aid: ode = praise, elegy = lament or mourning, epic = heroes, ballad = story in song.",
+      "hint": "Which poem form is written to express grief or mourning, just as an ode is written to express praise? Know your literary forms: ode, elegy, epic, sonnet, ballad.",
+      "tags": ["word_analogy", "purpose_to_form", "literature_vocabulary"]
+    },
+    {
+      "id": "verbal-034",
+      "number": 34,
+      "type": "word_analogy",
+      "prompt": "BLOWTORCH : WELD :: DRILL : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Fasten" },
+        { "id": "B", "text": "Screw" },
+        { "id": "C", "text": "Rivet" },
+        { "id": "D", "text": "Bore" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The relationship is tool to its function. A blowtorch is used to weld (join metal with heat), and a drill is used to bore (make a hole). Fasten (A), screw (B), and rivet (C) all belong to the family of joining or attaching. They are things done with a screwdriver, rivet gun, or similar tools, not with a drill. Note that a weld is itself a way of joining, so the three joining-related distractors are traps for those who match 'weld' too loosely. Match the tool's own action, not the category of the second word.",
+      "hint": "Ask: what is a drill primarily used to do? It makes holes. Which choice means to make a hole?",
+      "tags": ["word_analogy", "tool_to_function"]
+    },
+    {
+      "id": "verbal-035",
+      "number": 35,
+      "type": "word_analogy",
+      "prompt": "HERO : ADULATION :: SAINT : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Asceticism" },
+        { "id": "B", "text": "Reverence" },
+        { "id": "C", "text": "Humility" },
+        { "id": "D", "text": "Celibacy" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The relationship is a revered figure to the admiration or response directed toward them. A hero is met with adulation (intense, often excessive admiration), and a saint is met with reverence (deep respect and veneration). Asceticism (A), humility (C), and celibacy (D) are qualities or practices a saint may have, but they are not what is given to a saint. The test is direction: adulation is given to the hero, so look for the feeling given to the saint, not a trait the saint possesses.",
+      "hint": "Is 'adulation' something a hero has or something a hero receives? Find the word that fits the same direction for a saint.",
+      "tags": ["word_analogy", "person_to_attitude_received"]
+    },
+        {
+      "id": "verbal-036",
+      "number": 36,
+      "type": "word_analogy",
+      "prompt": "VERTEBRAE : SPINE :: LINKS : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Cuff" },
+        { "id": "B", "text": "Golf" },
+        { "id": "C", "text": "Union" },
+        { "id": "D", "text": "Chain" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The relationship is unit to the whole it forms. Vertebrae are the individual bones that, joined together, make up the spine, and links are the individual rings that, joined together, make up a chain. The other choices are traps built on other meanings of 'links'. Cuff (A) comes from 'cufflinks', which are fasteners, not parts that form a cuff. Golf (B) uses the meaning 'links' = a golf course, a different sense of the word. Union (C) is an abstract result of linking, not a physical whole made of links. Exam tip: many words have several meanings. Pick the meaning that fits the first pair (parts of a body structure leads to parts of a physical structure) and reject answers that use a different sense of the word.",
+      "hint": "Say it as 'Vertebrae are the individual parts of a spine, so links are the individual parts of a ___.' Watch for answers that use a different meaning of 'links'.",
+      "tags": ["word_analogy", "part_to_whole", "multiple_meaning_trap"]
+    },
+    {
+      "id": "verbal-037",
+      "number": 37,
+      "type": "word_analogy",
+      "prompt": "DARKEN : LIGHT :: SUPPRESS : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Crime" },
+        { "id": "B", "text": "Slavery" },
+        { "id": "C", "text": "Freedom" },
+        { "id": "D", "text": "Justice" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The relationship is action to what it takes away or diminishes. To darken is to deprive something of light, and to suppress (in the sense of oppress or hold down) is to deprive people of freedom. Both verbs remove something desirable. Crime (A) and slavery (B) are things people want suppressed, so the verb would be doing something good, which breaks the parallel with darken. Justice (D) is desirable, but 'freedom' is the classic object of suppress (suppress speech, suppress dissent, suppress liberty) and fits better. Exam tip: when several choices are grammatically possible, check the tone of the first pair. Darken takes away something positive, so the answer should name something positive that is taken away.",
+      "hint": "Ask 'What does darkening remove, and is it something good or bad?' Light is something good, so find a good thing that suppressing removes. Reject bad things that people want suppressed (crime, slavery).",
+      "tags": ["word_analogy", "action_to_object_removed", "vocabulary"]
+    },
+    {
+      "id": "verbal-038",
+      "number": 38,
+      "type": "word_analogy",
+      "prompt": "CONCERT : INTERMISSION :: TRIAL : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Summation" },
+        { "id": "B", "text": "Defense" },
+        { "id": "C", "text": "Interrogation" },
+        { "id": "D", "text": "Recess" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The relationship is an event to its scheduled break. An intermission is a planned pause during a concert, and a recess is a planned pause during a trial. Summation (A, the closing arguments), defense (B), and interrogation (C, questioning of a witness) are all active stages of a trial, not breaks from it. They are the trap for anyone who matches 'parts of a trial' instead of 'a pause in the event'. Exam tip: first name the relationship precisely. 'A pause or break in' is more specific than 'something that happens during', and it eliminates every active stage.",
+      "hint": "An intermission is a pause, not a performance. Find the pause in a trial and reject choices that are stages of the trial itself.",
+      "tags": ["word_analogy", "event_to_break", "legal_vocabulary"]
+    },
+    {
+      "id": "verbal-039",
+      "number": 39,
+      "type": "word_analogy",
+      "prompt": "APPLAUSE : PRAISE :: CURTSY : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Exit" },
+        { "id": "B", "text": "Servility" },
+        { "id": "C", "text": "Obedience" },
+        { "id": "D", "text": "Respect" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The relationship is a gesture to the feeling it expresses. Applause is a way of showing praise, and a curtsy is a courteous gesture of respect or deference, traditionally to a monarch, a superior, or a guest of honor. Exit (A) is an action but not a feeling a curtsy expresses. Servility (B) means excessive, groveling submission, which is far stronger and more negative than a curtsy. Obedience (C) is following orders, which a gesture of courtesy does not show. Exam tip: match both the type and the intensity of the feeling. Praise is a moderate, positive feeling, so the answer should also be moderate and positive.",
+      "hint": "Ask 'What feeling does this gesture show?' A curtsy is polite and courteous, not groveling or commanding. Reject choices that are too strong or about orders.",
+      "tags": ["word_analogy", "gesture_to_meaning"]
+    },
+    {
+      "id": "verbal-040",
+      "number": 40,
+      "type": "word_analogy",
+      "prompt": "PATRIOT : LOYAL :: SCHOLAR : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Skeptic" },
+        { "id": "B", "text": "Studious" },
+        { "id": "C", "text": "Intelligent" },
+        { "id": "D", "text": "Erudite" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The relationship is a person to the quality that defines them. A patriot is, by definition, loyal to their country, and a scholar is, by definition, erudite, meaning deeply learned through extensive study. Skeptic (A) is a noun naming a type of person, not a quality, so it is the wrong part of speech; the answer must be an adjective like loyal. Intelligent (C) is too general: a person can be intelligent without being a scholar, and a scholar's defining mark is depth of learning, not raw intelligence. Studious (B) is the closest competitor. It describes a habit of diligent study, which a schoolchild can have without being a scholar, so it does not define a scholar the way erudite does. Exam tip: when two adjectives seem to fit, ask which one the person must have to deserve the label. A patriot who is not loyal is not a patriot, and a scholar who is not learned is not a scholar. Vocabulary note: erudite = having or showing great knowledge gained from books and study.",
+      "hint": "The second word is an adjective, so reject the noun (skeptic) first. Then ask which adjective a person must have to be called a scholar, just as a patriot must be loyal. Prefer the quality that defines the role over a habit or a general trait.",
+      "tags": ["word_analogy", "person_to_characteristic", "vocabulary"]
+    },
+        {
+      "id": "verbal-041",
+      "number": 41,
+      "type": "word_analogy",
+      "prompt": "HAMMER : POUND :: SPEAR : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Throw" },
+        { "id": "B", "text": "Pierce" },
+        { "id": "C", "text": "Kill" },
+        { "id": "D", "text": "Hunt" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The relationship is tool to the action it performs directly on its target. A hammer pounds, and a spear pierces. Throw (A) is a way of delivering a spear, not what the spear does to its target (a hammer can be thrown too, but 'throw' is not what defines it). Kill (C) is a possible result, just as pounding may result in a driven nail. The analogy needs the tool's action, not its outcome. Hunt (D) is an activity in which a spear is used, so it is the purpose, not the action. Exam tip: separate the tool's own action (pound, pierce) from how it is delivered (throw), what it achieves (kill), and why it is used (hunt).",
+      "hint": "Ask 'What does the tool itself do to the thing it hits?' Reject the delivery method (throw), the result (kill), and the broader activity (hunt).",
+      "tags": ["word_analogy", "tool_to_function"]
+    },
+    {
+      "id": "verbal-042",
+      "number": 42,
+      "type": "word_analogy",
+      "prompt": "TIMEPIECE : SUNDIAL :: MEDIA : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Journalist" },
+        { "id": "B", "text": "Television" },
+        { "id": "C", "text": "Newscaster" },
+        { "id": "D", "text": "Communication" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The relationship is category to a specific example of it. A sundial is one kind of timepiece, and television is one kind of medium (media is the plural). Journalist (A) and newscaster (C) are people who work in the media, not types of media. Communication (D) is the broader purpose that media serve, so it is a bigger idea, not a member of the category. Exam tip: in category-to-example items, the answer must be something you can point to and say 'this is a kind of ___'. Reject people who work in the field and abstract words that are larger than the category.",
+      "hint": "Complete 'A sundial is a kind of timepiece, so ___ is a kind of media.' Reject people who work in media and words broader than media.",
+      "tags": ["word_analogy", "category_to_example"]
+    },
+    {
+      "id": "verbal-043",
+      "number": 43,
+      "type": "word_analogy",
+      "prompt": "MUSIC : BEAT :: BALLET : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Pirouette" },
+        { "id": "B", "text": "Shoes" },
+        { "id": "C", "text": "Performance" },
+        { "id": "D", "text": "Harmony" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "The relationship is an art form to one of its basic building blocks. A beat is a basic unit of rhythm in music, and a pirouette (a spin on one foot) is a basic movement in ballet. Shoes (B) are equipment, not an element of the art itself. Performance (C) is the event in which ballet is presented, not a component of it. Harmony (D) is a musical term, so it belongs on the music side of the analogy and is the cross-over trap. Exam tip: when the relationship is loose, work by elimination. Reject equipment, events, and terms borrowed from the first word's field.",
+      "hint": "Ask 'What is one basic element of ballet, the way a beat is one basic element of music?' Cross out equipment, events, and words that really belong to music.",
+      "tags": ["word_analogy", "whole_to_element"]
+    },
+    {
+      "id": "verbal-044",
+      "number": 44,
+      "type": "word_analogy",
+      "prompt": "WATER : THIRST :: SALVE : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Ointment" },
+        { "id": "B", "text": "Wound" },
+        { "id": "C", "text": "Scar" },
+        { "id": "D", "text": "Cure" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The relationship is remedy to the problem it relieves. Water relieves thirst, and a salve soothes a wound. Ointment (A) is a synonym of salve (a salve is an ointment), so it repeats the third word instead of naming the problem. Scar (C) is what a wound leaves behind after healing and is not what a salve treats. Cure (D) is another word for a remedy, so like ointment, it belongs on the salve side. Exam tip: cross out synonyms of the third word first. The answer should be the condition being treated, not another word for the treatment.",
+      "hint": "Ask 'What does a salve treat?' Cross out the synonyms of salve (ointment, cure) and the leftover result (scar).",
+      "tags": ["word_analogy", "remedy_to_ailment"]
+    },
+    {
+      "id": "verbal-045",
+      "number": 45,
+      "type": "word_analogy",
+      "prompt": "BARREL : GUN :: DIAL : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Clock" },
+        { "id": "B", "text": "Channel" },
+        { "id": "C", "text": "Number" },
+        { "id": "D", "text": "Hand" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "The relationship is part to whole. The barrel is a part of a gun, and the dial (the face) is a part of a clock. Channel (B) is something you select using a dial on a radio or TV, so it is a function, not a whole. Number (C) is printed on a dial, so it is a part of the dial and the direction is reversed. Hand (D) is another part of a clock, a sibling of the dial, not the whole it belongs to. Exam tip: in part-to-whole items, the answer must be the whole. Reject sibling parts and anything that is itself a part of the given word.",
+      "hint": "Use 'A barrel is part of a gun, so a dial is part of a ___.' Reject parts of the dial (number) and other parts of the same whole (hand).",
+      "tags": ["word_analogy", "part_to_whole"]
+    },
+    {
+      "id": "verbal-046",
+      "number": 46,
+      "type": "word_analogy",
+      "prompt": "INDEMNITY : DAMAGE :: BOND : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Levy" },
+        { "id": "B", "text": "Fine" },
+        { "id": "C", "text": "Surety" },
+        { "id": "D", "text": "Reparation" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "Indemnity is a guarantee of security against damage or loss, and a bond is likewise a guarantee, a pledge of security. Surety is the word for that security or pledge, which is why a bond posted as a guarantee is called a 'surety bond'. Levy (A) is a tax or charge imposed on people, and fine (B) is a penalty for breaking a rule; neither is a guarantee. Reparation (D) is compensation paid after damage has already happened, so it goes with the damage side of the first pair and not with a bond. Exam tip: this is a loose item, so use elimination. Reject penalties and charges, reject after-the-fact payments, and keep the word from the same 'guarantee' family as bond. Vocabulary: indemnity = protection against loss; surety = security given as a guarantee; levy = an imposed charge.",
+      "hint": "When the relationship is unclear, ask what idea INDEMNITY and BOND share (a guarantee against loss) and choose the word from that family. Reject penalties and payments made after the damage.",
+      "tags": ["word_analogy", "legal_financial_vocabulary", "elimination_strategy"]
+    },
+    {
+      "id": "verbal-047",
+      "number": 47,
+      "type": "word_analogy",
+      "prompt": "MEETING : AGENDA :: TRAVEL : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Passport" },
+        { "id": "B", "text": "Destination" },
+        { "id": "C", "text": "Schedule" },
+        { "id": "D", "text": "Itinerary" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The relationship is an activity to the plan that lays out what will happen during it. An agenda lists the items to be taken up in a meeting, and an itinerary lists the places, routes, and activities planned for a trip. Passport (A) is a document required to travel, not a plan. Destination (B) is where a trip ends, not a plan of it. Schedule (C) is the closest competitor, but it is a general term for any set of times, while 'itinerary' is the plan made specifically for a journey, just as 'agenda' is the plan made specifically for a meeting. Exam tip: when a general word and a specific word both fit, choose the specific one that matches the same level of specificity as the first pair.",
+      "hint": "An agenda is the plan for a meeting. Which word is the plan for a journey? Between two plan words, pick the one used for travel specifically.",
+      "tags": ["word_analogy", "activity_to_plan"]
+    },
+    {
+      "id": "verbal-048",
+      "number": 48,
+      "type": "word_analogy",
+      "prompt": "CHIEFTAIN : TRIBE :: VICEROY : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Church" },
+        { "id": "B", "text": "Colony" },
+        { "id": "C", "text": "Embassy" },
+        { "id": "D", "text": "Consulate" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The relationship is a ruler to the people or territory they govern. A chieftain leads a tribe, and a viceroy governs a colony or province as the representative of a king or queen (for example, a viceroy of British India). Church (A) is led by clergy, embassy (C) by an ambassador, and consulate (D) by a consul. Those are officials of other kinds, not rulers of a territory. Exam tip: know the leader-to-domain pairs: chieftain : tribe, viceroy : colony, ambassador : embassy, consul : consulate, bishop : diocese.",
+      "hint": "A viceroy rules a territory in the name of a monarch. Find the territory, and reject choices that are posts of other officials (ambassador, consul).",
+      "tags": ["word_analogy", "ruler_to_domain", "vocabulary"]
+    },
+    {
+      "id": "verbal-049",
+      "number": 49,
+      "type": "word_analogy",
+      "prompt": "RECESS : INQUIRY :: REPRIEVE : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Sentence" },
+        { "id": "B", "text": "Trial" },
+        { "id": "C", "text": "Obligation" },
+        { "id": "D", "text": "Guilt" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "The relationship is a temporary halt to what is halted. A recess is a temporary break in an inquiry, and a reprieve is a temporary postponement of a punishment, typically a sentence (especially a death sentence). Trial (B) is the process that comes before the sentence, so a reprieve does not pause it. Obligation (C) is a duty and is not what a reprieve delays. Guilt (D) is a verdict, and a reprieve does not erase or suspend it; the person is still guilty. Exam tip: reprieve postpones the punishment, not the verdict and not the trial. Related terms: pardon (forgiveness of the offense), commutation (a lighter sentence), and reprieve (a delay).",
+      "hint": "Describe the first pair as 'a temporary pause of ___.' A reprieve delays the punishment, not the verdict or the trial.",
+      "tags": ["word_analogy", "temporary_halt", "legal_vocabulary"]
+    },
+    {
+      "id": "verbal-050",
+      "number": 50,
+      "type": "word_analogy",
+      "prompt": "WINE : FERMENTATION :: LIQUOR : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Brewing" },
+        { "id": "B", "text": "Frothing" },
+        { "id": "C", "text": "Distillation" },
+        { "id": "D", "text": "Pasteurization" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The relationship is a product to the process that defines how it is made. Wine is made by fermenting grape juice, and liquor (spirits such as rum, gin, or whiskey) is made by distillation, which concentrates alcohol by boiling and condensing it. Brewing (A) is the process for making beer. Frothing (B) is forming foam and is not a production process. Pasteurization (D) is heating a product, such as milk, to kill germs, and it does not make liquor. Spirits do start from a fermented liquid, but distillation is the step that makes them liquor. Exam tip: memorize common product-process pairs: wine : fermentation, beer : brewing, liquor : distillation, milk : pasteurization.",
+      "hint": "Ask 'What process turns a fermented liquid into strong liquor?' Reject processes that belong to other products (brewing for beer, pasteurization for milk).",
+      "tags": ["word_analogy", "product_to_process"]
     }
   ]
 }
