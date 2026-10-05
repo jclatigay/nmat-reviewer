@@ -76,7 +76,19 @@ function orderQuestionsByCategoryBlocks(questions, categoryOrder) {
   });
 
   return categoryOrder
-    .flatMap((category) => shuffleQuestions(grouped[category]))
+    .flatMap((category) => {
+      const bundles = new Map();
+
+      grouped[category].forEach((question) => {
+        const key = question.passageGroupId
+          ? `passage:${question.passageGroupId}`
+          : `question:${question.id}`;
+        if (!bundles.has(key)) bundles.set(key, []);
+        bundles.get(key).push(question);
+      });
+
+      return shuffleQuestions([...bundles.values()]).flat();
+    })
     .concat(unmapped);
 }
 

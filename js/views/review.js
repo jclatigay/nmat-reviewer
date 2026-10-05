@@ -81,7 +81,8 @@ export function renderReview(container) {
 
   function renderList() {
     const filtered = filterDetails(results.details, activeFilter);
-    const grouped = results.subtestId === 'inductive-reasoning' && filtered.length > 0;
+    const grouped = ['inductive-reasoning', 'perceptual-acuity', 'verbal'].includes(results.subtestId)
+      && filtered.length > 0;
     let items;
 
     if (filtered.length === 0) {

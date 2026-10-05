@@ -9,7 +9,23 @@ const LABELS = {
   identical_information: 'Identical Information',
 };
 
+const CATEGORY_TYPES = new Set([
+  'word_analogy',
+  'reading_comprehension',
+  'number_series',
+  'letter_series',
+  'figural_series',
+  'figure_grouping',
+  'hidden_figure',
+  'mirror_image',
+  'identical_information',
+]);
+
 export function getQuestionGroupKey(question) {
+  if (CATEGORY_TYPES.has(question?.type)) {
+    return question.type;
+  }
+
   return question?.tags?.[0] || question?.type || 'other';
 }
 
@@ -23,7 +39,8 @@ export function usesGroupedPalette(session) {
   }
 
   return session?.subtestId === 'inductive-reasoning'
-    || session?.subtestId === 'perceptual-acuity';
+    || session?.subtestId === 'perceptual-acuity'
+    || session?.subtestId === 'verbal';
 }
 
 export function groupQuestionsByTag(questions) {

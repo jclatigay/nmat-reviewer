@@ -7,7 +7,14 @@
       "timeLimitMinutes": 30,
       "targetItemCount": 30,
       "questionFile": "data/questions/verbal.json",
-      "description": "Word analogies and reading comprehension"
+      "description": "Word analogies and reading comprehension",
+      "questionOrder": {
+        "strategy": "category_blocks",
+        "categories": [
+          "word_analogy",
+          "reading_comprehension"
+        ]
+      }
     },
     {
       "id": "inductive-reasoning",

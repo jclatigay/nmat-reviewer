@@ -43,6 +43,7 @@ Each subtest has its own JSON file in `data/questions/`:
 | `type` | Yes | Item type label for your reference |
 | `prompt` | Yes | Question stem. Limited HTML allowed: `<em>`, `<strong>`, `<br>` |
 | `passage` | No | Reading passage or shared stimulus (HTML allowed) |
+| `passageGroupId` | No | Shared id for questions based on the same passage, e.g. `"passage-01"`; keep the same passage on each question in the group |
 | `image` | No | Path relative to project root, e.g. `"assets/images/hidden-figure-1.svg"` |
 | `choices` | Yes | Array of 4–5 options |
 | `choices[].id` | Yes | `"A"` through `"E"` |
@@ -91,6 +92,24 @@ When adding Inductive Reasoning items:
 - Set `type` to one of the four category ids above.
 - For mixed-format items, use `type: "number_letter_series"` and include a matching tag: `"number_series"` or `"letter_series"`.
 - Keep `number` sequential in the JSON file for authoring; session order is determined at runtime.
+
+## Verbal categories and shared passages
+
+Verbal sessions keep Word Analogy questions (`word_analogy`) and Reading Comprehension questions (`reading_comprehension`) in separate category blocks. Questions are shuffled within their category. To add multiple questions based on one selection or paragraph, set the same `passageGroupId` and passage text on each related question. The questions stay together in the exam order and each one is included in the session.
+
+```json
+{
+  "id": "verbal-031",
+  "number": 31,
+  "type": "reading_comprehension",
+  "passageGroupId": "passage-01",
+  "passage": "<p>Shared selection text goes here.</p>",
+  "prompt": "According to the selection, ...",
+  "tags": ["reading_comprehension", "supporting_detail"]
+}
+```
+
+Copy the shared `passageGroupId` and `passage` to each additional question based on that selection, and give each question its own id, number, choices, answer, and explanation.
 
 ## Perceptual Acuity session order
 
