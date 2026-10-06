@@ -284,6 +284,22 @@
   color: var(--color-primary);
 }
 
+.palette-passage-group {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: var(--space-xs);
+  padding: var(--space-sm);
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius-sm);
+  background: #f0f7ff;
+}
+
+.palette-passage-group__title {
+  color: var(--color-primary);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
 @media (min-width: 768px) {
   .palette {
     grid-template-columns: repeat(6, 1fr);

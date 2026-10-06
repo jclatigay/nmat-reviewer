@@ -21,26 +21,59 @@ function buildPaletteButton(index, questionId, { isCurrent, isAnswered, isCorrec
   });
 }
 
-export function renderPalette(questions, session, onJump) {
-  const palette = el('div', { className: 'palette', role: 'navigation', 'aria-label': 'Question palette' });
+function renderQuestionButton(question, index, session, onJump) {
+  const selectedId = session.answers?.[question.id] ?? null;
   const showAnswerFeedback = session.mode !== MODES.EXAM;
 
-  questions.forEach((question, index) => {
-    const selectedId = session.answers?.[question.id] ?? null;
-    const isCorrect = showAnswerFeedback && !!selectedId && selectedId === question.correctChoiceId;
-    const isIncorrect = showAnswerFeedback && !!selectedId && selectedId !== question.correctChoiceId;
-
-    palette.appendChild(
-      buildPaletteButton(index, question.id, {
-        isCurrent: session.currentIndex === index,
-        isAnswered: !!selectedId,
-        isCorrect,
-        isIncorrect,
-        isFlagged: session.flagged.includes(question.id),
-        onJump,
-      })
-    );
+  return buildPaletteButton(index, question.id, {
+    isCurrent: session.currentIndex === index,
+    isAnswered: !!selectedId,
+    isCorrect: showAnswerFeedback && !!selectedId && selectedId === question.correctChoiceId,
+    isIncorrect: showAnswerFeedback && !!selectedId && selectedId !== question.correctChoiceId,
+    isFlagged: session.flagged.includes(question.id),
+    onJump,
   });
+}
+
+function renderQuestionButtons(questions, session, onJump) {
+  const items = [];
+  let index = 0;
+
+  while (index < questions.length) {
+    const question = questions[index];
+    if (!question.passageGroupId) {
+      items.push(renderQuestionButton(question, question.__index ?? index, session, onJump));
+      index += 1;
+      continue;
+    }
+
+    let end = index + 1;
+    while (
+      end < questions.length
+      && questions[end].passageGroupId === question.passageGroupId
+    ) {
+      end += 1;
+    }
+
+    const passageQuestions = questions.slice(index, end);
+    items.push(el('div', {
+      className: 'palette-passage-group',
+      role: 'group',
+      'aria-label': 'Questions based on the same passage',
+    }, [
+      el('div', { className: 'palette palette-passage-group__items' }, passageQuestions.map((item, offset) =>
+        renderQuestionButton(item, item.__index ?? index + offset, session, onJump)
+      )),
+    ]));
+    index = end;
+  }
+
+  return items;
+}
+
+export function renderPalette(questions, session, onJump) {
+  const palette = el('div', { className: 'palette', role: 'navigation', 'aria-label': 'Question palette' });
+  palette.append(...renderQuestionButtons(questions, session, onJump));
 
   return palette;
 }
@@ -52,22 +85,7 @@ export function renderGroupedPalette(questions, session, onJump) {
   groups.forEach((group) => {
     const groupSection = el('section', { className: 'palette-group' }, [
       el('strong', { className: 'palette-group__title', textContent: group.label }),
-      el('div', { className: 'palette' }, group.questions.map((question) => {
-        const index = question.__index;
-        const selectedId = session.answers?.[question.id] ?? null;
-        const showAnswerFeedback = session.mode !== MODES.EXAM;
-        const isCorrect = showAnswerFeedback && !!selectedId && selectedId === question.correctChoiceId;
-        const isIncorrect = showAnswerFeedback && !!selectedId && selectedId !== question.correctChoiceId;
-
-        return buildPaletteButton(index, question.id, {
-          isCurrent: session.currentIndex === index,
-          isAnswered: !!selectedId,
-          isCorrect,
-          isIncorrect,
-          isFlagged: session.flagged.includes(question.id),
-          onJump,
-        });
-      })),
+      el('div', { className: 'palette' }, renderQuestionButtons(group.questions, session, onJump)),
     ]);
     wrapper.appendChild(groupSection);
   });
