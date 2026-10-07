@@ -1298,6 +1298,276 @@
       "explanation": "The question is about a path, a process. The fifth paragraph says the Buddhist path is a profound intellectual quest that can 'culminate in, or at least, set the stage for, a quantum leap beyond rationality,' and it adds that 'the science of physics is following a similar path.' The next paragraph says physicists are now confronting the ineffable, and Planck says the aim is one the intellect 'can never fully grasp.' In both cases, an intellectual search ends by reaching for something beyond its current framework. Choice A states that parallel: a jump beyond existing theories, matching the leap beyond rationality. Choice B is not stated and overgeneralizes; the passage says physics produces insights like those of Eastern philosophy, not that physicists are philosophers. Choice C confuses a similar path with a shared origin, and the passage never says physics came from Tibet. Choice D is the closest competitor, but 'coincide with Buddhist doctrine' is stronger than the passage allows. It says physics produces 'insights very similar' to those of Eastern philosophy, not that physical hypotheses match doctrine, and the question asks about a similar path, not agreement of content. Exam tip: match the kind of thing the question asks about (here a process or path) and be wary of a choice that overstates a similarity as an identity.",
       "hint": "The question asks about a path, so look for the choice that describes a process. Find where the Buddhist path is described (a leap beyond rationality) and choose the physics statement that mirrors it. Be careful with a choice that says the two 'coincide.'",
       "tags": ["reading_comprehension", "supporting_detail", "inference"]
+    },
+        {
+      "id": "verbal-071",
+      "number": 71,
+      "type": "word_analogy",
+      "prompt": "ALVEOLI : RESPIRATORY :: VENTRICLES : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Endocrine" },
+        { "id": "B", "text": "Circulatory" },
+        { "id": "C", "text": "Digestive" },
+        { "id": "D", "text": "Nervous" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The relationship is a body structure to the organ system it belongs to. The alveoli are the tiny air sacs of the lungs where oxygen and carbon dioxide are exchanged, so they belong to the respiratory system. The ventricles are the two lower chambers of the heart that pump blood out to the lungs and the body, so they belong to the circulatory system. Endocrine (A) is the system of hormone-producing glands, and digestive (C) is the system of the stomach and intestines; neither has ventricles. Nervous (D) is the trap: the brain also has fluid-filled cavities called ventricles, but when the word is used on its own, it usually means the chambers of the heart. Exam tip: for structure-to-system items, name the organ first (alveoli: lungs; ventricles: heart) and then name its system.",
+      "hint": "Ask 'Which organ is this structure part of, and which system does that organ belong to?' Alveoli are in the lungs; ventricles are chambers of the heart. Watch out for the brain's ventricles, which are the lesser-known meaning.",
+      "tags": ["word_analogy", "part_to_system", "anatomy_vocabulary"]
+    },
+    {
+      "id": "verbal-072",
+      "number": 72,
+      "type": "word_analogy",
+      "prompt": "HEAD : FEET :: STALACTITE : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Icicle" },
+        { "id": "B", "text": "Limestone" },
+        { "id": "C", "text": "Calcium" },
+        { "id": "D", "text": "Stalagmite" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The relationship is opposites of position: top and bottom. The head is at the top of the body and the feet are at the bottom. A stalactite is the mineral formation that hangs from the ceiling of a cave, and a stalagmite is the formation that rises from the floor, so it is the opposite in position. Icicle (A) is the lookalike trap, because icicles also hang from above, so it goes with the stalactite and not against it. Limestone (B) is the rock in which caves form, and calcium (C) is the mineral from which both formations are built, so both are materials, not opposites. Memory aid: stalaCtites hang from the Ceiling, stalaGmites grow from the Ground.",
+      "hint": "Is this a top-and-bottom pair? Ask where a stalactite is found (hanging from the ceiling) and what grows from the opposite end (the floor). Reject lookalikes (icicle) and materials (limestone, calcium).",
+      "tags": ["word_analogy", "opposites_of_position", "science_vocabulary"]
+    },
+    {
+      "id": "verbal-073",
+      "number": 73,
+      "type": "word_analogy",
+      "prompt": "GOAL : ACTION :: POLICY : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Formulation" },
+        { "id": "B", "text": "Presentation" },
+        { "id": "C", "text": "Implementation" },
+        { "id": "D", "text": "Evaluation" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The relationship is something intended to the step that carries it out. A goal is only reached through action, and a policy is only made real through implementation, which means putting it into effect. Formulation (A) is drafting the policy, which comes before it exists, so it is the start, not the carrying out. Presentation (B) is announcing or explaining the policy, and a policy can be presented without ever being carried out. Evaluation (D) is judging the results afterward. Exam tip: learn the order of the policy process (formulation, presentation or adoption, implementation, evaluation) and ask which stage matches 'action' for a goal, the stage where the plan is acted on.",
+      "hint": "A goal becomes real through action. What makes a policy real? Reject the stages that come before (formulation, presentation) and after (evaluation) the actual doing.",
+      "tags": ["word_analogy", "plan_to_execution", "public_administration_vocabulary"]
+    },
+    {
+      "id": "verbal-074",
+      "number": 74,
+      "type": "word_analogy",
+      "prompt": "CHEF : KNIFE :: SURGEON : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Anesthesia" },
+        { "id": "B", "text": "Scalpel" },
+        { "id": "C", "text": "Bandage" },
+        { "id": "D", "text": "Gloves" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The relationship is a professional to the main tool of the trade, the one used to do the core work of cutting. A chef's essential tool is the knife, and a surgeon's is the scalpel, a small, very sharp blade used to make incisions. Anesthesia (A) is a drug or method for numbing or putting the patient to sleep, usually given by an anesthesiologist, and it is not a tool for cutting. Bandage (C) is a supply used to cover a wound afterward, by many people besides surgeons. Gloves (D) are protective gear worn by many professionals, including chefs, and not the instrument that defines the work. Exam tip: match the function as well as the person. The knife cuts food, so the answer is the instrument that cuts tissue.",
+      "hint": "Ask 'What is the one tool this professional cannot do the core work without?' Choose the one that cuts, like the knife, and reject supplies, drugs, and protective gear.",
+      "tags": ["word_analogy", "professional_to_tool"]
+    },
+    {
+      "id": "verbal-075",
+      "number": 75,
+      "type": "word_analogy",
+      "prompt": "SCALPEL : CUT :: FORCEPS : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Transfuse" },
+        { "id": "B", "text": "Remove" },
+        { "id": "C", "text": "Retract" },
+        { "id": "D", "text": "Hold" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The relationship is a tool to its primary function. A scalpel is used to cut, and forceps are pincer-like instruments used to grasp and hold things, such as tissue, a needle, or a dressing. Transfuse (A) means to give blood, which is done through an intravenous line, not with forceps. Remove (B) is a possible outcome, because forceps can be used to lift out a splinter or a foreign object, but the tool's own action is to hold, and removing is what is done with that hold. Retract (C) means to pull tissue back to keep a surgical opening clear, and that job belongs to retractors, a different surgical instrument and the trap for those thinking of surgical tools. Exam tip: compare item 21 (pen : write). Choose the tool's defining action, not what it is sometimes used to accomplish.",
+      "hint": "Ask what forceps do with their two arms: they grip. Choose that action, and reject the result (remove), the job of another instrument (retract), and an action done through a different device (transfuse).",
+      "tags": ["word_analogy", "tool_to_function", "medical_vocabulary"]
+    },
+    {
+      "id": "verbal-076",
+      "number": 76,
+      "type": "word_analogy",
+      "prompt": "SEDATIVE : PAIN :: ANTISEPTIC : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Emergency" },
+        { "id": "B", "text": "Anxiety" },
+        { "id": "C", "text": "Fracture" },
+        { "id": "D", "text": "Wound" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The relationship is a remedy to the condition it is used to treat (compare item 44, water : thirst :: salve : wound). A sedative is given to soothe pain and distress, and an antiseptic is applied to a wound to kill germs and prevent infection. Emergency (A) is a situation, not a condition that an antiseptic treats. Anxiety (B) is a trap for the second pair: it is what a sedative actually calms, so it belongs on the sedative side, and an antiseptic does nothing for it. Fracture (C) is a broken bone, which is treated with a splint or a cast, and an antiseptic does not mend bone. Vocabulary note: strictly, a sedative calms nervousness or induces sleep, and the drug that relieves pain is an analgesic. The item uses 'sedative' loosely. Exam tip: when the first pair is a little imprecise, state the relationship in a general form (remedy to what it treats) and apply it to the second pair.",
+      "hint": "Use 'A ___ is used on / for ___.' An antiseptic is applied to something that has been broken open. Reject choices that are situations, or conditions that need a different treatment.",
+      "tags": ["word_analogy", "remedy_to_ailment", "medical_vocabulary"]
+    },
+    {
+      "id": "verbal-077",
+      "number": 77,
+      "type": "word_analogy",
+      "prompt": "VINEGAR : RUNNY :: KETCHUP : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Turbid" },
+        { "id": "B", "text": "Motile" },
+        { "id": "C", "text": "Viscous" },
+        { "id": "D", "text": "Pectinous" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "The relationship is a substance to the word that describes how it flows. Vinegar is thin and flows easily, so it is runny. Ketchup is thick and flows slowly, so it is viscous, which means resistant to flow (viscosity is the resistance of a fluid to flowing). Turbid (A) means cloudy or muddy, a description of clarity and not of thickness, and a thin liquid can be turbid (muddy water). Motile (B) means able to move on its own, as bacteria and sperm cells do. Pectinous (D) means containing or resembling pectin, the gel-forming substance in fruit used to set jam, and it is the lookalike vocabulary trap. Exam tip: hard vocabulary choices are often there to scare you. Define the word you know (viscous: thick and slow-flowing) and use the others only to eliminate. Related: honey and syrup are viscous.",
+      "hint": "Ask what property vinegar has (thin, flows easily) and what the opposite property of ketchup is (thick, slow). Know the words: viscous = thick and slow-flowing, turbid = cloudy, motile = able to move.",
+      "tags": ["word_analogy", "object_to_property", "vocabulary"]
+    },
+    {
+      "id": "verbal-078",
+      "number": 78,
+      "type": "word_analogy",
+      "prompt": "ENTHUSIASTIC : PASSIONATE :: PLENTIFUL : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Abundant" },
+        { "id": "B", "text": "Scant" },
+        { "id": "C", "text": "Minimal" },
+        { "id": "D", "text": "Ample" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "The relationship is synonyms, with the second word stronger than the first. Passionate is a more intense form of enthusiastic. In the same way, abundant, meaning present in very large quantity, is a step up from plentiful. Scant (B) and minimal (C) are antonyms, since they mean very little, so they reverse the idea. Ample (D) is the closest competitor, because it is also a synonym of plentiful, but it means enough or more than enough and is not stronger than plentiful, so it does not repeat the step up in intensity. Exam tip: when two choices are synonyms, check whether the first pair also changes in degree (enthusiastic to passionate is a step up) and choose the one that matches.",
+      "hint": "First confirm the pair is synonyms, and cross out the two antonyms (scant, minimal). Then ask whether the second word is stronger than the first, and choose the synonym that is also a step up.",
+      "tags": ["word_analogy", "synonym", "degree_of_intensity", "vocabulary"]
+    },
+    {
+      "id": "verbal-079",
+      "number": 79,
+      "type": "word_analogy",
+      "prompt": "SCLERA : EYEBALL :: CRANIUM : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Scalp" },
+        { "id": "B", "text": "Bone" },
+        { "id": "C", "text": "Head" },
+        { "id": "D", "text": "Brain" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The relationship is a protective outer layer to the organ it protects. The sclera is the tough white outer coat of the eyeball that protects its delicate inner structures and gives it shape, and the cranium is the bony case of the skull that encloses and protects the brain. Scalp (A) is the skin that covers the cranium, so it is on the same side as the cranium and not what the cranium protects. Bone (B) names what kind of thing the cranium is, which is a different relationship (type of). Head (C) is the closest competitor, since the cranium is a part of the head, but 'head' also includes the face, jaw, and skin, and the cranium specifically exists to protect what is inside it. Exam tip: when two relationships both seem to work (part to whole, or protector to protected), choose the one that fits the defining job of the structure, and for a skull part that is to protect the brain.",
+      "hint": "Ask 'What does a cranium protect?' Reject what covers the cranium from the outside (scalp), what category it belongs to (bone), and the broad part-to-whole choice (head).",
+      "tags": ["word_analogy", "protector_to_protected", "anatomy_vocabulary"]
+    },
+    {
+      "id": "verbal-080",
+      "number": 80,
+      "type": "word_analogy",
+      "prompt": "VALID : LOGIC :: TRUE : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "False" },
+        { "id": "B", "text": "Fact" },
+        { "id": "C", "text": "Argument" },
+        { "id": "D", "text": "Reason" }
+      ],
+      "correctChoiceId": "B",
+      "explanation": "The relationship is a quality to the thing it describes. We call reasoning (logic) valid or invalid, depending on whether its structure holds together, and we call a fact or statement true or false, depending on whether it matches reality. So the word that goes with true is fact. False (A) is the opposite of true, so it is the antonym trap and does not name a thing that can be true. Argument (C) is the trap that comes from the first pair: an argument is judged valid or invalid, not true or false, so it goes with 'valid.' Reason (D) is a near-synonym of logic, so it belongs on the first side of the analogy. Exam tip: ask 'What do we call true?' (a fact or statement) and 'What do we call valid?' (an argument or piece of reasoning). The two words are not interchangeable in logic.",
+      "hint": "Ask what we describe as valid (reasoning, logic) and what we describe as true (a fact or statement). Reject the opposite of true (false) and the words that go with 'valid' (argument, reason).",
+      "tags": ["word_analogy", "quality_to_subject", "vocabulary"]
+    },
+        {
+      "id": "verbal-081",
+      "number": 81,
+      "type": "word_analogy",
+      "prompt": "COMFORT : AFFLICTION :: SALVE : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Problem" },
+        { "id": "B", "text": "Fear" },
+        { "id": "C", "text": "Tragedy" },
+        { "id": "D", "text": "Wound" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The relationship is a remedy to the suffering it eases. To comfort is to ease an affliction (a source of pain or distress), and a salve is an ointment applied to ease the pain of a wound. Problem (A) is too general: a salve does not solve problems, it soothes a specific physical injury. Fear (B) is the trap on the first side, since comfort can ease fear, but a salve does nothing for it. Tragedy (C) is an event that people may be comforted about, and a salve does not treat an event. Exam tip: when the first pair is abstract (comfort, affliction) and the second is physical (salve), keep the same relationship (a remedy to the thing it eases) and pick the concrete choice the remedy is applied to.",
+      "hint": "Use 'A ___ eases a(n) ___.' A salve is applied to something physical. Reject abstract words (problem, fear) and events (tragedy).",
+      "tags": ["word_analogy", "remedy_to_ailment"]
+    },
+    {
+      "id": "verbal-082",
+      "number": 82,
+      "type": "word_analogy",
+      "prompt": "DRUPE : POME :: VEGETABLE : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Mulch" },
+        { "id": "B", "text": "Crop" },
+        { "id": "C", "text": "Bulb" },
+        { "id": "D", "text": "Herb" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The relationship is two different kinds within the same larger group. A drupe is a fruit with a single hard stone inside (peach, cherry, mango), and a pome is a fruit with a fleshy outside and a core of seeds (apple, pear). They are sibling types of fruit, neither of which contains the other. A vegetable is likewise one category of edible plants, and a sibling category beside it is herb (a plant used for flavor or medicine). Mulch (A) is a covering spread over soil, which is not food. Crop (B) is a larger group that includes vegetables, so it reverses the pattern: a vegetable is a kind of crop, but a drupe is not a kind of pome. Bulb (C) names a plant part, and some vegetables (onion, garlic) are bulbs, so a bulb is a kind of vegetable, not a sibling of one. Exam tip: when the first pair are siblings, reject choices that are bigger groups or smaller members of the third word. Vocabulary: drupe = stone fruit; pome = core fruit.",
+      "hint": "Ask whether the first two words are siblings (two kinds of fruit) or one inside the other. They are siblings, so look for a sibling category of vegetable, and reject any choice that is a bigger group (crop) or a member (bulb).",
+      "tags": ["word_analogy", "coordinate_categories", "science_vocabulary"]
+    },
+    {
+      "id": "verbal-083",
+      "number": 83,
+      "type": "word_analogy",
+      "prompt": "DISCOVER : LEARN :: PROCESS : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Work" },
+        { "id": "B", "text": "Apply" },
+        { "id": "C", "text": "Prepare" },
+        { "id": "D", "text": "Pass" }
+      ],
+      "correctChoiceId": "C",
+      "explanation": "This is a loose item, so work by meaning and elimination. To discover something is to find it out, which is to learn it, so the two words are close in meaning. In the same way, to process something is to treat it through a series of steps in order to prepare it for use (process food, process film, process an application). Prepare (C) is the closest in meaning. Work (A) is the nearest competitor, but 'work' is general and does not carry the idea of getting something ready through steps. Apply (B) means to put something to use, which comes after the processing. Pass (D) means to go by or hand over and is not a meaning of process. Exam tip: when an analogy is loose, state each first word's meaning in your own words first (discover: find out; process: treat in steps to get ready) and choose the word nearest to the second meaning.",
+      "hint": "Define each first word briefly (discover: find out, process: handle in steps to get ready). Choose the word closest in meaning, and reject words that describe a later stage (apply) or another meaning altogether (pass).",
+      "tags": ["word_analogy", "near_synonym", "vocabulary", "elimination_strategy"]
+    },
+    {
+      "id": "verbal-084",
+      "number": 84,
+      "type": "word_analogy",
+      "prompt": "PRECISE : AMBIGUOUS :: CONCISE : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Verbose" },
+        { "id": "B", "text": "Profound" },
+        { "id": "C", "text": "Narrow" },
+        { "id": "D", "text": "Thorough" }
+      ],
+      "correctChoiceId": "A",
+      "explanation": "The relationship is antonyms. Precise means exact and clearly stated, and ambiguous means open to more than one meaning, so the two are opposites in clarity. Concise means expressing much in few words, and its opposite is verbose, which means using more words than needed. Profound (B) means deep or far-reaching, and has no link to word count. Narrow (C) describes a limited width or scope. Thorough (D) means complete and careful, and a text can be both thorough and concise, so it is not an opposite. Exam tip: for antonym items, find what scale the word is on (brevity), and choose the word at the other end of that same scale.",
+      "hint": "Confirm the first pair is opposites. Then ask what CONCISE is about (the number of words used) and choose the word that is the opposite on that same scale.",
+      "tags": ["word_analogy", "antonym", "vocabulary"]
+    },
+    {
+      "id": "verbal-085",
+      "number": 85,
+      "type": "word_analogy",
+      "prompt": "RESPECT : REVERE :: SHAME : ?",
+      "passage": null,
+      "image": null,
+      "choices": [
+        { "id": "A", "text": "Ostracize" },
+        { "id": "B", "text": "Repudiate" },
+        { "id": "C", "text": "Execute" },
+        { "id": "D", "text": "Humiliate" }
+      ],
+      "correctChoiceId": "D",
+      "explanation": "The relationship is a feeling or action to a much stronger form of it. To revere is to feel deep, almost worshipful respect, a step beyond ordinary respect. To humiliate is to make someone feel deeply ashamed and lowered in dignity, often in front of others, which is a step beyond shame. Ostracize (A) means to exclude someone from a group, which can follow shame but is a different action. Repudiate (B) means to reject or disown something, such as a claim or a person. Execute (C) means to put to death, or to carry out a plan, and has nothing to do with degrees of shame. Exam tip: a degree-of-intensity analogy keeps the same kind of idea and raises its strength, so avoid choices that change the kind of idea (exclude, reject, kill).",
+      "hint": "Ask whether the second word is a stronger form of the first (revere is a deeper respect). Choose the word that is a stronger form of shame, and reject words that name a different action.",
+      "tags": ["word_analogy", "degree_of_intensity", "vocabulary"]
     }
   ]
 }
